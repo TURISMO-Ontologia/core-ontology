@@ -84,7 +84,8 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#OTAOffersServiceOrTicket -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#OTAOffersServiceOrTicket">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#OTARelatedTo"/>
+        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#otaRelatedTo"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#OTA"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -853,7 +854,8 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#gastronomyOfferedBy -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#gastronomyOfferedBy">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#GastronomyRelatedTo"/>
+        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#gastronomyRelatedTo"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Gastronomy"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -874,7 +876,6 @@
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#gastronomyRelatedTo">
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Gastronomy"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#GastronomyRelatedTo"/>
     </owl:ObjectProperty>
     
 
@@ -1409,14 +1410,6 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#TransactionInformation"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#historicalAndCulturalResource -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#historicalAndCulturalResource">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TrainStation"/>
     </owl:ObjectProperty>
     
 
@@ -3183,7 +3176,6 @@
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#otaRelatedTo">
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#OTA"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#OTARelatedTo"/>
     </owl:ObjectProperty>
     
 
@@ -3871,7 +3863,8 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#tourGuideOffersServiceOrTicket -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#tourGuideOffersServiceOrTicket">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourGuideRelatedTo"/>
+        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#tourGuideRelatedTo"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourGuide"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -3888,7 +3881,8 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#tourGuideOperatesWith -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#tourGuideOperatesWith">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourGuideRelatedTo"/>
+        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#tourGuideRelatedTo"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourGuide"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -3909,7 +3903,6 @@
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#tourGuideRelatedTo">
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourGuide"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourGuideRelatedTo"/>
     </owl:ObjectProperty>
     
 
@@ -3917,7 +3910,8 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#tourGuideWorkingAreas -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#tourGuideWorkingAreas">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourGuideRelatedTo"/>
+        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#tourGuideRelatedTo"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourGuide"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -8592,15 +8586,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#GastronomyRelatedTo -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#GastronomyRelatedTo">
-        <rdfs:label xml:lang="en">gastronomy related to</rdfs:label>
-        <rdfs:label>gastronomía relacionada con</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#Gender -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Gender">
@@ -9323,12 +9308,6 @@
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#OTA">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TouristIntermediary"/>
     </owl:Class>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#OTARelatedTo -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#OTARelatedTo"/>
     
 
 
@@ -10599,12 +10578,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#TourGuideRelatedTo -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TourGuideRelatedTo"/>
     
 
 
