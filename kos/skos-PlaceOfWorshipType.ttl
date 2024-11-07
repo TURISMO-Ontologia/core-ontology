@@ -40,15 +40,86 @@ estur-placeofworshiptype:Basilical a skos:Concept;
   skos:prefLabel "Basilical"@en ;
   skos:prefLabel "Basílica"@es .
 
-:bellTower
-:cathedral
-:chapeñ
-:charterhouse
-:church
-:convent
-:minaret
-:monastery
-:mosque
-:sanctuary
-:synagogue
-:temple
+estur-placeofworshiptype:BellTower a skos:Concept;
+  skos:inScheme estur-kos:PlaceOfWorshipType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Bell Tower"@en ;
+  skos:prefLabel "Campanario"@es .
+
+estur-placeofworshiptype:Cathedral a skos:Concept;
+  skos:inScheme estur-kos:PlaceOfWorshipType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Cathedral"@en ;
+  skos:prefLabel "Catedral"@es .
+
+estur-placeofworshiptype:Chapel a skos:Concept;
+  skos:inScheme estur-kos:PlaceOfWorshipType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Chapel"@en ;
+  skos:prefLabel "Capilla"@es .
+
+estur-placeofworshiptype:CharterHouse a skos:Concept;
+  skos:inScheme estur-kos:PlaceOfWorshipType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Charterhouse"@en ;
+  skos:prefLabel "Charterhouse"@es .
+
+estur-placeofworshiptype:Church a skos:Concept;
+  skos:inScheme estur-kos:PlaceOfWorshipType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Church"@en ;
+  skos:prefLabel "Iglesia"@es .
+
+estur-placeofworshiptype:Convent a skos:Concept;
+  skos:inScheme estur-kos:PlaceOfWorshipType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Convent"@en ;
+  skos:prefLabel "Convento"@es .
+
+estur-placeofworshiptype:Minaret a skos:Concept;
+  skos:inScheme estur-kos:PlaceOfWorshipType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Minaret"@en ;
+  skos:prefLabel "Minarete"@es .
+
+estur-placeofworshiptype:Monastery a skos:Concept;
+  skos:inScheme estur-kos:PlaceOfWorshipType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Monastery"@en ;
+  skos:prefLabel "Monasterio"@es .
+
+estur-placeofworshiptype:Mosque a skos:Concept;
+  skos:inScheme estur-kos:PlaceOfWorshipType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Mosque"@en ;
+  skos:prefLabel "Mezquita"@es .
+
+estur-placeofworshiptype:Sanctuary a skos:Concept;
+  skos:inScheme estur-kos:PlaceOfWorshipType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Sanctuary"@en ;
+  skos:prefLabel "Santuario"@es .
+
+estur-placeofworshiptype:Synagogue a skos:Concept;
+  skos:inScheme estur-kos:PlaceOfWorshipType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Synagogue"@en ;
+  skos:prefLabel "Sinagoga"@es .
+
+estur-placeofworshiptype:Temple a skos:Concept;
+  skos:inScheme estur-kos:PlaceOfWorshipType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Temple"@en ;
+  skos:prefLabel "Templo"@es .

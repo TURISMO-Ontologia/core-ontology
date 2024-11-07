@@ -8,7 +8,7 @@
 @prefix estur-core: <https://ontologia.segittur.es/turismo/def/core#> .
 @prefix estur-kos: <https://ontologia.segittur.es/turismo/kos/> .
 
-@prefix estur-parkingsecuritytype: <https://ontologia.segittur.es/turismo/kos/parkingsecuritytype/> .
+@prefix estur-sockettype: <https://ontologia.segittur.es/turismo/kos/sockettype/> .
 
 #################################################################
 #
@@ -16,16 +16,16 @@
 #
 #################################################################
 
-estur-kos:ParkingSecurityType a skos:ConceptScheme ; 
+estur-kos:SocketType a skos:ConceptScheme ; 
     dct:issued "2024-10-29"^^xsd:date ;
     dct:modified "2024-10-29"^^xsd:date ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
-    rdfs:label "Parking security type"@en ;
-    rdfs:label "Tipo de seguridad del parking"@es ;
-    dct:title "Concept scheme grouping parking security types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de seguridad de parkings"@es .
+    rdfs:label "Socket type"@en ;
+    rdfs:label "Tipo de enchufe"@es ;
+    dct:title "Concept scheme grouping socket types"@en ;
+    dct:title "Esquema de conceptos agrupando tipos de enchufe"@es .
 
 #################################################################
 #
@@ -33,58 +33,65 @@ estur-kos:ParkingSecurityType a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-parkingsecuritytype:AreaSeparatedFromSurroundings a skos:Concept;
-  skos:inScheme estur-kos:ParkingSecurityType;
+estur-socketype:CaravanMainSocket a skos:Concept;
+  skos:inScheme estur-kos:SocketType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Area separated from surroundings"@en ;
-  skos:prefLabel "Area separada de los alrededores"@es .
+  skos:prefLabel "Caravan main socket"@en ;
+  skos:prefLabel "Enchufe principal de caravana"@es .
 
-estur-parkingsecuritytype:CCTV a skos:Concept;
-  skos:inScheme estur-kos:ParkingSecurityType;
+estur-socketype:CCSSAE a skos:Concept;
+  skos:inScheme estur-kos:SocketType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "CCTV"@en ;
-  skos:prefLabel "CCTV"@es .
+  skos:prefLabel "cCsSAE"@en ;
+  skos:prefLabel "cCsSAE"@es .
 
-estur-parkingsecuritytype:ExternalSecurity a skos:Concept;
-  skos:inScheme estur-kos:ParkingSecurityType;
+estur-socketype:CHADEMO a skos:Concept;
+  skos:inScheme estur-kos:SocketType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "External security"@en ;
-  skos:prefLabel "Seguridad externa"@es .
+  skos:prefLabel "cHAdeMO"@en ;
+  skos:prefLabel "cHAdeMO"@es .
 
-estur-parkingsecuritytype:Fences a skos:Concept;
-  skos:inScheme estur-kos:ParkingSecurityType;
+estur-socketype:DualJ1772 a skos:Concept;
+  skos:inScheme estur-kos:SocketType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Fences"@en ;
-  skos:prefLabel "Vallas"@es .
+  skos:prefLabel "dualJ1772"@en ;
+  skos:prefLabel "dualJ1772"@es .
 
-estur-parkingsecuritytype:FloodLight a skos:Concept;
-  skos:inScheme estur-kos:ParkingSecurityType;
+estur-socketype:DualMennekes a skos:Concept;
+  skos:inScheme estur-kos:SocketType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Floodlight"@en ;
-  skos:prefLabel "Luces"@es .
+  skos:prefLabel "dualmenekkes"@en ;
+  skos:prefLabel "dualmenekkes"@es .
 
-estur-parkingsecuritytype:Guard24Hours a skos:Concept;
-  skos:inScheme estur-kos:ParkingSecurityType;
+estur-socketype:J1772 a skos:Concept;
+  skos:inScheme estur-kos:SocketType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Guard24Hours"@en ;
-  skos:prefLabel "Vigilancia 24 horas"@es .
+  skos:prefLabel "j1772"@en ;
+  skos:prefLabel "j1772"@es .
 
-estur-parkingsecuritytype:Patrolled a skos:Concept;
-  skos:inScheme estur-kos:ParkingSecurityType;
+estur-socketype:Tesla a skos:Concept;
+  skos:inScheme estur-kos:SocketType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Patrolled"@en ;
-  skos:prefLabel "Patrullada"@es .
+  skos:prefLabel "Tesla"@en ;
+  skos:prefLabel "Tesla"@es .
 
-estur-parkingsecuritytype:SecurityStaff a skos:Concept;
-  skos:inScheme estur-kos:ParkingSecurityType;
+estur-socketype:Type3 a skos:Concept;
+  skos:inScheme estur-kos:SocketType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Security staff"@en ;
-  skos:prefLabel "Personal de seguridad"@es .
+  skos:prefLabel "Type3"@en ;
+  skos:prefLabel "Type3"@es .
+
+estur-socketype:WallEuro a skos:Concept;
+  skos:inScheme estur-kos:SocketType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "WallEuro"@en ;
+  skos:prefLabel "WallEuro"@es .

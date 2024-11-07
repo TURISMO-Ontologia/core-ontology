@@ -34,18 +34,65 @@ estur-kos:MeansOfTransport a skos:ConceptScheme ;
 #################################################################
 
 estur-meansoftransport:Bus a skos:Concept;
-  skos:inScheme estur-kos:MealPlan;
+  skos:inScheme estur-kos:MeansOfTransport;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Bus"@en ;
   skos:prefLabel "Autobús"@es .
 
+estur-meansoftransport:CruiseShip a skos:Concept;
+  skos:inScheme estur-kos:MeansOfTransport;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Cruise ship"@en ;
+  skos:prefLabel "Crucero"@es .
 
-:cruiseShip
-:ferry
-:plane
-:privateCar
-:rentalCar
-:rentalVehicle
-:ship
-:train
+estur-meansoftransport:Ferry a skos:Concept;
+  skos:inScheme estur-kos:MeansOfTransport;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Ferry"@en ;
+  skos:prefLabel "Ferry"@es .
+
+estur-meansoftransport:Plane a skos:Concept;
+  skos:inScheme estur-kos:MeansOfTransport;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Plane"@en ;
+  skos:prefLabel "Avión"@es .
+
+estur-meansoftransport:PrivateCar a skos:Concept;
+  skos:inScheme estur-kos:MeansOfTransport;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Private car"@en ;
+  skos:prefLabel "Coche privado"@es .
+
+estur-meansoftransport:RentalCar a skos:Concept;
+  skos:inScheme estur-kos:MeansOfTransport;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Rental car"@en ;
+  skos:prefLabel "Coche de alquiler"@es .
+
+estur-meansoftransport:RentalVehicle a skos:Concept;
+  skos:inScheme estur-kos:MeansOfTransport;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Rental vehicle"@en ;
+  skos:prefLabel "Vehículo de alquiler"@es .
+
+estur-meansoftransport:Ship a skos:Concept;
+  skos:inScheme estur-kos:MeansOfTransport;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Ship"@en ;
+  skos:prefLabel "Barco"@es .
+
+estur-meansoftransport:Train a skos:Concept;
+  skos:inScheme estur-kos:MeansOfTransport;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Train"@en ;
+  skos:prefLabel "Tren"@es .
+

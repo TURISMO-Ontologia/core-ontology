@@ -8,7 +8,7 @@
 @prefix estur-core: <https://ontologia.segittur.es/turismo/def/core#> .
 @prefix estur-kos: <https://ontologia.segittur.es/turismo/kos/> .
 
-@prefix estur-militarybuildingtype: <https://ontologia.segittur.es/turismo/kos/militarybuildingtype/> .
+@prefix estur-transmissiontype: <https://ontologia.segittur.es/turismo/kos/transmissiontype/> .
 
 #################################################################
 #
@@ -16,16 +16,16 @@
 #
 #################################################################
 
-estur-kos:MilitaryBuildingType a skos:ConceptScheme ; 
+estur-kos:TransmissionType a skos:ConceptScheme ; 
     dct:issued "2024-10-29"^^xsd:date ;
     dct:modified "2024-10-29"^^xsd:date ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
-    rdfs:label "Military building type"@en ;
-    rdfs:label "Tipo de edificio militar"@es ;
-    dct:title "Concept scheme grouping military building types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de edificios militares"@es .
+    rdfs:label "Transmission type"@en ;
+    rdfs:label "Tipo de transmisión"@es ;
+    dct:title "Concept scheme grouping transmission types"@en ;
+    dct:title "Esquema de conceptos agrupando tipos de transmisión"@es .
 
 #################################################################
 #
@@ -33,32 +33,17 @@ estur-kos:MilitaryBuildingType a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-militarybuildingtype:Castle a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-transmissiontype:Automatic a skos:Concept;
+  skos:inScheme estur-kos:TransmissionType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Castle"@en ;
-  skos:prefLabel "Castillo"@es .
+  skos:prefLabel "Automatic"@en ;
+  skos:prefLabel "Automática"@es .
 
-estur-militarybuildingtype:Fortress a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-transmissiontype:Manual a skos:Concept;
+  skos:inScheme estur-kos:TransmissionType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Fortress"@en ;
-  skos:prefLabel "Fortaleza"@es .
-
-estur-militarybuildingtype:Wall a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Wall"@en ;
-  skos:prefLabel "Muralla"@es .
-
-estur-militarybuildingtype:Lowers a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Lowers"@en ;
-  skos:prefLabel "Lowers"@es .
-
+  skos:prefLabel "Manual"@en ;
+  skos:prefLabel "Manual"@es .
 

@@ -8,7 +8,7 @@
 @prefix estur-core: <https://ontologia.segittur.es/turismo/def/core#> .
 @prefix estur-kos: <https://ontologia.segittur.es/turismo/kos/> .
 
-@prefix estur-militarybuildingtype: <https://ontologia.segittur.es/turismo/kos/militarybuildingtype/> .
+@prefix estur-travellerclass: <https://ontologia.segittur.es/turismo/kos/travellerclass/> .
 
 #################################################################
 #
@@ -16,16 +16,16 @@
 #
 #################################################################
 
-estur-kos:MilitaryBuildingType a skos:ConceptScheme ; 
+estur-kos:TravellerClass a skos:ConceptScheme ; 
     dct:issued "2024-10-29"^^xsd:date ;
     dct:modified "2024-10-29"^^xsd:date ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
-    rdfs:label "Military building type"@en ;
-    rdfs:label "Tipo de edificio militar"@es ;
-    dct:title "Concept scheme grouping military building types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de edificios militares"@es .
+    rdfs:label "Traveller Class"@en ;
+    rdfs:label "Clase de viajero"@es ;
+    dct:title "Concept scheme grouping traveller classes"@en ;
+    dct:title "Esquema de conceptos agrupando clases de viajero"@es .
 
 #################################################################
 #
@@ -33,32 +33,33 @@ estur-kos:MilitaryBuildingType a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-militarybuildingtype:Castle a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-travellerclass:Business a skos:Concept;
+  skos:inScheme estur-kos:TravellerClass;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Castle"@en ;
-  skos:prefLabel "Castillo"@es .
+  skos:prefLabel "Business"@en ;
+  skos:prefLabel "Business"@es .
 
-estur-militarybuildingtype:Fortress a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-travellerclass:Economy a skos:Concept;
+  skos:inScheme estur-kos:TravellerClass;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Fortress"@en ;
-  skos:prefLabel "Fortaleza"@es .
+  skos:prefLabel "Economy"@en ;
+  skos:prefLabel "Economy"@es .
 
-estur-militarybuildingtype:Wall a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-travellerclass:FirstClass a skos:Concept;
+  skos:inScheme estur-kos:TravellerClass;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Wall"@en ;
-  skos:prefLabel "Muralla"@es .
+  skos:prefLabel "First class"@en ;
+  skos:prefLabel "First class"@es .
 
-estur-militarybuildingtype:Lowers a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-travellerclass:PremiumEconomy a skos:Concept;
+  skos:inScheme estur-kos:TravellerClass;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Lowers"@en ;
-  skos:prefLabel "Lowers"@es .
+  skos:prefLabel "Premium Economy"@en ;
+  skos:prefLabel "Premium Economy"@es .
+
 
 

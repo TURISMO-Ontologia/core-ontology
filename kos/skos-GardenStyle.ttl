@@ -8,7 +8,7 @@
 @prefix estur-core: <https://ontologia.segittur.es/turismo/def/core#> .
 @prefix estur-kos: <https://ontologia.segittur.es/turismo/kos/> .
 
-@prefix estur-militarybuildingtype: <https://ontologia.segittur.es/turismo/kos/militarybuildingtype/> .
+@prefix estur-gardenstyle: <https://ontologia.segittur.es/turismo/kos/gardenstyle/> .
 
 #################################################################
 #
@@ -16,16 +16,16 @@
 #
 #################################################################
 
-estur-kos:MilitaryBuildingType a skos:ConceptScheme ; 
+estur-kos:GardenStyle a skos:ConceptScheme ; 
     dct:issued "2024-10-29"^^xsd:date ;
     dct:modified "2024-10-29"^^xsd:date ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
-    rdfs:label "Military building type"@en ;
-    rdfs:label "Tipo de edificio militar"@es ;
-    dct:title "Concept scheme grouping military building types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de edificios militares"@es .
+    rdfs:label "Garden style"@en ;
+    rdfs:label "Estilo de jardín"@es ;
+    dct:title "Concept scheme grouping garden styles"@en ;
+    dct:title "Esquema de conceptos agrupando estilos de jardín"@es .
 
 #################################################################
 #
@@ -33,32 +33,51 @@ estur-kos:MilitaryBuildingType a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-militarybuildingtype:Castle a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-gardenstyle:Japanese a skos:Concept;
+  skos:inScheme estur-kos:GardenStyle;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Castle"@en ;
-  skos:prefLabel "Castillo"@es .
+  skos:prefLabel "Japanese"@en ;
+  skos:prefLabel "Japonés"@es .
 
-estur-militarybuildingtype:Fortress a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-gardenstyle:Chinese a skos:Concept;
+  skos:inScheme estur-kos:GardenStyle;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Fortress"@en ;
-  skos:prefLabel "Fortaleza"@es .
+  skos:prefLabel "Chinese"@en ;
+  skos:prefLabel "Chino"@es .
 
-estur-militarybuildingtype:Wall a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-gardenstyle:English a skos:Concept;
+  skos:inScheme estur-kos:GardenStyle;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Wall"@en ;
-  skos:prefLabel "Muralla"@es .
+  skos:prefLabel "English"@en ;
+  skos:prefLabel "Inglés"@es .
 
-estur-militarybuildingtype:Lowers a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-gardenstyle:French a skos:Concept;
+  skos:inScheme estur-kos:GardenStyle;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Lowers"@en ;
-  skos:prefLabel "Lowers"@es .
+  skos:prefLabel "French"@en ;
+  skos:prefLabel "Francés"@es .
 
+estur-gardenstyle:Kitchen a skos:Concept;
+  skos:inScheme estur-kos:GardenStyle;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Kitchen"@en ;
+  skos:prefLabel "Cocina"@es .
 
+estur-gardenstyle:Rosarium a skos:Concept;
+  skos:inScheme estur-kos:GardenStyle;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Rosarium"@en ;
+  skos:prefLabel "Rosaleda"@es .
+
+estur-gardenstyle:Zen a skos:Concept;
+  skos:inScheme estur-kos:GardenStyle;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Zen"@en ;
+  skos:prefLabel "Zen"@es .

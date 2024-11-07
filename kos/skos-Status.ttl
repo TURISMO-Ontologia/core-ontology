@@ -8,7 +8,7 @@
 @prefix estur-core: <https://ontologia.segittur.es/turismo/def/core#> .
 @prefix estur-kos: <https://ontologia.segittur.es/turismo/kos/> .
 
-@prefix estur-militarybuildingtype: <https://ontologia.segittur.es/turismo/kos/militarybuildingtype/> .
+@prefix estur-status: <https://ontologia.segittur.es/turismo/kos/status/> .
 
 #################################################################
 #
@@ -16,16 +16,16 @@
 #
 #################################################################
 
-estur-kos:MilitaryBuildingType a skos:ConceptScheme ; 
+estur-kos:Status a skos:ConceptScheme ; 
     dct:issued "2024-10-29"^^xsd:date ;
     dct:modified "2024-10-29"^^xsd:date ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
-    rdfs:label "Military building type"@en ;
-    rdfs:label "Tipo de edificio militar"@es ;
-    dct:title "Concept scheme grouping military building types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de edificios militares"@es .
+    rdfs:label "Status"@en ;
+    rdfs:label "Estado"@es ;
+    dct:title "Concept scheme grouping status"@en ;
+    dct:title "Esquema de conceptos agrupando estados"@es .
 
 #################################################################
 #
@@ -33,32 +33,37 @@ estur-kos:MilitaryBuildingType a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-militarybuildingtype:Castle a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-status:Empty a skos:Concept;
+  skos:inScheme estur-kos:Status;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Castle"@en ;
-  skos:prefLabel "Castillo"@es .
+  skos:prefLabel "Empty"@en ;
+  skos:prefLabel "Vacío"@es .
 
-estur-militarybuildingtype:Fortress a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-status:AlmostEmpty a skos:Concept;
+  skos:inScheme estur-kos:Status;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Fortress"@en ;
-  skos:prefLabel "Fortaleza"@es .
+  skos:prefLabel "Almost empty"@en ;
+  skos:prefLabel "Semivacío"@es .
 
-estur-militarybuildingtype:Wall a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-status:Full a skos:Concept;
+  skos:inScheme estur-kos:Status;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Wall"@en ;
-  skos:prefLabel "Muralla"@es .
+  skos:prefLabel "Full"@en ;
+  skos:prefLabel "Lleno"@es .
 
-estur-militarybuildingtype:Lowers a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-status:AlmostFull a skos:Concept;
+  skos:inScheme estur-kos:Status;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Lowers"@en ;
-  skos:prefLabel "Lowers"@es .
+  skos:prefLabel "Almost full"@en ;
+  skos:prefLabel "Semilleno"@es .
 
-
+estur-status:OutOfService a skos:Concept;
+  skos:inScheme estur-kos:Status;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Out of service"@en ;
+  skos:prefLabel "Fuera de servicio"@es .

@@ -40,9 +40,37 @@ estur-menuoptions:BreakfastOptions a skos:Concept;
   skos:prefLabel "Breakfast options"@en ;
   skos:prefLabel "Opciones de desayuno"@es .
 
+estur-menuoptions:GlutenFreeOptions a skos:Concept;
+  skos:inScheme estur-kos:MenuOptions;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Gluten-free options"@en ;
+  skos:prefLabel "Opciones sin gluten"@es .
 
-:glutenFreeOptions
-:lactoseFreeOptions
-:nutsFreeOptions
-:veganOptions
-:vegetarianOptions
+estur-menuoptions:LactoseFreeOptions a skos:Concept;
+  skos:inScheme estur-kos:MenuOptions;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Lactose-free options"@en ;
+  skos:prefLabel "Opciones sin lactosa"@es .
+
+estur-menuoptions:NutsFreeOptions a skos:Concept;
+  skos:inScheme estur-kos:MenuOptions;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Nuts-free options"@en ;
+  skos:prefLabel "Opciones sin frutos secos"@es .
+
+estur-menuoptions:VeganOptions a skos:Concept;
+  skos:inScheme estur-kos:MenuOptions;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Vegan options"@en ;
+  skos:prefLabel "Opciones veganas"@es .
+
+estur-menuoptions:VegetarianOptions a skos:Concept;
+  skos:inScheme estur-kos:MenuOptions;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Vegetarian options"@en ;
+  skos:prefLabel "Opciones vegetarianas"@es .

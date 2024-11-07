@@ -40,6 +40,23 @@ estur-reservationtype:Mandatory a skos:Concept;
   skos:prefLabel "Mandatory"@en ;
   skos:prefLabel "Obligatoria"@es .
 
-:notAvailable
-:optional
-:partly
+estur-reservationtype:NotAvailable a skos:Concept;
+  skos:inScheme estur-kos:ReservationType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Not available"@en ;
+  skos:prefLabel "No disponible"@es .
+
+estur-reservationtype:Optional a skos:Concept;
+  skos:inScheme estur-kos:ReservationType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Optional"@en ;
+  skos:prefLabel "Opcional"@es .
+
+estur-reservationtype:Partly a skos:Concept;
+  skos:inScheme estur-kos:ReservationType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Partly"@en ;
+  skos:prefLabel "Parcialmente"@es .

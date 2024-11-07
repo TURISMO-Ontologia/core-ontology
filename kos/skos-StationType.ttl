@@ -8,7 +8,7 @@
 @prefix estur-core: <https://ontologia.segittur.es/turismo/def/core#> .
 @prefix estur-kos: <https://ontologia.segittur.es/turismo/kos/> .
 
-@prefix estur-militarybuildingtype: <https://ontologia.segittur.es/turismo/kos/militarybuildingtype/> .
+@prefix estur-stationtype: <https://ontologia.segittur.es/turismo/kos/stationtype/> .
 
 #################################################################
 #
@@ -16,16 +16,16 @@
 #
 #################################################################
 
-estur-kos:MilitaryBuildingType a skos:ConceptScheme ; 
+estur-kos:StationType a skos:ConceptScheme ; 
     dct:issued "2024-10-29"^^xsd:date ;
     dct:modified "2024-10-29"^^xsd:date ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
-    rdfs:label "Military building type"@en ;
-    rdfs:label "Tipo de edificio militar"@es ;
-    dct:title "Concept scheme grouping military building types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de edificios militares"@es .
+    rdfs:label "Station type"@en ;
+    rdfs:label "Tipo de estación"@es ;
+    dct:title "Concept scheme grouping station types"@en ;
+    dct:title "Esquema de conceptos agrupando tipos de estación"@es .
 
 #################################################################
 #
@@ -33,32 +33,37 @@ estur-kos:MilitaryBuildingType a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-militarybuildingtype:Castle a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-stationtype:BusStop a skos:Concept;
+  skos:inScheme estur-kos:StationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Castle"@en ;
-  skos:prefLabel "Castillo"@es .
+  skos:prefLabel "Bus stop"@en ;
+  skos:prefLabel "Parada de autobús"@es .
 
-estur-militarybuildingtype:Fortress a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-stationtype:CableCarStop a skos:Concept;
+  skos:inScheme estur-kos:StationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Fortress"@en ;
-  skos:prefLabel "Fortaleza"@es .
+  skos:prefLabel "Cable car stop"@en ;
+  skos:prefLabel "Parada de cable car"@es .
 
-estur-militarybuildingtype:Wall a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-stationtype:CableWayStop a skos:Concept;
+  skos:inScheme estur-kos:StationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Wall"@en ;
-  skos:prefLabel "Muralla"@es .
+  skos:prefLabel "Cable way stop"@en ;
+  skos:prefLabel "Parada de cable way"@es .
 
-estur-militarybuildingtype:Lowers a skos:Concept;
-  skos:inScheme estur-kos:MilitaryBuildingType;
+estur-stationtype:SubwayStation a skos:Concept;
+  skos:inScheme estur-kos:StationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Lowers"@en ;
-  skos:prefLabel "Lowers"@es .
+  skos:prefLabel "Subway station"@en ;
+  skos:prefLabel "Estación de suburbano"@es .
 
-
+estur-stationtype:TramStop a skos:Concept;
+  skos:inScheme estur-kos:StationType;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Tram stop"@en ;
+  skos:prefLabel "Parada de tranvía"@es .
