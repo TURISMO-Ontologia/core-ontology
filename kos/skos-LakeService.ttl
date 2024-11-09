@@ -38,47 +38,47 @@ estur-lakeservice:BathingArea a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Bathing Area"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Área de baño"@es .
 
 estur-lakeservice:FishingArea a skos:Concept;
   skos:inScheme estur-kos:LakeServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Fishing Area"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Área de pesca"@es .
 
 estur-lakeservice:Infirmary a skos:Concept;
   skos:inScheme estur-kos:LakeServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Infirmary"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Enfermería"@es .
 
 estur-lakeservice:LifeGuard a skos:Concept;
   skos:inScheme estur-kos:LakeServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Life Guard"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Socorrista"@es .
 
 estur-lakeservice:Surveillance a skos:Concept;
   skos:inScheme estur-kos:LakeServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Surveillance"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Vigilancia"@es .
 
 estur-lakeservice:Walkway a skos:Concept;
   skos:inScheme estur-kos:LakeServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Walkway"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Camino transitable"@es .
 
 estur-lakeservice:WasteCollection a skos:Concept;
   skos:inScheme estur-kos:LakeServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Waste Collection"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Recogida de basuras"@es .
 

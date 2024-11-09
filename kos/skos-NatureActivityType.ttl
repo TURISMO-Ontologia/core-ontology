@@ -45,7 +45,7 @@ estur-natureactivity:Archery a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Archery"@en ;
-  skos:prefLabel "Archery"@es .
+  skos:prefLabel "Tiro con arco"@es .
 
 estur-natureactivity:Canoping a skos:Concept;
   skos:inScheme estur-kos:NatureActivityType;
@@ -54,26 +54,19 @@ estur-natureactivity:Canoping a skos:Concept;
   skos:prefLabel "Canoping"@en ;
   skos:prefLabel "Canoping"@es .
 
-estur-natureactivity:Abseiling a skos:Concept;
-  skos:inScheme estur-kos:NatureActivityType;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Abseiling"@en ;
-  skos:prefLabel "Abseiling"@es .
-
 estur-natureactivity:Canoing a skos:Concept;
   skos:inScheme estur-kos:NatureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Canoing"@en ;
-  skos:prefLabel "Canoing"@es .
+  skos:prefLabel "Canoas"@es .
 
 estur-natureactivity:Caving a skos:Concept;
   skos:inScheme estur-kos:NatureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Caving"@en ;
-  skos:prefLabel "Caving"@es .
+  skos:prefLabel "Espeleología"@es .
 
 estur-natureactivity:Climbing a skos:Concept;
   skos:inScheme estur-kos:NatureActivityType;
@@ -81,13 +74,6 @@ estur-natureactivity:Climbing a skos:Concept;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Climbing"@en ;
   skos:prefLabel "Escalada"@es .
-
-estur-natureactivity:Abseiling a skos:Concept;
-  skos:inScheme estur-kos:NatureActivityType;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Abseiling"@en ;
-  skos:prefLabel "Abseiling"@es .
 
 estur-natureactivity:CompressedAirShooting a skos:Concept;
   skos:inScheme estur-kos:NatureActivityType;

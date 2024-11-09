@@ -37,6 +37,6 @@ estur-retailandfashionservice:PreOrder a skos:Concept;
   skos:inScheme estur-kos:RetailAndFashionServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Pre Order"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Pre order"@en ;
+  skos:prefLabel "Precompra"@es .
 

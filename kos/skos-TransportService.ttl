@@ -38,33 +38,33 @@ estur-transportservice:BabySeat a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Baby Seat"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Asientos para niños"@es .
 
 estur-transportservice:ChargingPlug a skos:Concept;
   skos:inScheme estur-kos:TransportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Charging Plug"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Enchufes de corriente"@es .
 
 estur-transportservice:LuggageTransport a skos:Concept;
   skos:inScheme estur-kos:TransportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Luggage Transport"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Transporte de equipaje"@es .
 
 estur-transportservice:PetTransport a skos:Concept;
   skos:inScheme estur-kos:TransportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Pet Transport"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Transporte de mascotas"@es .
 
 estur-transportservice:Wifi a skos:Concept;
   skos:inScheme estur-kos:TransportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Wifi"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Wifi"@es .
 

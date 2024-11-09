@@ -37,20 +37,20 @@ estur-parkingfacilityservice:Cctv a skos:Concept;
   skos:inScheme estur-kos:ParkingFacilityServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Cctv"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "CCTV"@en ;
+  skos:prefLabel "CCTV"@es .
 
 estur-parkingfacilityservice:DisabledParking a skos:Concept;
   skos:inScheme estur-kos:ParkingFacilityServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Disabled Parking"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Parking para personas de movilidad reducida"@es .
 
 estur-parkingfacilityservice:SecurityStaff a skos:Concept;
   skos:inScheme estur-kos:ParkingFacilityServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Security Staff"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Personal de seguridad"@es .
 

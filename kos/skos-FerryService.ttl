@@ -38,19 +38,19 @@ estur-ferryservice:Bar a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Bar"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Bar"@es .
 
 estur-ferryservice:PassengerVehicleTransport a skos:Concept;
   skos:inScheme estur-kos:FerryServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Passenger Vehicle Transport"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Transporte de vehículos de pasajeros"@es .
 
 estur-ferryservice:Wifi a skos:Concept;
   skos:inScheme estur-kos:FerryServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Wifi"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Wifi"@es .
 

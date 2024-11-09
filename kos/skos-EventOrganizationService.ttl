@@ -38,19 +38,19 @@ estur-eventorganizationservice:AccessForDisabled a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Access For Disabled"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Acceso para personas de movilidad reducida"@es .
 
 estur-eventorganizationservice:GearProvision a skos:Concept;
   skos:inScheme estur-kos:EventOrganizationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Gear Provision"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Gear provision"@es .
 
 estur-eventorganizationservice:Packs a skos:Concept;
   skos:inScheme estur-kos:EventOrganizationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Packs"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Packs"@es .
 

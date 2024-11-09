@@ -38,47 +38,47 @@ estur-touristorrelatedfacilityservice:AccessForDisabled a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Access For Disabled"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Acceso para personas de movilidad reducida"@es .
 
 estur-touristorrelatedfacilityservice:Event a skos:Concept;
   skos:inScheme estur-kos:TouristOrRelatedFacilityServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Event"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Evento"@es .
 
 estur-touristorrelatedfacilityservice:InformationPoint a skos:Concept;
   skos:inScheme estur-kos:TouristOrRelatedFacilityServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Information Point"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Punto de información"@es .
 
 estur-touristorrelatedfacilityservice:Lockers a skos:Concept;
   skos:inScheme estur-kos:TouristOrRelatedFacilityServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Lockers"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Taquillas"@es .
 
 estur-touristorrelatedfacilityservice:ParkingFacility a skos:Concept;
   skos:inScheme estur-kos:TouristOrRelatedFacilityServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Parking Facility"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Parking"@es .
 
 estur-touristorrelatedfacilityservice:Restaurant a skos:Concept;
   skos:inScheme estur-kos:TouristOrRelatedFacilityServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Restaurant"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Restaurante"@es .
 
 estur-touristorrelatedfacilityservice:VirtualAdvisor a skos:Concept;
   skos:inScheme estur-kos:TouristOrRelatedFacilityServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Virtual Advisor"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Asesor virtual"@es .
 

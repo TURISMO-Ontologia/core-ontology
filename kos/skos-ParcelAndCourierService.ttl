@@ -38,19 +38,19 @@ estur-parcelandcourierservice:EquipmentTransport a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Equipment Transport"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Transporte de equipamiento"@es .
 
 estur-parcelandcourierservice:LuggageStorage a skos:Concept;
   skos:inScheme estur-kos:ParcelAndCourierServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Luggage Storage"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Almacenamiento de equipaje"@es .
 
 estur-parcelandcourierservice:PetTransport a skos:Concept;
   skos:inScheme estur-kos:ParcelAndCourierServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Pet Transport"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Transporte de mascotas"@es .
 

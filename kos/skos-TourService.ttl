@@ -38,19 +38,19 @@ estur-tourservice:Audiodescription a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Audiodescription"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Audiodescripción"@es .
 
 estur-tourservice:Audioguide a skos:Concept;
   skos:inScheme estur-kos:TourServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Audioguide"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Audioguía"@es .
 
 estur-tourservice:Gamification a skos:Concept;
   skos:inScheme estur-kos:TourServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Gamification"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Gamificación"@es .
 

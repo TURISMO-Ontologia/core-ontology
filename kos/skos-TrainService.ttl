@@ -38,33 +38,33 @@ estur-trainservice:Bar a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Bar"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Bar"@es .
 
 estur-trainservice:ChargingPlug a skos:Concept;
   skos:inScheme estur-kos:TrainServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Charging Plug"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Enchufe de corriente"@es .
 
 estur-trainservice:SleepingCar a skos:Concept;
   skos:inScheme estur-kos:TrainServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Sleeping Car"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Coche cama"@es .
 
 estur-trainservice:Tv a skos:Concept;
   skos:inScheme estur-kos:TrainServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Tv"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "TV"@en ;
+  skos:prefLabel "TV"@es .
 
 estur-trainservice:Wifi a skos:Concept;
   skos:inScheme estur-kos:TrainServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Wifi"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Wifi"@es .
 

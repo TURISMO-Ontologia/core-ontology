@@ -38,19 +38,19 @@ estur-airlineservice:AdditionalLuggage a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Additional Luggage"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Equipaje adicional"@es .
 
 estur-airlineservice:FastLane a skos:Concept;
   skos:inScheme estur-kos:AirlineServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Fast Lane"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Fast Lane"@es .
 
 estur-airlineservice:UnAccompainedChildService a skos:Concept;
   skos:inScheme estur-kos:AirlineServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Un Accompained Child Service"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Unaccompained Child Service"@en ;
+  skos:prefLabel "Servicio de menores no acompañados"@es .
 

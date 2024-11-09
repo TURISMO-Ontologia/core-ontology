@@ -38,5 +38,5 @@ estur-gymservice:Spa a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Spa"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Spa"@es .
 

@@ -38,40 +38,40 @@ estur-exhibitionhallservice:Audioguide a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Audioguide"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Audioguía"@es .
 
 estur-exhibitionhallservice:EducationalTour a skos:Concept;
   skos:inScheme estur-kos:ExhibitionHallType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Educational Tour"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Visita educativa"@es .
 
 estur-exhibitionhallservice:GroupTour a skos:Concept;
   skos:inScheme estur-kos:ExhibitionHallType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Group Tour"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Visita en grupos"@es .
 
 estur-exhibitionhallservice:GuidedTour a skos:Concept;
   skos:inScheme estur-kos:ExhibitionHallType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Guided Tour"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Visita guiada"@es .
 
 estur-exhibitionhallservice:PrivateTour a skos:Concept;
   skos:inScheme estur-kos:ExhibitionHallType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Private Tour"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Visita privada"@es .
 
 estur-exhibitionhallservice:Venue a skos:Concept;
   skos:inScheme estur-kos:ExhibitionHallType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Venue"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Lugar"@es .
 

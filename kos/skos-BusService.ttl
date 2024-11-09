@@ -38,19 +38,19 @@ estur-busservice:ChargingPlug a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Charging Plug"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Enchufes de corriente"@es .
 
 estur-busservice:Tv a skos:Concept;
   skos:inScheme estur-kos:BusServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Tv"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "TV"@en ;
+  skos:prefLabel "TV"@es .
 
 estur-busservice:Wifi a skos:Concept;
   skos:inScheme estur-kos:BusServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Wifi"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Wifi"@es .
 

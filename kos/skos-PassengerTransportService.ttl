@@ -38,47 +38,47 @@ estur-passengertransportservice:BoardingPriority a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Boarding Priority"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Prioridad de embarque"@es .
 
 estur-passengertransportservice:CustomerService a skos:Concept;
   skos:inScheme estur-kos:PassengerTransportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Customer Service"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Servicio al cliente"@es .
 
 estur-passengertransportservice:DisembarkationPriority a skos:Concept;
   skos:inScheme estur-kos:PassengerTransportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Disembarkation Priority"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Prioridad de desembarque"@es .
 
 estur-passengertransportservice:EquipmentTransport a skos:Concept;
   skos:inScheme estur-kos:PassengerTransportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Equipment Transport"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Transporte de equipamiento"@es .
 
 estur-passengertransportservice:Insurance a skos:Concept;
   skos:inScheme estur-kos:PassengerTransportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Insurance"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Seguro"@es .
 
 estur-passengertransportservice:PetTransport a skos:Concept;
   skos:inScheme estur-kos:PassengerTransportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Pet Transport"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Transporte de mascotas"@es .
 
 estur-passengertransportservice:VirtualAdvisor a skos:Concept;
   skos:inScheme estur-kos:PassengerTransportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Virtual Advisor"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Asesor virtual"@es .
 

@@ -38,187 +38,187 @@ estur-adversity:AdverseWeatherConditions a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Adverse Weather Conditions"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Condiciones meteorológicas adversas"@es .
 
 estur-adversity:ArmedConflicts a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Armed Conflicts"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Conflictos armados"@es .
 
 estur-adversity:Avalanches a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Avalanches"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Avalanchas"@es .
 
 estur-adversity:CoastalEvent a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Coastal Event"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Evento costero"@es .
 
 estur-adversity:ColdWave a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Cold Wave"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Ola de frío"@es .
 
 estur-adversity:Cyberattacks a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Cyberattacks"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Ciberataques"@es .
 
 estur-adversity:DigitalSystemsFailures a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Digital Systems Failures"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Fallos de sistemas digitales"@es .
 
 estur-adversity:Flood a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Flood"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Inundación"@es .
 
 estur-adversity:Fog a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Fog"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Niebla"@es .
 
 estur-adversity:ForestFire a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Forest Fire"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Incendio forestal"@es .
 
 estur-adversity:GeologicalPhenomena a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Geological Phenomena"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Fenómeno geológico"@es .
 
 estur-adversity:HeatWave a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Heat Wave"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Ola de calor"@es .
 
 estur-adversity:HighTemperature a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "High Temperature"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Alta temperatura"@es .
 
 estur-adversity:Hurricane a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Hurricane"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Huracán"@es .
 
 estur-adversity:Ice a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Ice"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Hielo"@es .
 
 estur-adversity:LowTemperature a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Low Temperature"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Baja temperatura"@es .
 
 estur-adversity:PublicHealthAlerts a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Public Health Alerts"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Alertas de salud pública"@es .
 
 estur-adversity:Rainfall a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Rainfall"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Lluvia"@es .
 
 estur-adversity:RainFlood a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Rain Flood"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Inundación por lluvia"@es .
 
 estur-adversity:Snow a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Snow"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Nieve"@es .
 
 estur-adversity:SnowIce a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Snow Ice"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Hielo de nieve"@es .
 
 estur-adversity:Terrorism a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Terrorism"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Terrorismo"@es .
 
 estur-adversity:Thunderstorms a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Thunderstorms"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Tormentas"@es .
 
 estur-adversity:Tornado a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Tornado"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Tornado"@es .
 
 estur-adversity:TropicalCyclone a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Tropical Cyclone"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Ciclón tropical"@es .
 
 estur-adversity:Tsunami a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Tsunami"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Tsunami"@es .
 
 estur-adversity:Wind a skos:Concept;
   skos:inScheme estur-kos:AdversityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Wind"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Viento"@es .
 

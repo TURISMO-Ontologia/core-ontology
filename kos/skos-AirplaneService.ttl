@@ -38,33 +38,33 @@ estur-airplaneservice:ChargingPlug a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Charging Plug"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Enchufes de corriente"@es .
 
 estur-airplaneservice:OnBoardFoodService a skos:Concept;
   skos:inScheme estur-kos:AirplaneServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "On Board Food Service"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Servicio de comida a bordo"@es .
 
 estur-airplaneservice:SaleOfProducts a skos:Concept;
   skos:inScheme estur-kos:AirplaneServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Sale Of Products"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Venta de productos"@es .
 
 estur-airplaneservice:Tv a skos:Concept;
   skos:inScheme estur-kos:AirplaneServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Tv"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "TV"@en ;
+  skos:prefLabel "TV"@es .
 
 estur-airplaneservice:Wifi a skos:Concept;
   skos:inScheme estur-kos:AirplaneServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Wifi"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Wifi"@es .
 

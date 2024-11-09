@@ -38,19 +38,19 @@ estur-carpoolservice:BabySeat a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Baby Seat"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Asientos de niños"@es .
 
 estur-carpoolservice:ChargingPlug a skos:Concept;
   skos:inScheme estur-kos:CarpoolServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Charging Plug"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Enchufe de corriente"@es .
 
 estur-carpoolservice:Wifi a skos:Concept;
   skos:inScheme estur-kos:CarpoolServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Wifi"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Wifi"@es .
 

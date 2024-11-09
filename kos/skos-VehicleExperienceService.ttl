@@ -22,7 +22,7 @@ estur-kos:VehicleExperienceServiceType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
-    rdfs:label "Vehicle Experience Service Type"@en ;
+    rdfs:label "Vehicle experience service type"@en ;
     rdfs:label "Tipo de servicio de una experiencia de un vehículo"@es ;
     dct:title "Concept scheme grouping vehicle experience service types"@en ;
     dct:title "Esquema de conceptos agrupando tipos de servicio de una experiencia de un vehículo"@es .
@@ -38,33 +38,33 @@ estur-vehicleexperienceservice:AccesibleVehicleFleet a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Accesible Vehicle Fleet"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Flota de vehículos accesibles"@es .
 
 estur-vehicleexperienceservice:Audioguide a skos:Concept;
   skos:inScheme estur-kos:VehicleExperienceServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Audioguide"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Audioguía"@es .
 
 estur-vehicleexperienceservice:BabySeat a skos:Concept;
   skos:inScheme estur-kos:VehicleExperienceServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Baby Seat"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Asientos para niños"@es .
 
 estur-vehicleexperienceservice:PetFriendlyVehicles a skos:Concept;
   skos:inScheme estur-kos:VehicleExperienceServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Pet Friendly Vehicles"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Vehículos donde se puede llevar mascotas"@es .
 
 estur-vehicleexperienceservice:RentByTheHour a skos:Concept;
   skos:inScheme estur-kos:VehicleExperienceServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Rent By The Hour"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Alquiler por horas"@es .
 

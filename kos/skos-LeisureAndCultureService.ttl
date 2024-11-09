@@ -38,68 +38,68 @@ estur-leisureandcultureservice:Audiodescription a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Audiodescription"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Audiodescripción"@es .
 
 estur-leisureandcultureservice:ChildrenGames a skos:Concept;
   skos:inScheme estur-kos:LeisureAndCultureServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Children Games"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Juegos para niños"@es .
 
 estur-leisureandcultureservice:CloakRoom a skos:Concept;
   skos:inScheme estur-kos:LeisureAndCultureServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Cloak Room"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Guardarropa"@es .
 
 estur-leisureandcultureservice:Event a skos:Concept;
   skos:inScheme estur-kos:LeisureAndCultureServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Event"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Evento"@es .
 
 estur-leisureandcultureservice:FastLane a skos:Concept;
   skos:inScheme estur-kos:LeisureAndCultureServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Fast Lane"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Fast Lane"@es .
 
 estur-leisureandcultureservice:Gamification a skos:Concept;
   skos:inScheme estur-kos:LeisureAndCultureServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Gamification"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Gamificación"@es .
 
 estur-leisureandcultureservice:Packs a skos:Concept;
   skos:inScheme estur-kos:LeisureAndCultureServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Packs"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Packs"@es .
 
 estur-leisureandcultureservice:QrCodes a skos:Concept;
   skos:inScheme estur-kos:LeisureAndCultureServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Qr Codes"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "QR Codes"@en ;
+  skos:prefLabel "Códigos QR"@es .
 
 estur-leisureandcultureservice:Shop a skos:Concept;
   skos:inScheme estur-kos:LeisureAndCultureServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Shop"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Tienda"@es .
 
 estur-leisureandcultureservice:Voucher a skos:Concept;
   skos:inScheme estur-kos:LeisureAndCultureServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Voucher"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Bono descuento"@es .
 

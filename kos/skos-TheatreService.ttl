@@ -38,12 +38,12 @@ estur-theatreservice:BabySeat a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Baby Seat"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Asientos para niños"@es .
 
 estur-theatreservice:Venue a skos:Concept;
   skos:inScheme estur-kos:TheatreServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Venue"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Lugar"@es .
 

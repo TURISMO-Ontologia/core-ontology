@@ -38,103 +38,103 @@ estur-accommodationservice:Arcade a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Arcade"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Arcade"@es .
 
 estur-accommodationservice:Bar a skos:Concept;
   skos:inScheme estur-kos:AccommodationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Bar"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Bar"@es .
 
 estur-accommodationservice:BasketballCourt a skos:Concept;
   skos:inScheme estur-kos:AccommodationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Basketball Court"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Cancha de baloncesto"@es .
 
 estur-accommodationservice:Event a skos:Concept;
   skos:inScheme estur-kos:AccommodationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Event"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Evento"@es .
 
 estur-accommodationservice:FootballField a skos:Concept;
   skos:inScheme estur-kos:AccommodationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Football Field"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Campo de fútbol"@es .
 
 estur-accommodationservice:GolfCourse a skos:Concept;
   skos:inScheme estur-kos:AccommodationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Golf Course"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Campo de golf"@es .
 
 estur-accommodationservice:Gym a skos:Concept;
   skos:inScheme estur-kos:AccommodationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Gym"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Gimnasio"@es .
 
 estur-accommodationservice:LuggageStorage a skos:Concept;
   skos:inScheme estur-kos:AccommodationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Luggage Storage"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Almacenamiento de equipaje"@es .
 
 estur-accommodationservice:PaddleCourt a skos:Concept;
   skos:inScheme estur-kos:AccommodationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Paddle Court"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Pista de paddle"@es .
 
 estur-accommodationservice:ParkingFacility a skos:Concept;
   skos:inScheme estur-kos:AccommodationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Parking Facility"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Parking"@es .
 
 estur-accommodationservice:Pool a skos:Concept;
   skos:inScheme estur-kos:AccommodationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Pool"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Piscina"@es .
 
 estur-accommodationservice:Restaurant a skos:Concept;
   skos:inScheme estur-kos:AccommodationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Restaurant"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Restaurante"@es .
 
 estur-accommodationservice:Spa a skos:Concept;
   skos:inScheme estur-kos:AccommodationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Spa"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Spa"@es .
 
 estur-accommodationservice:TennisCourt a skos:Concept;
   skos:inScheme estur-kos:AccommodationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Tennis Court"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Pista de tenis"@es .
 
 estur-accommodationservice:Transport a skos:Concept;
   skos:inScheme estur-kos:AccommodationServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Transport"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Transporte"@es .
 

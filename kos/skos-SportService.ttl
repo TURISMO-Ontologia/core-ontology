@@ -38,40 +38,40 @@ estur-sportservice:ChildrenGames a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Children Games"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Juegos para niños"@es .
 
 estur-sportservice:GearProvision a skos:Concept;
   skos:inScheme estur-kos:SportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Gear Provision"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Gear provision"@en ;
+  skos:prefLabel "Gear provision"@es .
 
 estur-sportservice:Gym a skos:Concept;
   skos:inScheme estur-kos:SportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Gym"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Gimnasio"@es .
 
 estur-sportservice:Infirmary a skos:Concept;
   skos:inScheme estur-kos:SportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Infirmary"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Enfermería"@es .
 
 estur-sportservice:Showers a skos:Concept;
   skos:inScheme estur-kos:SportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Showers"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Duchas"@es .
 
 estur-sportservice:Voucher a skos:Concept;
   skos:inScheme estur-kos:SportServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Voucher"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Bonos descuento"@es .
 

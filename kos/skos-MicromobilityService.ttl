@@ -38,19 +38,19 @@ estur-micromobilityservice:GearProvision a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Gear Provision"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Gear Provision"@es .
 
 estur-micromobilityservice:Plans a skos:Concept;
   skos:inScheme estur-kos:MicromobilityServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Plans"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Planes"@es .
 
 estur-micromobilityservice:Voucher a skos:Concept;
   skos:inScheme estur-kos:MicromobilityServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Voucher"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Bono descuento"@es .
 

@@ -38,40 +38,40 @@ estur-vehiclerentalcompanyservice:AccesibleVehicleFleet a skos:Concept;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Accesible Vehicle Fleet"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Flota de vehículos accesibles"@es .
 
 estur-vehiclerentalcompanyservice:AdditionalDriver a skos:Concept;
   skos:inScheme estur-kos:VehicleRentalCompanyServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Additional Driver"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Conductor adicional"@es .
 
 estur-vehiclerentalcompanyservice:BabySeat a skos:Concept;
   skos:inScheme estur-kos:VehicleRentalCompanyServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Baby Seat"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Asientos para niños"@es .
 
 estur-vehiclerentalcompanyservice:PetFriendlyVehicles a skos:Concept;
   skos:inScheme estur-kos:VehicleRentalCompanyServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Pet Friendly Vehicles"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Vehículos preparados para mascotas"@es .
 
 estur-vehiclerentalcompanyservice:RentByTheHour a skos:Concept;
   skos:inScheme estur-kos:VehicleRentalCompanyServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Rent By The Hour"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Alquiler por horas"@es .
 
 estur-vehiclerentalcompanyservice:SnowChains a skos:Concept;
   skos:inScheme estur-kos:VehicleRentalCompanyServiceType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Snow Chains"@en ;
-  skos:prefLabel "XXXXX"@es .
+  skos:prefLabel "Cadenas para la nieve"@es .
 
