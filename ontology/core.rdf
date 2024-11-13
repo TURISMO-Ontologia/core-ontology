@@ -543,16 +543,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#destinationExperienceRelatedExperience -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#destinationExperienceRelatedExperience">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#DestinationExperience"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#DestinationExperience"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#destinationManagementCompanyContainedIn -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#destinationManagementCompanyContainedIn">
@@ -1302,7 +1292,7 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#holidayPackageIntegrates -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#holidayPackageIntegrates">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
+        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#integrates"/>
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#HolidayPackage"/>
         <rdfs:range>
             <owl:Class>
@@ -1326,7 +1316,6 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#holidayPackageItinerary -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#holidayPackageItinerary">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#HolidayPackage"/>
         <rdfs:range>
             <owl:Class>
@@ -1361,6 +1350,16 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#integrates -->
+
+    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#integrates">
+        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
+        <rdfs:label xml:lang="es">integra</rdfs:label>
+        <rdfs:label xml:lang="en">integrates</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -3280,6 +3279,16 @@
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#promotes -->
+
+    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#promotes">
+        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
+        <rdfs:label xml:lang="en">promotes</rdfs:label>
+        <rdfs:label xml:lang="es">promueve</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#promotion -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#promotion">
@@ -3594,7 +3603,7 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#rulesAndTipsForTouristPromotes -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#rulesAndTipsForTouristPromotes">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
+        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#promotes"/>
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#RulesAndTipsForTourists"/>
         <rdfs:range>
             <owl:Class>
