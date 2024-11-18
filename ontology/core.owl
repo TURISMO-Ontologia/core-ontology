@@ -2524,6 +2524,17 @@
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalVehicleRentalService">
         <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalService"/>
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#VehicleRentalService"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/VehicleRentalServiceType"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
         <rdfs:label xml:lang="en">offers additional  service</rdfs:label>
         <rdfs:label xml:lang="es">ofrece servicio adicional de</rdfs:label>
     </owl:ObjectProperty>
@@ -2737,7 +2748,17 @@
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersRate">
         <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offers"/>
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#CruiseLine"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#Rate"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/RateType"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
         <rdfs:label xml:lang="en">offers rate</rdfs:label>
         <rdfs:label xml:lang="es">ofrece tarifa</rdfs:label>
     </owl:ObjectProperty>
@@ -8274,12 +8295,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#Rate -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Rate"/>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#Rating -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Rating">
@@ -9686,14 +9701,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#alIncluded -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#alIncluded">
-        <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#Rate"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#bankCard -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#bankCard">
@@ -9706,14 +9713,6 @@
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#bankTransfer">
         <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#PaymentMethod"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#basic -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#basic">
-        <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#Rate"/>
     </owl:NamedIndividual>
     
 
@@ -9810,14 +9809,6 @@
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#tuesday">
         <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#DayOfTheWeek"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#unlimitedDrinks -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#unlimitedDrinks">
-        <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#Rate"/>
     </owl:NamedIndividual>
     
 
@@ -10382,6 +10373,14 @@
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/kos/RateType -->
+
+    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/RateType">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/kos/ReservationType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/ReservationType">
@@ -10625,6 +10624,14 @@
     <!-- https://ontologia.segittur.es/turismo/kos/VehicleRentalCompanyServiceType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/VehicleRentalCompanyServiceType">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/kos/VehicleRentalServiceType -->
+
+    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/VehicleRentalServiceType">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
     </owl:NamedIndividual>
     
