@@ -14,20 +14,20 @@
      xmlns:estur-kos="https://ontologia.segittur.es/turismo/kos/"
      xmlns:geosparql="http://www.opengis.net/ont/geosparql#">
     <owl:Ontology rdf:about="https://ontologia.segittur.es/turismo/def/core#">
-        <owl:versionIRI rdf:resource="https://ontologia.segittur.es/turismo/def/core/1.1.1"/>
+        <owl:versionIRI rdf:resource="https://ontologia.segittur.es/turismo/def/core/1.1.2"/>
         <dc:rights>Creative Commons Attribution Non-Commercial No-Derivatives 4.0 International (CC BY-NC-ND 4.0)</dc:rights>
         <dct:description xml:lang="es">Esta ontología de dominio del sector turístico está construida a partir del Modelo Conceptual de Referencia Semántico de Turismo de SEGITTUR, un modelo para el desarrollo de una Red de Ontologías del Sector Turístico al servicio de la futura Plataforma Inteligente de Destino (PID) promovida por SEGITTUR. El Modelo Conceptual de Referencia de Turismo de SEGITTUR ofrece un corazón ontológico extensible para conceptos e información sobre el dominio de turismo, y aspira a convertirse en una referencia para el intercambio controlado de información sobre turismo.</dct:description>
         <dct:description xml:lang="en">This tourism domain ontology is built from SEGITTUR&apos;s Conceptual Tourism Semantic Reference Model, a model for the development of a Network of Tourism Sector Ontologies at the service of the future Intelligent Destination Platform (IDP) promoted by SEGITTUR. The SEGITTUR Conceptual Tourism Reference Model offers an extensible ontological core for concepts and information on the tourism domain, and aims to become a reference for the controlled exchange of tourism information.</dct:description>
         <dct:hasFormat rdf:resource="https://ontologia.segittur.es/turismo/def/core.owl"/>
-        <dct:issued>2025-01-26</dct:issued>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-16</dct:issued>
         <dct:license rdf:resource="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
         <dct:license>CC BY-NC-ND</dct:license>
         <dct:title xml:lang="en">Core ontology for tourism by SEGITTUR</dct:title>
         <dct:title xml:lang="es">Ontología de referencia de turismo de SEGITTUR</dct:title>
         <vann:preferredNamespacePrefix>estur</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="https://ontologia.segittur.es/turismo/def/core#"/>
-        <owl:priorVersion>1.1.0</owl:priorVersion>
-        <owl:versionInfo>1.1.1</owl:versionInfo>
+        <owl:priorVersion>1.1.1</owl:priorVersion>
+        <owl:versionInfo>1.1.2</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2865,6 +2865,16 @@
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#organisedBy -->
+
+    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#organisedBy">
+        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
+        <rdfs:label xml:lang="en">organised by</rdfs:label>
+        <rdfs:label xml:lang="es">organizado por</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#originLocation -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#originLocation">
@@ -4963,14 +4973,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:label xml:lang="en">number of rooms</rdfs:label>
         <rdfs:label xml:lang="es">número de habitaciones</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#offeredBy -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offeredBy">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -7716,7 +7718,8 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offeredBy"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#EventOrganisationCompany"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7819,12 +7822,6 @@
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offeredBy"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Company that is mainly responsible for the design, planning, coordination, as well as the production and execution of an event.</rdfs:comment>
         <rdfs:comment xml:lang="es">Empresa que se encarga principalmente del diseño, la planificación, la coordinación, así como la producción y ejecución de un evento.</rdfs:comment>
         <rdfs:label xml:lang="es">Empresa de organización de eventos</rdfs:label>
@@ -7836,7 +7833,7 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#EventSession -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#EventSession">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#endsAt"/>
@@ -12878,10 +12875,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#areaServed">
         <rdfs:label xml:lang="en">area served</rdfs:label>
         <rdfs:label xml:lang="es">área cubierta</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#offeredBy">
-        <rdfs:label xml:lang="en">offered by</rdfs:label>
-        <rdfs:label xml:lang="es">ofrecido por</rdfs:label>
     </rdf:Description>
     
 
