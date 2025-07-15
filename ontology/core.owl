@@ -307,7 +307,7 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#cabinType -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#cabinType">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Cabin"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Cabin-Deprecated"/>
         <rdfs:range>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1510,7 +1510,7 @@
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalCruiseShipCabinService">
         <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalService"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Cabin"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Cabin-Deprecated"/>
         <rdfs:range>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2688,7 +2688,7 @@
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersCabin">
         <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offers"/>
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#CruiseShip"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#Cabin"/>
+        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#Cabin-Deprecated"/>
         <rdfs:label xml:lang="en">offers cabin</rdfs:label>
         <rdfs:label xml:lang="es">ofrece cabina</rdfs:label>
     </owl:ObjectProperty>
@@ -4670,7 +4670,7 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AccommodationCapacity"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Cabin"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Cabin-Deprecated"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Room"/>
                 </owl:unionOf>
             </owl:Class>
@@ -4846,7 +4846,7 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#numberOfCabins -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#numberOfCabins">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Cabin"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Cabin-Deprecated"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:label xml:lang="en">number of cabins</rdfs:label>
         <rdfs:label xml:lang="es">número de camarotes</rdfs:label>
@@ -6638,6 +6638,18 @@
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#BullRing -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#BullRing">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#EventAttendanceFacility"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalAndCulturalResource"/>
+        <rdfs:comment xml:lang="es">Construcción generalmente circular y con graderías, destinada a la lidia de toros, aunque también puede ser utilizada para otros tipos de eventos.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bullring</rdfs:label>
+        <rdfs:label xml:lang="es">Plaza de toros</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#Bus -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Bus">
@@ -6698,9 +6710,9 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#Cabin -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#Cabin-Deprecated -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Cabin">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Cabin-Deprecated">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6736,8 +6748,8 @@
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">A cabin or private accommodation space on board the ship where passengers stay during the voyage.</rdfs:comment>
         <rdfs:comment xml:lang="es">Cabina o espacio de alojamiento privado a bordo del barco donde los pasajeros se alojan durante la travesía.</rdfs:comment>
-        <rdfs:label xml:lang="en">cabin</rdfs:label>
-        <rdfs:label xml:lang="es">camarote</rdfs:label>
+        <rdfs:label xml:lang="en">cabin - deprecated</rdfs:label>
+        <rdfs:label xml:lang="es">camarote - deprecado</rdfs:label>
     </owl:Class>
     
 
@@ -6843,6 +6855,18 @@
         <rdfs:comment xml:lang="es">Cantidad de dinero que un proveedor de servicios puede cobrar al cliente cuando éste cancela una reserva previamente confirmada.</rdfs:comment>
         <rdfs:label xml:lang="en">cancellation fee</rdfs:label>
         <rdfs:label xml:lang="es">cargo de cancelación</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#CaravanArea -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#CaravanArea">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TransportInfrastructure"/>
+        <rdfs:comment xml:lang="es">Espacio específicamente designado para el estacionamiento y pernocta de autocaravanas y campers, que ofrece servicios adaptados a este tipo de vehículos</rdfs:comment>
+        <rdfs:comment xml:lang="en">Space specifically designated for parking and overnight stays for motorhomes and campers, which offers services adapted to this type of vehicle.</rdfs:comment>
+        <rdfs:label xml:lang="en">Caravan area</rdfs:label>
+        <rdfs:label xml:lang="es">Área de autocaravanas</rdfs:label>
     </owl:Class>
     
 
@@ -6967,6 +6991,17 @@
         <rdfs:comment xml:lang="en">Natural cavity in the ground caused by some type of erosion from water currents, ice or lava.</rdfs:comment>
         <rdfs:label xml:lang="en">cave</rdfs:label>
         <rdfs:label xml:lang="es">cueva o caverna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#Cemetery -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Cemetery">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalAndCulturalResource"/>
+        <rdfs:comment xml:lang="es">Terreno, generalmente cercado, destinado a enterrar cadáveres.</rdfs:comment>
+        <rdfs:label xml:lang="es">Cementerio</rdfs:label>
+        <rdfs:label xml:lang="en">Cemetery</rdfs:label>
     </owl:Class>
     
 
@@ -7126,6 +7161,17 @@
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#Cloister -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Cloister">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalAndCulturalResource"/>
+        <rdfs:comment xml:lang="es">Galería que cerca el patio principal de una iglesia o convento.</rdfs:comment>
+        <rdfs:label xml:lang="es">Claustro</rdfs:label>
+        <rdfs:label xml:lang="en">Cloister</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#Clothing -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Clothing">
@@ -7210,6 +7256,17 @@
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#Cove -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Cove">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#NaturalResource"/>
+        <rdfs:comment xml:lang="es">Tramo de bahía de forma redondeada, de dimensiones más pequeñas a las de la playa y donde sus aguas son más tranquilas</rdfs:comment>
+        <rdfs:label xml:lang="es">Cala</rdfs:label>
+        <rdfs:label xml:lang="en">Cove</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#CruiseLine -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#CruiseLine">
@@ -7241,7 +7298,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersCabin"/>
-                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#Cabin"/>
+                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#Cabin-Deprecated"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8452,6 +8509,18 @@
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#Library -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Library">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalAndCulturalResource"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LeisureAndCultureFacility"/>
+        <rdfs:comment xml:lang="es">Lugar cuya finalidad consiste en la adquisición, conservación, estudio y exposición de libros y documentos</rdfs:comment>
+        <rdfs:label xml:lang="es">Biblioteca</rdfs:label>
+        <rdfs:label xml:lang="en">Library</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#LocalBusiness -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#LocalBusiness">
@@ -9097,6 +9166,17 @@
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Organisation</rdfs:label>
         <rdfs:label xml:lang="es">Organización</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#OrnamentalFountain -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#OrnamentalFountain">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalAndCulturalResource"/>
+        <rdfs:label xml:lang="es">Estructura, típicamente de agua, diseñada para embellecer un espacio, tanto interior como exterior, a través de su forma, diseño y efectos visuales y/o auditivos</rdfs:label>
+        <rdfs:label xml:lang="es">Fuente ornamental</rdfs:label>
+        <rdfs:label xml:lang="en">Ornamental Fountain</rdfs:label>
     </owl:Class>
     
 
@@ -10072,7 +10152,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Sanctuary">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalAndCulturalResource"/>
-        <rdfs:comment xml:lang="es">Templo en que se venera la imagen o reliquia de un santo de especial devoción.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Templo en que se venera la imagen o reliquia de un santo de especial devoción. También puede utilizarse el término ermita.</rdfs:comment>
         <rdfs:label xml:lang="en">sanctuary</rdfs:label>
         <rdfs:label xml:lang="es">santuario</rdfs:label>
     </owl:Class>
@@ -10257,6 +10337,17 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:comment xml:lang="en">Current of water that flows from the ground or between rocks naturally</rdfs:comment>
         <rdfs:label xml:lang="es">manantial</rdfs:label>
         <rdfs:label xml:lang="en">spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#Square -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Square">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalAndCulturalResource"/>
+        <rdfs:comment xml:lang="es">Lugar ancho y espacioso dentro de una población, al que suelen afluir varias calles. En ocasiones, en este lugar se venden artículos diversos, se tiene el trato común con los vecinos, y se celebran las ferias, los mercados y las fiestas públicas.</rdfs:comment>
+        <rdfs:label xml:lang="es">Plaza</rdfs:label>
+        <rdfs:label xml:lang="en">Square</rdfs:label>
     </owl:Class>
     
 
@@ -10808,7 +10899,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TouristAttractionSite">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalAndCulturalResource"/>
-        <rdfs:comment xml:lang="es">Espacio delimitado en el que se reúnen diferentes atractivos que no son exclusivamente turísticos, pero que en razón de sus condiciones y singularidad suscitan interés para la actividad turística.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Espacio delimitado en el que se reúnen diferentes atractivos que no son exclusivamente turísticos, pero que en razón de sus condiciones y singularidad suscitan interés para la actividad turística. Por ejemplo, puede incluir el casco antiguo de una población</rdfs:comment>
         <rdfs:label xml:lang="es">conjunto de interés artístico</rdfs:label>
         <rdfs:label xml:lang="en">tourist attraction site</rdfs:label>
     </owl:Class>
@@ -10966,6 +11057,17 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:comment xml:lang="es">Construcción fortificada, más alta que ancha, utilizada para defender una ciudad o plaza.</rdfs:comment>
         <rdfs:label xml:lang="es">Torre</rdfs:label>
         <rdfs:label xml:lang="en">Tower</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#TownHall -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TownHall">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalAndCulturalResource"/>
+        <rdfs:comment xml:lang="es">El edificio del ayuntamiento, también conocido como casa consistorial, es el edificio de una población adonde concurren los concejales de su ayuntamiento a celebrar sus juntas.</rdfs:comment>
+        <rdfs:label xml:lang="es">Ayuntamiento</rdfs:label>
+        <rdfs:label xml:lang="en">Town Hall</rdfs:label>
     </owl:Class>
     
 
