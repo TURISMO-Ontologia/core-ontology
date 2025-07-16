@@ -132,17 +132,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#accommodationCapacity -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#accommodationCapacity">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Accommodation"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#AccommodationCapacity"/>
-        <rdfs:label xml:lang="es">capacidad alojativa</rdfs:label>
-        <rdfs:label xml:lang="en">capacity of the accommodation</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#adversity -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#adversity">
@@ -3692,14 +3681,7 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#maximumCapacity -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#maximumCapacity">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AccommodationCapacity"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Room"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Room"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:label xml:lang="es">capacidad máxima</rdfs:label>
         <rdfs:label xml:lang="en">maximum capacity</rdfs:label>
@@ -3846,10 +3828,22 @@
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#numberOfAccommodationUnits -->
+
+    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#numberOfAccommodationUnits">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Accommodation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">number of accommodation units</rdfs:label>
+        <rdfs:label xml:lang="es">número de unidades de alojamiento</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#numberOfBeds -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#numberOfBeds">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AccommodationCapacity"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Accommodation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:comment xml:lang="en">numberOfBeds</rdfs:comment>
         <rdfs:comment xml:lang="es">número de camas</rdfs:comment>
@@ -3875,18 +3869,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:label xml:lang="en">number of nights</rdfs:label>
         <rdfs:label xml:lang="es">número de noches</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#numberOfRooms -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#numberOfRooms">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AccommodationCapacity"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-        <rdfs:label xml:lang="en">number of rooms</rdfs:label>
-        <rdfs:label xml:lang="es">número de habitaciones</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -4730,12 +4712,6 @@
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#accommodationCapacity"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasPaymentInformation"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
@@ -4762,32 +4738,6 @@
         <rdfs:comment xml:lang="en">Place where a person or a group of people stays, stays or camps.</rdfs:comment>
         <rdfs:label xml:lang="en">Accommodation</rdfs:label>
         <rdfs:label xml:lang="es">Alojamiento</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#AccommodationCapacity -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#AccommodationCapacity">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#numberOfBeds"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#numberOfRooms"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment xml:lang="es">Cantidad máxima de personas que pueden ser alojadas en un alojamiento.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Maximum number of people that can be accommodated in an accommodation.</rdfs:comment>
-        <rdfs:label xml:lang="en">accommodation capacity</rdfs:label>
-        <rdfs:label xml:lang="es">capacidad alojativa</rdfs:label>
     </owl:Class>
     
 
@@ -8326,7 +8276,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#numberOfRooms"/>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#numberOfAccommodationUnits"/>
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
