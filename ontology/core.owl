@@ -251,17 +251,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#bookingChannel -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#bookingChannel">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#BookingInformation"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#BookingChannel"/>
-        <rdfs:label xml:lang="en">booking channel</rdfs:label>
-        <rdfs:label xml:lang="es">canal de reservas</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#bus -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#bus">
@@ -269,17 +258,6 @@
         <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#Bus"/>
         <rdfs:label xml:lang="es">autobús</rdfs:label>
         <rdfs:label xml:lang="en">bus</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#cancellationFee -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#cancellationFee">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#BookingInformation"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#CancellationFee"/>
-        <rdfs:label xml:lang="en">cancellation fee</rdfs:label>
-        <rdfs:label xml:lang="es">comisión de cancelación</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -503,24 +481,6 @@
         <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#BookingChannel"/>
         <rdfs:label xml:lang="en">has booking channel</rdfs:label>
         <rdfs:label xml:lang="es">tiene canal de reservas</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#hasBookingInformation -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#hasBookingInformation">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#BookingInformation"/>
-        <rdfs:label xml:lang="en">has booking information</rdfs:label>
-        <rdfs:label xml:lang="es">tiene información de reserva</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -901,17 +861,6 @@
         </rdfs:range>
         <rdfs:label xml:lang="en">military building type</rdfs:label>
         <rdfs:label xml:lang="es">tipo de edificio militar</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#modificationFee -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#modificationFee">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#BookingInformation"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#ModificationFee"/>
-        <rdfs:label xml:lang="en">modification fee</rdfs:label>
-        <rdfs:label xml:lang="es">tarifa de modificación</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -3506,42 +3455,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#free -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#free">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#CancellationFee"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#ModificationFee"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <rdfs:label xml:lang="en">free</rdfs:label>
-        <rdfs:label xml:lang="es">gratis</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#freeCancellationValidity -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#freeCancellationValidity">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#CancellationFee"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#ModificationFee"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-        <rdfs:label xml:lang="en">free cancellation validity</rdfs:label>
-        <rdfs:label xml:lang="es">periodo para cancelación gratis</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#freeSlotNumber -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#freeSlotNumber">
@@ -3937,17 +3850,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#nonRefundable -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#nonRefundable">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#CancellationFee"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <rdfs:label xml:lang="es">no reembolsable</rdfs:label>
-        <rdfs:label xml:lang="en">non refundable</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#notIncluded -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#notIncluded">
@@ -4097,17 +3999,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#penalty -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#penalty">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#ModificationFee"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <rdfs:label xml:lang="es">penalización</rdfs:label>
-        <rdfs:label xml:lang="en">penalty</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#performer -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#performer">
@@ -4170,17 +4061,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">preferred travel season</rdfs:label>
         <rdfs:label xml:lang="es">temporada de viaje preferida</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#prepayment -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#prepayment">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#BookingInformation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <rdfs:label xml:lang="es">prepago</rdfs:label>
-        <rdfs:label xml:lang="en">prepayment</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -4890,12 +4770,6 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasBookingInformation"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasPaymentInformation"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
@@ -5472,43 +5346,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#BookingInformation -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#BookingInformation">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#bookingChannel"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#cancellationFee"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#modificationFee"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#prepayment"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">Includes specifications related to the accommodation reservation.</rdfs:comment>
-        <rdfs:comment xml:lang="es">Incluye las especificaciones relacionadas con la reserva del alojamiento.</rdfs:comment>
-        <rdfs:label xml:lang="en">booking information</rdfs:label>
-        <rdfs:label xml:lang="es">información de la reserva</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#BowlingAlley -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#BowlingAlley">
@@ -5678,39 +5515,6 @@
         <rdfs:comment xml:lang="es">Cauce artificial por donde se conduce el agua para darle salida o para otros usos</rdfs:comment>
         <rdfs:label xml:lang="en">canal</rdfs:label>
         <rdfs:label xml:lang="es">canal</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#CancellationFee -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#CancellationFee">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#free"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#freeCancellationValidity"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#nonRefundable"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">Amount of money that a service provider can charge the customer when the customer cancels a previously confirmed reservation.</rdfs:comment>
-        <rdfs:comment xml:lang="es">Cantidad de dinero que un proveedor de servicios puede cobrar al cliente cuando éste cancela una reserva previamente confirmada.</rdfs:comment>
-        <rdfs:label xml:lang="en">cancellation fee</rdfs:label>
-        <rdfs:label xml:lang="es">cargo de cancelación</rdfs:label>
     </owl:Class>
     
 
@@ -6462,12 +6266,6 @@
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#eventType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasBookingInformation"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7523,38 +7321,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#ModificationFee -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#ModificationFee">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#free"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#freeCancellationValidity"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#penalty"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">Amount of money that a service provider can charge the client when the client modifies a previously confirmed reservation.</rdfs:comment>
-        <rdfs:comment xml:lang="es">Cantidad de dinero que un proveedor de servicios puede cobrar al cliente cuando éste modifica una reserva previamente confirmada.</rdfs:comment>
-        <rdfs:label xml:lang="es">cargo por modificación</rdfs:label>
-        <rdfs:label xml:lang="en">modification fee</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#Monastery -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Monastery">
@@ -8587,12 +8353,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasBookingInformation"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasPriceInformation"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
@@ -9303,12 +9063,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#bookingChannel"/>
-                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#BookingChannel"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasContactPoint"/>
                 <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#ContactPoint"/>
             </owl:Restriction>
@@ -9727,12 +9481,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TransactionInformation">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasBookingInformation"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasPaymentInformation"/>
