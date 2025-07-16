@@ -790,17 +790,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#lenghtOfStay -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#lenghtOfStay">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Tourist"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#LenghtOfStay"/>
-        <rdfs:label xml:lang="es">duración de la estancia</rdfs:label>
-        <rdfs:label xml:lang="en">lenght of stay</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#meetingPoint -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#meetingPoint">
@@ -3134,17 +3123,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#departureDate -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#departureDate">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#LenghtOfStay"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">departure date</rdfs:label>
-        <rdfs:label xml:lang="es">fecha de salida</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#destination -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#destination">
@@ -3660,17 +3638,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#numberOfNights -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#numberOfNights">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#LenghtOfStay"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-        <rdfs:label xml:lang="en">number of nights</rdfs:label>
-        <rdfs:label xml:lang="es">número de noches</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#online -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#online">
@@ -3878,17 +3845,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="es">observaciones</rdfs:label>
         <rdfs:label xml:lang="en">remarks</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#returnDate -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#returnDate">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#LenghtOfStay"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-        <rdfs:label xml:lang="es">fecha de regreso</rdfs:label>
-        <rdfs:label xml:lang="en">return date</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -6599,15 +6555,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#LenghtOfStay -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#LenghtOfStay">
-        <rdfs:label xml:lang="es">duración de la visita</rdfs:label>
-        <rdfs:label xml:lang="en">lenght of stay</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#Library -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Library">
@@ -8652,12 +8599,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Tourist">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#PersonRole"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#lenghtOfStay"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#travelUnit"/>
