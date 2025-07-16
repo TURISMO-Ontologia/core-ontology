@@ -865,27 +865,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#multiadventureActivityType -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#multiadventureActivityType">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Activity"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/MultiadventureActivityType"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:label xml:lang="en">multiadventure activity type</rdfs:label>
-        <rdfs:label xml:lang="es">tipo de actividad multiaventura</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#museumType -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#museumType">
@@ -952,18 +931,6 @@
         </rdfs:range>
         <rdfs:label xml:lang="en">offers meal plan</rdfs:label>
         <rdfs:label xml:lang="es">ofrece plan de comidas</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersActivity -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersActivity">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offers"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#MultiAdventureCentre"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#Activity"/>
-        <rdfs:label xml:lang="en">offers activity</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece actividad</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2416,6 +2383,28 @@
         <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#HolidayPackage"/>
         <rdfs:label xml:lang="en">offers holiday package</rdfs:label>
         <rdfs:label xml:lang="es">ofrece paquete de vacaciones</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#offersMultiadventureActivityType -->
+
+    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersMultiadventureActivityType">
+        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offers"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#MultiAdventureCentre"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/MultiadventureActivityType"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">multiadventure activity type</rdfs:label>
+        <rdfs:label xml:lang="es">tipo de actividad multiaventura</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -4851,21 +4840,6 @@
         <rdfs:comment xml:lang="es">Logros o distinciones otorgadas a personas, empresas o productos por cumplir con ciertos estándares o criterios específicos. Estos reconocimientos pueden¡ incluir certificaciones, puntuaciones, premios u otros tipos de distinciones que reconocen la calidad, el rendimiento destacado, el cumplimiento de normas o la excelencia en un determinado campo.</rdfs:comment>
         <rdfs:label xml:lang="en">Acknowledgement</rdfs:label>
         <rdfs:label xml:lang="es">Reconocimiento</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#Activity -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Activity">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#multiadventureActivityType"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="es">Actividad</rdfs:label>
-        <rdfs:label xml:lang="en">Activity</rdfs:label>
     </owl:Class>
     
 
@@ -7410,12 +7384,6 @@
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#MultiAdventureCentre">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#SportFacility"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersActivity"/>
-                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#Activity"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Center oriented towards sports or practices that involve, in addition to physical activity, intense recreational activity in the natural environment.</rdfs:comment>
         <rdfs:comment xml:lang="es">Centro orientado a los deportes o prácticas que conllevan, además de una actividad física, una intensa actividad recreativa en el medio natural.</rdfs:comment>
         <rdfs:label xml:lang="es">centro de actividades multiaventura</rdfs:label>
