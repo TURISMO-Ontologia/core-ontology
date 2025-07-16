@@ -2779,17 +2779,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#seaConditions -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#seaConditions">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Beach"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#SeaConditions"/>
-        <rdfs:label xml:lang="es">condiciones del mar</rdfs:label>
-        <rdfs:label xml:lang="en">sea conditions</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#socialMediaPlatform -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#socialMediaPlatform">
@@ -3385,7 +3374,6 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#SeaConditions"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Trip"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#WeatherForecast"/>
                 </owl:unionOf>
@@ -4217,17 +4205,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#pH -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#pH">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#SeaConditions"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <rdfs:label xml:lang="en">ph</rdfs:label>
-        <rdfs:label xml:lang="es">ph</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#passengerCapacity -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#passengerCapacity">
@@ -4478,17 +4455,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#salinity -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#salinity">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#SeaConditions"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="es">salinidad</rdfs:label>
-        <rdfs:label xml:lang="en">salinity</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#secondaryImage -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#secondaryImage">
@@ -4689,17 +4655,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">subcategory</rdfs:label>
         <rdfs:label xml:lang="es">subcategoría</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#surfaceTemperature -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#surfaceTemperature">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#SeaConditions"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <rdfs:label xml:lang="en">surface temperature</rdfs:label>
-        <rdfs:label xml:lang="es">temperatura en la superficie</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -4957,39 +4912,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">voltage</rdfs:label>
         <rdfs:label xml:lang="es">voltaje</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#waveHeight -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#waveHeight">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#SeaConditions"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <rdfs:label xml:lang="es">altura de las olas</rdfs:label>
-        <rdfs:label xml:lang="en">wave height</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#waveLevel -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#waveLevel">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#SeaConditions"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="es">nivel de las olas</rdfs:label>
-        <rdfs:label xml:lang="en">wave level</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#wavePeriod -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#wavePeriod">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#SeaConditions"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="es">periodo de las olas</rdfs:label>
-        <rdfs:label xml:lang="en">wave period</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -9064,15 +8986,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:comment xml:lang="es">Templo en que se venera la imagen o reliquia de un santo de especial devoción. También puede utilizarse el término ermita.</rdfs:comment>
         <rdfs:label xml:lang="en">sanctuary</rdfs:label>
         <rdfs:label xml:lang="es">santuario</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#SeaConditions -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#SeaConditions">
-        <rdfs:label xml:lang="es">condiciones del mar</rdfs:label>
-        <rdfs:label xml:lang="en">sea conditions</rdfs:label>
     </owl:Class>
     
 
