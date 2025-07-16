@@ -2264,28 +2264,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalVehicleService -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalVehicleService">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalService"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/VehicleServiceType"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional vehicle service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de vehículos</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalVineyardService -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalVineyardService">
@@ -2462,18 +2440,6 @@
         <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#TransportService"/>
         <rdfs:label xml:lang="en">offers transport</rdfs:label>
         <rdfs:label xml:lang="es">ofrece transporte</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersVehicle -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersVehicle">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offers"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#VehicleRentalCompany"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-        <rdfs:label xml:lang="en">offers vehicle</rdfs:label>
-        <rdfs:label xml:lang="es">offrece vehículo</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2721,17 +2687,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#vehicle -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#vehicle">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#VehicleRentalService"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-        <rdfs:label xml:lang="en">vehicle</rdfs:label>
-        <rdfs:label xml:lang="es">vehículo</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#vehicleExperienceType -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#vehicleExperienceType">
@@ -2761,7 +2716,7 @@
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Carpool"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TransportService"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#VehicleRentalService"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
@@ -3031,7 +2986,6 @@
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Carpool"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TransportService"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
@@ -3075,14 +3029,7 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#carNumberPlate -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#carNumberPlate">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TransportService"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TransportService"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">car number plate</rdfs:label>
         <rdfs:label xml:lang="es">matrícula</rdfs:label>
@@ -3093,14 +3040,7 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#cargoVolume -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#cargoVolume">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TransportService"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TransportService"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label xml:lang="es">cargo volume</rdfs:label>
         <rdfs:label xml:lang="es">volumen o capacidad de carga</rdfs:label>
@@ -3411,17 +3351,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#engine -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#engine">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">engine</rdfs:label>
-        <rdfs:label xml:lang="es">motor</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#freeSlotNumber -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#freeSlotNumber">
@@ -3440,17 +3369,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">frequently asked questions</rdfs:label>
         <rdfs:label xml:lang="es">preguntas frecuentes</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#fullTank -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#fullTank">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-        <rdfs:label xml:lang="es">depósito lleno</rdfs:label>
-        <rdfs:label xml:lang="en">full tank</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3604,14 +3522,6 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#lugaggeCapacity -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#lugaggeCapacity">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Carpool"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:label xml:lang="es">capacidad para equipaje</rdfs:label>
         <rdfs:label xml:lang="en">luggage capacity</rdfs:label>
@@ -3769,17 +3679,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#mileage -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#mileage">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-        <rdfs:label xml:lang="es">kilometraje</rdfs:label>
-        <rdfs:label xml:lang="en">mileage</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#minPrice -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#minPrice">
@@ -3794,15 +3693,6 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#modelName -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#modelName">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Carpool"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TransportService"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">model name</rdfs:label>
         <rdfs:label xml:lang="es">modelo</rdfs:label>
@@ -3847,17 +3737,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:comment xml:lang="en">numberOfBeds</rdfs:comment>
         <rdfs:comment xml:lang="es">número de camas</rdfs:comment>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#numberOfDoors -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#numberOfDoors">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-        <rdfs:label xml:lang="en">number of doors</rdfs:label>
-        <rdfs:label xml:lang="es">número de puertas</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3932,14 +3811,6 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#passengerCapacity -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#passengerCapacity">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Carpool"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:label xml:lang="es">capacidad de pasajeros</rdfs:label>
         <rdfs:label xml:lang="en">passenger capacity</rdfs:label>
@@ -3954,16 +3825,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="es">artista</rdfs:label>
         <rdfs:label xml:lang="en">performer</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#pickupLocation -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#pickupLocation">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-        <rdfs:label xml:lang="es">lugar de recogida</rdfs:label>
-        <rdfs:label xml:lang="en">pickup location</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -4142,17 +4003,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:label xml:lang="es">fecha de regreso</rdfs:label>
         <rdfs:label xml:lang="en">return date</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#returnLocation -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#returnLocation">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="es">lugar de devolución</rdfs:label>
-        <rdfs:label xml:lang="en">return location</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -4463,17 +4313,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="es">frecuencia de viaje</rdfs:label>
         <rdfs:label xml:lang="en">travel frequency</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#typeOfGas -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#typeOfGas">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="es">tipo de combustible</rdfs:label>
-        <rdfs:label xml:lang="en">type of gas</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -9521,87 +9360,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#Vehicle -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Vehicle">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasDescription"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#Description"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasAdditionalInformation"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#AdditionalInformation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#vehicleType"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#brand"/>
-                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#carNumberPlate"/>
-                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#mileage"/>
-                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#modelName"/>
-                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#numberOfDoors"/>
-                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#engine"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#fullTank"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#passengerCapacity"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">Means of transportation that is available to be rented by clients.</rdfs:comment>
-        <rdfs:comment xml:lang="es">Medio de transporte que está disponible para ser alquilado por los clientes.</rdfs:comment>
-        <rdfs:label xml:lang="en">vehicle</rdfs:label>
-        <rdfs:label xml:lang="es">vehículo</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#VehicleExperience -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#VehicleExperience">
@@ -9658,12 +9416,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#vehicle"/>
-                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#Vehicle"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Commercial entity dedicated to providing short-term vehicle rental services to travelers who need a temporary means of transportation.</rdfs:comment>
         <rdfs:comment xml:lang="es">Entidad comercial que se dedica a proporcionar servicios de alquiler de vehículos a corto plazo a viajeros que necesitan un medio de transporte temporal.</rdfs:comment>
         <rdfs:label xml:lang="es">empresa de alquiler de vehículos</rdfs:label>
@@ -9676,6 +9428,12 @@ quality, performance or satisfaction. Based on this score, the instances of each
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#VehicleRentalService">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#vehicleType"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="es">servicio de alquiler de vehículos</rdfs:label>
         <rdfs:label xml:lang="en">vehicle rental service</rdfs:label>
     </owl:Class>
