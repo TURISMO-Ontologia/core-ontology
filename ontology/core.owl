@@ -456,7 +456,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -475,7 +475,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -494,7 +494,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -531,7 +531,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -550,7 +550,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -569,7 +569,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -588,7 +588,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -607,7 +607,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -626,7 +626,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -685,7 +685,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -715,7 +715,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -734,7 +734,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -752,7 +752,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -2736,7 +2736,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -2745,7 +2745,7 @@
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -3030,7 +3030,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -3140,7 +3140,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -3221,7 +3221,7 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
                 </owl:unionOf>
@@ -6811,7 +6811,7 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#EventOrganisationCompany -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#EventOrganisationCompany">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasLocation"/>
@@ -8158,62 +8158,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#Organisation -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Organisation">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasContactPoint"/>
-                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#ContactPoint"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasLocation"/>
-                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#Location"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasAdditionalInformation"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#AdditionalInformation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasDescription"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#Description"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasMultimedia"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#Multimedia"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasOpeningHours"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#OpeningHours"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasSocialMediaProfile"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#SocialMediaProfile"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Organisation</rdfs:label>
-        <rdfs:label xml:lang="es">Organización</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#OrnamentalFountain -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#OrnamentalFountain">
@@ -8382,7 +8326,7 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#PassengerTransportCompany -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#PassengerTransportCompany">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasTransactionInformation"/>
@@ -9562,7 +9506,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/def/core#TourGuide -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TourGuide">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#registrationNumber"/>
@@ -9595,9 +9539,79 @@ quality, performance or satisfaction. Based on this score, the instances of each
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#TourismEntity -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismEntity">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasAdditionalInformation"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#AdditionalInformation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasDescription"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#Description"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasMultimedia"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#Multimedia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasSocialMediaProfile"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#SocialMediaProfile"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Concepto general que agrupa los servicios turísticos, recursos turísticos, destinos turísticos y organizaciones turísticas</rdfs:comment>
+        <rdfs:comment>General concept that groups Tourism Resources, Tourism Services, Tourist Destinations and Tourism Organisation</rdfs:comment>
+        <rdfs:label xml:lang="es">Entidad turística</rdfs:label>
+        <rdfs:label xml:lang="en">Tourism Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#TourismOrganisation -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasContactPoint"/>
+                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#ContactPoint"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasLocation"/>
+                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasOpeningHours"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#OpeningHours"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">Organización turística</rdfs:label>
+        <rdfs:label xml:lang="en">Tourism Organisation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#TourismResource -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#Location"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#bookingChannel"/>
@@ -9624,34 +9638,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasAdditionalInformation"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#AdditionalInformation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasDescription"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#Description"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasMultimedia"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#Multimedia"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasSocialMediaProfile"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#SocialMediaProfile"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasTransactionInformation"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
@@ -9671,7 +9657,8 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#publicAccess"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -9691,6 +9678,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/def/core#TourismService -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasContactPoint"/>
@@ -9705,37 +9693,9 @@ quality, performance or satisfaction. Based on this score, the instances of each
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasAdditionalInformation"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#AdditionalInformation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasDescription"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#Description"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasMultimedia"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#Multimedia"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasOpeningHours"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#OpeningHours"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasSocialMediaProfile"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#SocialMediaProfile"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Clase que agrupa de manera general los servicios relevantes para el sector turístico, donde se aplicarán las propiedades comunes a todos estos servicios.</rdfs:comment>
@@ -9814,19 +9774,8 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/def/core#TouristDestination -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TouristDestination">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasAdditionalInformation"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasMultimedia"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#Location"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasRulesAndTips"/>
@@ -9836,7 +9785,8 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#managementEntity"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -9910,7 +9860,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/def/core#TouristIntermediary -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TouristIntermediary">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#Organisation"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersHolidayPackage"/>
