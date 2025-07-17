@@ -524,25 +524,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#hasPaymentInformation -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#hasPaymentInformation">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#PaymentInformation"/>
-        <rdfs:label xml:lang="en">hay payment information</rdfs:label>
-        <rdfs:label xml:lang="es">tiene información de pago</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#hasPriceClass -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#hasPriceClass">
@@ -2311,8 +2292,26 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#paymentMethod -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#paymentMethod">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#PaymentInformation"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#PaymentMethod"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/PaymentMethod"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
         <rdfs:label xml:lang="es">método de pago</rdfs:label>
         <rdfs:label xml:lang="en">payment method</rdfs:label>
     </owl:ObjectProperty>
@@ -2899,7 +2898,6 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#PaymentInformation"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#PriceSpecification"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TouristDestination"/>
                 </owl:unionOf>
@@ -4039,12 +4037,6 @@
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Accommodation">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasPaymentInformation"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasPriceClass"/>
@@ -6851,41 +6843,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#PaymentInformation -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#PaymentInformation">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#paymentMethod"/>
-                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#PaymentMethod"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#currency"/>
-                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment xml:lang="es">Datos relevantes sobre el pago que el turista requiere conocer para proceder con la adquisición de un producto o servicio.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Relevant payment data that the tourist needs to know to proceed with the acquisition of a product or service.</rdfs:comment>
-        <rdfs:label xml:lang="es">información de pago</rdfs:label>
-        <rdfs:label xml:lang="en">payment information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#PaymentMethod -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#PaymentMethod">
-        <rdfs:comment xml:lang="es">Diferentes formas en que los clientes pueden realizar transacciones de compra y pagar por bienes o servicios.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Different ways in which customers can carry out purchase transactions and pay for goods or services.</rdfs:comment>
-        <rdfs:label xml:lang="es">método de pago</rdfs:label>
-        <rdfs:label xml:lang="en">payment method</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#Perfumery -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Perfumery">
@@ -8347,12 +8304,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasPaymentInformation"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasPriceInformation"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
@@ -8804,86 +8755,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#NFC -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#NFC">
-        <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#PaymentMethod"/>
-        <rdfs:label xml:lang="en">NFC</rdfs:label>
-        <rdfs:label xml:lang="es">NFC</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#bankCard -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#bankCard">
-        <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#PaymentMethod"/>
-        <rdfs:label xml:lang="en">bank card</rdfs:label>
-        <rdfs:label xml:lang="es">tarjeta bancaria</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#bankTransfer -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#bankTransfer">
-        <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#PaymentMethod"/>
-        <rdfs:label xml:lang="en">bank transfer</rdfs:label>
-        <rdfs:label xml:lang="es">transferencia bancaria</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#bizum -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#bizum">
-        <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#PaymentMethod"/>
-        <rdfs:label xml:lang="en">bizum</rdfs:label>
-        <rdfs:label xml:lang="es">bizum</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#cash -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#cash">
-        <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#PaymentMethod"/>
-        <rdfs:label xml:lang="en">cash</rdfs:label>
-        <rdfs:label xml:lang="es">metálico</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#checksAndPromissoryNotes -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#checksAndPromissoryNotes">
-        <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#PaymentMethod"/>
-        <rdfs:label xml:lang="en">checks and promissory notes</rdfs:label>
-        <rdfs:label xml:lang="es">cheques y pagarés</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#cryptocurrencies -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#cryptocurrencies">
-        <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#PaymentMethod"/>
-        <rdfs:label xml:lang="es">criptomonedas</rdfs:label>
-        <rdfs:label xml:lang="en">cryptocurrencies</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#directBill -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#directBill">
-        <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#PaymentMethod"/>
-        <rdfs:label xml:lang="en">direct bill</rdfs:label>
-        <rdfs:label xml:lang="es">domiciliación bancaria</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#friday -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#friday">
@@ -8900,15 +8771,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#DayOfTheWeek"/>
         <rdfs:label xml:lang="en">Monday</rdfs:label>
         <rdfs:label xml:lang="es">lunes</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#payPal -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/def/core#payPal">
-        <rdf:type rdf:resource="https://ontologia.segittur.es/turismo/def/core#PaymentMethod"/>
-        <rdfs:label xml:lang="es">payPal</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -9334,6 +9196,14 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/kos/PassengerTransportServiceType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/PassengerTransportServiceType">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/kos/PaymentMethod -->
+
+    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/PaymentMethod">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
     </owl:NamedIndividual>
     
