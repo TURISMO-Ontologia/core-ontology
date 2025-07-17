@@ -587,17 +587,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#hasPersonRole -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#hasPersonRole">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Person"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#PersonRole"/>
-        <rdfs:label xml:lang="es">actúa con rol</rdfs:label>
-        <rdfs:label xml:lang="en">has person role</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#hasPriceClass -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#hasPriceClass">
@@ -2463,17 +2452,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#originLocation -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#originLocation">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Person"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#Location"/>
-        <rdfs:label xml:lang="es">lugar de origen</rdfs:label>
-        <rdfs:label xml:lang="en">origin location</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#parkingType -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#parkingType">
@@ -2754,17 +2732,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#age -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#age">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Person"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-        <rdfs:label xml:lang="en">age</rdfs:label>
-        <rdfs:label xml:lang="es">edad</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#allinclusivePackage -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#allinclusivePackage">
@@ -2923,17 +2890,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#averageDailyExpenditure -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#averageDailyExpenditure">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Tourist"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-        <rdfs:label xml:lang="en">average daily expenditure</rdfs:label>
-        <rdfs:label xml:lang="es">gasto diario medio</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#beginsAt -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#beginsAt">
@@ -2958,17 +2914,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">brand</rdfs:label>
         <rdfs:label xml:lang="es">marca</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#bringsBagagge -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#bringsBagagge">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Tourist"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <rdfs:label xml:lang="en">brings baggage</rdfs:label>
-        <rdfs:label xml:lang="es">lleva equipaje</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3266,17 +3211,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">frequently asked questions</rdfs:label>
         <rdfs:label xml:lang="es">preguntas frecuentes</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#hiresTourPackage -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#hiresTourPackage">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Tourist"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <rdfs:label xml:lang="es">compra un paquete turístico</rdfs:label>
-        <rdfs:label xml:lang="en">hires tour package</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3727,17 +3661,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#preferredTravelSeason -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#preferredTravelSeason">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Tourist"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="en">preferred travel season</rdfs:label>
-        <rdfs:label xml:lang="es">temporada de viaje preferida</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#price -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#price">
@@ -3931,17 +3854,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#spokenLanguage -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#spokenLanguage">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Person"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="es">idioma hablado</rdfs:label>
-        <rdfs:label xml:lang="en">spoken language</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#standardPrice -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#standardPrice">
@@ -4122,17 +4034,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="es">autoridad de la infraestructura de transporte</rdfs:label>
         <rdfs:label xml:lang="en">transport infrastructure authority</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#travelFrequency -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#travelFrequency">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Tourist"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="es">frecuencia de viaje</rdfs:label>
-        <rdfs:label xml:lang="en">travel frequency</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -5931,18 +5832,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#Excursionist -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Excursionist">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#PersonRole"/>
-        <rdfs:comment xml:lang="en">Person who travels but does not spend the night in a main destination other than their usual environment, for any main purpose other than to be employed by an entity resident in the country or place visited.</rdfs:comment>
-        <rdfs:comment xml:lang="es">Persona que viaja pero no pernocta en un destino principal distinto al de su entorno habitual, con cualquier finalidad principal que no sea la de ser empleado por una entidad residente en el país o lugar visitado.</rdfs:comment>
-        <rdfs:label xml:lang="en">excursionist</rdfs:label>
-        <rdfs:label xml:lang="es">excursionista</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#ExhibitionHall -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#ExhibitionHall">
@@ -7348,44 +7237,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#Person -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Person">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasPersonRole"/>
-                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#PersonRole"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#originLocation"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#age"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">person</rdfs:label>
-        <rdfs:label xml:lang="es">persona</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#PersonRole -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#PersonRole">
-        <rdfs:label xml:lang="en">person role</rdfs:label>
-        <rdfs:label xml:lang="es">rol de una persona</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#Pharmacy -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Pharmacy">
@@ -7747,18 +7598,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:comment xml:lang="en">Public establishment where travelers or stable guests stay.</rdfs:comment>
         <rdfs:label xml:lang="en">Residence</rdfs:label>
         <rdfs:label xml:lang="es">Residencia</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#Resident -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Resident">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#PersonRole"/>
-        <rdfs:comment xml:lang="en">Person whose center of predominant economic interest is located in its economic territory.</rdfs:comment>
-        <rdfs:comment xml:lang="es">Persona cuyo centro de interés económico predominante está ubicado en su territorio económico.</rdfs:comment>
-        <rdfs:label xml:lang="en">resident</rdfs:label>
-        <rdfs:label xml:lang="es">residente</rdfs:label>
     </owl:Class>
     
 
@@ -8591,54 +8430,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:comment xml:lang="en">Class that groups in a general manner all services that are relevant for the tourism sector, so as to group all common properties to all these services.</rdfs:comment>
         <rdfs:label xml:lang="es">Servicio turístico</rdfs:label>
         <rdfs:label xml:lang="en">Tourism Service</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#Tourist -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Tourist">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#PersonRole"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#travelUnit"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#averageDailyExpenditure"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#bringsBagagge"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hiresTourPackage"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#preferredTravelSeason"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#travelFrequency"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">Person who travels, spends the night and purchases a product or service at least once, in a destination other than their usual environment, for a duration of less than one year, with any main purpose other than being employed by an entity resident in the country or place visited</rdfs:comment>
-        <rdfs:comment xml:lang="es">Persona que viaja, pernocta y ejerce la acción de compra de un producto o servicio como mínimo una vez, en un destino distinto al de su entorno habitual, por una duración inferior a un año, con cualquier finalidad principal que no sea la de ser empleado por una entidad residente en el país o lugar visitado</rdfs:comment>
-        <rdfs:label xml:lang="en">tourist</rdfs:label>
-        <rdfs:label xml:lang="es">turista</rdfs:label>
     </owl:Class>
     
 
