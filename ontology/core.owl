@@ -748,28 +748,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalAirportService -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalAirportService">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalService"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Airport"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/AirportServiceType"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional airport service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de aeropuerto</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalAmusementParkService -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalAmusementParkService">
@@ -854,28 +832,6 @@
         </rdfs:range>
         <rdfs:label xml:lang="en">offers additional bus operator service</rdfs:label>
         <rdfs:label xml:lang="es">ofrece servicio adicional de operador de autocares</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalBusStationService -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalBusStationService">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalService"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#BusStation"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/BusStationServiceType"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional bus station service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de estación de autobuses</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1439,28 +1395,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalTrainStationService -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalTrainStationService">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalService"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TrainStation"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/TrainStationServiceType"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional train station service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de estación de tren</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalTransportInfrastructureService -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalTransportInfrastructureService">
@@ -1988,14 +1922,6 @@
     
 
 
-    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
-
-    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#BicycleSharingSystem"/>
-    </rdf:Description>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#allinclusive -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#allinclusive">
@@ -2033,17 +1959,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">autonomous community</rdfs:label>
         <rdfs:label xml:lang="es">comunidad autónoma</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#availableBikeNumber -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#availableBikeNumber">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#BicycleSharingSystem"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-        <rdfs:label xml:lang="en">available bike number</rdfs:label>
-        <rdfs:label xml:lang="es">número de bicicletas disponibles</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2254,17 +2169,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:label xml:lang="en">ends at</rdfs:label>
         <rdfs:label xml:lang="es">termina en</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#freeSlotNumber -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#freeSlotNumber">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#BicycleSharingSystem"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-        <rdfs:label xml:lang="en">free slot number</rdfs:label>
-        <rdfs:label xml:lang="es">número de huecos disponibles</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2594,6 +2498,17 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label xml:lang="es">acceso público</rdfs:label>
         <rdfs:label xml:lang="en">public access</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#publicTransportStopZone -->
+
+    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#publicTransportStopZone">
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#PublicTransportStop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">public transport stop zone</rdfs:label>
+        <rdfs:label xml:lang="es">zona de la parada de transporte público</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2946,17 +2861,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#zone -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#zone">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#PublicTransportStop"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="es">zona</rdfs:label>
-        <rdfs:label xml:lang="en">zone</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3163,12 +3067,6 @@
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Airport">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TransportInfrastructure"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalAirportService"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Area intended for the landing and takeoff of airplanes equipped with facilities for air traffic control and passenger services.</rdfs:comment>
         <rdfs:comment xml:lang="es">Área destinada al aterrizaje y despegue de aviones dotada de instalaciones para el control del tráfico aéreo y de servicios a los pasajeros.</rdfs:comment>
         <rdfs:label xml:lang="es">aeropuerto</rdfs:label>
@@ -3597,12 +3495,6 @@
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#BusStation">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TransportInfrastructure"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalBusStationService"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Facility for the arrival and departure of buses.</rdfs:comment>
         <rdfs:comment xml:lang="es">Instalación destinada a la llegada y salida de autobuses.</rdfs:comment>
         <rdfs:label xml:lang="en">bus station</rdfs:label>
@@ -5747,7 +5639,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#zone"/>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#publicTransportStopZone"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
@@ -6825,16 +6717,11 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/def/core#TrainStation -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TrainStation">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TransportInfrastructure"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalTrainStationService"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Instalación ferroviaria con vías a la que pueden llegar y desde la que se pueden expedir trenes.</rdfs:comment>
         <rdfs:comment xml:lang="en">Railway facility with tracks that can be reached and from which trains can be dispatched.</rdfs:comment>
-        <rdfs:label xml:lang="es">estación de ferrocarril</rdfs:label>
+        <rdfs:label xml:lang="es">estación de tren</rdfs:label>
         <rdfs:label xml:lang="en">train station</rdfs:label>
     </owl:Class>
     
@@ -7246,14 +7133,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/kos/AirportServiceType -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/AirportServiceType">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/kos/AmusementParkServiceType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/AmusementParkServiceType">
@@ -7297,14 +7176,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/kos/BusOperatorServiceType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/BusOperatorServiceType">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/kos/BusStationServiceType -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/BusStationServiceType">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
     </owl:NamedIndividual>
     
@@ -7657,14 +7528,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/kos/TouristOrRelatedFacilityServiceType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/TouristOrRelatedFacilityServiceType">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/kos/TrainStationServiceType -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/TrainStationServiceType">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
     </owl:NamedIndividual>
     
