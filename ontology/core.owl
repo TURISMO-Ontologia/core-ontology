@@ -815,7 +815,7 @@
             </owl:Class>
         </rdfs:range>
         <rdfs:label xml:lang="en">offers additional amusement park service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de parque de entretenimiento</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional del parque de atracciones</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -837,7 +837,7 @@
             </owl:Class>
         </rdfs:range>
         <rdfs:label xml:lang="en">offers additional aquarium service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de acuario</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional del acuario</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -859,7 +859,7 @@
             </owl:Class>
         </rdfs:range>
         <rdfs:label xml:lang="en">offers additional art gallery service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de galería de arte</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional de la galería de arte</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -945,7 +945,7 @@
             </owl:Class>
         </rdfs:range>
         <rdfs:label xml:lang="en">offers additional culture centre service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de centro cultural</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional del centro cultural</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1038,28 +1038,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalExhibitionHallService -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalExhibitionHallService">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalService"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#ExhibitionHall"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/ExhibitionHallServiceType"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional exhibition hall service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de sala de exhibiciones</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalGymService -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalGymService">
@@ -1077,7 +1055,7 @@
             </owl:Class>
         </rdfs:range>
         <rdfs:label xml:lang="en">offers additional gym service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de gimnasio</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional del gimnasio</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1120,30 +1098,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional health and beauty service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de salud y belleza</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalHealthResortService -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalHealthResortService">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalService"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#HealthResort"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/HealthResortServiceType"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional health resort service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de resort de salud</rdfs:label>
+        <rdfs:label xml:lang="en">offers additional health and beauty facility service</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional de la instalación de salud y bienestar</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1186,30 +1142,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional lesire and culture service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de ocio y cultura</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalMovieTheatreService -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalMovieTheatreService">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalService"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#MovieTheater"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/MovieTheatreServiceType"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional movie theatre service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de sala de cine</rdfs:label>
+        <rdfs:label xml:lang="en">offers additional leisure and culture facility service</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional de la instalación de ocio y cultura</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1231,7 +1165,7 @@
             </owl:Class>
         </rdfs:range>
         <rdfs:label xml:lang="en">offers additional museum service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de museo</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional del museo</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1274,8 +1208,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional party and entertainment service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de fiestas y entretenimiento</rdfs:label>
+        <rdfs:label xml:lang="en">offers additional party and entertainment facility service</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional de la instalación para fiestas y entretenimiento</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1297,7 +1231,7 @@
             </owl:Class>
         </rdfs:range>
         <rdfs:label xml:lang="en">offers additional planetarium service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de planetario</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional del planetario</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1373,8 +1307,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional sport service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de deportes</rdfs:label>
+        <rdfs:label xml:lang="en">offers additional sportsfacility service</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional de la instalación deportiva</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1396,7 +1330,7 @@
             </owl:Class>
         </rdfs:range>
         <rdfs:label xml:lang="en">offers additional stadium service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de estadio</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional del estadio</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1418,29 +1352,7 @@
             </owl:Class>
         </rdfs:range>
         <rdfs:label xml:lang="en">offers additional swimming pool service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de piscina</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalTheaterService -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalTheaterService">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalService"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Theater"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/TheatreServiceType"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional theatre service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de teatro</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional de la piscina</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1550,7 +1462,7 @@
             </owl:Class>
         </rdfs:range>
         <rdfs:label xml:lang="en">offers additional tourist or related facility service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de instalación turística</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional de la instalación turística o vinculada</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1617,28 +1529,6 @@
         </rdfs:range>
         <rdfs:label xml:lang="en">offers additional travel agency service</rdfs:label>
         <rdfs:label xml:lang="es">ofrece servicio adicional de agencia de viajes</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalVehicleExperienceService -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalVehicleExperienceService">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalService"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#VehicleExperience"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/VehicleExperienceType"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional vehicle experience service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de experiencia con vehículos</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1726,7 +1616,7 @@
             </owl:Class>
         </rdfs:range>
         <rdfs:label xml:lang="en">offers additional soo service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de zoológico</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece servicio adicional del zoo</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1803,8 +1693,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
-        <rdfs:label xml:lang="en">multiadventure activity type</rdfs:label>
-        <rdfs:label xml:lang="es">tipo de actividad multiaventura</rdfs:label>
+        <rdfs:label xml:lang="en">offers multiadventure activity</rdfs:label>
+        <rdfs:label xml:lang="es">ofrece actividad multiaventura</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2089,18 +1979,7 @@
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#vehicleExperienceType">
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#VehicleExperience"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/VehicleExperienceType"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:label xml:lang="es">tipo de experiencia de vehículo</rdfs:label>
+        <rdfs:label xml:lang="es">tipo de experiencia en vehículo</rdfs:label>
         <rdfs:label xml:lang="en">vehicle experience type</rdfs:label>
     </owl:ObjectProperty>
     
@@ -2610,17 +2489,6 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:label xml:lang="es">capacidad máxima</rdfs:label>
         <rdfs:label xml:lang="en">maximum capacity</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#maximumDuration -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#maximumDuration">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#VehicleExperience"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="es">duración máxima</rdfs:label>
-        <rdfs:label xml:lang="en">maximum duration</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -3160,17 +3028,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#visitduration -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#visitduration">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TouristOrRelatedFacility"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="es">duración de la visita</rdfs:label>
-        <rdfs:label xml:lang="en">visit duration</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#voltage -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#voltage">
@@ -3678,7 +3535,7 @@
         <rdfs:comment xml:lang="es">Establecimiento orientado a la belleza y cuidado del cuerpo.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment aimed at beauty and body care.</rdfs:comment>
         <rdfs:label xml:lang="en">beauty centre</rdfs:label>
-        <rdfs:label xml:lang="es">centro de belleza</rdfs:label>
+        <rdfs:label xml:lang="es">centro estético</rdfs:label>
     </owl:Class>
     
 
@@ -4105,7 +3962,7 @@
         <rdfs:comment xml:lang="es">Instalación deportiva consistente en una pared rocosa para el entrenamiento de la escalada.</rdfs:comment>
         <rdfs:comment xml:lang="en">Sports facility consisting of a rock wall for climbing training.</rdfs:comment>
         <rdfs:label xml:lang="en">climbing wall</rdfs:label>
-        <rdfs:label xml:lang="es">pared de escalada</rdfs:label>
+        <rdfs:label xml:lang="es">rocódromo</rdfs:label>
     </owl:Class>
     
 
@@ -4219,6 +4076,7 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#CultureCentre -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#CultureCentre">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LeisureAndCultureFacility"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4442,7 +4300,7 @@
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#EngineCircuit">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#SportFacility"/>
-        <rdfs:label xml:lang="es">circuito del motor</rdfs:label>
+        <rdfs:label xml:lang="es">circuito de motor</rdfs:label>
         <rdfs:label xml:lang="en">engine circuit</rdfs:label>
     </owl:Class>
     
@@ -4794,17 +4652,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#Gastronomy_-_deprecated -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Gastronomy_-_deprecated">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
-        <rdfs:comment xml:lang="es">Referido a la cocina, los productos y platos típicos de una región como experiencia cultural de un destino.</rdfs:comment>
-        <rdfs:label xml:lang="en">gastronomy -deprecated</rdfs:label>
-        <rdfs:label xml:lang="es">gastronomía - deprecado</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#GeneralStore -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#GeneralStore">
@@ -4918,17 +4765,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#HandicraftAndLocalProduct -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#HandicraftAndLocalProduct">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
-        <rdfs:comment xml:lang="es">Productos artesanales y creaciones hechas a mano por artesanos locales (tejidos, cerámica, joyería, productos de cuero, talla de madera, etc.)</rdfs:comment>
-        <rdfs:label xml:lang="es">artesanía y producto local</rdfs:label>
-        <rdfs:label xml:lang="en">handicraft and local product</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#Handicrafts -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Handicrafts">
@@ -4961,12 +4797,6 @@
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#HealthResort">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HealthAndWellnessFacility"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalHealthResortService"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Establecimiento dotado de instalaciones apropiadas para tomar baños medicinales y curativos.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment equipped with appropriate facilities to take medicinal and curative baths.</rdfs:comment>
         <rdfs:label xml:lang="es">balneario</rdfs:label>
@@ -5432,12 +5262,6 @@
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#MovieTheater">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LeisureAndCultureFacility"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalMovieTheatreService"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Establecimiento destinado a la proyección de películas cinematográficas.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment intended for the projection of cinematographic films.</rdfs:comment>
         <rdfs:label xml:lang="es">cine</rdfs:label>
@@ -5498,6 +5322,7 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#Museum -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Museum">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LeisureAndCultureFacility"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6484,6 +6309,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/def/core#Stadium -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Stadium">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#SportFacility"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6639,13 +6465,8 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/def/core#Theater -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Theater">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LeisureAndCultureFacility"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalTheaterService"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Building or site intended for the representation of dramatic works or other public spectacles typical of the scene.</rdfs:comment>
         <rdfs:comment xml:lang="es">Edificio o sitio destinado a la representación de obras dramáticas o a otros espectáculos públicos propios de la escena.</rdfs:comment>
         <rdfs:label xml:lang="es">teatro</rdfs:label>
@@ -6868,12 +6689,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#visitduration"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Lugar, sitio o elemento que tiene un valor significativo y atractivo para los turistas y es capaz de motivar su desplazamiento. Suelen ser destacados por su belleza escénica, importancia histórica, singularidad cultural o valor recreativo.</rdfs:comment>
         <rdfs:comment xml:lang="en">Place, site or element that has a significant and attractive value for tourists and is capable of motivating their movement. They are often noted for their scenic beauty, historical importance, cultural uniqueness, or recreational value.</rdfs:comment>
         <rdfs:label xml:lang="es">Recurso turístico</rdfs:label>
@@ -7043,7 +6858,8 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/def/core#TouristOrRelatedFacility -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TouristOrRelatedFacility">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismResource"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#Location"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offeredBy"/>
@@ -7248,22 +7064,9 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LeisureAndCultureFacility"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalVehicleExperienceService"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#vehicleExperienceType"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
                 <owl:onClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#maximumDuration"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Pequeñas excursiones en tren, bus o barco para conocer los principales monumentos y atracciones de una ciudad.</rdfs:comment>
@@ -7331,7 +7134,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Vineyard">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#AgrotourismFacility"/>
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LeisureAndCultureFacility"/>
         <rdfs:comment xml:lang="en">Land planted with vineyards belonging to a winery, area, region, country, designation of origin, etc. A characteristic element of the wine landscape of La Rioja and Rioja Alavesa, currently in disuse, it became popular at the end of the 19th century, although its origin dates back centuries.</rdfs:comment>
         <rdfs:comment xml:lang="es">Tierra plantada de viñas perteneciente a una bodega, zona, región, país, denominación de origen, etc. Elemento característico del paisaje vitivinícola de La  Rioja y la Rioja Alavesa actualmente en desuso, se popularizó a finales del siglo XIX, aunque su origen se remonta a siglos atrás.</rdfs:comment>
         <rdfs:label xml:lang="en">vineyard</rdfs:label>
@@ -7411,7 +7213,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Winery">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#AgrotourismFacility"/>
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LeisureAndCultureFacility"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalWineryService"/>
@@ -7737,14 +7538,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/kos/ExhibitionHallServiceType -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/ExhibitionHallServiceType">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/kos/GymServiceType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/GymServiceType">
@@ -7764,14 +7557,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/kos/HealthAndBeautyServiceType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/HealthAndBeautyServiceType">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/kos/HealthResortServiceType -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/HealthResortServiceType">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
     </owl:NamedIndividual>
     
@@ -7828,14 +7613,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/kos/MilitaryBuildingType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/MilitaryBuildingType">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/kos/MovieTheatreServiceType -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/MovieTheatreServiceType">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
     </owl:NamedIndividual>
     
@@ -7985,14 +7762,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/kos/TheatreServiceType -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/TheatreServiceType">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/kos/TourGuideServiceType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/TourGuideServiceType">
@@ -8068,14 +7837,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/kos/TravelUnitType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/TravelUnitType">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/kos/VehicleExperienceType -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/VehicleExperienceType">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
     </owl:NamedIndividual>
     
