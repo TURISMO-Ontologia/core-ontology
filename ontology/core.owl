@@ -1807,17 +1807,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalVehicleRentalService -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalVehicleRentalService">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalService"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#VehicleRentalService"/>
-        <rdfs:label xml:lang="en">offers additional vehicle rental service</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio adicional de alquiler de vehículos</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalVineyardService -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalVineyardService">
@@ -2207,7 +2196,6 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#vehicleType -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#vehicleType">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#VehicleRentalService"/>
         <rdfs:range>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -7493,22 +7481,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:comment xml:lang="es">Entidad comercial que se dedica a proporcionar servicios de alquiler de vehículos a corto plazo a viajeros que necesitan un medio de transporte temporal.</rdfs:comment>
         <rdfs:label xml:lang="es">empresa de alquiler de vehículos</rdfs:label>
         <rdfs:label xml:lang="en">vehicle rental company</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#VehicleRentalService -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#VehicleRentalService">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#vehicleType"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="es">servicio de alquiler de vehículos</rdfs:label>
-        <rdfs:label xml:lang="en">vehicle rental service</rdfs:label>
     </owl:Class>
     
 
