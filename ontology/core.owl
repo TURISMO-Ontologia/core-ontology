@@ -591,7 +591,6 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#labelType -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#labelType">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Label"/>
         <rdfs:range>
             <owl:Class>
@@ -1823,36 +1822,6 @@
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#vehicleExperienceType -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#vehicleExperienceType">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#VehicleExperience"/>
-        <rdfs:label xml:lang="es">tipo de experiencia en vehículo</rdfs:label>
-        <rdfs:label xml:lang="en">vehicle experience type</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#vehicleType -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#vehicleType">
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/VehicleType"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:label xml:lang="es">tipo de vehículo</rdfs:label>
-        <rdfs:label xml:lang="en">vehicle type</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#workingArea -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#workingArea">
@@ -1936,6 +1905,14 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#beginsAt -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#beginsAt">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#DestinationExperience"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#EventSession"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:label xml:lang="en">begins at</rdfs:label>
         <rdfs:label xml:lang="es">comienza en</rdfs:label>
@@ -2157,6 +2134,7 @@
     <!-- https://ontologia.segittur.es/turismo/def/core#isAccesibleForFree -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#isAccesibleForFree">
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#PriceSpecification"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label xml:lang="en">accesible for free</rdfs:label>
         <rdfs:label xml:lang="es">accesso gratuito</rdfs:label>
@@ -6669,13 +6647,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#VehicleExperience">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LeisureAndCultureFacility"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#vehicleExperienceType"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Pequeñas excursiones en tren, bus o barco para conocer los principales monumentos y atracciones de una ciudad.</rdfs:comment>
         <rdfs:comment xml:lang="en">Small excursions by train, bus or boat to see the main monuments and attractions of a city.</rdfs:comment>
         <rdfs:label xml:lang="es">experiencia en vehículo</rdfs:label>
@@ -7403,14 +7374,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/kos/VehicleRentalCompanyServiceType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/VehicleRentalCompanyServiceType">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/kos/VehicleType -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/VehicleType">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
     </owl:NamedIndividual>
     
