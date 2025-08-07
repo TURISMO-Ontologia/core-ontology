@@ -2999,18 +2999,6 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#universalAccessibility -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#universalAccessibility">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Certification"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <rdfs:label xml:lang="es">accesibilidad universal</rdfs:label>
-        <rdfs:label xml:lang="en">universal accesibility</rdfs:label>
-        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#url -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#url">
@@ -3932,13 +3920,6 @@ It is possible that this annotation property is taken out in the future from the
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Certification">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#Acknowledgement"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#universalAccessibility"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Certificados que indican el cumplimiento de normas, requisitos, características o exigencias</rdfs:comment>
         <rdfs:comment xml:lang="en">Certificates that indicate compliance with standards, requirements, characteristics or demands</rdfs:comment>
         <rdfs:label xml:lang="es">Certificación</rdfs:label>
