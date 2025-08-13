@@ -3056,13 +3056,13 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#AccesoriesAndComplements -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#AccessoriesAndComplements -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#AccesoriesAndComplements">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#AccessoriesAndComplements">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
         <rdfs:comment xml:lang="es">Establecimiento en el que se venden objetos que complementan la indumentaria de una persona, como bolsos, calzado, paraguas, corbatas, sombreros, gafas, guantes, etc.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment in which objects that complement a person&apos;s clothing are sold, such as bags, footwear, umbrellas, ties, hats, glasses, gloves, etc.</rdfs:comment>
-        <rdfs:label xml:lang="en">accesories and complements</rdfs:label>
+        <rdfs:label xml:lang="en">accessories and complements</rdfs:label>
         <rdfs:label xml:lang="es">tienda de accesorios y complementos</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
@@ -4576,6 +4576,12 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#cuisineType"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalRestaurantService"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
             </owl:Restriction>
         </rdfs:subClassOf>
