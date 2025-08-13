@@ -97,7 +97,7 @@ ex:OperadorBus1LocationGeometry a geosparql:Geometry, geo:Point ;
       });
  </script>
 
-<p><a href="#TourismService">Tourism Services</a> are classified, as shown in figure 4, as <a href="#AccommodationEstablishment">Accommodation Establishment</a>, <a href="#FoodEstablishment">Food Establishment</a>, <a href="#DestinationExperience">Destination Experiences</a>, <a href="#EventSession">Event Sessions</a>, <a href="#HolidayPackage">Holiday Packages</a>, <a href="Tour">Tours</a> and <a href="TouristDestinationService">Tourist Destination Services</a>. Several of these classes are further classified into other subclasses. </p>
+<p><a href="#TourismService">Tourism Services</a> are classified, as shown in figure 4, as <a href="#AccommodationEstablishment">Accommodation Establishment</a>, <a href="#FoodEstablishment">Food Establishment</a>, <a href="#DestinationExperience">Destination Experiences</a>, <a href="#HolidayPackage">Holiday Packages</a> and <a href="Tour">Tours</a>. Several of these classes are further classified into other subclasses. </p>
 
 <p><center><img src="images/fig4-TourismService.png"/><figcaption>Figure 4. Classification of Tourism Services.</figcaption></center></p>
 
@@ -211,7 +211,7 @@ ex:CongressCentre1OpeningHoursWeekend a estur:OpeningHours ;
     
 <p>Next we include some additional examples that are relevant in this reference conceptual model.</p> 
 
-<p>We start with the class <a href="#Event">Event</a>, whose main properties and relations with other classes and thesauri are shown in figure 7. Events are organised by <a href="#EventOrganisationCompany">Event organisation companies</a>, which have a set of applicable properties, such as who is performing in the event, whether it is an open air event or not, the maximum capacity, and the range of dates when it is available. Furthermore, events can have associated <a href="#EventSession">Sessions</a>. They can be of different types and offer additional services. This is in addition to properties that we have already indicated for tourism services. Next we show an example of a musical event (a concert) that happens in two consecutive days, and which offers as an additional service the availability of lockers. This event is contained in another event (in a cultural week) and is hosted in the congress centre that was already presented above.</p>
+<p>We start with the class <a href="#Event">Event</a>, whose main properties and relations with other classes and thesauri are shown in figure 7. Events are organised by <a href="#EventOrganisationCompany">Event organisation companies</a>, which have a set of applicable properties, such as who is performing in the event, whether it is an open air event or not, the maximum capacity, and the range of dates when it is available. Furthermore, events can have associated <a href="#subEvent">sub events</a>. They can be of different types and offer additional services. This is in addition to properties that we have already indicated for tourism services. Next we show an example of a musical event (a concert) that happens in two consecutive days, and which offers as an additional service the availability of lockers. This event is contained in another event (in a cultural week) and is hosted in the congress centre that was already presented above.</p>
 
 <p><center><img src="images/fig7-Event.png"/><figcaption>Figure 7. Conceptual model for Events.</figcaption></center></p>
 
@@ -220,29 +220,29 @@ ex:CongressCentre1OpeningHoursWeekend a estur:OpeningHours ;
 @prefix estur-eventservice: &lt;https://ontologia.segittur.es/turismo/kos/eventservice/&gt; .
 
 ex:Event1 a estur:Event ;
-  rdfs:label "Evento 1" ;
+  rdfs:label "Event 1" ;
   estur:outdoorEvent "false"^^xsd:boolean ;
   estur:maximumAttendeeCapacity "1500"^^xsd:int ;
   estur:availabilityStarts "2024-12-07"^^xsd:date ;
   estur:availabilityEnds "2025-01-31"^^xsd:date ;
-  estur:eventSession ex:Event1Session1, ex:Event1Session2 ;
+  estur:subEvent ex:Event1Session1, ex:Event1Session2 ;
   estur:eventType estur-event:Music ;
   estur:offersAdditionalEventService estur-eventservice:Lockers ;
   estur:containedIn ex:Event2 ;
   estur:offeredBy ex:CongressCentre1 .
   
 ex:Event2 a estur:Event ;
-  rdfs:label "Evento 2 - semana cultural" .
+  rdfs:label "Event 2 - cultural week" .
   
-ex:Event1Session1 a estur:EventSession ;
-  rdfs:label "Sesión 1 del Evento 1" ;
-  estur:sessionDate "2025-03-24"^^xsd:date ;
+ex:Event1Session1 a estur:Event ;
+  rdfs:label "Session 1 of Event 1" ;
+  estur:eventDate "2025-03-24"^^xsd:date ;
   estur:startsAt "20:30" ;
   estur:endsAt "22:30" .
 
 ex:Event1Session1 a estur:EventSession ;
-  rdfs:label "Sesión 2 del Evento 1" ;
-  estur:sessionDate "2025-03-25"^^xsd:date ;
+  rdfs:label "Session 2 of Evento 2" ;
+  estur:eventDate "2025-03-25"^^xsd:date ;
   estur:startsAt "20:30" ;
   estur:endsAt "22:30" .
 </textarea></pre>
