@@ -2180,6 +2180,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#country -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#country">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Location"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">country</rdfs:label>
@@ -2355,12 +2356,12 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#isAccesibleForFree -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#isAccessibleForFree -->
 
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#isAccesibleForFree">
+    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#isAccessibleForFree">
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#PriceSpecification"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <rdfs:label xml:lang="en">accesible for free</rdfs:label>
+        <rdfs:label xml:lang="en">accessible for free</rdfs:label>
         <rdfs:label xml:lang="es">accesso gratuito</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:DatatypeProperty>
@@ -4340,6 +4341,12 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismEntity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasContactPoint"/>
+                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#ContactPoint"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalEventService"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
             </owl:Restriction>
@@ -4362,6 +4369,13 @@ It is possible that this annotation property is taken out in the future from the
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#eventType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasContactPoint"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#BookingChannel"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4993,6 +5007,12 @@ It is possible that this annotation property is taken out in the future from the
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Label">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#Acknowledgement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#labelType"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Aquellos reconocimientos que el propio establecimiento se otorga, o que son obtenidos a través de una membresía.</rdfs:comment>
         <rdfs:comment xml:lang="en">Those recognitions that the establishment itself grants, or that are obtained through a membership.</rdfs:comment>
         <rdfs:label xml:lang="es">Distintivo</rdfs:label>
@@ -5079,6 +5099,13 @@ It is possible that this annotation property is taken out in the future from the
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#country"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#locality"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -5102,13 +5129,6 @@ It is possible that this annotation property is taken out in the future from the
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#streetAddress"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#country"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5743,7 +5763,7 @@ It is possible that this annotation property is taken out in the future from the
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#isAccesibleForFree"/>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#isAccessibleForFree"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
             </owl:Restriction>
@@ -6704,6 +6724,13 @@ quality, performance or satisfaction. Based on this score, the instances of each
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasContactPoint"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#BookingChannel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasOpeningHours"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#OpeningHours"/>
@@ -6738,6 +6765,13 @@ quality, performance or satisfaction. Based on this score, the instances of each
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasOpeningHours"/>
                 <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#OpeningHours"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasContactPoint"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#BookingChannel"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6790,6 +6824,13 @@ quality, performance or satisfaction. Based on this score, the instances of each
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#program"/>
                 <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#Program"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasContactPoint"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#BookingChannel"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
