@@ -310,17 +310,6 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#containedIn -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#containedIn">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
-        <rdfs:label xml:lang="en">contained in</rdfs:label>
-        <rdfs:label xml:lang="es">contenido en</rdfs:label>
-        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#cuisineType -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#cuisineType">
@@ -681,17 +670,6 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#integrates -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#integrates">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
-        <rdfs:label xml:lang="es">integra</rdfs:label>
-        <rdfs:label xml:lang="en">integrates</rdfs:label>
-        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#itinerary -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#itinerary">
@@ -809,17 +787,6 @@ It is possible that this annotation property is taken out in the future from the
         </rdfs:range>
         <rdfs:label xml:lang="en">museum type</rdfs:label>
         <rdfs:label xml:lang="es">tipo de museo</rdfs:label>
-        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#nearTo -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#nearTo">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
-        <rdfs:label xml:lang="es">cerca de</rdfs:label>
-        <rdfs:label xml:lang="en">near to</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:ObjectProperty>
     
@@ -1811,17 +1778,6 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersServiceOrTicket -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersServiceOrTicket">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
-        <rdfs:label xml:lang="en">offers service or ticket</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece servicio o ticket</rdfs:label>
-        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#offersTouristDestinationService -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersTouristDestinationService">
@@ -1851,28 +1807,6 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#Location"/>
         <rdfs:label xml:lang="en">on site</rdfs:label>
         <rdfs:label xml:lang="es">presencial</rdfs:label>
-        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#operatesWith -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#operatesWith">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
-        <rdfs:label xml:lang="es">opera con</rdfs:label>
-        <rdfs:label xml:lang="en">operates with</rdfs:label>
-        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#organisedBy -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#organisedBy">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
-        <rdfs:label xml:lang="en">organised by</rdfs:label>
-        <rdfs:label xml:lang="es">organizado por</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:ObjectProperty>
     
@@ -1941,17 +1875,6 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#promotes -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#promotes">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
-        <rdfs:label xml:lang="en">promotes</rdfs:label>
-        <rdfs:label xml:lang="es">promueve</rdfs:label>
-        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#refPointOfInterest -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#refPointOfInterest">
@@ -1966,19 +1889,6 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#Place"/>
         <rdfs:label xml:lang="es">punto de interés de referencia</rdfs:label>
         <rdfs:label xml:lang="en">reference point of interest</rdfs:label>
-        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#relatedEvent -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#relatedEvent">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#Event"/>
-        <rdfs:label xml:lang="es">evento relacionado</rdfs:label>
-        <rdfs:label xml:lang="en">related event</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:ObjectProperty>
     
@@ -2011,19 +1921,6 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">related to</rdfs:label>
         <estur-annot:orderInCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</estur-annot:orderInCategory>
         <estur-annot:presentationOrderCategory>acknowledgement</estur-annot:presentationOrderCategory>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#relatedTourismOrRelatedFacility -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#relatedTourismOrRelatedFacility">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
-        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismOrRelatedFacility"/>
-        <rdfs:label xml:lang="es">instalación turística o vinculada relacionada</rdfs:label>
-        <rdfs:label xml:lang="en">related tourism or related facility</rdfs:label>
-        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:ObjectProperty>
     
 
@@ -2176,17 +2073,6 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">unidad de viaje</rdfs:label>
         <estur-annot:orderInCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</estur-annot:orderInCategory>
         <estur-annot:presentationOrderCategory>acknowledgement</estur-annot:presentationOrderCategory>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#workingArea -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#workingArea">
-        <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTo"/>
-        <rdfs:label xml:lang="en">working area</rdfs:label>
-        <rdfs:label xml:lang="es">área de trabajo</rdfs:label>
-        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:ObjectProperty>
     
 
