@@ -215,6 +215,28 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#accommodationUnitCategory -->
+
+    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#accommodationUnitCategory">
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AccommodationEstablishment"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/AccommodationUnitCategory"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">accommodation unit category</rdfs:label>
+        <rdfs:label xml:lang="es">categoría de unidad de alojamiento</rdfs:label>
+        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#adversity -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#adversity">
@@ -928,28 +950,6 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersAccommodationRateType -->
-
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAccommodationRateType">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AccommodationEstablishment"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/AccommodationRateType"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
-        <rdfs:label xml:lang="en">offers meal plan</rdfs:label>
-        <rdfs:label xml:lang="es">ofrece plan de comidas</rdfs:label>
-        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalAccommodationService -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalAccommodationService">
@@ -1226,9 +1226,9 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalHandiCraftService -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#offersAdditionalHandicraftsService -->
 
-    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalHandiCraftService">
+    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalHandicraftsService">
         <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalService"/>
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Handicrafts"/>
         <rdfs:range>
@@ -1300,7 +1300,6 @@ It is possible that this annotation property is taken out in the future from the
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#offersAdditionalLeisureAndCultureService">
         <rdfs:subPropertyOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalService"/>
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#LeisureAndCultureFacility"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
         <rdfs:range>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1910,8 +1909,7 @@ It is possible that this annotation property is taken out in the future from the
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#NaturalResource"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Route"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrRelatedFacility"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
@@ -2074,6 +2072,28 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#sportsCentrePremises -->
+
+    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#sportsCentrePremises">
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#SportsCentre"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/SportsCentrePremise"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">instalaciones del polideportivo</rdfs:label>
+        <rdfs:label xml:lang="en">sports centre premises</rdfs:label>
+        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#stationType -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#stationType">
@@ -2210,6 +2230,50 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">unidad de viaje</rdfs:label>
         <estur-annot:orderInCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</estur-annot:orderInCategory>
         <estur-annot:presentationOrderCategory>acknowledgement</estur-annot:presentationOrderCategory>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#typeOfAccommodationRate -->
+
+    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#typeOfAccommodationRate">
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AccommodationEstablishment"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/AccommodationRateType"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">tipo de tarifa de alojamiento</rdfs:label>
+        <rdfs:label xml:lang="en">type of accommodation rate</rdfs:label>
+        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#vehicleExperienceType -->
+
+    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#vehicleExperienceType">
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#VehicleExperience"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/VehicleExperienceType"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">tipo de experiencia de vehículo</rdfs:label>
+        <rdfs:label xml:lang="en">vehicle experience type</rdfs:label>
+        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:ObjectProperty>
     
 
@@ -2369,6 +2433,19 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#autonomousCheckIn -->
+
+    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#autonomousCheckIn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AccommodationEstablishment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">autonomous check-in</rdfs:label>
+        <rdfs:label xml:lang="es">check-in autónomo</rdfs:label>
+        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#autonomousCommunity -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#autonomousCommunity">
@@ -2377,6 +2454,18 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">autonomous community</rdfs:label>
         <rdfs:label xml:lang="es">comunidad autónoma</rdfs:label>
+        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#averagePricePerPerson -->
+
+    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#averagePricePerPerson">
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#FoodEstablishment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="en">average price per person</rdfs:label>
+        <rdfs:label xml:lang="es">precio medio por persona</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:DatatypeProperty>
     
@@ -2444,6 +2533,25 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">category</rdfs:label>
         <rdfs:label xml:lang="es">categoría</rdfs:label>
+        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#chainOrGroup -->
+
+    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#chainOrGroup">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AccommodationEstablishment"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#FoodEstablishment"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">cadena o grupo</rdfs:label>
+        <rdfs:label xml:lang="en">chain or group</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:DatatypeProperty>
     
@@ -2938,19 +3046,6 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:comment xml:lang="en">numberOfBeds</rdfs:comment>
         <rdfs:comment xml:lang="es">número de camas</rdfs:comment>
-        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#online -->
-
-    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#online">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AccommodationEstablishment"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <rdfs:label xml:lang="es">check-in autónomo</rdfs:label>
-        <rdfs:label xml:lang="en">online check-in</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:DatatypeProperty>
     
@@ -3549,6 +3644,24 @@ It is possible that this annotation property is taken out in the future from the
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#accommodationUnitCategory"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalAccommodationService"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#typeOfAccommodationRate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasPriceClass"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3559,6 +3672,20 @@ It is possible that this annotation property is taken out in the future from the
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasPriceSpecification"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#PriceSpecification"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#autonomousCheckIn"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#chainOrGroup"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3587,13 +3714,6 @@ It is possible that this annotation property is taken out in the future from the
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#numberOfBeds"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#online"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Lugar donde una persona o un grupo de personas se hospeda, se aposenta o acampa.</rdfs:comment>
@@ -3771,6 +3891,13 @@ It is possible that this annotation property is taken out in the future from the
                 <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#AgritourismExperience"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasPriceClass"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Facility focused on promoting agricultural, livestock, and active tourism activities in rural settings.</rdfs:comment>
         <rdfs:comment xml:lang="es">Instalación enfocada a la promoción de actividades agrícolas, ganaderas y de turismo activo en entornos rurales.</rdfs:comment>
         <rdfs:label xml:lang="en">Agrotourism Facility</rdfs:label>
@@ -3821,6 +3948,12 @@ It is possible that this annotation property is taken out in the future from the
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#AmusementPark">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LeisureAndCultureFacility"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalAmusementParkService"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">A venue that hosts a wide variety of attractions and events for fun and entertainment.</rdfs:comment>
         <rdfs:comment xml:lang="es">Recinto que acoge una gran variedad de atracciones y acontecimientos destinados a la diversión y al entretenimiento.</rdfs:comment>
         <rdfs:label xml:lang="en">amusement park</rdfs:label>
@@ -3830,9 +3963,9 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#ApartHotel -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#Aparthotel -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#ApartHotel">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Aparthotel">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#AccommodationEstablishment"/>
         <rdfs:comment xml:lang="es">Establecimiento que facilita el servicio de alojamiento para clientes en estudios o unidades de servicio, dentro de las cuales se dispone de instalaciones adecuadas para la conservación, elaboración y consumo de alimentos.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment that provides accommodation service for clients in studios or service units, within which adequate facilities are available for the conservation, preparation and consumption of food.</rdfs:comment>
@@ -4151,19 +4284,6 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#BookShop -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#BookShop">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
-        <rdfs:comment xml:lang="en">Shop where books are sold</rdfs:comment>
-        <rdfs:comment xml:lang="es">Tienda donde se venden libros.</rdfs:comment>
-        <rdfs:label xml:lang="en">bookshop</rdfs:label>
-        <rdfs:label xml:lang="es">librería</rdfs:label>
-        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
-    </owl:Class>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#BookingChannel -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#BookingChannel">
@@ -4185,6 +4305,19 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">booking channel</rdfs:label>
         <rdfs:label xml:lang="es">canal de reserva</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#Bookshop -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Bookshop">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:comment xml:lang="en">Shop where books are sold</rdfs:comment>
+        <rdfs:comment xml:lang="es">Tienda donde se venden libros.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bookshop</rdfs:label>
+        <rdfs:label xml:lang="es">librería</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
 
@@ -5250,8 +5383,21 @@ It is possible that this annotation property is taken out in the future from the
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#menuOptions"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalRestaurantService"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasPriceClass"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5259,6 +5405,20 @@ It is possible that this annotation property is taken out in the future from the
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasPriceSpecification"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#PriceSpecification"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#averagePricePerPerson"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#chainOrGroup"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Businesses dedicated to the production of foods and beverages prepared for consumption.</rdfs:comment>
@@ -5475,7 +5635,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalHandiCraftService"/>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalHandicraftsService"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5492,6 +5652,12 @@ It is possible that this annotation property is taken out in the future from the
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#HealthAndWellnessFacility">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismOrRelatedFacility"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalHealthAndBeautyService"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">health and wellness facility</rdfs:label>
         <rdfs:label xml:lang="es">instalación de salud y bienestar</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
@@ -5678,6 +5844,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:comment xml:lang="en">Establishment in which meals are prepared and served and which is decorated in a traditional and rustic way.</rdfs:comment>
         <rdfs:label xml:lang="en">inn</rdfs:label>
         <rdfs:label xml:lang="es">mesón</rdfs:label>
+        <rdfs:label xml:lang="es">venta</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -5917,14 +6084,14 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#LuggageStore -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#LuggageStorage -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#LuggageStore">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#LuggageStorage">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousService"/>
         <rdfs:comment xml:lang="es">Lugares reservados para guardar el equipaje de forma segura y para espacios de tiempo cortos.</rdfs:comment>
         <rdfs:comment xml:lang="en">Reserved places to store luggage safely and for short periods of time.</rdfs:comment>
         <rdfs:label xml:lang="es">consigna de equipaje</rdfs:label>
-        <rdfs:label xml:lang="en">lugagge store</rdfs:label>
+        <rdfs:label xml:lang="en">lugagge storage</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -6236,14 +6403,14 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#OilPress -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#OliveOilMill -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#OilPress">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#OliveOilMill">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#AgrotourismFacility"/>
         <rdfs:comment xml:lang="es">Molino de aceite</rdfs:comment>
         <rdfs:comment xml:lang="en">Oil press</rdfs:comment>
         <rdfs:label xml:lang="es">Almazara</rdfs:label>
-        <rdfs:label xml:lang="en">Oil Press</rdfs:label>
+        <rdfs:label xml:lang="en">Olive Oil Mill</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -6327,13 +6494,13 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#PaddelCourt -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#PaddleCourt -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#PaddelCourt">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#PaddleCourt">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#SportFacility"/>
         <rdfs:comment xml:lang="es">Cancha rectangular cerrada para la práctica de este deporte.</rdfs:comment>
         <rdfs:comment xml:lang="en">Closed rectangular court for the practice of this sport.</rdfs:comment>
-        <rdfs:label xml:lang="en">paddel court</rdfs:label>
+        <rdfs:label xml:lang="en">paddle court</rdfs:label>
         <rdfs:label xml:lang="es">pista de pádel</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
@@ -6522,6 +6689,19 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:comment xml:lang="en">Recreational space focused on children, which has children&apos;s games and is usually in open spaces.</rdfs:comment>
         <rdfs:label xml:lang="es">parque infantil</rdfs:label>
         <rdfs:label xml:lang="en">playground</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#Playroom -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Playroom">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LeisureAndCultureFacility"/>
+        <rdfs:comment xml:lang="es">Centro de recreo donde se guardan juegos y juguetes para su uso y préstamo</rdfs:comment>
+        <rdfs:comment xml:lang="en">Recreation center where games and toys are stored for use and loan</rdfs:comment>
+        <rdfs:label xml:lang="es">Ludoteca</rdfs:label>
+        <rdfs:label xml:lang="es">Playroom</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -7415,6 +7595,12 @@ quality, performance or satisfaction. Based on this score, the instances of each
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersMultiadventureActivityType"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Espacios diseñados y equipados específicamente para brindar servicios y oportunidades relacionadas con actividades deportivas y recreativas para turistas, visitantes y residentes.</rdfs:comment>
         <rdfs:comment xml:lang="en">Spaces designed and equipped specifically to provide services and opportunities related to sports and recreational activities for tourists, visitors and residents.</rdfs:comment>
         <rdfs:label xml:lang="es">instalación deportiva</rdfs:label>
@@ -7428,6 +7614,12 @@ quality, performance or satisfaction. Based on this score, the instances of each
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#SportsCentre">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#SportFacility"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#sportsCentrePremises"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Lugar que dispone de diferentes instalaciones e infraestructuras para la práctica de disciplinas deportivas. También se puede denominar centro deportivo.</rdfs:comment>
         <rdfs:comment xml:lang="en">Place that has different facilities and infrastructure for practicing sports disciplines.</rdfs:comment>
         <rdfs:label xml:lang="es">polideportivo</rdfs:label>
@@ -7539,14 +7731,14 @@ quality, performance or satisfaction. Based on this score, the instances of each
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#Tailoring -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#TailorShop -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Tailoring">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TailorShop">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
         <rdfs:comment xml:lang="en">A tailor&apos;s shop and workshop</rdfs:comment>
         <rdfs:comment xml:lang="es">Tienda y taller de sastre</rdfs:comment>
         <rdfs:label xml:lang="es">Sastrería</rdfs:label>
-        <rdfs:label xml:lang="en">Tailoring</rdfs:label>
+        <rdfs:label xml:lang="en">Tailorshop</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -7947,10 +8139,67 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrRelatedFacility">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#Place"/>
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasAcknowledgement"/>
+                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#Acknowledgement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalTouristOrRelatedFacility"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#paymentMethod"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#touristType"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#travelUnit"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offeredBy"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismDestination"/>
+                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:onClass>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasAdditionalType"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#registrationNumber"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Infraestructuras y servicios que están diseñados tanto para satisfacer las necesidades de los turistas como para brindar beneficios a los residentes locales.</rdfs:comment>
         <rdfs:comment xml:lang="en">Infrastructure and services that are designed to both meet the needs of tourists and provide benefits to local residents.</rdfs:comment>
+        <rdfs:label xml:lang="en">Tourism or related facility</rdfs:label>
         <rdfs:label xml:lang="es">instalación turística o vinculada</rdfs:label>
-        <rdfs:label xml:lang="en">tourism or related facility</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -8297,19 +8546,6 @@ quality, performance or satisfaction. Based on this score, the instances of each
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#ToyLibrary -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#ToyLibrary">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LeisureAndCultureFacility"/>
-        <rdfs:comment xml:lang="es">Centro de recreo donde se guardan juegos y juguetes para su uso y préstamo</rdfs:comment>
-        <rdfs:comment xml:lang="en">Recreation center where games and toys are stored for use and loan</rdfs:comment>
-        <rdfs:label xml:lang="es">Ludoteca</rdfs:label>
-        <rdfs:label xml:lang="es">Toy Library</rdfs:label>
-        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
-    </owl:Class>
-    
-
-
     <!-- https://ontologia.segittur.es/turismo/def/core#ToyStore -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#ToyStore">
@@ -8477,6 +8713,12 @@ quality, performance or satisfaction. Based on this score, the instances of each
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#VehicleExperience">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LeisureAndCultureFacility"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#vehicleExperienceType"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Pequeñas excursiones en tren, bus o barco para conocer los principales monumentos y atracciones de una ciudad.</rdfs:comment>
         <rdfs:comment xml:lang="en">Small excursions by train, bus or boat to see the main monuments and attractions of a city.</rdfs:comment>
         <rdfs:label xml:lang="es">experiencia en vehículo</rdfs:label>
@@ -8553,6 +8795,12 @@ quality, performance or satisfaction. Based on this score, the instances of each
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Vineyard">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#AgrotourismFacility"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offersAdditionalVineyardService"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Land planted with vineyards belonging to a winery, area, region, country, designation of origin, etc. A characteristic element of the wine landscape of La Rioja and Rioja Alavesa, currently in disuse, it became popular at the end of the 19th century, although its origin dates back centuries.</rdfs:comment>
         <rdfs:comment xml:lang="es">Tierra plantada de viñas perteneciente a una bodega, zona, región, país, denominación de origen, etc. Elemento característico del paisaje vitivinícola de La  Rioja y la Rioja Alavesa actualmente en desuso, se popularizó a finales del siglo XIX, aunque su origen se remonta a siglos atrás.</rdfs:comment>
         <rdfs:label xml:lang="en">vineyard</rdfs:label>
@@ -8903,6 +9151,14 @@ quality, performance or satisfaction. Based on this score, the instances of each
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/kos/AccommodationUnitCategory -->
+
+    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/AccommodationUnitCategory">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/kos/AdversityType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/AdversityType">
@@ -9231,6 +9487,14 @@ quality, performance or satisfaction. Based on this score, the instances of each
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/kos/SportsCentrePremise -->
+
+    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/SportsCentrePremise">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/kos/StadiumServiceType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/StadiumServiceType">
@@ -9330,6 +9594,14 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <!-- https://ontologia.segittur.es/turismo/kos/TravelUnitType -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/TravelUnitType">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/kos/VehicleExperienceType -->
+
+    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/VehicleExperienceType">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
     </owl:NamedIndividual>
     
