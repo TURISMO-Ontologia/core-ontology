@@ -3342,7 +3342,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#AccommodationEstablishment -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#AccommodationEstablishment">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismOrRelatedFacility"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#accommodationRating"/>
@@ -4924,7 +4924,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#FoodEstablishment -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#FoodEstablishment">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismOrRelatedFacility"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#cuisineType"/>
