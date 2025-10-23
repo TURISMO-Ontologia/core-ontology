@@ -3084,8 +3084,8 @@ It is possible that this annotation property is taken out in the future from the
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#numberOfBeds">
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AccommodationEstablishment"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-        <rdfs:comment xml:lang="en">numberOfBeds</rdfs:comment>
-        <rdfs:comment xml:lang="es">número de camas</rdfs:comment>
+        <rdfs:label xml:lang="en">number of beds</rdfs:label>
+        <rdfs:label xml:lang="es">número de camas</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:DatatypeProperty>
     
@@ -4045,9 +4045,9 @@ It is possible that this annotation property is taken out in the future from the
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#ArabicBath">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
+        <rdfs:comment xml:lang="es">Los baños árabes, también conocidos como hammam, son espacios públicos de baño que combinan la limpieza del cuerpo con la relajación y el bienestar</rdfs:comment>
         <rdfs:label xml:lang="en">Arabic Bath</rdfs:label>
         <rdfs:label xml:lang="es">Baños árabes</rdfs:label>
-        <rdfs:comment xml:lang="es">Los baños árabes, también conocidos como hammam, son espacios públicos de baño que combinan la limpieza del cuerpo con la relajación y el bienestar</rdfs:comment>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -5876,9 +5876,9 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#FoodEstablishment"/>
         <rdfs:comment xml:lang="es">Establecimiento en el que se preparan y sirven comidas y que está decorado de forma tradicional y rústica. También se puede utilizar el término venta</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment in which meals are prepared and served and which is decorated in a traditional and rustic way.</rdfs:comment>
-        <rdfs:label xml:lang="en">inn</rdfs:label>
         <rdfs:label xml:lang="es">Mesón</rdfs:label>
         <rdfs:label xml:lang="es">Venta</rdfs:label>
+        <rdfs:label xml:lang="en">inn</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -8233,8 +8233,8 @@ quality, performance or satisfaction. Based on this score, the instances of each
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Infraestructuras y servicios que están diseñados tanto para satisfacer las necesidades de los turistas como para brindar beneficios a los residentes locales.</rdfs:comment>
         <rdfs:comment xml:lang="en">Infrastructure and services that are designed to both meet the needs of tourists and provide benefits to local residents.</rdfs:comment>
-        <rdfs:label xml:lang="en">Tourism or related facility</rdfs:label>
         <rdfs:label xml:lang="es">Instalación turística o vinculada</rdfs:label>
+        <rdfs:label xml:lang="en">Tourism or related facility</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -8711,8 +8711,8 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#FinancialService"/>
         <rdfs:comment xml:lang="en">Companies specialized in managing the return of Value Added Tax (VAT) to tourists or foreign visitors.</rdfs:comment>
         <rdfs:comment xml:lang="es">Compañías especializadas en la gestión de la devolución del Impuesto al Valor Agregado (IVA) a los turistas o visitantes extranjeros.</rdfs:comment>
-        <rdfs:label xml:lang="en">VAT refund</rdfs:label>
         <rdfs:label xml:lang="es">Devolución de IVA</rdfs:label>
+        <rdfs:label xml:lang="en">VAT refund</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
