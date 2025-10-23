@@ -4047,7 +4047,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
         <rdfs:label xml:lang="en">Arabic Bath</rdfs:label>
         <rdfs:label xml:lang="es">Baños árabes</rdfs:label>
-        <rdfs:comment xml:lang="es">Los baños árabes, también conocidos como hammam, son espacios públicos de baño que combinan la limpieza del cuerpo con la relajación y el bienestar</rdfs:label>
+        <rdfs:comment xml:lang="es">Los baños árabes, también conocidos como hammam, son espacios públicos de baño que combinan la limpieza del cuerpo con la relajación y el bienestar</rdfs:comment>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
