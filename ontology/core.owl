@@ -6486,7 +6486,8 @@ It is possible that this annotation property is taken out in the future from the
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#OrnamentalFountain">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
-        <rdfs:label xml:lang="es">Estructura, típicamente de agua, diseñada para embellecer un espacio, tanto interior como exterior, a través de su forma, diseño y efectos visuales y/o auditivos</rdfs:label>
+        <rdfs:comment xml:lang="es">Estructura, típicamente de agua, diseñada para embellecer un espacio, tanto interior como exterior, a través de su forma, diseño y efectos visuales y/o auditivos</rdfs:comment>
+        <rdfs:comment xml:lang="en">Structure, typically made of water, designed to embellish a space, both interior and exterior, through its shape, design and visual and/or auditory effects</rdfs:comment>
         <rdfs:label xml:lang="es">Fuente ornamental</rdfs:label>
         <rdfs:label xml:lang="en">Ornamental Fountain</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
