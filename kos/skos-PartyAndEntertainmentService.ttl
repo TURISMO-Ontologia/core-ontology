@@ -32,4 +32,25 @@ estur-kos:PartyAndEntertainmentServiceType a skos:ConceptScheme ;
 #    Concepts
 #
 #################################################################
+estur-partyandentertainmentservice:CloackRoom a skos:Concept;
+  skos:inScheme estur-kos:PartyAndEntertainmentServiceType;
+  skos:prefLabel "Cloack Room"@en ;
+  skos:prefLabel "Guardarropa"@es .
+
+estur-partyandentertainmentservice:OutdoorTables a skos:Concept;
+  skos:inScheme estur-kos:PartyAndEntertainmentServiceType;
+  skos:prefLabel "Outdoor Tables"@en ;
+  skos:prefLabel "Mesas exteriores"@es .
+
+estur-partyandentertainmentservice:Venue a skos:Concept;
+  skos:inScheme estur-kos:PartyAndEntertainmentServiceType;
+  skos:prefLabel "Venue"@en ;
+  skos:prefLabel "Lugar de celebración"@es .
+
+estur-partyandentertainmentservice:VIPRoom a skos:Concept;
+  skos:inScheme estur-kos:PartyAndEntertainmentServiceType;
+  skos:prefLabel "VIP Room"@en ;
+  skos:prefLabel "Sala VIP"@es .
+
+
 
