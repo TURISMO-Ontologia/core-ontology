@@ -7,83 +7,20 @@
 @base <https://ontologia.segittur.es/turismo/def/core#> .
 
 <https://ontologia.segittur.es/turismo/def/core#> rdf:type owl:Ontology ;
-                                                   owl:versionIRI <https://ontologia.segittur.es/turismo/def/core/1.2.0> ;
+                                                   owl:versionIRI <https://ontologia.segittur.es/turismo/def/core/1.2.1> ;
                                                    <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution Share-Alike 4.0 International (CC BY-SA 4.0)" ;
                                                    <http://purl.org/dc/terms/description> "Esta ontología de dominio del sector turístico está construida a partir del Modelo Conceptual de Referencia Semántico de Turismo de SEGITTUR, un modelo para el desarrollo de una Red de Ontologías del Sector Turístico al servicio de la futura Plataforma Inteligente de Destino (PID) promovida por SEGITTUR. El Modelo Conceptual de Referencia de Turismo de SEGITTUR ofrece un corazón ontológico extensible para conceptos e información sobre el dominio de turismo, y aspira a convertirse en una referencia para el intercambio controlado de información sobre turismo."@es ,
                                                                                           "This tourism domain ontology is built from SEGITTUR's Conceptual Tourism Semantic Reference Model, a model for the development of a Network of Tourism Sector Ontologies at the service of the future Intelligent Destination Platform (IDP) promoted by SEGITTUR. The SEGITTUR Conceptual Tourism Reference Model offers an extensible ontological core for concepts and information on the tourism domain, and aims to become a reference for the controlled exchange of tourism information."@en ;
                                                    <http://purl.org/dc/terms/hasFormat> <https://ontologia.segittur.es/turismo/def/core.owl> ;
-                                                   <http://purl.org/dc/terms/issued> "2025-08-25" ;
+                                                   <http://purl.org/dc/terms/issued> "2025-12-15" ;
                                                    <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-sa/4.0/> ,
                                                                                       "CC BY-SA" ;
                                                    <http://purl.org/dc/terms/title> "Core ontology for tourism by SEGITTUR"@en ,
                                                                                     "Ontología de referencia de turismo de SEGITTUR"@es ;
                                                    <http://purl.org/vocab/vann/preferredNamespacePrefix> "estur" ;
                                                    <http://purl.org/vocab/vann/preferredNamespaceUri> <https://ontologia.segittur.es/turismo/def/core#> ;
-                                                   rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-AccommodationRate.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-AccommodationService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-AccommodationUnitCategory.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-Adversity.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-AgritourismExperienceType.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-AquariumService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-ArtGalleryService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-BeachService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-BeachType.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-BusOperatorService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-CongressCentreService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-CuisineType.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-CultureCenterService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-DMCService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-DestinationType.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-EducationalService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-Event.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-EventAttendanceService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-EventService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-ExperienceRelatedProduct.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-GymService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-HandiCraftService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-HealthAndBeautyService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-HistoricalAndCultureService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-LabelType.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-LakeService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-LeisureAndCultureService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-LocalBusinessService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-LocomotionMode.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-MenuOptions.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-MultiadventureActivityType.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-MuseumService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-MuseumType.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-ParkingFacilityService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-PartyAndEntertainmentService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-PaymentMethod.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-PlaceOfWorshipType.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-PlanetariumService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-PriceClass.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-RestaurantService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-RiverService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-RouteService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-SocialMediaPlatform.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-SportService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-SportsCentrePremise.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-StadiumService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-StationType.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-SwimmingPoolService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-TourGuideService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-TourService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-TourismResourceService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-TouristDestinationService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-TouristOrRelatedFacilityService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-TouristType.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-TrailType.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-TransportInfrastructureService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-TravelAgencyService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-TravelUnit.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-VehicleRentalCompanyService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-VehicleType.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-VineyardService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-WineryService.ttl> ,
-                                                                <https://ontologia.segittur.es/turismo/def/core/kos/skos-ZooService.ttl> ;
                                                    owl:priorVersion "1.1.1" ;
-                                                   owl:versionInfo "1.2.0" .
+                                                   owl:versionInfo "1.2.1" .
 
 #################################################################
 #    Annotation properties
@@ -223,7 +160,7 @@ xsd:date rdf:type rdfs:Datatype .
            rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                              [ rdf:type owl:Restriction ;
                                                owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                               owl:hasValue <https://ontologia.segittur.es/turismo/kos/AdversityType>
+                                               owl:hasValue <https://ontologia.segittur.es/turismo/kos/Adversity>
                                              ]
                                            ) ;
                         rdf:type owl:Class
@@ -239,7 +176,7 @@ xsd:date rdf:type rdfs:Datatype .
                            rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                              [ rdf:type owl:Restriction ;
                                                                owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                               owl:hasValue <https://ontologia.segittur.es/turismo/kos/AgriTourismExperienceType>
+                                                               owl:hasValue <https://ontologia.segittur.es/turismo/kos/AgritourismExperienceType>
                                                              ]
                                                            ) ;
                                         rdf:type owl:Class
@@ -359,7 +296,7 @@ xsd:date rdf:type rdfs:Datatype .
            rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                              [ rdf:type owl:Restriction ;
                                                owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                               owl:hasValue <https://ontologia.segittur.es/turismo/kos/EventType>
+                                               owl:hasValue <https://ontologia.segittur.es/turismo/kos/Event>
                                              ]
                                            ) ;
                         rdf:type owl:Class
@@ -375,7 +312,7 @@ xsd:date rdf:type rdfs:Datatype .
                           rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                              owl:hasValue <https://ontologia.segittur.es/turismo/kos/ExperienceRelatedProductType>
+                                                              owl:hasValue <https://ontologia.segittur.es/turismo/kos/ExperienceRelatedProduct>
                                                             ]
                                                           ) ;
                                        rdf:type owl:Class
@@ -407,7 +344,7 @@ xsd:date rdf:type rdfs:Datatype .
                                               )
                                 ] ;
                     rdfs:range :Acknowledgement ;
-                    rdfs:label "has Acknowledgement"@en ,
+                    rdfs:label "has acknowledgement"@en ,
                                "tiene reconocimiento"@es ;
                     <https://ontologia.segittur.es/turismo/def/annot#orderInCategory> 8 ;
                     <https://ontologia.segittur.es/turismo/def/annot#presentationOrderCategory> "acknowledgement" .
@@ -421,7 +358,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                     )
                                       ] ;
                           rdfs:range :AdditionalInformation ;
-                          rdfs:label "hasAdditionalInformation"@en ,
+                          rdfs:label "has additional information"@en ,
                                      "tiene información adicional"@es ;
                           <https://ontologia.segittur.es/turismo/def/annot#orderInCategory> 4 ;
                           <https://ontologia.segittur.es/turismo/def/annot#presentationOrderCategory> "generalInfo" .
@@ -742,7 +679,7 @@ xsd:date rdf:type rdfs:Datatype .
                                       rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                         [ rdf:type owl:Restriction ;
                                                                           owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                          owl:hasValue <https://ontologia.segittur.es/turismo/kos/AccommodationServiceType>
+                                                                          owl:hasValue <https://ontologia.segittur.es/turismo/kos/AccommodationService>
                                                                         ]
                                                                       ) ;
                                                    rdf:type owl:Class
@@ -759,7 +696,7 @@ xsd:date rdf:type rdfs:Datatype .
                                  rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                     owl:hasValue <https://ontologia.segittur.es/turismo/kos/AquariumServiceType>
+                                                                     owl:hasValue <https://ontologia.segittur.es/turismo/kos/AquariumService>
                                                                    ]
                                                                  ) ;
                                               rdf:type owl:Class
@@ -776,7 +713,7 @@ xsd:date rdf:type rdfs:Datatype .
                                    rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                      [ rdf:type owl:Restriction ;
                                                                        owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                       owl:hasValue <https://ontologia.segittur.es/turismo/kos/ArtGalleryServiceType>
+                                                                       owl:hasValue <https://ontologia.segittur.es/turismo/kos/ArtGalleryService>
                                                                      ]
                                                                    ) ;
                                                 rdf:type owl:Class
@@ -793,7 +730,7 @@ xsd:date rdf:type rdfs:Datatype .
                                     rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                        owl:hasValue <https://ontologia.segittur.es/turismo/kos/BusOperatorServiceType>
+                                                                        owl:hasValue <https://ontologia.segittur.es/turismo/kos/BusOperatorService>
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
@@ -810,7 +747,7 @@ xsd:date rdf:type rdfs:Datatype .
                                        rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                          [ rdf:type owl:Restriction ;
                                                                            owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                           owl:hasValue <https://ontologia.segittur.es/turismo/kos/CongressCentreServiceType>
+                                                                           owl:hasValue <https://ontologia.segittur.es/turismo/kos/CongressCentreService>
                                                                          ]
                                                                        ) ;
                                                     rdf:type owl:Class
@@ -827,7 +764,7 @@ xsd:date rdf:type rdfs:Datatype .
                                       rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                         [ rdf:type owl:Restriction ;
                                                                           owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                          owl:hasValue <https://ontologia.segittur.es/turismo/kos/CultureCenterServiceType>
+                                                                          owl:hasValue <https://ontologia.segittur.es/turismo/kos/CultureCenterService>
                                                                         ]
                                                                       ) ;
                                                    rdf:type owl:Class
@@ -844,7 +781,7 @@ xsd:date rdf:type rdfs:Datatype .
                             rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                               [ rdf:type owl:Restriction ;
                                                                 owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                owl:hasValue <https://ontologia.segittur.es/turismo/kos/DMCServiceType>
+                                                                owl:hasValue <https://ontologia.segittur.es/turismo/kos/DMCService>
                                                               ]
                                                             ) ;
                                          rdf:type owl:Class
@@ -861,7 +798,7 @@ xsd:date rdf:type rdfs:Datatype .
                                     rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                        owl:hasValue <https://ontologia.segittur.es/turismo/kos/EducationalServiceType>
+                                                                        owl:hasValue <https://ontologia.segittur.es/turismo/kos/EducationalService>
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
@@ -878,7 +815,7 @@ xsd:date rdf:type rdfs:Datatype .
                                         rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                           [ rdf:type owl:Restriction ;
                                                                             owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                            owl:hasValue <https://ontologia.segittur.es/turismo/kos/EventAttendanceServiceType>
+                                                                            owl:hasValue <https://ontologia.segittur.es/turismo/kos/EventAttendanceService>
                                                                           ]
                                                                         ) ;
                                                      rdf:type owl:Class
@@ -895,7 +832,7 @@ xsd:date rdf:type rdfs:Datatype .
                               rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                 [ rdf:type owl:Restriction ;
                                                                   owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                  owl:hasValue <https://ontologia.segittur.es/turismo/kos/EventServiceType>
+                                                                  owl:hasValue <https://ontologia.segittur.es/turismo/kos/EventService>
                                                                 ]
                                                               ) ;
                                            rdf:type owl:Class
@@ -912,7 +849,7 @@ xsd:date rdf:type rdfs:Datatype .
                             rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                               [ rdf:type owl:Restriction ;
                                                                 owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                owl:hasValue <https://ontologia.segittur.es/turismo/kos/GymServiceType>
+                                                                owl:hasValue <https://ontologia.segittur.es/turismo/kos/GymService>
                                                               ]
                                                             ) ;
                                          rdf:type owl:Class
@@ -929,7 +866,7 @@ xsd:date rdf:type rdfs:Datatype .
                                     rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                        owl:hasValue <https://ontologia.segittur.es/turismo/kos/HandiCraftServiceType>
+                                                                        owl:hasValue <https://ontologia.segittur.es/turismo/kos/HandiCraftService>
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
@@ -946,7 +883,7 @@ xsd:date rdf:type rdfs:Datatype .
                                         rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                           [ rdf:type owl:Restriction ;
                                                                             owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                            owl:hasValue <https://ontologia.segittur.es/turismo/kos/HealthAndBeautyServiceType>
+                                                                            owl:hasValue <https://ontologia.segittur.es/turismo/kos/HealthAndBeautyService>
                                                                           ]
                                                                         ) ;
                                                      rdf:type owl:Class
@@ -963,7 +900,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                       rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                                         [ rdf:type owl:Restriction ;
                                                                                           owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                                          owl:hasValue <https://ontologia.segittur.es/turismo/kos/HistoricalAndCultureServiceType>
+                                                                                          owl:hasValue <https://ontologia.segittur.es/turismo/kos/HistoricalAndCultureService>
                                                                                         ]
                                                                                       ) ;
                                                                    rdf:type owl:Class
@@ -980,7 +917,7 @@ xsd:date rdf:type rdfs:Datatype .
                                           rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                             [ rdf:type owl:Restriction ;
                                                                               owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                              owl:hasValue <https://ontologia.segittur.es/turismo/kos/LeisureAndCultureServiceType>
+                                                                              owl:hasValue <https://ontologia.segittur.es/turismo/kos/LeisureAndCultureService>
                                                                             ]
                                                                           ) ;
                                                        rdf:type owl:Class
@@ -997,7 +934,7 @@ xsd:date rdf:type rdfs:Datatype .
                                rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                  [ rdf:type owl:Restriction ;
                                                                    owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                   owl:hasValue <https://ontologia.segittur.es/turismo/kos/MuseumServiceType>
+                                                                   owl:hasValue <https://ontologia.segittur.es/turismo/kos/MuseumService>
                                                                  ]
                                                                ) ;
                                             rdf:type owl:Class
@@ -1014,7 +951,7 @@ xsd:date rdf:type rdfs:Datatype .
                                         rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                           [ rdf:type owl:Restriction ;
                                                                             owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                            owl:hasValue <https://ontologia.segittur.es/turismo/kos/ParkingFacilityServiceType>
+                                                                            owl:hasValue <https://ontologia.segittur.es/turismo/kos/ParkingFacilityService>
                                                                           ]
                                                                         ) ;
                                                      rdf:type owl:Class
@@ -1031,7 +968,7 @@ xsd:date rdf:type rdfs:Datatype .
                                              rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                                [ rdf:type owl:Restriction ;
                                                                                  owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                                 owl:hasValue <https://ontologia.segittur.es/turismo/kos/PartyAndEntertainmentServiceType>
+                                                                                 owl:hasValue <https://ontologia.segittur.es/turismo/kos/PartyAndEntertainmentService>
                                                                                ]
                                                                              ) ;
                                                           rdf:type owl:Class
@@ -1048,7 +985,7 @@ xsd:date rdf:type rdfs:Datatype .
                                     rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                        owl:hasValue <https://ontologia.segittur.es/turismo/kos/PlanetariumServiceType>
+                                                                        owl:hasValue <https://ontologia.segittur.es/turismo/kos/PlanetariumService>
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
@@ -1065,7 +1002,7 @@ xsd:date rdf:type rdfs:Datatype .
                                    rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                      [ rdf:type owl:Restriction ;
                                                                        owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                       owl:hasValue <https://ontologia.segittur.es/turismo/kos/RestaurantServiceType>
+                                                                       owl:hasValue <https://ontologia.segittur.es/turismo/kos/RestaurantService>
                                                                      ]
                                                                    ) ;
                                                 rdf:type owl:Class
@@ -1107,12 +1044,12 @@ xsd:date rdf:type rdfs:Datatype .
                               rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                 [ rdf:type owl:Restriction ;
                                                                   owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                  owl:hasValue <https://ontologia.segittur.es/turismo/kos/SportServiceType>
+                                                                  owl:hasValue <https://ontologia.segittur.es/turismo/kos/SportService>
                                                                 ]
                                                               ) ;
                                            rdf:type owl:Class
                                          ] ;
-                              rdfs:label "offers additional sportsfacility service"@en ,
+                              rdfs:label "offers additional sports facility service"@en ,
                                          "ofrece servicio adicional de la instalación deportiva"@es ;
                               <https://ontologia.segittur.es/turismo/def/annot#presentationOrderCategory> "other" .
 
@@ -1124,7 +1061,7 @@ xsd:date rdf:type rdfs:Datatype .
                                 rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                   [ rdf:type owl:Restriction ;
                                                                     owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                    owl:hasValue <https://ontologia.segittur.es/turismo/kos/StadiumServiceType>
+                                                                    owl:hasValue <https://ontologia.segittur.es/turismo/kos/StadiumService>
                                                                   ]
                                                                 ) ;
                                              rdf:type owl:Class
@@ -1141,7 +1078,7 @@ xsd:date rdf:type rdfs:Datatype .
                                      rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                        [ rdf:type owl:Restriction ;
                                                                          owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                         owl:hasValue <https://ontologia.segittur.es/turismo/kos/SwimmingPoolServiceType>
+                                                                         owl:hasValue <https://ontologia.segittur.es/turismo/kos/SwimmingPoolService>
                                                                        ]
                                                                      ) ;
                                                   rdf:type owl:Class
@@ -1158,7 +1095,7 @@ xsd:date rdf:type rdfs:Datatype .
                                   rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                     [ rdf:type owl:Restriction ;
                                                                       owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                      owl:hasValue <https://ontologia.segittur.es/turismo/kos/TourGuideServiceType>
+                                                                      owl:hasValue <https://ontologia.segittur.es/turismo/kos/TourGuideService>
                                                                     ]
                                                                   ) ;
                                                rdf:type owl:Class
@@ -1175,7 +1112,7 @@ xsd:date rdf:type rdfs:Datatype .
                              rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                [ rdf:type owl:Restriction ;
                                                                  owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                 owl:hasValue <https://ontologia.segittur.es/turismo/kos/TourServiceType>
+                                                                 owl:hasValue <https://ontologia.segittur.es/turismo/kos/TourService>
                                                                ]
                                                              ) ;
                                           rdf:type owl:Class
@@ -1197,7 +1134,7 @@ xsd:date rdf:type rdfs:Datatype .
                                         rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                           [ rdf:type owl:Restriction ;
                                                                             owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                            owl:hasValue <https://ontologia.segittur.es/turismo/kos/TourismResourceServiceType>
+                                                                            owl:hasValue <https://ontologia.segittur.es/turismo/kos/TourismResourceService>
                                                                           ]
                                                                         ) ;
                                                      rdf:type owl:Class
@@ -1214,7 +1151,7 @@ xsd:date rdf:type rdfs:Datatype .
                                           rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                             [ rdf:type owl:Restriction ;
                                                                               owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                              owl:hasValue <https://ontologia.segittur.es/turismo/kos/TouristOrRelatedFacilityServiceType>
+                                                                              owl:hasValue <https://ontologia.segittur.es/turismo/kos/TouristOrRelatedFacilityService>
                                                                             ]
                                                                           ) ;
                                                        rdf:type owl:Class
@@ -1231,7 +1168,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                 rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                                   [ rdf:type owl:Restriction ;
                                                                                     owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                                    owl:hasValue <https://ontologia.segittur.es/turismo/kos/TransportInfrastructureServiceType>
+                                                                                    owl:hasValue <https://ontologia.segittur.es/turismo/kos/TransportInfrastructureService>
                                                                                   ]
                                                                                 ) ;
                                                              rdf:type owl:Class
@@ -1248,7 +1185,7 @@ xsd:date rdf:type rdfs:Datatype .
                                      rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                        [ rdf:type owl:Restriction ;
                                                                          owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                         owl:hasValue <https://ontologia.segittur.es/turismo/kos/TravelAgencyServiceType>
+                                                                         owl:hasValue <https://ontologia.segittur.es/turismo/kos/TravelAgencyService>
                                                                        ]
                                                                      ) ;
                                                   rdf:type owl:Class
@@ -1265,7 +1202,7 @@ xsd:date rdf:type rdfs:Datatype .
                                              rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                                [ rdf:type owl:Restriction ;
                                                                                  owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                                 owl:hasValue <https://ontologia.segittur.es/turismo/kos/VehicleRentalCompanyServiceType>
+                                                                                 owl:hasValue <https://ontologia.segittur.es/turismo/kos/VehicleRentalCompanyService>
                                                                                ]
                                                                              ) ;
                                                           rdf:type owl:Class
@@ -1282,7 +1219,7 @@ xsd:date rdf:type rdfs:Datatype .
                                  rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                     owl:hasValue <https://ontologia.segittur.es/turismo/kos/VineyardServiceType>
+                                                                     owl:hasValue <https://ontologia.segittur.es/turismo/kos/VineyardService>
                                                                    ]
                                                                  ) ;
                                               rdf:type owl:Class
@@ -1299,7 +1236,7 @@ xsd:date rdf:type rdfs:Datatype .
                                rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                  [ rdf:type owl:Restriction ;
                                                                    owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                   owl:hasValue <https://ontologia.segittur.es/turismo/kos/WineryServiceType>
+                                                                   owl:hasValue <https://ontologia.segittur.es/turismo/kos/WineryService>
                                                                  ]
                                                                ) ;
                                             rdf:type owl:Class
@@ -1316,12 +1253,12 @@ xsd:date rdf:type rdfs:Datatype .
                             rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                               [ rdf:type owl:Restriction ;
                                                                 owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                owl:hasValue <https://ontologia.segittur.es/turismo/kos/ZooServiceType>
+                                                                owl:hasValue <https://ontologia.segittur.es/turismo/kos/ZooService>
                                                               ]
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
-                            rdfs:label "offers additional soo service"@en ,
+                            rdfs:label "offers additional zoo service"@en ,
                                        "ofrece servicio adicional del zoo"@es ;
                             <https://ontologia.segittur.es/turismo/def/annot#presentationOrderCategory> "other" .
 
@@ -1333,7 +1270,7 @@ xsd:date rdf:type rdfs:Datatype .
                     rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                        owl:hasValue <https://ontologia.segittur.es/turismo/kos/BeachServiceType>
+                                                        owl:hasValue <https://ontologia.segittur.es/turismo/kos/BeachService>
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
@@ -1350,7 +1287,7 @@ xsd:date rdf:type rdfs:Datatype .
                    rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                      [ rdf:type owl:Restriction ;
                                                        owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                       owl:hasValue <https://ontologia.segittur.es/turismo/kos/LakeServiceType>
+                                                       owl:hasValue <https://ontologia.segittur.es/turismo/kos/LakeService>
                                                      ]
                                                    ) ;
                                 rdf:type owl:Class
@@ -1358,6 +1295,23 @@ xsd:date rdf:type rdfs:Datatype .
                    rdfs:label "offers lake service"@en ,
                               "ofrece servicios del lago"@es ;
                    <https://ontologia.segittur.es/turismo/def/annot#presentationOrderCategory> "other" .
+
+
+###  https://ontologia.segittur.es/turismo/def/core#offersLocalBusinessService
+:offersLocalBusinessService rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf :offersAdditionalService ;
+                            rdfs:domain :LocalBusiness ;
+                            rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
+                                                                owl:hasValue <https://ontologia.segittur.es/turismo/kos/LocalBusinessService>
+                                                              ]
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] ;
+                            rdfs:label "offers local business service"@en ,
+                                       "ofrece servicio de negocio local"@es ;
+                            <https://ontologia.segittur.es/turismo/def/annot#presentationOrderCategory> "other" .
 
 
 ###  https://ontologia.segittur.es/turismo/def/core#offersMultiadventureActivityType
@@ -1383,7 +1337,7 @@ xsd:date rdf:type rdfs:Datatype .
                     rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                        owl:hasValue <https://ontologia.segittur.es/turismo/kos/RiverServiceType>
+                                                        owl:hasValue <https://ontologia.segittur.es/turismo/kos/RiverService>
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
@@ -1400,7 +1354,7 @@ xsd:date rdf:type rdfs:Datatype .
                                  rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                                    [ rdf:type owl:Restriction ;
                                                                      owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                                     owl:hasValue <https://ontologia.segittur.es/turismo/kos/TouristDestinationServiceType>
+                                                                     owl:hasValue <https://ontologia.segittur.es/turismo/kos/TouristDestinationService>
                                                                    ]
                                                                  ) ;
                                               rdf:type owl:Class
@@ -1652,7 +1606,7 @@ xsd:date rdf:type rdfs:Datatype .
             rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                               [ rdf:type owl:Restriction ;
                                                 owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                owl:hasValue <https://ontologia.segittur.es/turismo/kos/TravelUnitType>
+                                                owl:hasValue <https://ontologia.segittur.es/turismo/kos/TravelUnit>
                                               ]
                                             ) ;
                          rdf:type owl:Class
@@ -1669,7 +1623,7 @@ xsd:date rdf:type rdfs:Datatype .
                          rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                             owl:hasValue <https://ontologia.segittur.es/turismo/kos/AccommodationRateType>
+                                                             owl:hasValue <https://ontologia.segittur.es/turismo/kos/AccommodationRate>
                                                            ]
                                                          ) ;
                                       rdf:type owl:Class
@@ -1685,7 +1639,7 @@ xsd:date rdf:type rdfs:Datatype .
                        rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                          [ rdf:type owl:Restriction ;
                                                            owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
-                                                           owl:hasValue <https://ontologia.segittur.es/turismo/kos/VehicleExperienceType>
+                                                           owl:hasValue <https://ontologia.segittur.es/turismo/kos/VehicleExperience>
                                                          ]
                                                        ) ;
                                     rdf:type owl:Class
@@ -1758,7 +1712,7 @@ xsd:date rdf:type rdfs:Datatype .
            rdfs:comment "Levels of grading of the technical and physical demands of routes, where 1 indicates least difficulty and 5 greatest difficulty."@en ,
                         "Niveles de graduación de las exigencias técnicas y físicas de rutas, en los que 1 indica menor dificultad y 5 mayor dificultad."@es ;
            rdfs:label "Escala MIDE"@es ,
-                      "MIDEScale"@en ;
+                      "MIDE scale"@en ;
            <https://ontologia.segittur.es/turismo/def/annot#presentationOrderCategory> "other" .
 
 
@@ -2750,7 +2704,7 @@ xsd:date rdf:type rdfs:Datatype .
                                             ] ;
                             rdfs:comment "Lugar donde una persona o un grupo de personas se hospeda, se aposenta o acampa."@es ,
                                          "Place where a person or a group of people stays, stays or camps."@en ;
-                            rdfs:label "Accommodation Establishment"@en ,
+                            rdfs:label "Accommodation establishment"@en ,
                                        "Establecimiento alojativo"@es ;
                             <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
 
@@ -2861,7 +2815,7 @@ xsd:date rdf:type rdfs:Datatype .
                                        ] ;
                        rdfs:comment "Experience of an agritourism type"@en ,
                                     "Experiencia de tipo agroturística"@es ;
-                       rdfs:label "Agritourism Experience"@en ,
+                       rdfs:label "Agritourism experience"@en ,
                                   "Experiencia agroturística"@es ;
                        <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
 
@@ -2880,7 +2834,7 @@ xsd:date rdf:type rdfs:Datatype .
                                      ] ;
                      rdfs:comment "Facility focused on promoting agricultural, livestock, and active tourism activities in rural settings."@en ,
                                   "Instalación enfocada a la promoción de actividades agrícolas, ganaderas y de turismo activo en entornos rurales."@es ;
-                     rdfs:label "Agrotourism Facility"@en ,
+                     rdfs:label "Agrotourism facility"@en ,
                                 "Instalación agroturística"@es ;
                      <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
 
@@ -2960,7 +2914,7 @@ xsd:date rdf:type rdfs:Datatype .
 :ArabicBath rdf:type owl:Class ;
             rdfs:subClassOf :HistoricalOrCulturalResource ;
             rdfs:comment "Los baños árabes, también conocidos como hammam, son espacios públicos de baño que combinan la limpieza del cuerpo con la relajación y el bienestar"@es ;
-            rdfs:label "Arabic Bath"@en ,
+            rdfs:label "Arabic bath"@en ,
                        "Baños árabes"@es ;
             <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
 
@@ -3160,6 +3114,8 @@ xsd:date rdf:type rdfs:Datatype .
 ###  https://ontologia.segittur.es/turismo/def/core#Bingo
 :Bingo rdf:type owl:Class ;
        rdfs:subClassOf :PartyAndEntertainmentFacility ;
+       rdfs:comment "Lugar donde se juega al bingo"@es ,
+                    "Place where bingo can be played"@en ;
        rdfs:label "Bingo"@en ,
                   "Bingo"@es ;
        <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
@@ -3319,6 +3275,8 @@ xsd:date rdf:type rdfs:Datatype .
 ###  https://ontologia.segittur.es/turismo/def/core#Casino
 :Casino rdf:type owl:Class ;
         rdfs:subClassOf :PartyAndEntertainmentFacility ;
+        rdfs:comment "Casino"@en ,
+                     "Casino"@es ;
         rdfs:label "Casino"@en ,
                    "Casino"@es ;
         <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
@@ -3347,7 +3305,7 @@ xsd:date rdf:type rdfs:Datatype .
                  rdfs:subClassOf :FoodEstablishment ;
                  rdfs:comment "Food and beverage services for events, whether large or small, formal or informal."@en ,
                               "Servicio de provisión de alimentos y bebidas para eventos, ya sean grandes o pequeños, formales o informales."@es ;
-                 rdfs:label "Catering Service"@en ,
+                 rdfs:label "Catering service"@en ,
                             "Servicio de catering"@es ;
                  <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
 
@@ -3502,7 +3460,7 @@ xsd:date rdf:type rdfs:Datatype .
                                 rdfs:subClassOf :TourismOrganisation ;
                                 rdfs:comment "Company that offers complementary activities"@en ,
                                              "Empresa que se encarga de ofrecer actividades complementarias"@es ;
-                                rdfs:label "Complementary Activities Company"@en ,
+                                rdfs:label "Complementary activities company"@en ,
                                            "Empresa de actividades complementarias"@es ;
                                 <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
 
@@ -3742,6 +3700,8 @@ xsd:date rdf:type rdfs:Datatype .
 ###  https://ontologia.segittur.es/turismo/def/core#EngineCircuit
 :EngineCircuit rdf:type owl:Class ;
                rdfs:subClassOf :SportFacility ;
+               rdfs:comment "Circuito de motor"@es ,
+                            "Engine circuit"@en ;
                rdfs:label "Circuito de motor"@es ,
                           "Engine circuit"@en ;
                <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
@@ -3909,7 +3869,7 @@ xsd:date rdf:type rdfs:Datatype .
                           rdfs:comment "Company that is mainly responsible for the design, planning, coordination, as well as the production and execution of an event."@en ,
                                        "Empresa que se encarga principalmente del diseño, la planificación, la coordinación, así como la producción y ejecución de un evento."@es ;
                           rdfs:label "Empresa de organización de eventos"@es ,
-                                     "Event Organisation Company"@en ;
+                                     "Event organisation company"@en ;
                           <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
 
 
@@ -4443,7 +4403,11 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  https://ontologia.segittur.es/turismo/def/core#LocalBusiness
 :LocalBusiness rdf:type owl:Class ;
-               rdfs:subClassOf :TourismOrRelatedFacility ;
+               rdfs:subClassOf :TourismOrRelatedFacility ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :offersLocalBusinessService ;
+                                 owl:allValuesFrom <http://www.w3.org/2004/02/skos/core#Concept>
+                               ] ;
                rdfs:comment "Company or commercial establishment that operates in a specific physical location that provides products or services."@en ,
                             "Empresa o establecimiento comercial que opera en una ubicación física específica que proporciona productos o servicios."@es ;
                rdfs:label "Local business"@en ,
@@ -4750,7 +4714,7 @@ xsd:date rdf:type rdfs:Datatype .
               rdfs:comment "Molino de aceite"@es ,
                            "Oil press"@en ;
               rdfs:label "Almazara"@es ,
-                         "Olive Oil Mill"@en ;
+                         "Olive oil mill"@en ;
               <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
 
 
@@ -4797,7 +4761,7 @@ xsd:date rdf:type rdfs:Datatype .
               rdfs:comment "Period of time during which a business, establishment or service is available to serve customers or carry out commercial activities."@en ,
                            "Período de tiempo durante el cual un negocio, establecimiento o servicio está disponible para atender a clientes o realizar actividades comerciales."@es ;
               rdfs:label "Horario de apertura"@es ,
-                         "Opening Hours"@en ;
+                         "Opening hours"@en ;
               <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "false"^^xsd:boolean .
 
 
@@ -5253,7 +5217,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
                    rdfs:comment "Company that offers restaurant services"@en ,
                                 "Empresa que se encarga de ofrecer servicios de restauración"@es ;
                    rdfs:label "Empresa de servicios de restauración"@es ,
-                              "Restaurant Service Organisation"@en ;
+                              "Restaurant service organisation"@en ;
                    <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
 
 
@@ -5409,7 +5373,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
               rdfs:comment "Conjunto de principios, normas y recomendaciones que establece un destino turístico con el objetivo de garantizar una experiencia segura, respetuosa y satisfactoria tanto para los turistas como para la comunidad local y el entorno."@es ,
                            "Set of principles, standards and recommendations established by a tourist destination with the aim of guaranteeing a safe, respectful and satisfactory experience for both tourists and the local community and the environment."@en ;
               rdfs:label "Reglas y consejos"@es ,
-                         "Rules and Tips"@en ;
+                         "Rules and tips"@en ;
               <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "false"^^xsd:boolean .
 
 
@@ -5464,7 +5428,8 @@ quality, performance or satisfaction. Based on this score, the instances of each
 ###  https://ontologia.segittur.es/turismo/def/core#ShootingRange
 :ShootingRange rdf:type owl:Class ;
                rdfs:subClassOf :SportFacility ;
-               rdfs:comment "Espacios habilitados para la práctica del tiro que reúnan las características y medidas de seguridad pertinentes."@es ;
+               rdfs:comment "Espacios habilitados para la práctica del tiro que reúnan las características y medidas de seguridad pertinentes."@es ,
+                            "Place for practicing shooting"@en ;
                rdfs:label "Campo de tiro"@es ,
                           "Shooting range"@en ;
                <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
@@ -5615,7 +5580,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
               rdfs:comment "It represents a special offer"@en ,
                            "Representa una oferta especial"@es ;
               rdfs:label "Oferta especial"@es ,
-                         "Special Offer"@en ;
+                         "Special offer"@en ;
               <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "false"^^xsd:boolean .
 
 
@@ -5996,7 +5961,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
                rdfs:comment "Concepto general que agrupa los servicios turísticos, recursos turísticos, destinos turísticos y organizaciones turísticas"@es ,
                             "General concept that groups Tourism Resources, Tourism Services, Tourist Destinations and Tourism Organisation" ;
                rdfs:label "Entidad turística"@es ,
-                          "Tourism Entity"@en ;
+                          "Tourism entity"@en ;
                <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
 
 
@@ -6595,7 +6560,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
             rdfs:comment "Establecimiento en el que se practica yoga"@es ,
                          "Establishment where yoga is practiced"@en ;
             rdfs:label "Centro de yoga"@es ,
-                       "Yoga Centre"@en ;
+                       "Yoga centre"@en ;
             <https://ontologia.segittur.es/turismo/def/annot#visibleResource> "true"^^xsd:boolean .
 
 
@@ -6619,7 +6584,8 @@ quality, performance or satisfaction. Based on this score, the instances of each
 
 ###  https://id.loc.gov/vocabulary/iso639-2
 <https://id.loc.gov/vocabulary/iso639-2> rdf:type owl:NamedIndividual ,
-                                                  <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                  <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                         rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/iso639-2.nt> .
 
 
 ###  https://ontologia.segittur.es/turismo/def/core#april
@@ -6731,319 +6697,382 @@ quality, performance or satisfaction. Based on this score, the instances of each
                       "miércoles"@es .
 
 
-###  https://ontologia.segittur.es/turismo/kos/AccommodationRateType
-<https://ontologia.segittur.es/turismo/kos/AccommodationRateType> rdf:type owl:NamedIndividual ,
-                                                                           <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/AccommodationRate
+<https://ontologia.segittur.es/turismo/kos/AccommodationRate> rdf:type owl:NamedIndividual ,
+                                                                       <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                              rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-AccommodationRate.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/AccommodationServiceType
-<https://ontologia.segittur.es/turismo/kos/AccommodationServiceType> rdf:type owl:NamedIndividual ,
-                                                                              <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/AccommodationService
+<https://ontologia.segittur.es/turismo/kos/AccommodationService> rdf:type owl:NamedIndividual ,
+                                                                          <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                 rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-AccommodationService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/AccommodationUnitCategory
 <https://ontologia.segittur.es/turismo/kos/AccommodationUnitCategory> rdf:type owl:NamedIndividual ,
-                                                                               <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                               <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                      rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-AccommodationUnitCategory.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/AdversityType
-<https://ontologia.segittur.es/turismo/kos/AdversityType> rdf:type owl:NamedIndividual ,
-                                                                   <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/Adversity
+<https://ontologia.segittur.es/turismo/kos/Adversity> rdf:type owl:NamedIndividual ,
+                                                               <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                      rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-Adversity.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/AgriTourismExperienceType
-<https://ontologia.segittur.es/turismo/kos/AgriTourismExperienceType> rdf:type owl:NamedIndividual ,
-                                                                               <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/AgritourismExperienceType
+<https://ontologia.segittur.es/turismo/kos/AgritourismExperienceType> rdf:type owl:NamedIndividual ,
+                                                                               <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                      rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-AgritourismExperienceType.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/AquariumServiceType
-<https://ontologia.segittur.es/turismo/kos/AquariumServiceType> rdf:type owl:NamedIndividual ,
-                                                                         <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/AquariumService
+<https://ontologia.segittur.es/turismo/kos/AquariumService> rdf:type owl:NamedIndividual ,
+                                                                     <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                            rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-AquariumService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/ArtGalleryServiceType
-<https://ontologia.segittur.es/turismo/kos/ArtGalleryServiceType> rdf:type owl:NamedIndividual ,
-                                                                           <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/ArtGalleryService
+<https://ontologia.segittur.es/turismo/kos/ArtGalleryService> rdf:type owl:NamedIndividual ,
+                                                                       <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                              rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-ArtGalleryService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/BeachServiceType
-<https://ontologia.segittur.es/turismo/kos/BeachServiceType> rdf:type owl:NamedIndividual ,
-                                                                      <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/BeachService
+<https://ontologia.segittur.es/turismo/kos/BeachService> rdf:type owl:NamedIndividual ,
+                                                                  <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                         rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-BeachService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/BeachType
 <https://ontologia.segittur.es/turismo/kos/BeachType> rdf:type owl:NamedIndividual ,
-                                                               <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                               <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                      rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-BeachType.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/BusOperatorServiceType
-<https://ontologia.segittur.es/turismo/kos/BusOperatorServiceType> rdf:type owl:NamedIndividual ,
-                                                                            <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/BusOperatorService
+<https://ontologia.segittur.es/turismo/kos/BusOperatorService> rdf:type owl:NamedIndividual ,
+                                                                        <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                               rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-BusOperatorService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/CongressCentreServiceType
-<https://ontologia.segittur.es/turismo/kos/CongressCentreServiceType> rdf:type owl:NamedIndividual ,
-                                                                               <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/CongressCentreService
+<https://ontologia.segittur.es/turismo/kos/CongressCentreService> rdf:type owl:NamedIndividual ,
+                                                                           <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                  rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-CongressCentreService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/CuisineType
 <https://ontologia.segittur.es/turismo/kos/CuisineType> rdf:type owl:NamedIndividual ,
-                                                                 <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                 <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                        rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-CuisineType.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/CultureCenterServiceType
-<https://ontologia.segittur.es/turismo/kos/CultureCenterServiceType> rdf:type owl:NamedIndividual ,
-                                                                              <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/CultureCenterService
+<https://ontologia.segittur.es/turismo/kos/CultureCenterService> rdf:type owl:NamedIndividual ,
+                                                                          <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                 rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-CultureCenterService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/DMCServiceType
-<https://ontologia.segittur.es/turismo/kos/DMCServiceType> rdf:type owl:NamedIndividual ,
-                                                                    <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/DMCService
+<https://ontologia.segittur.es/turismo/kos/DMCService> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                       rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-DMCService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/DestinationType
 <https://ontologia.segittur.es/turismo/kos/DestinationType> rdf:type owl:NamedIndividual ,
-                                                                     <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                     <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                            rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-DestinationType.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/EducationalServiceType
-<https://ontologia.segittur.es/turismo/kos/EducationalServiceType> rdf:type owl:NamedIndividual ,
-                                                                            <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/EducationalService
+<https://ontologia.segittur.es/turismo/kos/EducationalService> rdf:type owl:NamedIndividual ,
+                                                                        <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                               rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-EducationalService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/EventAttendanceServiceType
-<https://ontologia.segittur.es/turismo/kos/EventAttendanceServiceType> rdf:type owl:NamedIndividual ,
-                                                                                <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/Event
+<https://ontologia.segittur.es/turismo/kos/Event> rdf:type owl:NamedIndividual ,
+                                                           <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                  rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-Event.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/EventServiceType
-<https://ontologia.segittur.es/turismo/kos/EventServiceType> rdf:type owl:NamedIndividual ,
-                                                                      <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/EventAttendanceService
+<https://ontologia.segittur.es/turismo/kos/EventAttendanceService> rdf:type owl:NamedIndividual ,
+                                                                            <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                   rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-EventAttendanceService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/EventType
-<https://ontologia.segittur.es/turismo/kos/EventType> rdf:type owl:NamedIndividual ,
-                                                               <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/EventService
+<https://ontologia.segittur.es/turismo/kos/EventService> rdf:type owl:NamedIndividual ,
+                                                                  <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                         rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-EventService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/ExperienceRelatedProductType
-<https://ontologia.segittur.es/turismo/kos/ExperienceRelatedProductType> rdf:type owl:NamedIndividual ,
-                                                                                  <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/ExperienceRelatedProduct
+<https://ontologia.segittur.es/turismo/kos/ExperienceRelatedProduct> rdf:type owl:NamedIndividual ,
+                                                                              <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                     rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-ExperienceRelatedProduct.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/GymServiceType
-<https://ontologia.segittur.es/turismo/kos/GymServiceType> rdf:type owl:NamedIndividual ,
-                                                                    <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/GymService
+<https://ontologia.segittur.es/turismo/kos/GymService> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                       rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-GymService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/HandiCraftServiceType
-<https://ontologia.segittur.es/turismo/kos/HandiCraftServiceType> rdf:type owl:NamedIndividual ,
-                                                                           <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/HandiCraftService
+<https://ontologia.segittur.es/turismo/kos/HandiCraftService> rdf:type owl:NamedIndividual ,
+                                                                       <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                              rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-HandiCraftService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/HealthAndBeautyServiceType
-<https://ontologia.segittur.es/turismo/kos/HealthAndBeautyServiceType> rdf:type owl:NamedIndividual ,
-                                                                                <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/HealthAndBeautyService
+<https://ontologia.segittur.es/turismo/kos/HealthAndBeautyService> rdf:type owl:NamedIndividual ,
+                                                                            <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                   rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-HealthAndBeautyService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/HistoricalAndCultureServiceType
-<https://ontologia.segittur.es/turismo/kos/HistoricalAndCultureServiceType> rdf:type owl:NamedIndividual ,
-                                                                                     <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/HistoricalAndCultureService
+<https://ontologia.segittur.es/turismo/kos/HistoricalAndCultureService> rdf:type owl:NamedIndividual ,
+                                                                                 <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                        rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-HistoricalAndCultureService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/LabelType
 <https://ontologia.segittur.es/turismo/kos/LabelType> rdf:type owl:NamedIndividual ,
-                                                               <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                               <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                      rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-LabelType.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/LakeServiceType
-<https://ontologia.segittur.es/turismo/kos/LakeServiceType> rdf:type owl:NamedIndividual ,
-                                                                     <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/LakeService
+<https://ontologia.segittur.es/turismo/kos/LakeService> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                        rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-LakeService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/LeisureAndCultureServiceType
-<https://ontologia.segittur.es/turismo/kos/LeisureAndCultureServiceType> rdf:type owl:NamedIndividual ,
-                                                                                  <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/LeisureAndCultureService
+<https://ontologia.segittur.es/turismo/kos/LeisureAndCultureService> rdf:type owl:NamedIndividual ,
+                                                                              <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                     rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-LeisureAndCultureService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/LocalBusinessServiceType
-<https://ontologia.segittur.es/turismo/kos/LocalBusinessServiceType> rdf:type owl:NamedIndividual ,
-                                                                              <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/LocalBusinessService
+<https://ontologia.segittur.es/turismo/kos/LocalBusinessService> rdf:type owl:NamedIndividual ,
+                                                                          <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                 rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-LocalBusinessService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/LocomotionMode
 <https://ontologia.segittur.es/turismo/kos/LocomotionMode> rdf:type owl:NamedIndividual ,
-                                                                    <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                    <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                           rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-LocomotionMode.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/MenuOptions
 <https://ontologia.segittur.es/turismo/kos/MenuOptions> rdf:type owl:NamedIndividual ,
-                                                                 <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                 <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                        rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-MenuOptions.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/MultiadventureActivityType
 <https://ontologia.segittur.es/turismo/kos/MultiadventureActivityType> rdf:type owl:NamedIndividual ,
-                                                                                <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                                <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                       rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-MultiadventureActivityType.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/MuseumServiceType
-<https://ontologia.segittur.es/turismo/kos/MuseumServiceType> rdf:type owl:NamedIndividual ,
-                                                                       <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/MuseumService
+<https://ontologia.segittur.es/turismo/kos/MuseumService> rdf:type owl:NamedIndividual ,
+                                                                   <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                          rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-MuseumService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/MuseumType
 <https://ontologia.segittur.es/turismo/kos/MuseumType> rdf:type owl:NamedIndividual ,
-                                                                <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                       rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-MuseumType.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/ParkingFacilityServiceType
-<https://ontologia.segittur.es/turismo/kos/ParkingFacilityServiceType> rdf:type owl:NamedIndividual ,
-                                                                                <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/ParkingFacilityService
+<https://ontologia.segittur.es/turismo/kos/ParkingFacilityService> rdf:type owl:NamedIndividual ,
+                                                                            <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                   rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-ParkingFacilityService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/PartyAndEntertainmentServiceType
-<https://ontologia.segittur.es/turismo/kos/PartyAndEntertainmentServiceType> rdf:type owl:NamedIndividual ,
-                                                                                      <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/PartyAndEntertainmentService
+<https://ontologia.segittur.es/turismo/kos/PartyAndEntertainmentService> rdf:type owl:NamedIndividual ,
+                                                                                  <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                         rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-PartyAndEntertainmentService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/PaymentMethod
 <https://ontologia.segittur.es/turismo/kos/PaymentMethod> rdf:type owl:NamedIndividual ,
-                                                                   <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                   <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                          rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-PaymentMethod.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/PlanetariumServiceType
-<https://ontologia.segittur.es/turismo/kos/PlanetariumServiceType> rdf:type owl:NamedIndividual ,
-                                                                            <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/PlanetariumService
+<https://ontologia.segittur.es/turismo/kos/PlanetariumService> rdf:type owl:NamedIndividual ,
+                                                                        <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                               rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-PlanetariumService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/PriceClass
 <https://ontologia.segittur.es/turismo/kos/PriceClass> rdf:type owl:NamedIndividual ,
-                                                                <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                       rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-PriceClass.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/RestaurantServiceType
-<https://ontologia.segittur.es/turismo/kos/RestaurantServiceType> rdf:type owl:NamedIndividual ,
-                                                                           <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/RestaurantService
+<https://ontologia.segittur.es/turismo/kos/RestaurantService> rdf:type owl:NamedIndividual ,
+                                                                       <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                              rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-RestaurantService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/RiverServiceType
-<https://ontologia.segittur.es/turismo/kos/RiverServiceType> rdf:type owl:NamedIndividual ,
-                                                                      <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/RiverService
+<https://ontologia.segittur.es/turismo/kos/RiverService> rdf:type owl:NamedIndividual ,
+                                                                  <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                         rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-RiverService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/RouteService
 <https://ontologia.segittur.es/turismo/kos/RouteService> rdf:type owl:NamedIndividual ,
-                                                                  <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                  <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                         rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-RouteService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/SocialMediaPlatform
 <https://ontologia.segittur.es/turismo/kos/SocialMediaPlatform> rdf:type owl:NamedIndividual ,
-                                                                         <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                         <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-SocialMediaPlatform.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/SportServiceType
-<https://ontologia.segittur.es/turismo/kos/SportServiceType> rdf:type owl:NamedIndividual ,
-                                                                      <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/SportService
+<https://ontologia.segittur.es/turismo/kos/SportService> rdf:type owl:NamedIndividual ,
+                                                                  <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                         rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-SportService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/SportsCentrePremise
 <https://ontologia.segittur.es/turismo/kos/SportsCentrePremise> rdf:type owl:NamedIndividual ,
-                                                                         <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                         <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-SportsCentrePremise.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/StadiumServiceType
-<https://ontologia.segittur.es/turismo/kos/StadiumServiceType> rdf:type owl:NamedIndividual ,
-                                                                        <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/StadiumService
+<https://ontologia.segittur.es/turismo/kos/StadiumService> rdf:type owl:NamedIndividual ,
+                                                                    <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                           rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-StadiumService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/StationType
 <https://ontologia.segittur.es/turismo/kos/StationType> rdf:type owl:NamedIndividual ,
-                                                                 <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                 <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                        rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-StationType.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/SwimmingPoolServiceType
-<https://ontologia.segittur.es/turismo/kos/SwimmingPoolServiceType> rdf:type owl:NamedIndividual ,
-                                                                             <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/SwimmingPoolService
+<https://ontologia.segittur.es/turismo/kos/SwimmingPoolService> rdf:type owl:NamedIndividual ,
+                                                                         <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-SwimmingPoolService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/TourGuideServiceType
-<https://ontologia.segittur.es/turismo/kos/TourGuideServiceType> rdf:type owl:NamedIndividual ,
-                                                                          <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/TourGuideService
+<https://ontologia.segittur.es/turismo/kos/TourGuideService> rdf:type owl:NamedIndividual ,
+                                                                      <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                             rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-TourGuideService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/TourServiceType
-<https://ontologia.segittur.es/turismo/kos/TourServiceType> rdf:type owl:NamedIndividual ,
-                                                                     <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/TourService
+<https://ontologia.segittur.es/turismo/kos/TourService> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                        rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-TourService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/TourismResourceServiceType
-<https://ontologia.segittur.es/turismo/kos/TourismResourceServiceType> rdf:type owl:NamedIndividual ,
-                                                                                <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/TourismResourceService
+<https://ontologia.segittur.es/turismo/kos/TourismResourceService> rdf:type owl:NamedIndividual ,
+                                                                            <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                   rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-TourismResourceService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/TouristDestinationServiceType
-<https://ontologia.segittur.es/turismo/kos/TouristDestinationServiceType> rdf:type owl:NamedIndividual ,
-                                                                                   <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/TouristDestinationService
+<https://ontologia.segittur.es/turismo/kos/TouristDestinationService> rdf:type owl:NamedIndividual ,
+                                                                               <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                      rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-TouristDestinationService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/TouristOrRelatedFacilityServiceType
-<https://ontologia.segittur.es/turismo/kos/TouristOrRelatedFacilityServiceType> rdf:type owl:NamedIndividual ,
-                                                                                         <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/TouristOrRelatedFacilityService
+<https://ontologia.segittur.es/turismo/kos/TouristOrRelatedFacilityService> rdf:type owl:NamedIndividual ,
+                                                                                     <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                            rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-TouristOrRelatedFacilityService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/TouristType
 <https://ontologia.segittur.es/turismo/kos/TouristType> rdf:type owl:NamedIndividual ,
-                                                                 <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                 <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                        rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-TouristType.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/TrailType
 <https://ontologia.segittur.es/turismo/kos/TrailType> rdf:type owl:NamedIndividual ,
-                                                               <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                               <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                      rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-TrailType.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/TransportInfrastructureServiceType
-<https://ontologia.segittur.es/turismo/kos/TransportInfrastructureServiceType> rdf:type owl:NamedIndividual ,
-                                                                                        <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/TransportInfrastructureService
+<https://ontologia.segittur.es/turismo/kos/TransportInfrastructureService> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                           rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-TransportInfrastructureService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/TravelAgencyServiceType
-<https://ontologia.segittur.es/turismo/kos/TravelAgencyServiceType> rdf:type owl:NamedIndividual ,
-                                                                             <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/TravelAgencyService
+<https://ontologia.segittur.es/turismo/kos/TravelAgencyService> rdf:type owl:NamedIndividual ,
+                                                                         <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-TravelAgencyService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/TravelUnitType
-<https://ontologia.segittur.es/turismo/kos/TravelUnitType> rdf:type owl:NamedIndividual ,
-                                                                    <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/TravelUnit
+<https://ontologia.segittur.es/turismo/kos/TravelUnit> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                       rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-TravelUnit.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/VehicleExperienceType
-<https://ontologia.segittur.es/turismo/kos/VehicleExperienceType> rdf:type owl:NamedIndividual ,
-                                                                           <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/VehicleExperience
+<https://ontologia.segittur.es/turismo/kos/VehicleExperience> rdf:type owl:NamedIndividual ,
+                                                                       <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                              rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-VehicleExperience.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/VehicleRentalCompanyServiceType
-<https://ontologia.segittur.es/turismo/kos/VehicleRentalCompanyServiceType> rdf:type owl:NamedIndividual ,
-                                                                                     <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/VehicleRentalCompanyService
+<https://ontologia.segittur.es/turismo/kos/VehicleRentalCompanyService> rdf:type owl:NamedIndividual ,
+                                                                                 <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                                        rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-VehicleRentalCompanyService.ttl> .
 
 
 ###  https://ontologia.segittur.es/turismo/kos/VehicleType
 <https://ontologia.segittur.es/turismo/kos/VehicleType> rdf:type owl:NamedIndividual ,
-                                                                 <http://www.w3.org/2008/05/skos#ConceptScheme> .
+                                                                 <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                        rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-VehicleType.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/VineyardServiceType
-<https://ontologia.segittur.es/turismo/kos/VineyardServiceType> rdf:type owl:NamedIndividual ,
-                                                                         <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/VineyardService
+<https://ontologia.segittur.es/turismo/kos/VineyardService> rdf:type owl:NamedIndividual ,
+                                                                     <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                            rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-VineyardService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/WineryServiceType
-<https://ontologia.segittur.es/turismo/kos/WineryServiceType> rdf:type owl:NamedIndividual ,
-                                                                       <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/WineryService
+<https://ontologia.segittur.es/turismo/kos/WineryService> rdf:type owl:NamedIndividual ,
+                                                                   <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                          rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-WineryService.ttl> .
 
 
-###  https://ontologia.segittur.es/turismo/kos/ZooServiceType
-<https://ontologia.segittur.es/turismo/kos/ZooServiceType> rdf:type owl:NamedIndividual ,
-                                                                    <http://www.w3.org/2008/05/skos#ConceptScheme> .
+###  https://ontologia.segittur.es/turismo/kos/ZooService
+<https://ontologia.segittur.es/turismo/kos/ZooService> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2008/05/skos#ConceptScheme> ;
+                                                       rdfs:seeAlso <https://ontologia.segittur.es/turismo/def/core/kos/skos-ZooService.ttl> .
 
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

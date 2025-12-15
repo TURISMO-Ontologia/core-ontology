@@ -497,7 +497,7 @@ It is possible that this annotation property is taken out in the future from the
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#Acknowledgement"/>
-        <rdfs:label xml:lang="en">has Acknowledgement</rdfs:label>
+        <rdfs:label xml:lang="en">has acknowledgement</rdfs:label>
         <rdfs:label xml:lang="es">tiene reconocimiento</rdfs:label>
         <estur-annot:orderInCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</estur-annot:orderInCategory>
         <estur-annot:presentationOrderCategory>acknowledgement</estur-annot:presentationOrderCategory>
@@ -517,7 +517,7 @@ It is possible that this annotation property is taken out in the future from the
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#AdditionalInformation"/>
-        <rdfs:label xml:lang="en">hasAdditionalInformation</rdfs:label>
+        <rdfs:label xml:lang="en">has additional information</rdfs:label>
         <rdfs:label xml:lang="es">tiene información adicional</rdfs:label>
         <estur-annot:orderInCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</estur-annot:orderInCategory>
         <estur-annot:presentationOrderCategory>generalInfo</estur-annot:presentationOrderCategory>
@@ -1460,7 +1460,7 @@ It is possible that this annotation property is taken out in the future from the
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional sportsfacility service</rdfs:label>
+        <rdfs:label xml:lang="en">offers additional sports facility service</rdfs:label>
         <rdfs:label xml:lang="es">ofrece servicio adicional de la instalación deportiva</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:ObjectProperty>
@@ -1744,7 +1744,7 @@ It is possible that this annotation property is taken out in the future from the
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
-        <rdfs:label xml:lang="en">offers additional soo service</rdfs:label>
+        <rdfs:label xml:lang="en">offers additional zoo service</rdfs:label>
         <rdfs:label xml:lang="es">ofrece servicio adicional del zoo</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:ObjectProperty>
@@ -2364,7 +2364,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:comment xml:lang="en">Levels of grading of the technical and physical demands of routes, where 1 indicates least difficulty and 5 greatest difficulty.</rdfs:comment>
         <rdfs:comment xml:lang="es">Niveles de graduación de las exigencias técnicas y físicas de rutas, en los que 1 indica menor dificultad y 5 mayor dificultad.</rdfs:comment>
         <rdfs:label xml:lang="es">Escala MIDE</rdfs:label>
-        <rdfs:label xml:lang="en">MIDEScale</rdfs:label>
+        <rdfs:label xml:lang="en">MIDE scale</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:DatatypeProperty>
     
@@ -3718,7 +3718,7 @@ It is possible that this annotation property is taken out in the future from the
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Lugar donde una persona o un grupo de personas se hospeda, se aposenta o acampa.</rdfs:comment>
         <rdfs:comment xml:lang="en">Place where a person or a group of people stays, stays or camps.</rdfs:comment>
-        <rdfs:label xml:lang="en">Accommodation Establishment</rdfs:label>
+        <rdfs:label xml:lang="en">Accommodation establishment</rdfs:label>
         <rdfs:label xml:lang="es">Establecimiento alojativo</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
@@ -3874,7 +3874,7 @@ It is possible that this annotation property is taken out in the future from the
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Experience of an agritourism type</rdfs:comment>
         <rdfs:comment xml:lang="es">Experiencia de tipo agroturística</rdfs:comment>
-        <rdfs:label xml:lang="en">Agritourism Experience</rdfs:label>
+        <rdfs:label xml:lang="en">Agritourism experience</rdfs:label>
         <rdfs:label xml:lang="es">Experiencia agroturística</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
@@ -3900,7 +3900,7 @@ It is possible that this annotation property is taken out in the future from the
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Facility focused on promoting agricultural, livestock, and active tourism activities in rural settings.</rdfs:comment>
         <rdfs:comment xml:lang="es">Instalación enfocada a la promoción de actividades agrícolas, ganaderas y de turismo activo en entornos rurales.</rdfs:comment>
-        <rdfs:label xml:lang="en">Agrotourism Facility</rdfs:label>
+        <rdfs:label xml:lang="en">Agrotourism facility</rdfs:label>
         <rdfs:label xml:lang="es">Instalación agroturística</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
@@ -4006,7 +4006,7 @@ It is possible that this annotation property is taken out in the future from the
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#ArabicBath">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
         <rdfs:comment xml:lang="es">Los baños árabes, también conocidos como hammam, son espacios públicos de baño que combinan la limpieza del cuerpo con la relajación y el bienestar</rdfs:comment>
-        <rdfs:label xml:lang="en">Arabic Bath</rdfs:label>
+        <rdfs:label xml:lang="en">Arabic bath</rdfs:label>
         <rdfs:label xml:lang="es">Baños árabes</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
@@ -4271,6 +4271,8 @@ It is possible that this annotation property is taken out in the future from the
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Bingo">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#PartyAndEntertainmentFacility"/>
+        <rdfs:comment xml:lang="es">Lugar donde se juega al bingo</rdfs:comment>
+        <rdfs:comment xml:lang="en">Place where bingo can be played</rdfs:comment>
         <rdfs:label xml:lang="en">Bingo</rdfs:label>
         <rdfs:label xml:lang="es">Bingo</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
@@ -4481,6 +4483,8 @@ It is possible that this annotation property is taken out in the future from the
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Casino">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#PartyAndEntertainmentFacility"/>
+        <rdfs:comment xml:lang="en">Casino</rdfs:comment>
+        <rdfs:comment xml:lang="es">Casino</rdfs:comment>
         <rdfs:label xml:lang="en">Casino</rdfs:label>
         <rdfs:label xml:lang="es">Casino</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
@@ -4518,7 +4522,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#FoodEstablishment"/>
         <rdfs:comment xml:lang="en">Food and beverage services for events, whether large or small, formal or informal.</rdfs:comment>
         <rdfs:comment xml:lang="es">Servicio de provisión de alimentos y bebidas para eventos, ya sean grandes o pequeños, formales o informales.</rdfs:comment>
-        <rdfs:label xml:lang="en">Catering Service</rdfs:label>
+        <rdfs:label xml:lang="en">Catering service</rdfs:label>
         <rdfs:label xml:lang="es">Servicio de catering</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
@@ -4721,7 +4725,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismOrganisation"/>
         <rdfs:comment xml:lang="en">Company that offers complementary activities</rdfs:comment>
         <rdfs:comment xml:lang="es">Empresa que se encarga de ofrecer actividades complementarias</rdfs:comment>
-        <rdfs:label xml:lang="en">Complementary Activities Company</rdfs:label>
+        <rdfs:label xml:lang="en">Complementary activities company</rdfs:label>
         <rdfs:label xml:lang="es">Empresa de actividades complementarias</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
@@ -5047,6 +5051,8 @@ It is possible that this annotation property is taken out in the future from the
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#EngineCircuit">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#SportFacility"/>
+        <rdfs:comment xml:lang="es">Circuito de motor</rdfs:comment>
+        <rdfs:comment xml:lang="en">Engine circuit</rdfs:comment>
         <rdfs:label xml:lang="es">Circuito de motor</rdfs:label>
         <rdfs:label xml:lang="en">Engine circuit</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
@@ -5281,7 +5287,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:comment xml:lang="en">Company that is mainly responsible for the design, planning, coordination, as well as the production and execution of an event.</rdfs:comment>
         <rdfs:comment xml:lang="es">Empresa que se encarga principalmente del diseño, la planificación, la coordinación, así como la producción y ejecución de un evento.</rdfs:comment>
         <rdfs:label xml:lang="es">Empresa de organización de eventos</rdfs:label>
-        <rdfs:label xml:lang="en">Event Organisation Company</rdfs:label>
+        <rdfs:label xml:lang="en">Event organisation company</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -6410,7 +6416,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:comment xml:lang="es">Molino de aceite</rdfs:comment>
         <rdfs:comment xml:lang="en">Oil press</rdfs:comment>
         <rdfs:label xml:lang="es">Almazara</rdfs:label>
-        <rdfs:label xml:lang="en">Olive Oil Mill</rdfs:label>
+        <rdfs:label xml:lang="en">Olive oil mill</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -6476,7 +6482,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:comment xml:lang="en">Period of time during which a business, establishment or service is available to serve customers or carry out commercial activities.</rdfs:comment>
         <rdfs:comment xml:lang="es">Período de tiempo durante el cual un negocio, establecimiento o servicio está disponible para atender a clientes o realizar actividades comerciales.</rdfs:comment>
         <rdfs:label xml:lang="es">Horario de apertura</rdfs:label>
-        <rdfs:label xml:lang="en">Opening Hours</rdfs:label>
+        <rdfs:label xml:lang="en">Opening hours</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</estur-annot:visibleResource>
     </owl:Class>
     
@@ -7085,7 +7091,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:comment xml:lang="en">Company that offers restaurant services</rdfs:comment>
         <rdfs:comment xml:lang="es">Empresa que se encarga de ofrecer servicios de restauración</rdfs:comment>
         <rdfs:label xml:lang="es">Empresa de servicios de restauración</rdfs:label>
-        <rdfs:label xml:lang="en">Restaurant Service Organisation</rdfs:label>
+        <rdfs:label xml:lang="en">Restaurant service organisation</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -7302,7 +7308,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:comment xml:lang="es">Conjunto de principios, normas y recomendaciones que establece un destino turístico con el objetivo de garantizar una experiencia segura, respetuosa y satisfactoria tanto para los turistas como para la comunidad local y el entorno.</rdfs:comment>
         <rdfs:comment xml:lang="en">Set of principles, standards and recommendations established by a tourist destination with the aim of guaranteeing a safe, respectful and satisfactory experience for both tourists and the local community and the environment.</rdfs:comment>
         <rdfs:label xml:lang="es">Reglas y consejos</rdfs:label>
-        <rdfs:label xml:lang="en">Rules and Tips</rdfs:label>
+        <rdfs:label xml:lang="en">Rules and tips</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</estur-annot:visibleResource>
     </owl:Class>
     
@@ -7376,6 +7382,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#ShootingRange">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#SportFacility"/>
         <rdfs:comment xml:lang="es">Espacios habilitados para la práctica del tiro que reúnan las características y medidas de seguridad pertinentes.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Place for practicing shooting</rdfs:comment>
         <rdfs:label xml:lang="es">Campo de tiro</rdfs:label>
         <rdfs:label xml:lang="en">Shooting range</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
@@ -7580,7 +7587,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:comment xml:lang="en">It represents a special offer</rdfs:comment>
         <rdfs:comment xml:lang="es">Representa una oferta especial</rdfs:comment>
         <rdfs:label xml:lang="es">Oferta especial</rdfs:label>
-        <rdfs:label xml:lang="en">Special Offer</rdfs:label>
+        <rdfs:label xml:lang="en">Special offer</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</estur-annot:visibleResource>
     </owl:Class>
     
@@ -8098,7 +8105,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:comment xml:lang="es">Concepto general que agrupa los servicios turísticos, recursos turísticos, destinos turísticos y organizaciones turísticas</rdfs:comment>
         <rdfs:comment>General concept that groups Tourism Resources, Tourism Services, Tourist Destinations and Tourism Organisation</rdfs:comment>
         <rdfs:label xml:lang="es">Entidad turística</rdfs:label>
-        <rdfs:label xml:lang="en">Tourism Entity</rdfs:label>
+        <rdfs:label xml:lang="en">Tourism entity</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -8926,7 +8933,7 @@ quality, performance or satisfaction. Based on this score, the instances of each
         <rdfs:comment xml:lang="es">Establecimiento en el que se practica yoga</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment where yoga is practiced</rdfs:comment>
         <rdfs:label xml:lang="es">Centro de yoga</rdfs:label>
-        <rdfs:label xml:lang="en">Yoga Centre</rdfs:label>
+        <rdfs:label xml:lang="en">Yoga centre</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
