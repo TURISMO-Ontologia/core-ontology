@@ -1,0 +1,147 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="transport-infrastructure" id="97k_kpd-OpvmId-940U9">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="TransportInfrastructure" vertex="1">
+          <mxGeometry height="40" width="140" x="490" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-2" edge="1" parent="1" source="ROFzpyNyN9DUhL5MxqzI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="ROFzpyNyN9DUhL5MxqzI-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="288" />
+              <mxPoint x="975" y="288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="&lt;div&gt;Airport&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="50" x="250" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="&lt;div&gt;BikeLane&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="852.5" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="&lt;div&gt;TrainStation&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="930" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-6" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="..." vertex="1">
+          <mxGeometry height="30" width="30" x="705" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-7" edge="1" parent="1" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points" />
+            <mxPoint x="560" y="288" as="sourcePoint" />
+            <mxPoint x="560" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:AdditionalTransport&lt;/div&gt;&lt;div&gt;InfrastructureService&amp;gt;&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="172.5" x="810" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ROFzpyNyN9DUhL5MxqzI-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="208" as="sourcePoint" />
+            <mxPoint x="680" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-10" connectable="0" parent="ROFzpyNyN9DUhL5MxqzI-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="offersAditionalTransport&lt;div&gt;InfrastructureService&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4353" y="-1" as="geometry">
+            <mxPoint x="-32" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];dashed=1;align=left;" value="&lt;div&gt;hasAdditionalType&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="490" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="&lt;div&gt;BicycleSharing&lt;/div&gt;&lt;div&gt;System&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="320" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="&lt;div&gt;Price&lt;/div&gt;&lt;div&gt;Specification&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="320" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-14" edge="1" parent="1" source="ROFzpyNyN9DUhL5MxqzI-12" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ROFzpyNyN9DUhL5MxqzI-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="368" as="sourcePoint" />
+            <mxPoint x="410" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-15" connectable="0" parent="ROFzpyNyN9DUhL5MxqzI-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="hasPrice&lt;div&gt;Specification&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1481" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-16" edge="1" parent="1" source="ROFzpyNyN9DUhL5MxqzI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.9;entryY=0;entryDx=0;entryDy=0;" target="ROFzpyNyN9DUhL5MxqzI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-17" connectable="0" parent="ROFzpyNyN9DUhL5MxqzI-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="hasPrice&lt;div&gt;Specification&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2515" y="-1" as="geometry">
+            <mxPoint x="16" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="&lt;div&gt;ParkingFacility&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="95" x="485" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:ParkingFacility&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Service&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="172.5" x="446.25" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-20" edge="1" parent="1" source="ROFzpyNyN9DUhL5MxqzI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ROFzpyNyN9DUhL5MxqzI-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="533" y="438" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-21" connectable="0" parent="ROFzpyNyN9DUhL5MxqzI-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="offersAdditionalParking&lt;div&gt;FacilityService&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0567" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];dashed=1;align=left;" value="&lt;div&gt;isIndoorParking&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="95" x="485" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="&lt;div&gt;PublicTransport&lt;/div&gt;&lt;div&gt;Stop&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="141.25" x="645.75" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-24" edge="1" parent="1" source="ROFzpyNyN9DUhL5MxqzI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ROFzpyNyN9DUhL5MxqzI-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-32" connectable="0" parent="ROFzpyNyN9DUhL5MxqzI-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="stationType" vertex="1">
+          <mxGeometry relative="1" x="-0.1031" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];dashed=1;align=left;" value="&lt;div&gt;publicTransportStopCode&lt;/div&gt;&lt;div&gt;publicTransportStopZone&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="141.25" x="645.75" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:stationType&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="172.5" x="630.75" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="......" vertex="1">
+          <mxGeometry height="30" width="60" x="780" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-28" edge="1" parent="1" source="ROFzpyNyN9DUhL5MxqzI-12" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="438" as="sourcePoint" />
+            <mxPoint x="365" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-29" edge="1" parent="1" source="ROFzpyNyN9DUhL5MxqzI-18" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="724" as="sourcePoint" />
+            <mxPoint x="533" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-30" edge="1" parent="1" source="ROFzpyNyN9DUhL5MxqzI-23" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="550" y="624" as="sourcePoint" />
+            <mxPoint x="716" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROFzpyNyN9DUhL5MxqzI-31" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="880.5" y="324" as="sourcePoint" />
+            <mxPoint x="880" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
