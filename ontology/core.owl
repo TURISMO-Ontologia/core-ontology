@@ -278,7 +278,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#agrotourismExperienceType -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#agrotourismExperienceType">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AgritourismExperience"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AgrotourismExperience"/>
         <rdfs:range>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -495,7 +495,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#experienceRelatedProduct -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#experienceRelatedProduct">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AgritourismExperience"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AgrotourismExperience"/>
         <rdfs:range>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -739,7 +739,7 @@ It is possible that this annotation property is taken out in the future from the
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AccommodationEstablishment"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AdventureActivity"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AgritourismExperience"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AgrotourismExperience"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#FoodEstablishment"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Tour"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#VehicleExperience"/>
@@ -886,7 +886,7 @@ It is possible that this annotation property is taken out in the future from the
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AdventureActivity"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AgritourismExperience"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AgrotourismExperience"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#DestinationExperience"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#HolidayPackage"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Route"/>
@@ -1659,7 +1659,7 @@ It is possible that this annotation property is taken out in the future from the
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AdventureActivity"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#MultiAdventureCentre"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AdventureActivityCentre"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
@@ -2694,7 +2694,7 @@ It is possible that this annotation property is taken out in the future from the
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AdventureActivity"/>
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AgritourismExperience"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AgrotourismExperience"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#HolidayPackage"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Tour"/>
                 </owl:unionOf>
@@ -2946,7 +2946,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AgritourismExperience"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AgrotourismExperience"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#HolidayPackage"/>
                     <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Tour"/>
                 </owl:unionOf>
@@ -3556,7 +3556,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#AccessoriesAndComplements -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#AccessoriesAndComplements">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
         <rdfs:comment xml:lang="es">Establecimiento en el que se venden objetos que complementan la indumentaria de una persona, como bolsos, calzado, paraguas, corbatas, sombreros, gafas, guantes, etc.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment in which objects that complement a person&apos;s clothing are sold, such as bags, footwear, umbrellas, ties, hats, glasses, gloves, etc.</rdfs:comment>
         <rdfs:label xml:lang="en">Accessories and complements</rdfs:label>
@@ -3739,7 +3739,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTourismOrRelatedFacility"/>
-                <owl:someValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#MultiAdventureCentre"/>
+                <owl:someValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#AdventureActivityCentre"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3758,6 +3758,19 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#AdventureActivityCentre -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#AdventureActivityCentre">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#SportFacility"/>
+        <rdfs:comment xml:lang="en">Center oriented towards sports or practices that involve, in addition to physical activity, intense recreational activity in the natural environment.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Centro orientado a los deportes o prácticas que conllevan, además de una actividad física, una intensa actividad recreativa en el medio natural.</rdfs:comment>
+        <rdfs:label xml:lang="en">Adventure activity centre</rdfs:label>
+        <rdfs:label xml:lang="es">Centro de actividades de aventura</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#Advice -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Advice">
@@ -3771,9 +3784,9 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#AgritourismExperience -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#AgrotourismExperience -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#AgritourismExperience">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#AgrotourismExperience">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismService"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3807,9 +3820,9 @@ It is possible that this annotation property is taken out in the future from the
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">Experience of an agritourism type</rdfs:comment>
-        <rdfs:comment xml:lang="es">Experiencia de tipo agroturística</rdfs:comment>
-        <rdfs:label xml:lang="en">Agritourism experience</rdfs:label>
+        <rdfs:comment xml:lang="es">Experiencia turística que se suele desarrollar en entornos rurales o agrícolas y permite a los visitantes participar en tareas del campo y conocer la vida y tradiciones rurales</rdfs:comment>
+        <rdfs:comment xml:lang="en">Tourism experience usually carried out in rural or agricultural settings that allows visitors to participate in farming activities and learn about rural life and traditions</rdfs:comment>
+        <rdfs:label xml:lang="en">Agrotourism experience</rdfs:label>
         <rdfs:label xml:lang="es">Experiencia agroturística</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
@@ -3823,7 +3836,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#offers"/>
-                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#AgritourismExperience"/>
+                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#AgrotourismExperience"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4008,7 +4021,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#BakeryAndPastry -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#BakeryAndPastry">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#Groceries"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#GroceriesService"/>
         <rdfs:comment xml:lang="es">Establecimiento donde se hacen y/o se venden panes, pasteles, pastas u otros dulces.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment where breads, cakes, pastas or other sweets are made and/or sold.</rdfs:comment>
         <rdfs:label xml:lang="en">Bakery and pastry</rdfs:label>
@@ -4072,7 +4085,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#Bazaar -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Bazaar">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
         <rdfs:comment xml:lang="es">Establecimiento en el que se venden gran diversidad de productos, como ropa, relojes, juguetes, artículos para la casa y objetos de regalo.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment where a wide variety of products are sold, such as clothing, watches, toys, household items and gift items.</rdfs:comment>
         <rdfs:label xml:lang="en">Bazaar</rdfs:label>
@@ -4231,7 +4244,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#Bookshop -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Bookshop">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
         <rdfs:comment xml:lang="en">Shop where books are sold</rdfs:comment>
         <rdfs:comment xml:lang="es">Tienda donde se venden libros.</rdfs:comment>
         <rdfs:label xml:lang="en">Bookshop</rdfs:label>
@@ -4318,9 +4331,9 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#CafeOrCoffeShop -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#CafeOrCoffeeShop -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#CafeOrCoffeShop">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#CafeOrCoffeeShop">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#FoodEstablishment"/>
         <rdfs:comment xml:lang="en">Coffee and other beverage outlet, where snacks and meals are sometimes served</rdfs:comment>
         <rdfs:comment xml:lang="es">Despacho de café y otras bebidas, donde a veces se sirven aperitivos y comidas</rdfs:comment>
@@ -4334,7 +4347,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#CallShop -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#CallShop">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousService"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousBusiness"/>
         <rdfs:comment xml:lang="es">Local que ofrece a sus clientes servicios de telefonía y conexión a internet principalmente.</rdfs:comment>
         <rdfs:comment xml:lang="en">Local that offers its clients telephone services and internet connection mainly.</rdfs:comment>
         <rdfs:label xml:lang="en">Call shop</rdfs:label>
@@ -4619,7 +4632,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#Clothing -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Clothing">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
         <rdfs:comment xml:lang="en">Store where the latest news in clothing is sold.</rdfs:comment>
         <rdfs:comment xml:lang="es">Tienda en la que se venden las últimas novedades en ropa.</rdfs:comment>
         <rdfs:label xml:lang="en">Clothing</rdfs:label>
@@ -4917,7 +4930,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#DryCleaningOrLaundry -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#DryCleaningOrLaundry">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousService"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousBusiness"/>
         <rdfs:comment xml:lang="es">Establecimiento en el que se tiñen, se planchan o se limpian en seco o mediante otro procedimiento tejidos y prendas de vestir.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment in which fabrics and clothing are dyed, ironed, dry cleaned or otherwise cleaned.</rdfs:comment>
         <rdfs:label xml:lang="en">Dry cleaning or laundry</rdfs:label>
@@ -5504,7 +5517,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#GeneralStore -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#GeneralStore">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#Groceries"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#GroceriesService"/>
         <rdfs:comment xml:lang="es">Establecimiento o tienda comercial que vende diversos productos alimenticios.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment or commercial store that sells various food products.</rdfs:comment>
         <rdfs:label xml:lang="en">General store</rdfs:label>
@@ -5553,14 +5566,14 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#Groceries -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#GroceriesService -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Groceries">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#GroceriesService">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LocalBusiness"/>
         <rdfs:comment xml:lang="es">Espacios físicos que proporcionan a los consumidores un lugar accesible y conveniente donde se ofrecen productos alimenticios para su compra y consumo.</rdfs:comment>
         <rdfs:comment xml:lang="en">Physical spaces that provide consumers with an accessible and convenient place where food products are offered for purchase and consumption.</rdfs:comment>
-        <rdfs:label xml:lang="es">Alimentación</rdfs:label>
-        <rdfs:label xml:lang="en">Groceries</rdfs:label>
+        <rdfs:label xml:lang="en">Groceries service</rdfs:label>
+        <rdfs:label xml:lang="es">Servicio de alimentación</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -5595,7 +5608,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#Hairdressing -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Hairdressing">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousService"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousBusiness"/>
         <rdfs:comment xml:lang="es">Establecimiento en el que se peina, se corta, se arregla y se cuida el cabello.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment where hair is combed, cut, groomed and cared for.</rdfs:comment>
         <rdfs:label xml:lang="en">Hairdressing</rdfs:label>
@@ -5865,7 +5878,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#JewelryAndWatches -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#JewelryAndWatches">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
         <rdfs:comment xml:lang="es">Establecimiento donde se venden joyas y relojes</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment where jewelry and watches are sold</rdfs:comment>
         <rdfs:label xml:lang="en">Jewelry and watches</rdfs:label>
@@ -5904,7 +5917,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#Kiosk -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Kiosk">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
         <rdfs:comment xml:lang="es">Local comercial de pequeño tamaño destinado a la venta de periódicos, revistas, golosinas y otros artículos.</rdfs:comment>
         <rdfs:comment xml:lang="en">Small commercial premises for the sale of newspapers, magazines, candy and other items.</rdfs:comment>
         <rdfs:label xml:lang="en">Kiosk</rdfs:label>
@@ -6087,7 +6100,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#LuggageStorage -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#LuggageStorage">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousService"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousBusiness"/>
         <rdfs:comment xml:lang="es">Lugares reservados para guardar el equipaje de forma segura y para espacios de tiempo cortos.</rdfs:comment>
         <rdfs:comment xml:lang="en">Reserved places to store luggage safely and for short periods of time.</rdfs:comment>
         <rdfs:label xml:lang="es">Consigna de equipaje</rdfs:label>
@@ -6110,14 +6123,14 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#MedicalService -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#MedicalBusiness -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#MedicalService">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#MedicalBusiness">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LocalBusiness"/>
         <rdfs:comment xml:lang="es">Atención y cuidado de la salud proporcionados por profesionales de la salud para mantener, promover y restablecer la salud de las personas, prevenir enfermedades y lesiones, y brindar diagnóstico, tratamiento y seguimiento médico.</rdfs:comment>
         <rdfs:comment xml:lang="en">Health care and care provided by health professionals to maintain, promote and restore people&apos;s health, prevent illness and injury, and provide diagnosis, treatment and medical follow-up.</rdfs:comment>
-        <rdfs:label xml:lang="en">Medical service</rdfs:label>
-        <rdfs:label xml:lang="es">Servicio médico</rdfs:label>
+        <rdfs:label xml:lang="en">Medical business</rdfs:label>
+        <rdfs:label xml:lang="es">Negocio médico</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -6135,14 +6148,14 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#MiscellaneousService -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#MiscellaneousBusiness -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#MiscellaneousService">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#MiscellaneousBusiness">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LocalBusiness"/>
         <rdfs:comment xml:lang="es">Espacios físicos donde se ofrecen una variedad de servicios para satisfacer las necesidades de los clientes.</rdfs:comment>
         <rdfs:comment xml:lang="en">Physical spaces where a variety of services are offered to satisfy customer needs.</rdfs:comment>
-        <rdfs:label xml:lang="en">Miscallaneous service</rdfs:label>
-        <rdfs:label xml:lang="es">Servicios varios</rdfs:label>
+        <rdfs:label xml:lang="en">Miscellaneous business</rdfs:label>
+        <rdfs:label xml:lang="es">Negocios varios</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -6218,19 +6231,6 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:comment xml:lang="en">Establishment intended for the projection of cinematographic films.</rdfs:comment>
         <rdfs:label xml:lang="es">Cine</rdfs:label>
         <rdfs:label xml:lang="en">Movie theater</rdfs:label>
-        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
-    </owl:Class>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#MultiAdventureCentre -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#MultiAdventureCentre">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#SportFacility"/>
-        <rdfs:comment xml:lang="en">Center oriented towards sports or practices that involve, in addition to physical activity, intense recreational activity in the natural environment.</rdfs:comment>
-        <rdfs:comment xml:lang="es">Centro orientado a los deportes o prácticas que conllevan, además de una actividad física, una intensa actividad recreativa en el medio natural.</rdfs:comment>
-        <rdfs:label xml:lang="es">Centro de actividades multiaventura</rdfs:label>
-        <rdfs:label xml:lang="en">Multiadventure centre</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -6524,7 +6524,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#ParcelAndCourier -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#ParcelAndCourier">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousService"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousBusiness"/>
         <rdfs:comment xml:lang="en">Mail and package delivery service carried out by a company.</rdfs:comment>
         <rdfs:comment xml:lang="es">Servicio de reparto de correspondencia y de paquetes realizado por una empresa.</rdfs:comment>
         <rdfs:label xml:lang="es">Paquetería y mensajería</rdfs:label>
@@ -6595,7 +6595,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#Perfumery -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Perfumery">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
         <rdfs:comment xml:lang="en">Store where perfumes are sold.</rdfs:comment>
         <rdfs:comment xml:lang="es">Tienda donde se venden perfumes.</rdfs:comment>
         <rdfs:label xml:lang="en">Perfumery</rdfs:label>
@@ -6608,7 +6608,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#Pharmacy -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Pharmacy">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MedicalService"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MedicalBusiness"/>
         <rdfs:comment xml:lang="es">Establecimiento en el que se preparan y venden medicamentos.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment in which medicines are prepared and sold.</rdfs:comment>
         <rdfs:label xml:lang="es">Farmacia</rdfs:label>
@@ -6838,7 +6838,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#PrivateHospital -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#PrivateHospital">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MedicalService"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MedicalBusiness"/>
         <rdfs:comment xml:lang="es">Establecimiento destinado al diagnóstico y tratamiento de enfermos, cuya financiación corre a cargo de los propios pacientes, de las aseguradoras o de embajadas extranjeras.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment intended for the diagnosis and treatment of patients, whose financing is provided by the patients themselves, by insurance companies or by foreign embassies.</rdfs:comment>
         <rdfs:label xml:lang="es">Hospital privado</rdfs:label>
@@ -7063,14 +7063,14 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#RetailAndFashion -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#LocalBusiness"/>
         <rdfs:comment xml:lang="es">Espacios físicos que ofrecen un lugar accesible y conveniente para que los consumidores adquieran diversos productos.</rdfs:comment>
         <rdfs:comment xml:lang="en">Physical spaces that offer an accessible and convenient place for consumers to purchase various products.</rdfs:comment>
-        <rdfs:label xml:lang="es">Comercio y moda</rdfs:label>
-        <rdfs:label xml:lang="en">Retail and fashion</rdfs:label>
+        <rdfs:label xml:lang="es">Negocio de comercio y moda</rdfs:label>
+        <rdfs:label xml:lang="en">Retail and fashion business</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -7358,7 +7358,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#ShoppingMall -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#ShoppingMall">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
         <rdfs:comment xml:lang="es">Complejo formado por establecimientos dedicados a actividades comerciales y de ocio.</rdfs:comment>
         <rdfs:comment xml:lang="en">Complex made up of establishments dedicated to commercial and leisure activities.</rdfs:comment>
         <rdfs:label xml:lang="es">Centro comercial</rdfs:label>
@@ -7387,8 +7387,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#SportFacility"/>
         <rdfs:comment xml:lang="es">Instalación deportiva diseñada específicamente para la práctica del monopatinaje.</rdfs:comment>
         <rdfs:comment xml:lang="en">Sports facility designed specifically for skateboarding.</rdfs:comment>
+        <rdfs:label xml:lang="es">Parque de patinaje</rdfs:label>
         <rdfs:label xml:lang="en">Skatepark</rdfs:label>
-        <rdfs:label xml:lang="es">Skatepark</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -7437,24 +7437,11 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#Souvenir -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Souvenir">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
         <rdfs:comment xml:lang="en">Store that sells objects that serve as souvenirs of the visit to a certain place.</rdfs:comment>
         <rdfs:comment xml:lang="es">Tienda que vende objetos que sirven como recuerdo de la visita a un lugar determinado.</rdfs:comment>
         <rdfs:label xml:lang="en">Souvenirs</rdfs:label>
         <rdfs:label xml:lang="es">Tienda de souvenirs</rdfs:label>
-        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
-    </owl:Class>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/def/core#Spa -->
-
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Spa">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HealthAndWellnessFacility"/>
-        <rdfs:comment xml:lang="es">Establecimiento que ofrece tratamientos, terapias o sistemas de relajación, utilizando como base principal el agua, generalmente corriente, no medicinal.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Establishment that offers treatments, therapies or relaxation systems, using water as its main base, generally running water, not medicinal.</rdfs:comment>
-        <rdfs:label xml:lang="en">Spa</rdfs:label>
-        <rdfs:label xml:lang="es">Spa</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -7554,7 +7541,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#SportingGoodsStore -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#SportingGoodsStore">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
         <rdfs:comment xml:lang="es">Establecimiento comercial dedicado a la venta de material, ropa y accesorios para la práctica de actividades deportivas</rdfs:comment>
         <rdfs:comment xml:lang="en">Retail establishment dedicated to selling gear, clothing, and accessories for sports activities</rdfs:comment>
         <rdfs:label xml:lang="en">Sporting goods store</rdfs:label>
@@ -7625,7 +7612,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#Supermarket -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Supermarket">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#Groceries"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#GroceriesService"/>
         <rdfs:comment xml:lang="es">Establecimiento comercial de venta al por menor en el que se expenden todo género de artículos alimenticios, bebidas, productos de limpieza, etc., y en el que el cliente se sirve y paga a la salida</rdfs:comment>
         <rdfs:comment xml:lang="en">Retail commercial establishment in which all types of food items, beverages, cleaning products, etc. are sold, and in which the customer is served and pays upon departure</rdfs:comment>
         <rdfs:label xml:lang="en">Supermarket</rdfs:label>
@@ -7676,7 +7663,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#TailorShop -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TailorShop">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
         <rdfs:comment xml:lang="en">A tailor&apos;s shop and workshop</rdfs:comment>
         <rdfs:comment xml:lang="es">Tienda y taller de sastre</rdfs:comment>
         <rdfs:label xml:lang="es">Sastrería</rdfs:label>
@@ -7686,14 +7673,14 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#TakeAway -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#TakeAwayEstablishment -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TakeAway">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TakeAwayEstablishment">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#FoodEstablishment"/>
         <rdfs:comment xml:lang="es">Establecimiento donde se preparan y venden alimentos listos para ser llevados y consumidos fuera del lugar de venta.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment where food is prepared and sold ready to be taken and consumed outside the place of sale.</rdfs:comment>
         <rdfs:label xml:lang="es">Casa de comidas para llevar</rdfs:label>
-        <rdfs:label xml:lang="en">Take away</rdfs:label>
+        <rdfs:label xml:lang="en">Take away establishment</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -7741,7 +7728,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#TelephoneShop -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TelephoneShop">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
         <rdfs:comment xml:lang="es">Establecimiento de venta al por menor de artículos de telefonía, teléfonos móviles y accesorios.</rdfs:comment>
         <rdfs:comment xml:lang="en">Retail establishment of telephone items, mobile phones and accessories.</rdfs:comment>
         <rdfs:label xml:lang="en">Telephone shop</rdfs:label>
@@ -7839,7 +7826,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#TobaccoShop -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TobaccoShop">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
         <rdfs:comment xml:lang="en">Site or store where stamps and tobacco are mainly sold, in addition to offering recharge services for prepaid telephone and urban transport cards.</rdfs:comment>
         <rdfs:comment xml:lang="es">Sitio o tienda donde se venden principalmente sellos y tabaco, además de ofrecer servicios de recarga de tarjetas prepago de telefonía y de transportes urbanos.</rdfs:comment>
         <rdfs:label xml:lang="es">Estanco</rdfs:label>
@@ -7986,7 +7973,7 @@ It is possible that this annotation property is taken out in the future from the
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AgritourismExperience"/>
+                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AgrotourismExperience"/>
                             <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Event"/>
                             <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#HolidayPackage"/>
                             <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#SpecialOffer"/>
@@ -8505,7 +8492,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#ToyStore -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#ToyStore">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashion"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
         <rdfs:comment xml:lang="en">Store where toys are sold.</rdfs:comment>
         <rdfs:comment xml:lang="es">Tienda donde se venden juguetes.</rdfs:comment>
         <rdfs:label xml:lang="es">Juguetería</rdfs:label>
@@ -8738,7 +8725,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#VehicleWorkshop -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#VehicleWorkshop">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousService"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousBusiness"/>
         <rdfs:comment xml:lang="es">Establecimiento donde se reparan las averías de los automóviles.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment where automobile breakdowns are repaired.</rdfs:comment>
         <rdfs:label xml:lang="es">Taller mecánico</rdfs:label>
@@ -8751,7 +8738,7 @@ It is possible that this annotation property is taken out in the future from the
     <!-- https://ontologia.segittur.es/turismo/def/core#VendingMachine -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#VendingMachine">
-        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#Groceries"/>
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#GroceriesService"/>
         <rdfs:comment xml:lang="en">Machine that provides snacks, drinks, candy and other products to consumers</rdfs:comment>
         <rdfs:comment xml:lang="es">Máquina que proporciona aperitivos, bebidas, golosinas y otros productos a los consumidores.</rdfs:comment>
         <rdfs:label xml:lang="es">Máquina expendedora</rdfs:label>
@@ -8842,6 +8829,19 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#WellnessSpa -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#WellnessSpa">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HealthAndWellnessFacility"/>
+        <rdfs:comment xml:lang="es">Establecimiento que ofrece tratamientos, terapias o sistemas de relajación, utilizando como base principal el agua, generalmente corriente, no medicinal.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Establishment that offers treatments, therapies or relaxation systems, using water as its main base, generally running water, not medicinal.</rdfs:comment>
+        <rdfs:label xml:lang="es">Spa</rdfs:label>
+        <rdfs:label xml:lang="en">Wellness spa</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#WineBar -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#WineBar">
@@ -8887,14 +8887,14 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
-    <!-- https://ontologia.segittur.es/turismo/def/core#YatchingPort -->
+    <!-- https://ontologia.segittur.es/turismo/def/core#YatchingHarbour -->
 
-    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#YatchingPort">
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#YatchingHarbour">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#SportFacility"/>
         <rdfs:comment xml:lang="es">Instalación ubicada en una zona costera o junto a un cuerpo de agua, que se utiliza para el amarre y resguardo de embarcaciones de recreo y deportivas, como yates, veleros, lanchas y otros tipos de barcos privados.</rdfs:comment>
         <rdfs:comment xml:lang="en">Installation located in a coastal area or next to a body of water, which is used for mooring and sheltering recreational and sports vessels, such as yachts, sailboats, motorboats and other types of private boats.</rdfs:comment>
         <rdfs:label xml:lang="es">Puerto deportivo</rdfs:label>
-        <rdfs:label xml:lang="en">Yachting port</rdfs:label>
+        <rdfs:label xml:lang="en">Yachting harbour</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
