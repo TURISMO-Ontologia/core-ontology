@@ -33,10 +33,8 @@ estur-kos:SwimmingPoolService a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-swimmingpoolservice:LifeGuard a skos:Concept;
-  skos:inScheme estur-kos:SwimmingPoolService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Life guard"@en ;
-  skos:prefLabel "Socorrista"@es .
+#estur-swimmingpoolservice:LifeGuard a skos:Concept;
+#  skos:inScheme estur-kos:SwimmingPoolService;
+#  skos:prefLabel "Life guard"@en ;
+#  skos:prefLabel "Socorrista"@es .
 

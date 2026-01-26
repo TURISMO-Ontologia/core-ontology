@@ -33,45 +33,7 @@ estur-kos:TouristDestinationService a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-touristdestinationservice:DestinationApp a skos:Concept;
-  skos:inScheme estur-kos:TouristDestinationService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Destination app"@en ;
-  skos:prefLabel "App de destino"@es .
-
-estur-touristdestinationservice:Shop a skos:Concept;
-  skos:inScheme estur-kos:TouristDestinationService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Shop"@en ;
-  skos:prefLabel "Tienda"@es .
-
-estur-touristdestinationservice:TouristCard a skos:Concept;
-  skos:inScheme estur-kos:TouristDestinationService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Tourist card"@en ;
-  skos:prefLabel "Tarjeta turística"@es .
-
-estur-touristdestinationservice:Travelogue a skos:Concept;
-  skos:inScheme estur-kos:TouristDestinationService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Travelogue"@en ;
-  skos:prefLabel "Cuaderno de viaje"@es .
-
-estur-touristdestinationservice:VirtualAdvisor a skos:Concept;
-  skos:inScheme estur-kos:TouristDestinationService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Virtual advisor"@en ;
-  skos:prefLabel "Asesor virtual"@es .
-
-estur-touristdestinationservice:Wifi a skos:Concept;
-  skos:inScheme estur-kos:TouristDestinationService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Wifi"@en ;
-  skos:prefLabel "Wifi"@es .
-
+#estur-touristdestinationservice:Travelogue a skos:Concept;
+#  skos:inScheme estur-kos:TouristDestinationService;
+#  skos:prefLabel "Travelogue"@en ;
+#  skos:prefLabel "Cuaderno de viaje"@es .

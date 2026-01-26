@@ -47,13 +47,6 @@ estur-beachservice:Anchoring a skos:Concept;
   skos:prefLabel "Anchoring"@en ;
   skos:prefLabel "Anclaje"@es .
 
-estur-beachservice:BathingArea a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Bathing area"@en ;
-  skos:prefLabel "Área de baño"@es .
-
 estur-beachservice:FishingArea a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
@@ -103,20 +96,6 @@ estur-beachservice:Promenade a skos:Concept;
   skos:prefLabel "Promenade"@en ;
   skos:prefLabel "Paseo marítimo"@es .
 
-estur-beachservice:Showers a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Showers"@en ;
-  skos:prefLabel "Duchas"@es .
-
-estur-beachservice:SnorkelingArea a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Snorkeling area"@en ;
-  skos:prefLabel "Área de snorkeling"@es .
-
 estur-beachservice:SunLoungerRental a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
@@ -130,20 +109,6 @@ estur-beachservice:SunshadeRental a skos:Concept;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Sunshade rental"@en ;
   skos:prefLabel "Alquiler de sombrillas"@es .
-
-estur-beachservice:Surveillance a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Surveillance"@en ;
-  skos:prefLabel "Vigilancia"@es .
-
-estur-beachservice:SwimmingArea a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Swimming area"@en ;
-  skos:prefLabel "Área para nadar"@es .
 
 estur-beachservice:WakeBoardingArea a skos:Concept;
   skos:inScheme estur-kos:BeachService;
@@ -159,48 +124,6 @@ estur-beachservice:Walkway a skos:Concept;
   skos:prefLabel "Walkway"@en ;
   skos:prefLabel "Pasarela"@es .
 
-estur-beachservice:WasteCollection a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Waste collection"@en ;
-  skos:prefLabel "Recogida de basuras"@es .
-
-estur-beachservice:AccessForDisabled a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Access for disabled"@en ;
-  skos:prefLabel "Accesso para personas de movilidad reducida"@es .
-
-estur-beachservice:CleaningServices a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Cleaning services"@en ;
-  skos:prefLabel "Servicios de limpieza"@es .
-
-estur-beachservice:Lifeguard a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Lifeguard"@en ;
-  skos:prefLabel "Socorrista"@es .
-
-estur-beachservice:LitterBins a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Litter bins"@en ;
-  skos:prefLabel "Papeleras"@es .
-
-estur-beachservice:Promenade a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Promenade"@en ;
-  skos:prefLabel "Paseo marítimo"@es .
-
 estur-beachservice:Showers a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
@@ -214,31 +137,3 @@ estur-beachservice:SurfPracticeArea a skos:Concept;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Surf practice area"@en ;
   skos:prefLabel "Zona de práctica de surf"@es .
-
-estur-beachservice:TelephoneService a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Telephone service"@en ;
-  skos:prefLabel "Teléfonos"@es .
-
-estur-beachservice:Toilets a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Toilets"@en ;
-  skos:prefLabel "Baños"@es .
-
-estur-beachservice:TouristOffice a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Tourist office"@en ;
-  skos:prefLabel "Oficina de turismo"@es .
-
-estur-beachservice:WaterCraftRental a skos:Concept;
-  skos:inScheme estur-kos:BeachService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Watercraft rental"@en ;
-  skos:prefLabel "Alquiler de embarcaciones"@es .

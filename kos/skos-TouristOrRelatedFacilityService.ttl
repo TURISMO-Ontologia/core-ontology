@@ -33,13 +33,6 @@ estur-kos:TouristOrRelatedFacilityService a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-touristorrelatedfacilityservice:AccessForDisabled a skos:Concept;
-  skos:inScheme estur-kos:TouristOrRelatedFacilityService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Access for disabled"@en ;
-  skos:prefLabel "Acceso para personas de movilidad reducida"@es .
-
 estur-touristorrelatedfacilityservice:EventVenue a skos:Concept;
   skos:inScheme estur-kos:TouristOrRelatedFacilityService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
@@ -75,10 +68,12 @@ estur-touristorrelatedfacilityservice:Restaurant a skos:Concept;
   skos:prefLabel "Restaurant"@en ;
   skos:prefLabel "Restaurante"@es .
 
-estur-touristorrelatedfacilityservice:VirtualAdvisor a skos:Concept;
+estur-touristorrelatedfacilityservice:Wifi a skos:Concept;
   skos:inScheme estur-kos:TouristOrRelatedFacilityService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Virtual advisor"@en ;
-  skos:prefLabel "Asesor virtual"@es .
+  skos:prefLabel "Wifi"@en ;
+  skos:prefLabel "Wifi"@es .
 
+estur-touristorrelatedfacilityservice:WiredInternet a skos:Concept;
+  skos:inScheme estur-kos:TouristOrRelatedFacilityService;
+  skos:prefLabel "Wired Internet"@en ;
+  skos:prefLabel "Internet por cable"@es .

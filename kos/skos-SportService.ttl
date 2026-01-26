@@ -47,13 +47,6 @@ estur-sportservice:GearProvision a skos:Concept;
   skos:prefLabel "Gear provision"@en ;
   skos:prefLabel "Suministro de equipamiento"@es .
 
-estur-sportservice:Gym a skos:Concept;
-  skos:inScheme estur-kos:SportService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Gym"@en ;
-  skos:prefLabel "Gimnasio"@es .
-
 estur-sportservice:Infirmary a skos:Concept;
   skos:inScheme estur-kos:SportService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
@@ -67,11 +60,3 @@ estur-sportservice:Showers a skos:Concept;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Showers"@en ;
   skos:prefLabel "Duchas"@es .
-
-estur-sportservice:Voucher a skos:Concept;
-  skos:inScheme estur-kos:SportService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Voucher"@en ;
-  skos:prefLabel "Bonos descuento"@es .
-

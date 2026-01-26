@@ -33,38 +33,9 @@ estur-kos:ZooService a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-zooservice:Audioguide a skos:Concept;
-  skos:inScheme estur-kos:ZooService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Audioguide"@en ;
-  skos:prefLabel "Audioguía"@es .
+#estur-zooservice:Audioguide a skos:Concept;
+#  skos:inScheme estur-kos:ZooService;
+#  skos:prefLabel "Audioguide"@en ;
+#  skos:prefLabel "Audioguía"@es .
 
-estur-zooservice:EducationalTour a skos:Concept;
-  skos:inScheme estur-kos:ZooService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Educational tour"@en ;
-  skos:prefLabel "Visita educativa"@es .
-
-estur-zooservice:GroupTour a skos:Concept;
-  skos:inScheme estur-kos:ZooService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Group tour"@en ;
-  skos:prefLabel "Visita de grupos"@es .
-
-estur-zooservice:GuidedTour a skos:Concept;
-  skos:inScheme estur-kos:ZooService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Guided tour"@en ;
-  skos:prefLabel "Visita guiada"@es .
-
-estur-zooservice:PrivateTour a skos:Concept;
-  skos:inScheme estur-kos:ZooService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Private tour"@en ;
-  skos:prefLabel "Visita privada"@es .
 

@@ -33,30 +33,15 @@ estur-kos:RouteService a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-routeservice:DisabledParking a skos:Concept;
-  skos:inScheme estur-kos:RouteService;
-  skos:prefLabel "Disabled parking"@en ;
-  skos:prefLabel "Aparcamiento para discapacitados"@es .
-
 estur-routeservice:Signaling a skos:Concept;
   skos:inScheme estur-kos:RouteService;
   skos:prefLabel "Signaling"@en ;
   skos:prefLabel "Señalización"@es .
 
-estur-routeservice:PublicRestroom a skos:Concept;
-  skos:inScheme estur-kos:RouteService;
-  skos:prefLabel "Public restroom"@en ;
-  skos:prefLabel "Baño público"@es .
-
 estur-routeservice:Lighting a skos:Concept;
   skos:inScheme estur-kos:RouteService;
   skos:prefLabel "Ligthing"@en ;
   skos:prefLabel "Alumbrado"@es .
-
-estur-routeservice:AdaptedPublicRestrooms a skos:Concept;
-  skos:inScheme estur-kos:RouteService;
-  skos:prefLabel "Adapted public restrooms"@en ;
-  skos:prefLabel "Baños públicos adaptados"@es .
 
 estur-routeservice:AccessibleSignage a skos:Concept;
   skos:inScheme estur-kos:RouteService;

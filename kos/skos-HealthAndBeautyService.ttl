@@ -33,52 +33,8 @@ estur-kos:HealthAndBeautyService a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-healthandbeautyservice:BeautyTreatment a skos:Concept;
-  skos:inScheme estur-kos:HealthAndBeautyService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Beauty treatment"@en ;
-  skos:prefLabel "Tratamiento de belleza"@es .
-
-estur-healthandbeautyservice:Packs a skos:Concept;
-  skos:inScheme estur-kos:HealthAndBeautyService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Packs"@en ;
-  skos:prefLabel "Packs"@es .
-
-estur-healthandbeautyservice:Pool a skos:Concept;
-  skos:inScheme estur-kos:HealthAndBeautyService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Pool"@en ;
-  skos:prefLabel "Piscina"@es .
-
-estur-healthandbeautyservice:SaleOfProducts a skos:Concept;
-  skos:inScheme estur-kos:HealthAndBeautyService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Sale of products"@en ;
-  skos:prefLabel "Venta de productos"@es .
-
-estur-healthandbeautyservice:Sauna a skos:Concept;
-  skos:inScheme estur-kos:HealthAndBeautyService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Sauna"@en ;
-  skos:prefLabel "Sauna"@es .
-
-estur-healthandbeautyservice:Shop a skos:Concept;
-  skos:inScheme estur-kos:HealthAndBeautyService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Shop"@en ;
-  skos:prefLabel "Tienda"@es .
-
-estur-healthandbeautyservice:Showers a skos:Concept;
-  skos:inScheme estur-kos:HealthAndBeautyService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Showers"@en ;
-  skos:prefLabel "Duchas"@es .
+#estur-healthandbeautyservice:Showers a skos:Concept;
+#  skos:inScheme estur-kos:HealthAndBeautyService;
+#  skos:prefLabel "Showers"@en ;
+#  skos:prefLabel "Duchas"@es .
 

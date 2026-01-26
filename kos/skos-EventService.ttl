@@ -33,13 +33,6 @@ estur-kos:EventService a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-eventservice:AccessForDisabled a skos:Concept;
-  skos:inScheme estur-kos:EventService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Access for disabled"@en ;
-  skos:prefLabel "Acceso para personas de movilidad reducida"@es .
-
 estur-eventservice:Audiodescription a skos:Concept;
   skos:inScheme estur-kos:EventService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
@@ -61,33 +54,12 @@ estur-eventservice:AugmentedReality a skos:Concept;
   skos:prefLabel "Augmented reality"@en ;
   skos:prefLabel "Realidad aumentada"@es .
 
-estur-eventservice:Banquet a skos:Concept;
-  skos:inScheme estur-kos:EventService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Banquet"@en ;
-  skos:prefLabel "Banquete"@es .
-
-estur-eventservice:Buffet a skos:Concept;
-  skos:inScheme estur-kos:EventService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Buffet"@en ;
-  skos:prefLabel "Buffet"@es .
-
 estur-eventservice:Catering a skos:Concept;
   skos:inScheme estur-kos:EventService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Catering"@en ;
   skos:prefLabel "Catering"@es .
-
-estur-eventservice:Cctv a skos:Concept;
-  skos:inScheme estur-kos:EventService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "CCTV"@en ;
-  skos:prefLabel "CCTV"@es .
 
 estur-eventservice:CloakRoom a skos:Concept;
   skos:inScheme estur-kos:EventService;
@@ -145,54 +117,12 @@ estur-eventservice:Lockers a skos:Concept;
   skos:prefLabel "Lockers"@en ;
   skos:prefLabel "Taquillas"@es .
 
-estur-eventservice:QrCodes a skos:Concept;
-  skos:inScheme estur-kos:EventService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "QR codes"@en ;
-  skos:prefLabel "Códigos QR"@es .
-
-estur-eventservice:Restaurant a skos:Concept;
-  skos:inScheme estur-kos:EventService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Restaurant"@en ;
-  skos:prefLabel "Restaurante"@es .
-
 estur-eventservice:SaleOfProducts a skos:Concept;
   skos:inScheme estur-kos:EventService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Sale of products"@en ;
   skos:prefLabel "Venta de productos"@es .
-
-estur-eventservice:SecurityStaff a skos:Concept;
-  skos:inScheme estur-kos:EventService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Security staff"@en ;
-  skos:prefLabel "Personal de seguridad"@es .
-
-estur-eventservice:Shop a skos:Concept;
-  skos:inScheme estur-kos:EventService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Shop"@en ;
-  skos:prefLabel "Tienda"@es .
-
-estur-eventservice:SmartWristband a skos:Concept;
-  skos:inScheme estur-kos:EventService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Smart wristband"@en ;
-  skos:prefLabel "Pulsera inteligente"@es .
-
-estur-eventservice:Terrace a skos:Concept;
-  skos:inScheme estur-kos:EventService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Terrace"@en ;
-  skos:prefLabel "Terraza"@es .
 
 estur-eventservice:Transport a skos:Concept;
   skos:inScheme estur-kos:EventService;

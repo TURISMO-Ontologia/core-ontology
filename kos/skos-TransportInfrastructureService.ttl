@@ -33,13 +33,6 @@ estur-kos:TransportInfrastructureService a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-transportinfrastructureservice:AccessForDisabled a skos:Concept;
-  skos:inScheme estur-kos:TransportInfrastructureService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Access for disabled"@en ;
-  skos:prefLabel "Acceso para personas de movilidad reducida"@es .
-
 estur-transportinfrastructureservice:InformationPoint a skos:Concept;
   skos:inScheme estur-kos:TransportInfrastructureService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;

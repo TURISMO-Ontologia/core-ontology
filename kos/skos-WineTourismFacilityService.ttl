@@ -47,47 +47,12 @@ estur-winetourismfacilityservice:AugmentedReality a skos:Concept;
   skos:prefLabel "Augmented reality"@en ;
   skos:prefLabel "Realidad aumentada"@es .
 
-estur-winetourismfacilityservice:ConferenceRoom a skos:Concept;
-  skos:inScheme estur-kos:WineTourismFacilityService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Conference room"@en ;
-  skos:prefLabel "Sala de conferencias"@es .
-
-estur-winetourismfacilityservice:EducationalTour a skos:Concept;
-  skos:inScheme estur-kos:WineTourismFacilityService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Educational tour"@en ;
-  skos:prefLabel "Visita educativa"@es .
-
 estur-winetourismfacilityservice:Enoteca a skos:Concept;
   skos:inScheme estur-kos:WineTourismFacilityService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Enoteca"@en ;
   skos:prefLabel "Enoteca"@es .
-
-estur-winetourismfacilityservice:Event a skos:Concept;
-  skos:inScheme estur-kos:WineTourismFacilityService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Event"@en ;
-  skos:prefLabel "Evento"@es .
-
-estur-winetourismfacilityservice:GroupTour a skos:Concept;
-  skos:inScheme estur-kos:WineTourismFacilityService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Group tour"@en ;
-  skos:prefLabel "Visita de grupos"@es .
-
-estur-winetourismfacilityservice:GuidedTour a skos:Concept;
-  skos:inScheme estur-kos:WineTourismFacilityService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Guided tour"@en ;
-  skos:prefLabel "Visita guiada"@es .
 
 estur-winetourismfacilityservice:HorizontalSampling a skos:Concept;
   skos:inScheme estur-kos:WineTourismFacilityService;
@@ -102,20 +67,6 @@ estur-winetourismfacilityservice:OnlineSampling a skos:Concept;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Online sampling"@en ;
   skos:prefLabel "Cata online"@es .
-
-estur-winetourismfacilityservice:PrivateTour a skos:Concept;
-  skos:inScheme estur-kos:WineTourismFacilityService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Private tour"@en ;
-  skos:prefLabel "Visita privada"@es .
-
-estur-winetourismfacilityservice:Restaurant a skos:Concept;
-  skos:inScheme estur-kos:WineTourismFacilityService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Restaurant"@en ;
-  skos:prefLabel "Restaurante"@es .
 
 estur-winetourismfacilityservice:SamplingCourse a skos:Concept;
   skos:inScheme estur-kos:WineTourismFacilityService;
@@ -151,13 +102,6 @@ estur-winetourismfacilityservice:VirtualReality a skos:Concept;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Virtual reality"@en ;
   skos:prefLabel "Realidad virtual"@es .
-
-estur-winetourismfacilityservice:WineBar a skos:Concept;
-  skos:inScheme estur-kos:WineTourismFacilityService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Wine bar"@en ;
-  skos:prefLabel "Bar para tomar vinos"@es .
 
 estur-winetourismfacilityservice:WineClub a skos:Concept;
   skos:inScheme estur-kos:WineTourismFacilityService;

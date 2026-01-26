@@ -47,38 +47,10 @@ estur-historicalandcultureservice:Audioguide a skos:Concept;
   skos:prefLabel "Audioguide"@en ;
   skos:prefLabel "Audioguía"@es .
 
-estur-historicalandcultureservice:EducationalTour a skos:Concept;
-  skos:inScheme estur-kos:HistoricalAndCultureService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Educational tour"@en ;
-  skos:prefLabel "Visita educativa"@es .
-
 estur-historicalandcultureservice:FastLane a skos:Concept;
   skos:inScheme estur-kos:HistoricalAndCultureService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Fast lane"@en ;
   skos:prefLabel "Acceso prioritario"@es .
-
-estur-historicalandcultureservice:GroupTour a skos:Concept;
-  skos:inScheme estur-kos:HistoricalAndCultureService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Group tour"@en ;
-  skos:prefLabel "Visita de grupos"@es .
-
-estur-historicalandcultureservice:GuidedTour a skos:Concept;
-  skos:inScheme estur-kos:HistoricalAndCultureService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Guided tour"@en ;
-  skos:prefLabel "Visita guiada"@es .
-
-estur-historicalandcultureservice:PrivateTour a skos:Concept;
-  skos:inScheme estur-kos:HistoricalAndCultureService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Private tour"@en ;
-  skos:prefLabel "Visita privada"@es .
 

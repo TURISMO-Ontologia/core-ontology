@@ -54,13 +54,6 @@ estur-vehiclerentalcompanyservice:BabySeat a skos:Concept;
   skos:prefLabel "Baby seat"@en ;
   skos:prefLabel "Asientos para niños"@es .
 
-estur-vehiclerentalcompanyservice:PetFriendlyVehicles a skos:Concept;
-  skos:inScheme estur-kos:VehicleRentalCompanyService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Pet-friendly vehicles"@en ;
-  skos:prefLabel "Vehículos preparados para mascotas"@es .
-
 estur-vehiclerentalcompanyservice:RentByTheHour a skos:Concept;
   skos:inScheme estur-kos:VehicleRentalCompanyService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;

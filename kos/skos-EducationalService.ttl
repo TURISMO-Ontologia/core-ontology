@@ -68,20 +68,6 @@ estur-educationalservice:EventVenue a skos:Concept;
   skos:prefLabel "Event venue"@en ;
   skos:prefLabel "Lugar de celebración"@es .
 
-estur-educationalservice:Wifi a skos:Concept;
-  skos:inScheme estur-kos:EducationalService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Wifi"@en ;
-  skos:prefLabel "Wifi"@es .
-
-estur-educationalservice:WiredInternet a skos:Concept;
-  skos:inScheme estur-kos:EducationalService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Wired Internet"@en ;
-  skos:prefLabel "Internet por cable"@es .
-
 estur-educationalservice:Workshop a skos:Concept;
   skos:inScheme estur-kos:EducationalService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
