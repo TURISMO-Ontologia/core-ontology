@@ -4523,6 +4523,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:comment xml:lang="es">Edificio contiguo a una iglesia o parte integrante de ella, con altar y advocación particular.</rdfs:comment>
         <rdfs:label xml:lang="es">Capilla</rdfs:label>
         <rdfs:label xml:lang="en">Chapel</rdfs:label>
+        <rdfs:label xml:lang="es">Ermita</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -4561,6 +4562,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:comment xml:lang="es">Templo cristiano. También se pueden utilizar otros términos como parroquia</rdfs:comment>
         <rdfs:label xml:lang="en">Church</rdfs:label>
         <rdfs:label xml:lang="es">Iglesia</rdfs:label>
+        <rdfs:label xml:lang="en">Parish</rdfs:label>
+        <rdfs:label xml:lang="es">Parroquia</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -5486,6 +5489,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:comment xml:lang="es">Terreno donde se cultivan especies vegetales, con posible añadidura de otros elementos como fuentes, esculturas o zonas de ocio. También pueden referirse a parques urbanos.</rdfs:comment>
         <rdfs:label xml:lang="en">Garden</rdfs:label>
         <rdfs:label xml:lang="es">Jardín</rdfs:label>
+        <rdfs:label xml:lang="es">Parque urbano</rdfs:label>
+        <rdfs:label xml:lang="en">Urban park</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -7315,6 +7320,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#AccommodationEstablishment"/>
         <rdfs:comment xml:lang="es">Tipo de establecimiento extrahotelero ubicado en un inmueble situado en suelo rústico y de ámbito rural que dispone de una unidad alojativa y que cuenta con el equipamiento y las instalaciones necesarias para la conservación, manipulado y consumo de alimentos.</rdfs:comment>
         <rdfs:comment xml:lang="en">Type of non-hotel establishment located in a property located on rustic land and in a rural area that has an accommodation unit and that has the equipment and facilities necessary for the conservation, handling and consumption of food.</rdfs:comment>
+        <rdfs:label xml:lang="es">Agroturismo</rdfs:label>
         <rdfs:label xml:lang="es">Casa rural</rdfs:label>
         <rdfs:label xml:lang="en">Rural house</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
@@ -7340,6 +7346,7 @@ It is possible that this annotation property is taken out in the future from the
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Sanctuary">
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
         <rdfs:comment xml:lang="es">Templo en que se venera la imagen o reliquia de un santo de especial devoción. También puede utilizarse el término ermita.</rdfs:comment>
+        <rdfs:label xml:lang="es">Ermita</rdfs:label>
         <rdfs:label xml:lang="en">Sanctuary</rdfs:label>
         <rdfs:label xml:lang="es">Santuario</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
@@ -7438,7 +7445,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#url"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7580,6 +7587,7 @@ It is possible that this annotation property is taken out in the future from the
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Lugar que dispone de diferentes instalaciones e infraestructuras para la práctica de disciplinas deportivas. También se puede denominar centro deportivo.</rdfs:comment>
         <rdfs:comment xml:lang="en">Place that has different facilities and infrastructure for practicing sports disciplines.</rdfs:comment>
+        <rdfs:label xml:lang="es">Centro deportivo</rdfs:label>
         <rdfs:label xml:lang="es">Polideportivo</rdfs:label>
         <rdfs:label xml:lang="en">Sports centre</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
