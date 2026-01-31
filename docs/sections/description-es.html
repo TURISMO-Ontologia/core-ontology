@@ -53,14 +53,14 @@ Figura 4. La subclase particular de Entidad turística: Oferta especial.</figcap
     
 <p>La clase <a href="#Place">Lugar</a> es una clase relevante dentro de este dominio y representa un lugar que puede tener o no una localización asociada. Una representación más detallada de la tipología de un <a href="#Place">Lugar</a> puede verse en la Figura 5.</p>   
     
-<p><center><img src="images/fig6-Place-place-hierarchy"/><figcaption>
+<p><center><img src="images/fig6-Place-place-hierarchy.png"/><figcaption>
 Figura 5. La clase Lugar.</figcaption></center></p> 
 
 Varias de las subclases de <a href="#TourismEntity">Entidad turística</a> son también subclases de <a href="#Place">Lugar</a> (<a href="#TourismDestination">Destino turístico</a>, <a href="#TourismOrRelatedFacility">Instalación turística o vinculada</a>, <a href="#PublicService">Servicio público</a> e <a href="#TransportInfrastructure">Infraestructura de transporte</a>). Asimismo, varias subclases de la clase <a href="#TourismResource">Recurso turístico</a>, tales como los <a href="#HistoricalAndCulturalResource">Recursos históricos y culturales</a>, <a href="#NaturalResource">Recursos Naturales</a> y <a href="#Route">Rutas</a>, son también subclases de <a href="#Place">Lugar</a>. Estas tres clases se describirán con más detalle en la sección 3, junto con la clase <a href="#GastronomicResource">Recurso Gastronómico</a>, que es la única que no se considera como un tipo de <a href="#Place">Lugar</a>. El <a href="#Place">Lugar</a> puede estar relacionado con una <a href="#TourismEntity">Entidad turística</a>.
     
 El <a href="#Place">Lugar</a>, <a href="#DestinationExperience">Experiencia en destino</a> y <a href="#Event">Evento</a> pueden tener o no una o varias localizaciones asociadas (agrupadas en la clase <a href="#Location">Localización</a>), que permiten representar su dirección postal y/o sus coordenadas geográficas. La Figura 6 ilustra cómo se reutiliza la ontología <a href="http://www.opengis.net/ont/geosparql#">geosparql</a> para representar una <a href="#Location">Localización</a>. Una <a href="#Location">Localización</a> proporciona información, a través de sus atributos, sobre la dirección postal de una ubicación física. Asimismo, es una subclase de la clase <a href="#http://www.opengis.net/ont/geosparql#Feature">geosparql:Feature</a>, lo que permite relacionarla con una o varias representaciones espaciales, <a href="#http://www.opengis.net/ont/geosparql#Geometry">geosparql:Geometry</a>, a través de la propiedad <a href="#http://www.opengis.net/ont/geosparql#hasGeometry">geosparql:hasGeometry</a>.    
     
-<p><center><img src="images/fig3-Location"/><figcaption>Figura 6. La clase Localización y su reutilización del vocabulario geosparql para representar datos geoespaciales.</figcaption></center></p> 
+<p><center><img src="images/fig3-Location.png"/><figcaption>Figura 6. La clase Localización y su reutilización del vocabulario geosparql para representar datos geoespaciales.</figcaption></center></p> 
     
 <h3>Descripciones detalladas de las clases principales</h3>    
     
@@ -72,50 +72,48 @@ El <a href="#Place">Lugar</a>, <a href="#DestinationExperience">Experiencia en d
 
 <h4>Servicio turístico</h4>
 
-<p>Un <a href="#TourismService">Servicio turístico</a> puede ser de varios tipos (subclases) tal como se ilustra en la Figura 7. Los servicios pueden ser del tipo <a href="#AgritourismExperience">Experiencia agriturística</a>, <a href="#DestinationExperience">Experiencia en destino</a>, <a href="#HolidayPackage">Paquete turístico</a> y <a href="#Tour">Visita guiada</a>. Una <a href="#DestinationExperience">Experiencia en destino</a> a su vez puede ser una <a href="#SingularExperience">Experiencia singular</a>, es decir una experiencia en destino con vínculo a un negocio particular con un valor diferencial, también llamadas microexperiencias.</p> 
+<p>Un <a href="#TourismService">Servicio turístico</a> puede ser de varios tipos (subclases) tal como se ilustra en la Figura 7. Los servicios pueden ser del tipo <a href="#AdventureActivity">Actividad de aventura</a>, <a href="#AgrotourismExperience">Experiencia agroturística</a>, <a href="#FoodAndBeverageService">Servicio de comidas y bebidas</a>, <a href="#LodgingService">Servicio de hospedaje</a>, <a href="#DestinationExperience">Experiencia en destino</a>, <a href="#TicketOrEntrance">Ticket o Entrada</a>, <a href="#HolidayPackage">Paquete turístico</a>, <a href="#TransportService">Servicio de transporte</a>, <a href="#Tour">Visita guiada</a> y <a href="#VehicleExperience">Experiencia en vehículo</a>. </p> 
 
-<p><center><img src="images/fig4-TourismService-tourism-service-with-relations"/><figcaption>Figura 7. La clase Servicio turístico y sus relaciones.</figcaption></center></p> 
+<p><center><img src="images/fig4-TourismService-tourism-service-with-relations.png"/><figcaption>Figura 7. La clase Servicio turístico y sus relaciones.</figcaption></center></p> 
 
-<p>Un <a href="#TourismService">Servicio turístico</a> puede tener reconocimientos. Un <a href="#Acknowledgement">Reconomiento</a> representa los logros o distinciones otorgadas a personas, empresas o productos por cumplir con ciertos estándares o criterios específicos.</p>
+<p>Un <a href="#TourismService">Servicio turístico</a> puede tener reconocimientos. Un <a href="#Acknowledgement">Reconocimiento</a> representa los logros o distinciones otorgadas a personas, empresas o productos por cumplir con ciertos estándares o criterios específicos.</p>
     
-<p>Un servicio tiene especificación de precio. La Especificación de precio consiste en el coste total del producto o servicio que puede incluir impuestos, cargos o reducciones en las tarifas.</p>
+<p>Un servicio tiene una <a href="#PriceSpecification">Especificación de precio</a>. La Especificación de precio consiste en el coste total del producto o servicio, que puede incluir impuestos, cargos o reducciones en las tarifas.</p>
     
-<p>El Servicio turístico tiene una programación del servicio. La Programación permite definir la validez, duración y recurrencia de, por ejemplo, una especificación del precio en condiciones normales y, aún más importante, de promociones y propuestas especiales que las empresas deseen ofrecer.</p>
+<p>El Servicio turístico tiene una <a href="#Schedule">Programación</a>. La Programación permite definir la validez, duración y recurrencia de, por ejemplo, una especificación del precio en condiciones normales y, aún más importante, de promociones y propuestas especiales que las empresas deseen ofrecer.</p>
     
-<p>Un Servicio turístico puede ofrecerse a través de un canal de reserva. Un Canal de reserva representa los medios o plataformas utilizados por los huéspedes para realizar una reserva.</p>
+<p>Un Servicio turístico puede ofrecerse a través de un <a href="#BookingChannel">Canal de reserva</a>. Un Canal de reserva representa los medios o plataformas utilizados por los huéspedes para realizar una reserva.</p>
     
-<p>Adicionalmente, el Servicio turístico puede tener una unidad de viaje (por ejemplo, “Pareja”, “Familia con niños”), atender a un tipo de turista (por ejemplo, “Turismo cultural y patrimonial”) y estar en un idioma disponible. Estas relaciones corresponden a listas normalizadas de valores.</p>
+<p>Adicionalmente, el Servicio turístico puede tener una <a href="#travelUnit">unidad de viaje</a> (por ejemplo, “Pareja”, “Familia con niños”), atender a un <a href="#touristType">tipo de turista</a> (por ejemplo, “Turismo cultural y patrimonial”) y estar <a href="#availableLanguage">disponible en un idioma</a>. Estas relaciones corresponden a listas normalizadas de valores.</p>
     
-<p>En la Figura 8 se presentan los atributos de la clase principal y los atributos y relaciones de sus subclases.</p>
+<p>En la Figura 8 se presentan los atributos de la clase principal y los atributos y relaciones de algunas de sus subclases.</p>
     
-<p><center><img src="images/fig4-TourismService-tourism-service-with-data-properties"/><figcaption>Figura 8. La clase Servicio turístico y sus subclases con relaciones y atributos</figcaption></center></p> 
+<p><center><img src="images/fig4-TourismService-tourism-service-with-data-properties.png"/><figcaption>Figura 8. La clase Servicio turístico y algunas de sus subclases con relaciones y atributos</figcaption></center></p> 
     
-<p>La clase Experiencia agriturística tiene un producto relacionado con experiencia agriturística. También tiene tipo de experiencia agriturística y tiene gama de precios. Estas propiedades son listas normalizadas de valores. Además se relaciona con un Lugar a través de un punto de interés de referencia.</p>
+<p>La clase <a href="#AgrotourismExperience">Experiencia agroturística</a> tiene un <a href="#experienceRelatedProduct">producto relacionado con experiencia agroturística</a>. También tiene un <a href="#agrotourismExperienceType">tipo de experiencia agroturística</a> y tiene una <a href="#hasPriceClass">gama de precios</a>. Los valores de estas propiedades se encuentran definidos en listas normalizadas de valores. Además se relaciona con un <a href="#Place">Lugar</a> a través de un <a href="#refPointOfInterest">punto de interés de referencia</a>. Puede <a href="#includes">incluir</a> o <a href="#notIncludes">no incluir</a> determinados tipos de características.</p>
     
-<p>Una Experiencia en destino tiene localización y a su vez, una Experiencia singular tiene una gama de precios.</p>
+<p>Una <a href="#DestinationExperience">Experiencia en destino</a> tiene una <a href="#Location">localización</a>. Asimismo, tiene varias propiedades relacionadas con su comienzo y fin, así como horas dentro del día y del año.</p>
     
-<p>Una Visita guiada tiene un punto de encuentro que es una Localización. Además tiene una gama de precios y ofrece servicio adicional de tour (listas normalizadas de valores).</p>
+<p>Una <a href="#Tour">Visita guiada</a> tiene un <a href="#meetingPoint">punto de encuentro</a>, que es un <a href="#Place">Lugar</a>. Además tiene una gama de precios y puede ofrecer <a href="#hasAdditionalRouteService">servicios adicionales de visita guiada</a> (listas normalizadas de valores). Con respecto a sus propiedades, puede tener una o varias categorías, puede ser una visita teatralizada, y se pueden especificar los momentos del día o del año para realizarlo.</p>
 
 <h4>Organización turística</h4>
 
-<p>Una Organización turística sigue una jerarquía de clases que está representada junto con las relaciones de la clase principal, en la Figura 9.</p>
+<p>Una <a href="#TourismOrganisation">Organización turística</a> tiene una jerarquía de subclases que está representada, junto con las relaciones de la clase principal, en la Figura 9.</p>
     
-<p><center><img src="images/fig2-Organisation-tourism-otganisation-with-relations.png"/><figcaption>Figura 9. La clase Organización turística y sus relaciones
+<p><center><img src="images/fig2-Organisation-tourism-organisation-with-relations.png"/><figcaption>Figura 9. La clase Organización turística y sus relaciones
 </figcaption></center></p> 
  
-<p>Puede ser una Empresa de alojamiento, una Empresa de transporte de pasajeros que a su vez se divide en las clases correspondientes a diferentes tipos de transporte, una Empresa que ofrece actividades complementarias, una Empresa de organización de eventos, una Empresa de servicios de restauración, un Guía turístico, o un Intermediario turístico que puede ser una Agencia de viajes o un Operador receptivo.</p>
+<p>Puede ser una <a href="#Accommodation">Empresa de alojamiento</a>, una <a href="#PassengerTransportCompany">Empresa de transporte de pasajeros</a> que a su vez se divide en las clases correspondientes a diferentes tipos de transporte, una <a href="#ComplementaryActivitiesCompany">Empresa que ofrece actividades complementarias</a>, una <a href="#EventOrganisationCompany">Empresa de organización de eventos</a>, una <a href="#RestaurantService">Empresa de servicios de restauración</a>, un <a href="#TourGuide">Guía turístico</a>, o un <a href="#TourismIntermediary">Intermediario turístico</a> que puede ser una <a href="#TravelAgency">Agencia de viajes</a> o un <a href="#DestinationManagementCompany">Operador receptivo</a>.</p>
 
-<p>La organización tiene reconocimiento. También puede tener perfil en redes sociales. Un Perfil en redes sociales representa cuentas individuales o de empresas creadas en plataformas digitales diseñadas para la interacción social. </p>
+<p>Las organizaciones pueden tener reconocimientos. También pueden tener perfil en redes sociales. </p>
 
-<p>La organización puede tener un canal de reserva y tiene punto de contacto. Un Punto de contacto contiene los datos necesarios para establecer comunicación con una persona o entidad.</p> 
+<p>Finalmente, la organización puede tener un punto de contacto. Un Punto de contacto contiene los datos necesarios para establecer comunicación con una persona o entidad.</p> 
 
 <p>En la Figura 10 se presentan los atributos de la clase principal y los atributos y relaciones de sus subclases.</p>
 
-<p><center><img src="images/fig2-Organisation-tourism-organisation-with-data-properties.png"/><figcaption>Figura 10. La clase Organización turística y sus  subclases con relaciones y atributos</figcaption></center></p> 
-    
-<p>Las clases Operador de autocares, Empresa de alquiler de vehículos, Empresa de servicios de restauración, Guía turístico, Operador receptivo, Agencia de viajes ofrecen serivios adicionales, los cuales están representados a través de listas normalizadas. Por ejemplo, la propiedad ofrece servicio adicional de restauración se relaciona con la lista normalizada de servicios adicionales ofrecidos por empresas de restauración, tales como “Buffet” o “Ropero”.</p> 
+<p><center><img src="images/fig2-Organisation-tourism-organisation-with-data-properties.png"/><figcaption>Figura 10. La clase Organización turística y sus subclases, con relaciones y atributos</figcaption></center></p>  
 
-<p>Una Empresa de alquiler de vehículos tiene un tipo de vehículo. Un Intermediario turístico atiende a un tipo de turista. También puede tener una unidad de viaje. Estas propiedades están relacionadas con listas normalizadas de valores.</p>
+<p>Una Empresa de alquiler de vehículos puede ofrecer distintos tipos de vehículo. Un Intermediario turístico atiende a distintos tipos de turista y unidades de viaje. Estas propiedades están también relacionadas con listas normalizadas de valores.</p>
 
 <h4>Instalación turística o vinculada</h4> 
 
