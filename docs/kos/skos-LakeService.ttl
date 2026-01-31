@@ -33,13 +33,6 @@ estur-kos:LakeService a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-lakeservice:BathingArea a skos:Concept;
-  skos:inScheme estur-kos:LakeService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Bathing area"@en ;
-  skos:prefLabel "Área de baño"@es .
-
 estur-lakeservice:FishingArea a skos:Concept;
   skos:inScheme estur-kos:LakeService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
@@ -61,24 +54,10 @@ estur-lakeservice:LifeGuard a skos:Concept;
   skos:prefLabel "Life guard"@en ;
   skos:prefLabel "Socorrista"@es .
 
-estur-lakeservice:Surveillance a skos:Concept;
-  skos:inScheme estur-kos:LakeService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Surveillance"@en ;
-  skos:prefLabel "Vigilancia"@es .
-
 estur-lakeservice:Walkway a skos:Concept;
   skos:inScheme estur-kos:LakeService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Walkway"@en ;
-  skos:prefLabel "Camino transitable"@es .
-
-estur-lakeservice:WasteCollection a skos:Concept;
-  skos:inScheme estur-kos:LakeService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Waste collection"@en ;
-  skos:prefLabel "Recogida de basuras"@es .
+  skos:prefLabel "Pasarela"@es .
 

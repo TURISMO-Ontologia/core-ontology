@@ -8,7 +8,7 @@
 @prefix estur-core: <https://ontologia.segittur.es/turismo/def/core#> .
 @prefix estur-kos: <https://ontologia.segittur.es/turismo/kos/> .
 
-@prefix estur-aquariumservice: <https://ontologia.segittur.es/turismo/kos/aquariumservice/> .
+@prefix estur-vehiclerentalagencyservice: <https://ontologia.segittur.es/turismo/kos/vehiclerentalagencyservice/> .
 
 #################################################################
 #
@@ -16,16 +16,16 @@
 #
 #################################################################
 
-estur-kos:AquariumService a skos:ConceptScheme ; 
+estur-kos:VehicleRentalAgencyService a skos:ConceptScheme ; 
     dct:issued "2024-05-24"^^xsd:date ;
-    dct:modified "2025-12-15"^^xsd:date ;
+    dct:modified "2026-01-24"^^xsd:date ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
-    rdfs:label "Aquarium service"@en ;
-    rdfs:label "Servicio de un acuario"@es ;
-    dct:title "Concept scheme grouping aquarium services"@en ;
-    dct:title "Esquema de conceptos agrupando servicios de un acuario"@es .
+    rdfs:label "Vehicle rental agency service"@en ;
+    rdfs:label "Servicio de una agencia de alquiler de vehículos"@es ;
+    dct:title "Concept scheme grouping vehicle rental agency services"@en ;
+    dct:title "Esquema de conceptos agrupando servicios de una agencia de alquiler de vehículos"@es .
 
 #################################################################
 #
@@ -33,52 +33,38 @@ estur-kos:AquariumService a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-aquariumservice:Audioguide a skos:Concept;
-  skos:inScheme estur-kos:AquariumService;
+estur-vehiclerentalagencyservice:AccessibleVehicleFleet a skos:Concept;
+  skos:inScheme estur-kos:VehicleRentalAgencyService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Audioguide"@en ;
-  skos:prefLabel "Audioguía"@es .
+  skos:prefLabel "Accessible vehicle fleet"@en ;
+  skos:prefLabel "Flota de vehículos accesibles"@es .
 
-estur-aquariumservice:AugmentedReality a skos:Concept;
-  skos:inScheme estur-kos:AquariumService;
+estur-vehiclerentalagencyservice:AdditionalDriver a skos:Concept;
+  skos:inScheme estur-kos:VehicleRentalAgencyService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Augmented reality"@en ;
-  skos:prefLabel "Realidad aumentada"@es .
+  skos:prefLabel "Additional driver"@en ;
+  skos:prefLabel "Conductor adicional"@es .
 
-estur-aquariumservice:EducationalTour a skos:Concept;
-  skos:inScheme estur-kos:AquariumService;
+estur-vehiclerentalagencyservice:BabySeat a skos:Concept;
+  skos:inScheme estur-kos:VehicleRentalAgencyService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Educational tour"@en ;
-  skos:prefLabel "Visita educativa"@es .
+  skos:prefLabel "Baby seat"@en ;
+  skos:prefLabel "Asientos para niños"@es .
 
-estur-aquariumservice:GroupTour a skos:Concept;
-  skos:inScheme estur-kos:AquariumService;
+estur-vehiclerentalagencyservice:RentByTheHour a skos:Concept;
+  skos:inScheme estur-kos:VehicleRentalAgencyService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Group tour"@en ;
-  skos:prefLabel "Visita en grupos"@es .
+  skos:prefLabel "Rent by the hour"@en ;
+  skos:prefLabel "Alquiler por horas"@es .
 
-estur-aquariumservice:GuidedTour a skos:Concept;
-  skos:inScheme estur-kos:AquariumService;
+estur-vehiclerentalagencyservice:SnowChains a skos:Concept;
+  skos:inScheme estur-kos:VehicleRentalAgencyService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Guided tour"@en ;
-  skos:prefLabel "Visita guiada"@es .
-
-estur-aquariumservice:PrivateTour a skos:Concept;
-  skos:inScheme estur-kos:AquariumService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Private tour"@en ;
-  skos:prefLabel "Visita privada"@es .
-
-estur-aquariumservice:VirtualReality a skos:Concept;
-  skos:inScheme estur-kos:AquariumService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Virtual reality"@en ;
-  skos:prefLabel "Realidad virtual"@es .
+  skos:prefLabel "Snow chains"@en ;
+  skos:prefLabel "Cadenas para la nieve"@es .
 

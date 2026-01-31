@@ -33,13 +33,6 @@ estur-kos:TravelAgencyService a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-travelagencyservice:AccessForDisabled a skos:Concept;
-  skos:inScheme estur-kos:TravelAgencyService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Access for disabled"@en ;
-  skos:prefLabel "Acceso para personas de movilidad reducida"@es .
-
 estur-travelagencyservice:CurrencyExchange a skos:Concept;
   skos:inScheme estur-kos:TravelAgencyService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;

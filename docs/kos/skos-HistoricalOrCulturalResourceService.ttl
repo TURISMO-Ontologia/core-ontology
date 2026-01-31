@@ -8,7 +8,7 @@
 @prefix estur-core: <https://ontologia.segittur.es/turismo/def/core#> .
 @prefix estur-kos: <https://ontologia.segittur.es/turismo/kos/> .
 
-@prefix estur-localbusinessservice: <https://ontologia.segittur.es/turismo/kos/localbusinessservice/> .
+@prefix estur-historicalorculturalresourceservice: <https://ontologia.segittur.es/turismo/kos/historicalorculturalresourceservice/> .
 
 #################################################################
 #
@@ -16,16 +16,16 @@
 #
 #################################################################
 
-estur-kos:LocalBusinessService a skos:ConceptScheme ; 
+estur-kos:HistoricalOrCulturalResourceService a skos:ConceptScheme ; 
     dct:issued "2024-05-24"^^xsd:date ;
-    dct:modified "2025-12-15"^^xsd:date ;
+    dct:modified "2026-01-24"^^xsd:date ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
-    rdfs:label "Local business service"@en ;
-    rdfs:label "Servicio de negocios locales"@es ;
-    dct:title "Concept scheme grouping local business services"@en ;
-    dct:title "Esquema de conceptos agrupando servicios de negocios locales"@es .
+    rdfs:label "Historical or cultural resource service"@en ;
+    rdfs:label "Servicio de un recurso histórico o cultural"@es ;
+    dct:title "Concept scheme grouping historical or cultural resource services"@en ;
+    dct:title "Esquema de conceptos agrupando servicios de recursos históricos o culturales"@es .
 
 #################################################################
 #
@@ -33,31 +33,24 @@ estur-kos:LocalBusinessService a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-localbusinessservice:AccessForDisabled a skos:Concept;
-  skos:inScheme estur-kos:LocalBusinessService;
-  skos:note "Value generated from the original SEGITTUR ontology"@en;
-  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Access for disabled"@en ;
-  skos:prefLabel "Acceso para personas de movilidad reducida"@es .
-
-estur-localbusinessservice:Audiodescription a skos:Concept;
-  skos:inScheme estur-kos:LocalBusinessService;
+estur-historicalorculturalresourceservice:Audiodescription a skos:Concept;
+  skos:inScheme estur-kos:HistoricalOrCulturalResourceService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Audiodescription"@en ;
   skos:prefLabel "Audiodescripción"@es .
 
-estur-localbusinessservice:ParkingFacility a skos:Concept;
-  skos:inScheme estur-kos:LocalBusinessService;
+estur-historicalorculturalresourceservice:Audioguide a skos:Concept;
+  skos:inScheme estur-kos:HistoricalOrCulturalResourceService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Parking facility"@en ;
-  skos:prefLabel "Parking"@es .
+  skos:prefLabel "Audioguide"@en ;
+  skos:prefLabel "Audioguía"@es .
 
-estur-localbusinessservice:Voucher a skos:Concept;
-  skos:inScheme estur-kos:LocalBusinessService;
+estur-historicalorculturalresourceservice:FastLane a skos:Concept;
+  skos:inScheme estur-kos:HistoricalOrCulturalResourceService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:prefLabel "Voucher"@en ;
-  skos:prefLabel "Bono descuento"@es .
+  skos:prefLabel "Fast lane"@en ;
+  skos:prefLabel "Acceso prioritario"@es .
 

@@ -54,3 +54,18 @@ estur-tourservice:Gamification a skos:Concept;
   skos:prefLabel "Gamification"@en ;
   skos:prefLabel "Gamificación"@es .
 
+estur-tourservice:FastLane a skos:Concept;
+  skos:inScheme estur-kos:TourService;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Fast lane"@en ;
+  skos:prefLabel "Fast lane"@es .
+
+estur-tourservice:GearProvision a skos:Concept;
+  skos:inScheme estur-kos:TourService;
+  skos:note "Value generated from the original SEGITTUR ontology"@en;
+  skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:prefLabel "Gear provision"@en ;
+  skos:prefLabel "Gear provision"@es .
+
+
