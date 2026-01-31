@@ -468,6 +468,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">por día</rdfs:label>
         <estur-annot:orderInCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</estur-annot:orderInCategory>
         <estur-annot:presentationOrderCategory>contact</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Indica los días recurrentes de la programación. Por ejemplo, abierto los lunes y martes</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Indicates the recurring days of the schedule. For example, open on Mondays and Tuesdays.</estur-annot:tooltip>
     </owl:ObjectProperty>
     
 
@@ -491,6 +493,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">por mes</rdfs:label>
         <estur-annot:orderInCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11</estur-annot:orderInCategory>
         <estur-annot:presentationOrderCategory>contact</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Indica el/los mes(es) recurrente(s) del calendario de la programación</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Indicates the recurring month(s) of the schedule</estur-annot:tooltip>
     </owl:ObjectProperty>
     
 
@@ -1458,6 +1462,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">tiene subevento</rdfs:label>
         <estur-annot:orderInCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</estur-annot:orderInCategory>
         <estur-annot:presentationOrderCategory>acknowledgement</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="en">Points out events that are part of this event.</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="es">Señala eventos que forman parte de este evento</estur-annot:tooltip>
     </owl:ObjectProperty>
     
 
@@ -1471,6 +1477,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">tiene superevento</rdfs:label>
         <estur-annot:orderInCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11</estur-annot:orderInCategory>
         <estur-annot:presentationOrderCategory>acknowledgement</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Especifica el evento del que forma parte este subevento</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Specifies the event of which this sub-event is part</estur-annot:tooltip>
     </owl:ObjectProperty>
     
 
@@ -1522,6 +1530,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">historical or cultural resource contains</rdfs:label>
         <rdfs:label xml:lang="es">recurso histórico o cultural contiene</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Indica instalaciones turísticas o vinculadas, y recursos históricos o culturales que un recurso histórico o cultural puede contener.</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Indicates tourist or related facilities, and historical or cultural resources that a historical or cultural resource may contain</estur-annot:tooltip>
     </owl:ObjectProperty>
     
 
@@ -1692,6 +1702,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">natural resource contains</rdfs:label>
         <rdfs:label xml:lang="es">recurso natural contiene</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Indica instalaciones turísticas o vinculadas, recursos naturales, y servicios públicos que un recurso natural puede contener</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Indicates tourist or related facilities, natural resources, and public services that a natural resource may contain</estur-annot:tooltip>
     </owl:ObjectProperty>
     
 
@@ -1711,6 +1723,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">cerca de</rdfs:label>
         <rdfs:label xml:lang="en">near to</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="en">Points out relevant places to which a given place may be close, and whose proximity may be useful or interesting for tourists</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="es">Señala lugares relevantes a los que un determinado lugar puede estar próximo y cuya proximidad puede ser útil o interesante para el turista.</estur-annot:tooltip>
     </owl:ObjectProperty>
     
 
@@ -1905,6 +1919,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">punto de interés de referencia</rdfs:label>
         <rdfs:label xml:lang="en">reference point of interest</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Indica lugares relevantes o destacados que sirvan como punto de localización, contextualización o atracción relacionada con la experiencia, servicio o ruta descrito.</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Indicates relevant or outstanding places that serve as a point of location, context, or attraction related to the described experience, service, or route.</estur-annot:tooltip>
     </owl:ObjectProperty>
     
 
@@ -1991,6 +2007,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">resort contains</rdfs:label>
         <rdfs:label xml:lang="es">resort contiene</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Indica instalaciones turísticas o vinculadas que un complejo turístico puede contener</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Indicates tourist or related facilities that a resort may contain</estur-annot:tooltip>
     </owl:ObjectProperty>
     
 
@@ -2216,6 +2234,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">infraestructura de transporte contiene</rdfs:label>
         <rdfs:label xml:lang="en">transport infrastructure contains</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Indica instalaciones turísticas o vinculadas y servicios públicos que una infraestructura de transporte puede contener</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Indicates tourist or related facilities and public services that a transport infrastructure may contain</estur-annot:tooltip>
     </owl:ObjectProperty>
     
 
@@ -2365,11 +2385,11 @@ It is possible that this annotation property is taken out in the future from the
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="en">Property that can be used by a manager to propose a class or subclass that does not exist when a new instance is created.</rdfs:comment>
-        <rdfs:comment xml:lang="es">Propiedad que puede ser usada para que un gestor proponga una clase o subclase que no exista al crear una nueva instancia. Por ejemplo, si quiere crear el recurso histórico &quot;Peto de ánimas de Vilariño Frío&quot;, observaría que no existe la subclase de recurso histórico &quot;Peto de ánimas&quot;. En ese caso, puede utilizar la propiedad additionalClassification para proponer ese nuevo término</rdfs:comment>
         <rdfs:label xml:lang="en">additional classification</rdfs:label>
         <rdfs:label xml:lang="es">clasificación adicional</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Facilita valores complementarios para representar clasificaciones internas o propias específicas que no están incluidas formalmente en el modelo. Las propuestas introducidas podrán revisarse para futuras actualizaciones</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Provides complementary values to represent specific internal classifications that are not formally included in the model. The proposals introduced may be reviewed for future updates.</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -2394,6 +2414,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">app</rdfs:label>
         <rdfs:label xml:lang="es">app</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Facilita la URL para redirigir a un usuario al programa informático de interés en su teléfono inteligente, tableta u otro dispositivo móvil</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Provides the URL to redirect a user to the relevant software application on their smartphone, tablet, or other mobile device</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -2464,6 +2486,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">by month day</rdfs:label>
         <rdfs:label xml:lang="es">por día del mes</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Indica el día del mes en que se repite esta</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Indicates the day of the month on which this schedule repeats (1–31). For example, open on the first day of every month</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -2476,6 +2500,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">by month week</rdfs:label>
         <rdfs:label xml:lang="es">por semana del mes</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Indica la semana del mes en la que se aplica esta programación (1–5). Por ejemplo, abierto la tercera semana de cada mes.a</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Indicates the week of the month in which this schedule applies (1–5). For example, open during the third week of every month</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -2537,6 +2563,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">country</rdfs:label>
         <rdfs:label xml:lang="es">país</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Indica el país utilizando el código ISO 3166-1 alfa-2 (dos letras, por ejemplo: ES, FR, PT).</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Indicates the country using the ISO 3166-1 alpha-2 code (two letters, e.g., ES, FR, PT)</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -2585,6 +2613,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">descuento</rdfs:label>
         <rdfs:label xml:lang="en">discount</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Especifica la cantidad en moneda o porcentaje reducido o rebajado del precio original de un producto o servicio antes de su pago</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Specifies the amount in currency or percentage reduced from the original price of a product or service before payment</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -2663,6 +2693,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">end datetime</rdfs:label>
         <rdfs:label xml:lang="es">fecha y hora de finalización</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Especifica la fecha de finalización de una programación con o sin hora según la ISO 8601 (YYYY-MM-DD ‘T’ HH:MM:SS).</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Specifies the end date of a schedule, with or without time, according to ISO 8601 (YYYY-MM-DD ‘T’ HH:MM:SS).</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -2675,6 +2707,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">except for date</rdfs:label>
         <rdfs:label xml:lang="es">excepto fecha</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Indica la(s) fecha(s) específica(s) del calendario (con o sin hora) en la que no se aplica la programación según la ISO 8601 (YYYY-MM-DD ‘T’ HH:MM:SS)</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Indicates the specific calendar date(s) (with or without time) on which the schedule does not apply, according to ISO 8601 (YYYY-MM-DD ‘T’ HH:MM:SS).</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -2744,6 +2778,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">instant messaging service</rdfs:label>
         <rdfs:label xml:lang="es">servicio de mensajería instantánea</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Facilita la URL para redirigir al usuario al chat del servicio de mensajería instantánea o el número de teléfono con el que el usuario pueda contactar al lugar u organización a través de dicho servicio de mensajería instantánea</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Provides the URL to redirect the user to the chat of an instant messaging service, or the phone number through which the user may contact the place or organization via that service.</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -3093,6 +3129,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">esfuerzo físico</rdfs:label>
         <rdfs:label xml:lang="en">physical effort</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Asigna un valor entero del 1 al 5 para valorar el esfuerzo físico de la ruta, siendo 1 muy bajo y 5 muy alto</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Assigns an integer value from 1 to 5 to assess the physical effort required by the route, where 1 is very low and 5 is very high</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -3139,11 +3177,11 @@ It is possible that this annotation property is taken out in the future from the
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#priceCurrency">
         <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#PriceSpecification"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="es">La divisa debe especificarse de acuerdo con la ISO 4217</rdfs:comment>
-        <rdfs:comment xml:lang="en">The currency must be described according to the norm ISO 4217</rdfs:comment>
         <rdfs:label xml:lang="es">divisa del precio</rdfs:label>
         <rdfs:label xml:lang="en">price currency</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Especifica la divisa de acuerdo con la ISO 4217 (por ejemplo: EUR, USD, GBP).</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Specifies the currency according to ISO 4217 (e.g., EUR, USD, GBP)</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -3238,6 +3276,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">punto de interés de referencia (texto)</rdfs:label>
         <rdfs:label xml:lang="en">reference point of interest (texto)</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Indica puntos de interés dentro del itinerario a través de texto</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Indicates points of interest within the itinerary through text</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -3258,6 +3298,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">registration number</rdfs:label>
         <estur-annot:orderInCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</estur-annot:orderInCategory>
         <estur-annot:presentationOrderCategory>generalInfo</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Facilita el código o identificador oficial asignado por la administración competente a la instalación turística o vinculada o el guía turístico.</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Provides the official code or identifier assigned by the competent administration to the tourist facility, related facility, or tourist guide</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -3284,6 +3326,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">orientación en el itinerario</rdfs:label>
         <rdfs:label xml:lang="en">route navigation orientation</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Asigna un valor entero del 1 al 5 para valorar la dificultad de orientación durante el itinerario de la ruta, siendo 1 muy bajo y 5 muy alto</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Assigns an integer value from 1 to 5 to assess the difficulty of navigation and orientation along the route itinerary, where 1 is very low and 5 is very high</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -3303,6 +3347,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">fecha de fin de la venta</rdfs:label>
         <rdfs:label xml:lang="en">sale end date</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Especifica la fecha de fin de la venta de un evento según la especificación de la ISO 8601 (YYYY-MM-DD ‘T’ HH:MM:SS).</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Specifies the end date of ticket sales for an event according to ISO 8601 (YYYY-MM-DD ‘T’ HH:MM:SS).</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -3322,6 +3368,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">fecha de inicio de la venta</rdfs:label>
         <rdfs:label xml:lang="en">sale start date</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Especifica la fecha de inicio de la venta de un evento según la especificación de la ISO 8601 (YYYY-MM-DD ‘T’ HH:MM:SS).</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Specifies the start date of ticket sales for an event according to ISO 8601 (YYYY-MM-DD ‘T’ HH:MM:SS).</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -3348,6 +3396,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">Severidad del medio natural</rdfs:label>
         <rdfs:label xml:lang="en">Severity of the environment</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Asigna un valor entero del 1 al 5 para valorar la severidad del medio natural de la ruta, siendo 1 muy bajo y 5 muy alto.</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Assigns an integer value from 1 to 5 to assess the severity of the natural environment of the route, where 1 is very low and 5 is very high</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -3374,6 +3424,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">fecha y hora de comienzo</rdfs:label>
         <rdfs:label xml:lang="en">start datetime</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Especifica la fecha de inicio de una programación con o sin hora según la ISO 8601 (YYYY-MM-DD ‘T’ HH:MM:SS).</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Specifies the start date of a schedule, with or without time, according to ISO 8601 (YYYY-MM-DD ‘T’ HH:MM:SS).</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -3406,6 +3458,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">público objetivo</rdfs:label>
         <rdfs:label xml:lang="en">target audience</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Especifica el grupo objetivo para el que es adecuado la propuesta especial o el precio. Por ejemplo, niños, adultos, personas mayores, parejas, visitantes de un país concreto, etc</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Specifies the target group for which the special offer or price is suitable. For example, children, adults, seniors, couples, visitors from a specific country, etc</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -3456,6 +3510,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="es">condiciones del terreno</rdfs:label>
         <rdfs:label xml:lang="en">terrainConditions</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Asigna un valor entero del 1 al 5 para valorar la dificultad relativa a las condiciones del terreno de la ruta, siendo 1 muy bajo y 5 muy alto</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Assigns an integer value from 1 to 5 to assess the difficulty related to the terrain conditions of the route, where 1 is very low and 5 is very high</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -3559,6 +3615,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">valid from</rdfs:label>
         <rdfs:label xml:lang="es">válido desde</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Indica la fecha de inicio del período de validez según la especificación de la ISO 8601 (YYYY-MM-DD)</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Indicates the start date of the validity period according to the ISO 8601 specification (YYYY-MM-DD)</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
@@ -3579,6 +3637,8 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:label xml:lang="en">valid through</rdfs:label>
         <rdfs:label xml:lang="es">válido hasta</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+        <estur-annot:tooltip xml:lang="es">Indica la fecha de fin del período de validez según la especificación de la ISO 8601 (YYYY-MM-DD)</estur-annot:tooltip>
+        <estur-annot:tooltip xml:lang="en">Indicates the end date of the validity period according to the ISO 8601 specification (YYYY-MM-DD)</estur-annot:tooltip>
     </owl:DatatypeProperty>
     
 
