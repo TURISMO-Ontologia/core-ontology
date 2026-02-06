@@ -8282,16 +8282,9 @@ It is possible that this annotation property is taken out in the future from the
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AdventureActivity"/>
-                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AgrotourismExperience"/>
+                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#DestinationExperience"/>
                             <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Event"/>
-                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#FoodAndBeverageService"/>
-                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#HolidayPackage"/>
-                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#LodgingService"/>
-                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#SpecialOffer"/>
-                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TicketOrEntrance"/>
-                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TransportService"/>
-                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#VehicleExperience"/>
+                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Tour"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
