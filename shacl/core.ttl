@@ -37,6 +37,7 @@
     sh:nodeKind sh:IRI ;
     sh:property <https://astrea.linkeddata.es/shapes#20e3ef43e756e4e5da20203a5bd16fbf>,
         <https://astrea.linkeddata.es/shapes#a54f2ee0ccf860b014ecc8ec6fe43ac9>,
+        <https://astrea.linkeddata.es/shapes#ad61bf66761b98466c56cd4aaed0db52>,
         <https://astrea.linkeddata.es/shapes#d22a24910d893e13ef13e97012bb0e18> ;
     sh:targetClass :FoodAndBeverageService .
 
@@ -83,14 +84,15 @@
     sh:targetClass :GastronomicMarket .
 
 <https://astrea.linkeddata.es/shapes#0340ec71356b1e8629c442c3a1c8bc90> a sh:NodeShape ;
-    rdfs:label "Transport"@en,
-        "Transporte"@es ;
+    rdfs:label "Transport service"@en,
+        "Servicio de transporte"@es ;
     sh:description "Service intended for the transfer of people or goods from one place to another using different means of transport"@en,
         "Prestación destinada al traslado de personas o bienes de un lugar a otro mediante distintos medios de transporte"@es ;
-    sh:name "Transport"@en,
-        "Transporte"@es ;
+    sh:name "Transport service"@en,
+        "Servicio de transporte"@es ;
     sh:nodeKind sh:IRI ;
-    sh:property <https://astrea.linkeddata.es/shapes#caf70a72236e56bbf0d60bbbeb704bf2>,
+    sh:property <https://astrea.linkeddata.es/shapes#ad61bf66761b98466c56cd4aaed0db52>,
+        <https://astrea.linkeddata.es/shapes#caf70a72236e56bbf0d60bbbeb704bf2>,
         <https://astrea.linkeddata.es/shapes#ea6b2337f56f57aafd1cdc4d0e2f5001>,
         <https://astrea.linkeddata.es/shapes#ff49ca2c88972b1a99e47c58ee83e5ac> ;
     sh:targetClass :TransportService .
@@ -374,7 +376,9 @@
     sh:name "Adventure activity"@en,
         "Actividad de aventura"@es ;
     sh:nodeKind sh:IRI ;
-    sh:property <https://astrea.linkeddata.es/shapes#a27fac1fee0e13fcb40496d29454ec0b>,
+    sh:property <https://astrea.linkeddata.es/shapes#6f6e344f4cb0f1f390ca6068ea238bd5>,
+        <https://astrea.linkeddata.es/shapes#a27fac1fee0e13fcb40496d29454ec0b>,
+        <https://astrea.linkeddata.es/shapes#ad61bf66761b98466c56cd4aaed0db52>,
         <https://astrea.linkeddata.es/shapes#c3c968a905315e68f7beaefc17daef04>,
         <https://astrea.linkeddata.es/shapes#c9e89b65702dfedf23fc9495d8572104>,
         <https://astrea.linkeddata.es/shapes#caf70a72236e56bbf0d60bbbeb704bf2>,
@@ -559,7 +563,6 @@
         <https://astrea.linkeddata.es/shapes#23df89131df2237e81c603251217c477>,
         <https://astrea.linkeddata.es/shapes#511f63a941af40943c493eb23981a109>,
         <https://astrea.linkeddata.es/shapes#56cc7e3c59b67504fde31df08fd055bb>,
-        <https://astrea.linkeddata.es/shapes#61fd7e8fe688b2cf8143f9d2ef28f00a>,
         <https://astrea.linkeddata.es/shapes#6cf988800dde5424a4a932dc5d1bd9e0>,
         <https://astrea.linkeddata.es/shapes#8155fcad3de52de4ab47168b67478e59>,
         <https://astrea.linkeddata.es/shapes#9e85e337b3c72c3db61d4bc99d95358e>,
@@ -676,7 +679,8 @@
     sh:name "Passenger transport company"@en,
         "Compañía de transporte de viajeros"@es ;
     sh:nodeKind sh:IRI ;
-    sh:property <https://astrea.linkeddata.es/shapes#46bdae80b3923a7c3baeb51c770d2bef> ;
+    sh:property <https://astrea.linkeddata.es/shapes#46bdae80b3923a7c3baeb51c770d2bef>,
+        <https://astrea.linkeddata.es/shapes#61fd7e8fe688b2cf8143f9d2ef28f00a> ;
     sh:targetClass :PassengerTransportCompany .
 
 <https://astrea.linkeddata.es/shapes#2a8e3ac2c94a02552fb8f379653f84ae> rdfs:label "has additional vehicle rental agency service"@en,
@@ -847,6 +851,7 @@
     sh:name "Event organisation company"@en,
         "Empresa de organización de eventos"@es ;
     sh:nodeKind sh:IRI ;
+    sh:property <https://astrea.linkeddata.es/shapes#61fd7e8fe688b2cf8143f9d2ef28f00a> ;
     sh:targetClass :EventOrganisationCompany .
 
 <https://astrea.linkeddata.es/shapes#3ba2f9c9a86b26364b7b02f96bd6954a> a sh:NodeShape ;
@@ -1252,7 +1257,8 @@
     sh:nodeKind sh:IRI ;
     sh:property <https://astrea.linkeddata.es/shapes#218c7d53c599055b169d3050ced78ce5>,
         <https://astrea.linkeddata.es/shapes#2f10d6c35d89596aa6ad0a245dc9e05d>,
-        <https://astrea.linkeddata.es/shapes#37341fbfd80b4eac9453f810056de942> ;
+        <https://astrea.linkeddata.es/shapes#37341fbfd80b4eac9453f810056de942>,
+        <https://astrea.linkeddata.es/shapes#61fd7e8fe688b2cf8143f9d2ef28f00a> ;
     sh:targetClass :TourismIntermediary .
 
 <https://astrea.linkeddata.es/shapes#5ff42ed5bec04534f5eefe5cc3574c18> a sh:NodeShape ;
@@ -1571,6 +1577,7 @@
     sh:name "Accommodation"@en,
         "Empresa de alojamiento"@es ;
     sh:nodeKind sh:IRI ;
+    sh:property <https://astrea.linkeddata.es/shapes#61fd7e8fe688b2cf8143f9d2ef28f00a> ;
     sh:targetClass :Accommodation .
 
 <https://astrea.linkeddata.es/shapes#76d53d73e4bb56499954ec16c7effe35> rdfs:label "handicrafts yype"@en,
@@ -1698,27 +1705,20 @@
     sh:name "Tourism destination"@en,
         "Destino turístico"@es ;
     sh:nodeKind sh:IRI ;
-    sh:or ( [ sh:class :HistoricalOrCulturalResource ;
+    sh:or ( [ sh:class :DestinationExperience ;
+                sh:path :offeredBy ] [ sh:class :TourismService ;
+                sh:path :offeredBy ] ),
+        ( [ sh:class :DestinationExperience ;
+                sh:path :offers ] [ sh:class :Event ;
+                sh:path :offers ] [ sh:class :Tour ;
+                sh:path :offers ] ),
+        ( [ sh:class :HistoricalOrCulturalResource ;
                 sh:path :nearTo ] [ sh:class :NaturalResource ;
                 sh:path :nearTo ] [ sh:class :PublicService ;
                 sh:path :nearTo ] [ sh:class :Route ;
                 sh:path :nearTo ] [ sh:class :TourismOrRelatedFacility ;
                 sh:path :nearTo ] [ sh:class :TransportInfrastructure ;
-                sh:path :nearTo ] ),
-        ( [ sh:class :DestinationExperience ;
-                sh:path :offeredBy ] [ sh:class :TourismService ;
-                sh:path :offeredBy ] ),
-        ( [ sh:class :AdventureActivity ;
-                sh:path :offers ] [ sh:class :AgrotourismExperience ;
-                sh:path :offers ] [ sh:class :Event ;
-                sh:path :offers ] [ sh:class :FoodAndBeverageService ;
-                sh:path :offers ] [ sh:class :HolidayPackage ;
-                sh:path :offers ] [ sh:class :LodgingService ;
-                sh:path :offers ] [ sh:class :SpecialOffer ;
-                sh:path :offers ] [ sh:class :TicketOrEntrance ;
-                sh:path :offers ] [ sh:class :TransportService ;
-                sh:path :offers ] [ sh:class :VehicleExperience ;
-                sh:path :offers ] ) ;
+                sh:path :nearTo ] ) ;
     sh:property <https://astrea.linkeddata.es/shapes#1441d35176536a4fe2cf0d1382549686>,
         <https://astrea.linkeddata.es/shapes#37df0cbc968c942cfd659cef27648554>,
         <https://astrea.linkeddata.es/shapes#8f5f18b8d64cd4a85e0fe91212aef68d>,
@@ -1771,7 +1771,8 @@
     sh:property <https://astrea.linkeddata.es/shapes#4879ea88424051673d51ec48873dcd34>,
         <https://astrea.linkeddata.es/shapes#7d5da4183ad6802f89682c3653979d83>,
         <https://astrea.linkeddata.es/shapes#8b649c0ae0f7a62442dc12fd4fc74230>,
-        <https://astrea.linkeddata.es/shapes#9317a979ec355633a05210347f72f4b9> ;
+        <https://astrea.linkeddata.es/shapes#9317a979ec355633a05210347f72f4b9>,
+        <https://astrea.linkeddata.es/shapes#ad61bf66761b98466c56cd4aaed0db52> ;
     sh:targetClass :TicketOrEntrance .
 
 <https://astrea.linkeddata.es/shapes#81cdd2664db48da608e2399b1398e6ab> rdfs:label "travel unit"@en,
@@ -1934,6 +1935,8 @@
         <https://astrea.linkeddata.es/shapes#84e67ff623978460e7dc218336545be0>,
         <https://astrea.linkeddata.es/shapes#93e349dc5341af3f4531b4da01a39b3c>,
         <https://astrea.linkeddata.es/shapes#98d8c95ace67c60bd79b653e00679325>,
+        <https://astrea.linkeddata.es/shapes#ad61bf66761b98466c56cd4aaed0db52>,
+        <https://astrea.linkeddata.es/shapes#b207525049eb5d79f8c0e4c0bbc0e265>,
         <https://astrea.linkeddata.es/shapes#bc7b76b63a6a6f6ed3b5dde904a3691b>,
         <https://astrea.linkeddata.es/shapes#c24cb9df25e1170f1c5e5ac8879be686>,
         <https://astrea.linkeddata.es/shapes#caf70a72236e56bbf0d60bbbeb704bf2>,
@@ -1974,7 +1977,8 @@
                 sh:path :offers ] [ sh:class :TicketOrEntrance ;
                 sh:path :offers ] [ sh:class :Tour ;
                 sh:path :offers ] ) ;
-    sh:property <https://astrea.linkeddata.es/shapes#0043c26ebc97b9c29e94f9866599f3b1> ;
+    sh:property <https://astrea.linkeddata.es/shapes#0043c26ebc97b9c29e94f9866599f3b1>,
+        <https://astrea.linkeddata.es/shapes#61fd7e8fe688b2cf8143f9d2ef28f00a> ;
     sh:targetClass :ComplementaryActivitiesCompany .
 
 <https://astrea.linkeddata.es/shapes#8fa08280b915cd5678c5961ba701456a> a sh:NodeShape ;
@@ -2242,7 +2246,8 @@
     sh:name "Vehicle experience"@en,
         "Experiencia en vehículo"@es ;
     sh:nodeKind sh:IRI ;
-    sh:property <https://astrea.linkeddata.es/shapes#7c8f5606147498d122f1883075a026ef> ;
+    sh:property <https://astrea.linkeddata.es/shapes#7c8f5606147498d122f1883075a026ef>,
+        <https://astrea.linkeddata.es/shapes#f00b111deee890417c0cc01a48fd23ec> ;
     sh:targetClass :VehicleExperience .
 
 <https://astrea.linkeddata.es/shapes#9f126b2c61329d742b7f8b82a8c311b3> a sh:NodeShape ;
@@ -2271,6 +2276,7 @@
         <https://astrea.linkeddata.es/shapes#55f56a0fd299dc12cf50dbcbcc00d02e>,
         <https://astrea.linkeddata.es/shapes#67b11946568f5550fe9a0b45cbb406ab>,
         <https://astrea.linkeddata.es/shapes#ad33789de82a80ad46e4a9e66c12b488>,
+        <https://astrea.linkeddata.es/shapes#ad61bf66761b98466c56cd4aaed0db52>,
         <https://astrea.linkeddata.es/shapes#b50f3a6c986d166aa736c3f78bd93e40>,
         <https://astrea.linkeddata.es/shapes#caf70a72236e56bbf0d60bbbeb704bf2>,
         <https://astrea.linkeddata.es/shapes#d8d0489a7ac55a5d2761a6875da7d06b> ;
@@ -2725,6 +2731,7 @@
     sh:nodeKind sh:IRI ;
     sh:property <https://astrea.linkeddata.es/shapes#0e1e2e86da9bd992c00b2f5b31fbb138>,
         <https://astrea.linkeddata.es/shapes#1adf3e737243ea82cefc84b346f7092e>,
+        <https://astrea.linkeddata.es/shapes#1bcee79cabdaadc275acf77d429ee21a>,
         <https://astrea.linkeddata.es/shapes#220ffc2a978713e9f7de6aa80bb2e10e>,
         <https://astrea.linkeddata.es/shapes#293e6397d5e9703d6b6672dc5eb93705>,
         <https://astrea.linkeddata.es/shapes#34a6bcdfe082ffa003357e50da8f6ce1>,
@@ -3031,7 +3038,8 @@
     sh:name "Restaurant service organisation"@en,
         "Empresa de servicios de restauración"@es ;
     sh:nodeKind sh:IRI ;
-    sh:property <https://astrea.linkeddata.es/shapes#b85efa9cd24da6edf8718669519b21ec> ;
+    sh:property <https://astrea.linkeddata.es/shapes#61fd7e8fe688b2cf8143f9d2ef28f00a>,
+        <https://astrea.linkeddata.es/shapes#b85efa9cd24da6edf8718669519b21ec> ;
     sh:targetClass :RestaurantService .
 
 <https://astrea.linkeddata.es/shapes#d49ca87e1637b7074fc4fa27cf715baf> a sh:NodeShape ;
@@ -3196,7 +3204,6 @@
         <https://astrea.linkeddata.es/shapes#9170d2117a8d420f369e9f15d238bb59>,
         <https://astrea.linkeddata.es/shapes#a203da6ee6b472ab3ac6b8e426f3c9d2>,
         <https://astrea.linkeddata.es/shapes#a6cb48e1f1292236d8008d08a3dfa353>,
-        <https://astrea.linkeddata.es/shapes#ad61bf66761b98466c56cd4aaed0db52>,
         <https://astrea.linkeddata.es/shapes#c82efc95ba47edf499b00cba5934b088>,
         <https://astrea.linkeddata.es/shapes#ca2d907cc12a482b34e014be45453cd2>,
         <https://astrea.linkeddata.es/shapes#cd006a78080617b480b12b1e2b108a18>,
@@ -3469,6 +3476,7 @@
         <https://astrea.linkeddata.es/shapes#1adf3e737243ea82cefc84b346f7092e>,
         <https://astrea.linkeddata.es/shapes#1bcee79cabdaadc275acf77d429ee21a>,
         <https://astrea.linkeddata.es/shapes#1c8e52d62095b38972eb8dfeb3379a42>,
+        <https://astrea.linkeddata.es/shapes#44c093fe030e403c8379d2d3ea4194e1>,
         <https://astrea.linkeddata.es/shapes#511f63a941af40943c493eb23981a109>,
         <https://astrea.linkeddata.es/shapes#5516a61cb1da06e69e5af84295ad149d>,
         <https://astrea.linkeddata.es/shapes#63146aefe905edb27de4e68891fcaaec>,
@@ -3712,6 +3720,7 @@
         "Servicio de hospedaje"@es ;
     sh:nodeKind sh:IRI ;
     sh:property <https://astrea.linkeddata.es/shapes#4e865e83ecdfb4705cd50970e88f7ad5>,
+        <https://astrea.linkeddata.es/shapes#ad61bf66761b98466c56cd4aaed0db52>,
         <https://astrea.linkeddata.es/shapes#ba0ef771132298bbeaf80a67fd8405a1>,
         <https://astrea.linkeddata.es/shapes#d22a24910d893e13ef13e97012bb0e18> ;
     sh:targetClass :LodgingService .
@@ -3814,12 +3823,11 @@
 <https://astrea.linkeddata.es/shapes#0158dead3ae9ecccc270abf8d8548399> a sh:PropertyShape ;
     rdfs:label "recognized by"@en,
         "reconocido por"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:maxCount 1 ;
     sh:name "recognized by"@en,
         "reconocido por"@es ;
-    sh:path :recognizedBy ;
-    sh:pattern ".*" .
+    sh:path :recognizedBy .
 
 <https://astrea.linkeddata.es/shapes#02360252765f581ba05c2f3ee8f926c6> a sh:PropertyShape ;
     rdfs:label "maximum price"@en,
@@ -3865,12 +3873,11 @@
 <https://astrea.linkeddata.es/shapes#07f34d309d8486aa3216ccd0f0e1add3> a sh:PropertyShape ;
     rdfs:label "audio"@en,
         "audio"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "audio"@en,
         "audio"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :audio ;
-    sh:pattern ".*" .
+    sh:path :audio .
 
 <https://astrea.linkeddata.es/shapes#0948946fb843d110f011af895b507eb2> a sh:PropertyShape ;
     sh:nodeKind sh:IRIOrLiteral ;
@@ -4115,12 +4122,11 @@
 <https://astrea.linkeddata.es/shapes#3378428baf4a020af350c71619d5cbef> a sh:PropertyShape ;
     rdfs:label "reference point of interest (texto)"@en,
         "punto de interés de referencia (texto)"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "reference point of interest (texto)"@en,
         "punto de interés de referencia (texto)"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :refPointOfInterestAsText ;
-    sh:pattern ".*" .
+    sh:path :refPointOfInterestAsText .
 
 <https://astrea.linkeddata.es/shapes#33f374e46f87e052b9db3498c26bf4d7> a sh:PropertyShape ;
     rdfs:label "accessible for free"@en,
@@ -4154,12 +4160,11 @@
 <https://astrea.linkeddata.es/shapes#371898944cb47cbe2784c5d8a6e604e5> a sh:PropertyShape ;
     rdfs:label "street address"@en,
         "dirección"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:maxCount 1 ;
     sh:name "street address"@en,
         "dirección"@es ;
-    sh:path :streetAddress ;
-    sh:pattern ".*" .
+    sh:path :streetAddress .
 
 <https://astrea.linkeddata.es/shapes#37341fbfd80b4eac9453f810056de942> a sh:PropertyShape ;
     sh:class :HolidayPackage ;
@@ -4253,12 +4258,11 @@
 <https://astrea.linkeddata.es/shapes#3cedb12af8323db6b0dc91fa981533a7> a sh:PropertyShape ;
     rdfs:label "highest altitude"@en,
         "altitud máxima"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "highest altitude"@en,
         "altitud máxima"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :highestAltitude ;
-    sh:pattern ".*" .
+    sh:path :highestAltitude .
 
 <https://astrea.linkeddata.es/shapes#3e8f8187aa88381a5e86d2433e4ba8f3> a sh:PropertyShape ;
     rdfs:label "parador"@en,
@@ -4293,6 +4297,12 @@
 <https://astrea.linkeddata.es/shapes#421722e5d2da4c80be1c567124549282> a sh:PropertyShape ;
     sh:nodeKind sh:IRIOrLiteral ;
     sh:path :includes .
+
+<https://astrea.linkeddata.es/shapes#44c093fe030e403c8379d2d3ea4194e1> a sh:PropertyShape ;
+    sh:nodeKind sh:IRIOrLiteral ;
+    sh:path :hasLocation ;
+    sh:qualifiedMaxCount 1 ;
+    sh:qualifiedValueShape [ sh:class :Location ] .
 
 <https://astrea.linkeddata.es/shapes#44ea8c87261fd6d2aa5c6d4b0463d9ba> a sh:PropertyShape ;
     sh:class skos:Concept ;
@@ -4440,12 +4450,11 @@
 <https://astrea.linkeddata.es/shapes#58caea9e3e5524bbb5051590561bf82d> a sh:PropertyShape ;
     rdfs:label "conditions"@en,
         "condiciones"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "conditions"@en,
         "condiciones"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :conditions ;
-    sh:pattern ".*" .
+    sh:path :conditions .
 
 <https://astrea.linkeddata.es/shapes#59f1db1af6d3af70453937bebfd34524> a sh:PropertyShape ;
     sh:nodeKind sh:IRIOrLiteral ;
@@ -4459,25 +4468,15 @@
 <https://astrea.linkeddata.es/shapes#60a83c441e47cbae009d2ec3e345d805> a sh:PropertyShape ;
     rdfs:label "access tip"@en,
         "consejo para acceder"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "access tip"@en,
         "consejo para acceder"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :accessTip ;
-    sh:pattern ".*" .
+    sh:path :accessTip .
 
 <https://astrea.linkeddata.es/shapes#6181aa2e544f0fb98b50a2aac0b40e51> a sh:PropertyShape ;
     sh:nodeKind sh:IRIOrLiteral ;
     sh:path :dramatisedTour .
-
-<https://astrea.linkeddata.es/shapes#61fd7e8fe688b2cf8143f9d2ef28f00a> a sh:PropertyShape ;
-    rdfs:label "has tourism or related facility"@en,
-        "tiene recurso o instalación asociada"@es ;
-    sh:class :TourismOrRelatedFacility ;
-    sh:name "has tourism or related facility"@en,
-        "tiene recurso o instalación asociada"@es ;
-    sh:nodeKind sh:BlankNodeOrIRI ;
-    sh:path :hasTourismOrRelatedFacility .
 
 <https://astrea.linkeddata.es/shapes#62404534630c18099c620848350dfd20> a sh:PropertyShape ;
     rdfs:label "service schedule"@en,
@@ -4589,6 +4588,11 @@
     sh:nodeKind sh:IRIOrLiteral ;
     sh:path :hasLakeService .
 
+<https://astrea.linkeddata.es/shapes#6f6e344f4cb0f1f390ca6068ea238bd5> a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:nodeKind sh:IRIOrLiteral ;
+    sh:path :hasPriceClass .
+
 <https://astrea.linkeddata.es/shapes#7030972cdd9d14365cb5566e45a3573c> a sh:PropertyShape ;
     sh:datatype xsd:string ;
     sh:nodeKind sh:IRIOrLiteral ;
@@ -4617,12 +4621,11 @@
 <https://astrea.linkeddata.es/shapes#71a957321348df1291f25dfaee6d1a16> a sh:PropertyShape ;
     rdfs:label "answer"@en,
         "respuesta"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "answer"@en,
         "respuesta"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :answer ;
-    sh:pattern ".*" .
+    sh:path :answer .
 
 <https://astrea.linkeddata.es/shapes#72667a249874d62bcb2a23be122cba6c> a sh:PropertyShape ;
     sh:class :PriceSpecification ;
@@ -4641,12 +4644,11 @@
 <https://astrea.linkeddata.es/shapes#73b75d0398d30060b28517bfcc0ae88c> a sh:PropertyShape ;
     rdfs:label "eligible quantity"@en,
         "cantidad elegible"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "eligible quantity"@en,
         "cantidad elegible"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :eligibleQuantity ;
-    sh:pattern ".*" .
+    sh:path :eligibleQuantity .
 
 <https://astrea.linkeddata.es/shapes#742c11a90174d16aa2d149b6c7334fe4> a sh:PropertyShape ;
     rdfs:label "secondary image"@en,
@@ -4680,12 +4682,11 @@
 <https://astrea.linkeddata.es/shapes#7940029bdeb8171a980ccd04616f74ca> a sh:PropertyShape ;
     rdfs:label "long description"@en,
         "descripción larga"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "long description"@en,
         "descripción larga"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :longDescription ;
-    sh:pattern ".*" .
+    sh:path :longDescription .
 
 <https://astrea.linkeddata.es/shapes#7a40e7491e2c8f8b730158a86a0ba53c> a sh:PropertyShape ;
     sh:class skos:Concept ;
@@ -4806,12 +4807,11 @@
 <https://astrea.linkeddata.es/shapes#84e22cc3e92dab330fccf02a2db63bac> a sh:PropertyShape ;
     rdfs:label "locality"@en,
         "localidad"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:maxCount 1 ;
     sh:name "locality"@en,
         "localidad"@es ;
-    sh:path :locality ;
-    sh:pattern ".*" .
+    sh:path :locality .
 
 <https://astrea.linkeddata.es/shapes#84e67ff623978460e7dc218336545be0> a sh:PropertyShape ;
     sh:nodeKind sh:IRIOrLiteral ;
@@ -4820,12 +4820,11 @@
 <https://astrea.linkeddata.es/shapes#865c14b248a801e7410b94b8e4346ccc> a sh:PropertyShape ;
     rdfs:label "country"@en,
         "país"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:maxCount 1 ;
     sh:name "country"@en,
         "país"@es ;
-    sh:path :country ;
-    sh:pattern ".*" .
+    sh:path :country .
 
 <https://astrea.linkeddata.es/shapes#86c81efc83eef16b4aaf661e927346d8> a sh:PropertyShape ;
     rdfs:label "by month week"@en,
@@ -5011,12 +5010,11 @@
 <https://astrea.linkeddata.es/shapes#9b77bf2525fa6f29a723fd3a58655b29> a sh:PropertyShape ;
     rdfs:label "length"@en,
         "longitud"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "length"@en,
         "longitud"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :length ;
-    sh:pattern ".*" .
+    sh:path :length .
 
 <https://astrea.linkeddata.es/shapes#9b98f7665af7d97ae93d63747a1568aa> a sh:PropertyShape ;
     sh:nodeKind sh:IRIOrLiteral ;
@@ -5170,12 +5168,11 @@
 <https://astrea.linkeddata.es/shapes#a99d0886a55f0f92a57e21624beaba9f> a sh:PropertyShape ;
     rdfs:label "text"@en,
         "texto"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "text"@en,
         "texto"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :text ;
-    sh:pattern ".*" .
+    sh:path :text .
 
 <https://astrea.linkeddata.es/shapes#a9d86bf5c7dd4d55cde194675c92e970> a sh:PropertyShape ;
     sh:nodeKind sh:IRIOrLiteral ;
@@ -5188,12 +5185,11 @@
 <https://astrea.linkeddata.es/shapes#aabdf3e4e42c078aa0f277b0008f3548> a sh:PropertyShape ;
     rdfs:label "county"@en,
         "comarca"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "county"@en,
         "comarca"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :county ;
-    sh:pattern ".*" .
+    sh:path :county .
 
 <https://astrea.linkeddata.es/shapes#aacd539892c327efe3330c8219c4a774> a sh:PropertyShape ;
     rdfs:label "island"@en,
@@ -5241,17 +5237,21 @@
 <https://astrea.linkeddata.es/shapes#b0cb8bd122637b2e1b992fe376858390> a sh:PropertyShape ;
     rdfs:label "question"@en,
         "pregunta"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "question"@en,
         "pregunta"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :question ;
-    sh:pattern ".*" .
+    sh:path :question .
 
 <https://astrea.linkeddata.es/shapes#b10ac3ccf3648894985bad1f71217f64> a sh:PropertyShape ;
     sh:class :SocialMediaProfile ;
     sh:nodeKind sh:IRIOrLiteral ;
     sh:path :hasSocialMediaProfile .
+
+<https://astrea.linkeddata.es/shapes#b207525049eb5d79f8c0e4c0bbc0e265> a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:nodeKind sh:IRIOrLiteral ;
+    sh:path :hasPriceClass .
 
 <https://astrea.linkeddata.es/shapes#b289a4372e09778112897370f2dcbabe> a sh:PropertyShape ;
     sh:nodeKind sh:IRIOrLiteral ;
@@ -5324,12 +5324,11 @@
 <https://astrea.linkeddata.es/shapes#bb2397a9932911b5267b4727d1118c86> a sh:PropertyShape ;
     rdfs:label "autonomous community"@en,
         "comunidad autónoma"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:maxCount 1 ;
     sh:name "autonomous community"@en,
         "comunidad autónoma"@es ;
-    sh:path :autonomousCommunity ;
-    sh:pattern ".*" .
+    sh:path :autonomousCommunity .
 
 <https://astrea.linkeddata.es/shapes#bbeb2c0c75a0fcba3fc0a6bd991e7e98> a sh:PropertyShape ;
     sh:class skos:Concept ;
@@ -5362,12 +5361,11 @@
 <https://astrea.linkeddata.es/shapes#c0451a2eb6b06bf484340ecf542beaa7> a sh:PropertyShape ;
     rdfs:label "remarks"@en,
         "observaciones"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "remarks"@en,
         "observaciones"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :remarks ;
-    sh:pattern ".*" .
+    sh:path :remarks .
 
 <https://astrea.linkeddata.es/shapes#c0c9bc9409109746271bb7c1dadc4741> a sh:PropertyShape ;
     sh:class :PriceSpecification ;
@@ -5479,12 +5477,11 @@
 <https://astrea.linkeddata.es/shapes#cdf51f7e74d0715f7f4667787912e81e> a sh:PropertyShape ;
     rdfs:label "app"@en,
         "app"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "app"@en,
         "app"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :app ;
-    sh:pattern ".*" .
+    sh:path :app .
 
 <https://astrea.linkeddata.es/shapes#cfc71225e4d77688d70b5d53c75d0124> a sh:PropertyShape ;
     sh:class :Acknowledgement ;
@@ -5601,12 +5598,11 @@
 <https://astrea.linkeddata.es/shapes#de566e5e54ac2f8252658e3daca4e428> a sh:PropertyShape ;
     rdfs:label "public transport stop zone"@en,
         "zona de la parada de transporte público"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "public transport stop zone"@en,
         "zona de la parada de transporte público"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :publicTransportStopZone ;
-    sh:pattern ".*" .
+    sh:path :publicTransportStopZone .
 
 <https://astrea.linkeddata.es/shapes#de5c7a9bb8d20c599af4b2524d30eb9d> a sh:PropertyShape ;
     rdfs:label "main image"@en,
@@ -5761,22 +5757,20 @@
 <https://astrea.linkeddata.es/shapes#ebb90c3b7f80a86a66cc2d92c21b1983> a sh:PropertyShape ;
     rdfs:label "curiosities"@en,
         "curiosidades"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "curiosities"@en,
         "curiosidades"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :curiosities ;
-    sh:pattern ".*" .
+    sh:path :curiosities .
 
 <https://astrea.linkeddata.es/shapes#ec06fa52135faefb6f98d291947fbc37> a sh:PropertyShape ;
     rdfs:label "instant messaging service"@en,
         "servicio de mensajería instantánea"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "instant messaging service"@en,
         "servicio de mensajería instantánea"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :instantMessagingService ;
-    sh:pattern ".*" .
+    sh:path :instantMessagingService .
 
 <https://astrea.linkeddata.es/shapes#ec08d4103161a293340e398989b46580> a sh:PropertyShape ;
     sh:nodeKind sh:IRIOrLiteral ;
@@ -5806,6 +5800,11 @@
     sh:nodeKind sh:IRIOrLiteral ;
     sh:path :autonomousCommunity .
 
+<https://astrea.linkeddata.es/shapes#f00b111deee890417c0cc01a48fd23ec> a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:nodeKind sh:IRIOrLiteral ;
+    sh:path :hasPriceClass .
+
 <https://astrea.linkeddata.es/shapes#f27bdd7dfb5cd229aa85998b5701a474> a sh:PropertyShape ;
     sh:class skos:Concept ;
     sh:nodeKind sh:IRIOrLiteral ;
@@ -5814,22 +5813,20 @@
 <https://astrea.linkeddata.es/shapes#f314985921ee3714df255d7636eba895> a sh:PropertyShape ;
     rdfs:label "province"@en,
         "provincia"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:maxCount 1 ;
     sh:name "province"@en,
         "provincia"@es ;
-    sh:path :province ;
-    sh:pattern ".*" .
+    sh:path :province .
 
 <https://astrea.linkeddata.es/shapes#f37bb720a18ba713ca5eab3e8dd7d6f3> a sh:PropertyShape ;
     rdfs:label "keyword"@en,
         "palabra clave"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "keyword"@en,
         "palabra clave"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :keyword ;
-    sh:pattern ".*" .
+    sh:path :keyword .
 
 <https://astrea.linkeddata.es/shapes#f3fd1a1c820f8a0678e0e0d7998f7188> a sh:PropertyShape ;
     sh:class :Acknowledgement ;
@@ -5849,12 +5846,11 @@
 <https://astrea.linkeddata.es/shapes#fa066df844f6ffbaf91e9586fc0de3b2> a sh:PropertyShape ;
     rdfs:label "category"@en,
         "categoría"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "category"@en,
         "categoría"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :category ;
-    sh:pattern ".*" .
+    sh:path :category .
 
 <https://astrea.linkeddata.es/shapes#fa67553674dbfb45f7a860eb91ffd287> a sh:PropertyShape ;
     sh:class skos:Concept ;
@@ -5889,12 +5885,11 @@
 <https://astrea.linkeddata.es/shapes#fd7ee96ab93d2f75a29206fa8ae54a8f> a sh:PropertyShape ;
     rdfs:label "minimum altitude"@en,
         "altitud mínima"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "minimum altitude"@en,
         "altitud mínima"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :minimumAltitude ;
-    sh:pattern ".*" .
+    sh:path :minimumAltitude .
 
 <https://astrea.linkeddata.es/shapes#fd839bf043cf296e8c4bd9de8ef7b585> a sh:PropertyShape ;
     sh:class skos:Concept ;
@@ -5904,12 +5899,11 @@
 <https://astrea.linkeddata.es/shapes#fe2fbd455b4eececcaf914b9f9fab4b3> a sh:PropertyShape ;
     rdfs:label "short description"@en,
         "descripción corta"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:maxCount 1 ;
     sh:name "short description"@en,
         "descripción corta"@es ;
-    sh:path :shortDescription ;
-    sh:pattern ".*" .
+    sh:path :shortDescription .
 
 <https://astrea.linkeddata.es/shapes#fec8f35113f64a4e84fe8881e59fc0a9> a sh:PropertyShape ;
     sh:class :Location ;
@@ -5950,15 +5944,6 @@
         "tiene información adicional"@es ;
     sh:nodeKind sh:BlankNodeOrIRI ;
     sh:path :hasAdditionalInformation .
-
-<https://astrea.linkeddata.es/shapes#1bcee79cabdaadc275acf77d429ee21a> a sh:PropertyShape ;
-    rdfs:label "has location"@en,
-        "tiene localización"@es ;
-    sh:class :Location ;
-    sh:name "has location"@en,
-        "tiene localización"@es ;
-    sh:nodeKind sh:BlankNodeOrIRI ;
-    sh:path :hasLocation .
 
 <https://astrea.linkeddata.es/shapes#4e865e83ecdfb4705cd50970e88f7ad5> a sh:PropertyShape ;
     rdfs:label "number of beds"@en,
@@ -6005,12 +5990,11 @@
 <https://astrea.linkeddata.es/shapes#8b486b9c68481c32702a9204c7c88a34> a sh:PropertyShape ;
     rdfs:label "target audience"@en,
         "público objetivo"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "target audience"@en,
         "público objetivo"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :targetAudience ;
-    sh:pattern ".*" .
+    sh:path :targetAudience .
 
 <https://astrea.linkeddata.es/shapes#8b649c0ae0f7a62442dc12fd4fc74230> a sh:PropertyShape ;
     rdfs:label "numbered seats"@en,
@@ -6050,15 +6034,6 @@
     sh:nodeKind sh:BlankNodeOrIRI ;
     sh:path :offersGastronomicResource .
 
-<https://astrea.linkeddata.es/shapes#ad61bf66761b98466c56cd4aaed0db52> a sh:PropertyShape ;
-    rdfs:label "related tourism or related facility"@en,
-        "instalación turística o vinculada relacionada"@es ;
-    sh:class :TourismOrRelatedFacility ;
-    sh:name "related tourism or related facility"@en,
-        "instalación turística o vinculada relacionada"@es ;
-    sh:nodeKind sh:BlankNodeOrIRI ;
-    sh:path :relatedTourismOrRelatedFacility .
-
 <https://astrea.linkeddata.es/shapes#ba0ef771132298bbeaf80a67fd8405a1> a sh:PropertyShape ;
     rdfs:label "number of accommodation units"@en,
         "número de unidades de alojamiento"@es ;
@@ -6074,12 +6049,11 @@
 <https://astrea.linkeddata.es/shapes#be041322bb625de26387461f1dfd698f> a sh:PropertyShape ;
     rdfs:label "duration"@en,
         "duración"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "duration"@en,
         "duración"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :duration ;
-    sh:pattern ".*" .
+    sh:path :duration .
 
 <https://astrea.linkeddata.es/shapes#c6f0cd9bc9ee0071355c3bde0a14175e> a sh:PropertyShape ;
     rdfs:label "near to"@en,
@@ -6117,15 +6091,23 @@
     sh:nodeKind sh:BlankNodeOrIRI ;
     sh:path :hasContactPoint .
 
+<https://astrea.linkeddata.es/shapes#1bcee79cabdaadc275acf77d429ee21a> a sh:PropertyShape ;
+    rdfs:label "has location"@en,
+        "tiene localización"@es ;
+    sh:class :Location ;
+    sh:name "has location"@en,
+        "tiene localización"@es ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:path :hasLocation .
+
 <https://astrea.linkeddata.es/shapes#4ea101c0cd34f7eafa5bb213efd7ef48> a sh:PropertyShape ;
     rdfs:label "time of the day"@en,
         "momento del día"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "time of the day"@en,
         "momento del día"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :timeOfTheDay ;
-    sh:pattern ".*" .
+    sh:path :timeOfTheDay .
 
 <https://astrea.linkeddata.es/shapes#722c462a78d6992dac578a6c5ca78729> a sh:PropertyShape ;
     rdfs:label "valid from"@en,
@@ -6150,12 +6132,11 @@
 <https://astrea.linkeddata.es/shapes#c24cb9df25e1170f1c5e5ac8879be686> a sh:PropertyShape ;
     rdfs:label "not included"@en,
         "no incluido"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "not included"@en,
         "no incluido"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :notIncluded ;
-    sh:pattern ".*" .
+    sh:path :notIncluded .
 
 <https://astrea.linkeddata.es/shapes#c377363b8d58d8e1de215fb332247660> a sh:PropertyShape ;
     rdfs:label "valid through"@en,
@@ -6180,12 +6161,11 @@
 <https://astrea.linkeddata.es/shapes#d8d0489a7ac55a5d2761a6875da7d06b> a sh:PropertyShape ;
     rdfs:label "time of the year"@en,
         "temporada del año"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "time of the year"@en,
         "temporada del año"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :timeOfTheYear ;
-    sh:pattern ".*" .
+    sh:path :timeOfTheYear .
 
 <https://astrea.linkeddata.es/shapes#511f63a941af40943c493eb23981a109> a sh:PropertyShape ;
     rdfs:label "related to"@en,
@@ -6199,22 +6179,20 @@
 <https://astrea.linkeddata.es/shapes#eb22bb43eccb59c7e3b05b324b663fdb> a sh:PropertyShape ;
     rdfs:label "includes"@en,
         "incluye"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "includes"@en,
         "incluye"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :includes ;
-    sh:pattern ".*" .
+    sh:path :includes .
 
 <https://astrea.linkeddata.es/shapes#f5b3b55738db8b452d7f355fc06cf183> a sh:PropertyShape ;
     rdfs:label "url"@en,
         "url"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "url"@en,
         "url"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :url ;
-    sh:pattern ".*" .
+    sh:path :url .
 
 <https://astrea.linkeddata.es/shapes#293e6397d5e9703d6b6672dc5eb93705> a sh:PropertyShape ;
     rdfs:label "maximum attendee capacity"@en,
@@ -6249,12 +6227,20 @@
 <https://astrea.linkeddata.es/shapes#ca88c86f0d2b9d0d18567b3aa42886a8> a sh:PropertyShape ;
     rdfs:label "name"@en,
         "nombre"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:name "name"@en,
         "nombre"@es ;
     sh:nodeKind sh:Literal ;
-    sh:path :name ;
-    sh:pattern ".*" .
+    sh:path :name .
+
+<https://astrea.linkeddata.es/shapes#61fd7e8fe688b2cf8143f9d2ef28f00a> a sh:PropertyShape ;
+    rdfs:label "has tourism or related facility"@en,
+        "tiene recurso o instalación asociada"@es ;
+    sh:class :TourismOrRelatedFacility ;
+    sh:name "has tourism or related facility"@en,
+        "tiene recurso o instalación asociada"@es ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:path :hasTourismOrRelatedFacility .
 
 <https://astrea.linkeddata.es/shapes#81ffdc88e75d90a1ab2a1125c16744e4> a sh:PropertyShape ;
     rdfs:label "has description"@en,
@@ -6268,12 +6254,11 @@
 <https://astrea.linkeddata.es/shapes#a6cb48e1f1292236d8008d08a3dfa353> a sh:PropertyShape ;
     rdfs:label "additional classification"@en,
         "clasificación adicional"@es ;
-    sh:datatype xsd:string ;
+    sh:datatype rdf:langString ;
     sh:maxCount 1 ;
     sh:name "additional classification"@en,
         "clasificación adicional"@es ;
-    sh:path :additionalClassification ;
-    sh:pattern ".*" .
+    sh:path :additionalClassification .
 
 <https://astrea.linkeddata.es/shapes#caf70a72236e56bbf0d60bbbeb704bf2> a sh:PropertyShape ;
     rdfs:label "itinerary"@en,
@@ -6292,4 +6277,13 @@
         "tiene reconocimiento"@es ;
     sh:nodeKind sh:BlankNodeOrIRI ;
     sh:path :hasAcknowledgement .
+
+<https://astrea.linkeddata.es/shapes#ad61bf66761b98466c56cd4aaed0db52> a sh:PropertyShape ;
+    rdfs:label "related tourism or related facility"@en,
+        "instalación turística o vinculada relacionada"@es ;
+    sh:class :TourismOrRelatedFacility ;
+    sh:name "related tourism or related facility"@en,
+        "instalación turística o vinculada relacionada"@es ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:path :relatedTourismOrRelatedFacility .
 
