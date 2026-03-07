@@ -10815,8 +10815,8 @@ Start of the validity period of the certification, opening hours, rule or tip.</
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/Tag">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
-        <rdfs:comment xml:lang="es">Etiqueta</rdfs:comment>
-        <rdfs:comment xml:lang="en">Tag</rdfs:comment>
+        <rdfs:comment xml:lang="es">Conjunto de etiquetas utilizadas para clasificar y describir de forma transversal características, temáticas, atributos o enfoques experienciales asociados a un elemento.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Set of tags used to classify and describe, in a transversal manner, characteristics, themes, attributes or experiential approaches associated with an item.</rdfs:comment>
         <rdfs:label xml:lang="es">Etiqueta</rdfs:label>
         <rdfs:label xml:lang="en">Tag</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://ontologia.segittur.es/turismo/def/core/kos/skos-Tag.ttl"/>
@@ -10828,8 +10828,8 @@ Start of the validity period of the certification, opening hours, rule or tip.</
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/TargetAudience">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
-        <rdfs:comment xml:lang="es">Público objetivo</rdfs:comment>
-        <rdfs:comment xml:lang="en">Target audience</rdfs:comment>
+        <rdfs:comment xml:lang="en">A specific group of people targeted by a price or special offer, based on their age.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Grupo específico de personas al que va dirigido un precio o una propuesta especial, según la edad.</rdfs:comment>
         <rdfs:label xml:lang="es">Público objetivo</rdfs:label>
         <rdfs:label xml:lang="en">Target audience</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://ontologia.segittur.es/turismo/def/core/kos/skos-TargetAudience.ttl"/>
@@ -10841,8 +10841,8 @@ Start of the validity period of the certification, opening hours, rule or tip.</
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/TimeOfTheYear">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos#ConceptScheme"/>
-        <rdfs:comment xml:lang="es">Temporada del año</rdfs:comment>
-        <rdfs:comment xml:lang="en">Time of the year</rdfs:comment>
+        <rdfs:comment xml:lang="en">A seasonal period during which a destination experience, agrotourism experience, or route is recommended, or during which it has greater relevance, intensity, or appeal.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Periodo estacional en el que se recomienda realizar la experiencia en destino, experiencia agroturística o ruta, o en el que esta tiene mayor relevancia, intensidad o atractivo.</rdfs:comment>
         <rdfs:label xml:lang="es">Temporada del año</rdfs:label>
         <rdfs:label xml:lang="en">Time of the year</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://ontologia.segittur.es/turismo/def/core/kos/skos-TimeOfTheYear.ttl"/>
