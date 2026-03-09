@@ -7644,6 +7644,96 @@ Start of the validity period of the certification, opening hours, rule or tip.</
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#PetAccommodationPolicy -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#PetAccommodationPolicy">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#PetAdmissionPolicy"/>
+        <rdfs:comment xml:lang="en">Criteria for permitting or restricting companies that offer accommodation for pets.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Criterio de permisión o restricción de las empresas que ofrecen alojamiento para el hospedaje de mascotas.</rdfs:comment>
+        <rdfs:label xml:lang="en">Pet accommodation policy</rdfs:label>
+        <rdfs:label xml:lang="es">Política de alojamiento con mascotas</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#PetAdmissionPolicy -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#PetAdmissionPolicy">
+        <rdfs:comment xml:lang="en">Criteria for permitting or restricting pets from entering certain places.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Criterio de permisión o restricción para el ingreso de mascotas a ciertos lugares.</rdfs:comment>
+        <rdfs:label xml:lang="en">Pet admission policy</rdfs:label>
+        <rdfs:label xml:lang="es">Política de admisión de mascotas</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#PetDayCare -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#PetDayCare">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousBusiness"/>
+        <rdfs:comment xml:lang="en">A place where owners can leave their pets when they are away.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Lugar donde los dueños puedan dejar a sus mascotas cuando están fuera.</rdfs:comment>
+        <rdfs:label xml:lang="es">Guardería de mascotas</rdfs:label>
+        <rdfs:label xml:lang="en">Pet day care</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#PetGroomingSalon -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#PetGroomingSalon">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousBusiness"/>
+        <rdfs:comment xml:lang="en">Commercial establishment where pets can be bathed, brushed, trimmed, or groomed.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Establecimiento comercial en el que se puede bañar, cepillar, recortar o peinar a una mascota.</rdfs:comment>
+        <rdfs:label xml:lang="es">Peluquería de mascotas</rdfs:label>
+        <rdfs:label xml:lang="en">Pet grooming salon</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#PetShipper -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#PetShipper">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MiscellaneousBusiness"/>
+        <rdfs:comment xml:lang="en">An organisation dedicated to the professional transport of animals, guaranteeing their care during transit.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Entidad que se dedica al transporte profesional de animales, garantizando su cuidado durante el desplazamiento.</rdfs:comment>
+        <rdfs:label xml:lang="en">Pet shipper</rdfs:label>
+        <rdfs:label xml:lang="es">Transportista de mascotas</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#PetShop -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#PetShop">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#RetailAndFashionBusiness"/>
+        <rdfs:comment xml:lang="es">Comercio al por menor dedicado a la venta de productos para mascotas como alimentos, juguetes, golosinas, cepillos y accesorios para mascotas en general.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Retail business dedicated to the sale of pet products such as food, toys, treats, brushes, and general pet accessories.</rdfs:comment>
+        <rdfs:label xml:lang="en">Pet shop</rdfs:label>
+        <rdfs:label xml:lang="es">Tienda para mascotas</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#PetTransportPolicy -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#PetTransportPolicy">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#PetAdmissionPolicy"/>
+        <rdfs:comment xml:lang="en">Criteria for permitting or restricting passenger transport companies from transporting pets.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Criterio de permisión o restricción de las empresas de transporte de viajeros para el traslado con mascotas.</rdfs:comment>
+        <rdfs:label xml:lang="en">Pet transport policy</rdfs:label>
+        <rdfs:label xml:lang="es">Política de transporte con mascotas</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#Pharmacy -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Pharmacy">
@@ -10078,6 +10168,19 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         <rdfs:comment xml:lang="en">Traditional buildings that reflect local architectural traditions and styles (such as farmhouses, mills, olive presses, etc.).</rdfs:comment>
         <rdfs:label xml:lang="es">Arquitectura vernácula</rdfs:label>
         <rdfs:label xml:lang="en">Vernacular architecture</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#VeterinaryCare -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#VeterinaryCare">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#MedicalBusiness"/>
+        <rdfs:comment xml:lang="es">Establecimiento con personal cualificado, registrado o autorizado por el organismo veterinario estatutario pertinente para ejercer la medicina/ciencia veterinaria en un país.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Establishment with qualified personnel, registered or authorised by the relevant statutory veterinary body to practise veterinary medicine/science in a country.</rdfs:comment>
+        <rdfs:label xml:lang="es">Atención veterinaria</rdfs:label>
+        <rdfs:label xml:lang="en">Veterinary care</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
