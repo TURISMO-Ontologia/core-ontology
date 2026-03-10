@@ -257,6 +257,12 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
+    <!-- http://www.w3.org/2001/XMLSchema#time -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#time"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3153,6 +3159,20 @@ tourism organisations, tourism or related facilities, tourism resources and serv
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#closesAt -->
+
+    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#closesAt">
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TimeSlot"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment xml:lang="en">Closing time of a resource or service</rdfs:comment>
+        <rdfs:comment xml:lang="es">Hora de cierre de un recurso o servicio</rdfs:comment>
+        <rdfs:label xml:lang="en">closes at</rdfs:label>
+        <rdfs:label xml:lang="es">hora de cierre</rdfs:label>
+        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#conditions -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#conditions">
@@ -3968,6 +3988,20 @@ tourism organisations, tourism or related facilities, tourism resources and serv
         <rdfs:comment xml:lang="en">Indicates whether a place remains accessible or in operation 24 hours a day, without interruption.</rdfs:comment>
         <rdfs:label xml:lang="es">abierto las 24 horas</rdfs:label>
         <rdfs:label xml:lang="en">open 24 hours</rdfs:label>
+        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#opensAt -->
+
+    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#opensAt">
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TimeSlot"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment xml:lang="es">Hora de apertura de un recurso o servicio</rdfs:comment>
+        <rdfs:comment xml:lang="en">Opening time of a resource or service</rdfs:comment>
+        <rdfs:label xml:lang="es">hora de apertura</rdfs:label>
+        <rdfs:label xml:lang="en">opens at</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:DatatypeProperty>
     
@@ -9900,6 +9934,18 @@ Start of the validity period of the certification, opening hours, rule or tip.</
     <!-- https://ontologia.segittur.es/turismo/def/core#TimeSlot -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#TimeSlot">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#closesAt"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#opensAt"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Intervalo temporal que define un periodo continuo de apertura, delimitado por una hora de inicio y una hora de finalización, y utilizado para describir tramos horarios dentro de un día concreto. </rdfs:comment>
         <rdfs:comment xml:lang="en">Time interval that defines a continuous period of opening, delimited by a start time and an end time, and used to describe time ranges within a specific day.</rdfs:comment>
         <rdfs:label xml:lang="es">Franja horaria</rdfs:label>
