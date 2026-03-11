@@ -10,7 +10,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2008/05/skos#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:estur="https://ontologia.segittur.es/turismo/def/core#"
      xmlns:estur-kos="https://ontologia.segittur.es/turismo/kos/"
@@ -91,6 +91,12 @@
     <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
     
 
 
@@ -5881,9 +5887,9 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
         <rdfs:comment xml:lang="en">A building adjacent to a church, or forming part of it, containing an altar and dedicated to a particular devotion.</rdfs:comment>
         <rdfs:comment xml:lang="es">Edificio contiguo a una iglesia o parte integrante de ella, con altar y advocación particular.</rdfs:comment>
-        <rdfs:label xml:lang="es">Capilla</rdfs:label>
         <rdfs:label xml:lang="en">Chapel</rdfs:label>
         <rdfs:label xml:lang="es">Ermita</rdfs:label>
+        <skos:altLabel xml:lang="es">Capilla</skos:altLabel>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -5924,7 +5930,7 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         <rdfs:label xml:lang="en">Church</rdfs:label>
         <rdfs:label xml:lang="es">Iglesia</rdfs:label>
         <rdfs:label xml:lang="en">Parish</rdfs:label>
-        <rdfs:label xml:lang="es">Parroquia</rdfs:label>
+        <skos:altLabel xml:lang="es">Parroquia</skos:altLabel>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -6949,8 +6955,8 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         <rdfs:comment xml:lang="es">Terreno donde se cultivan especies vegetales, con posible añadidura de otros elementos como fuentes, esculturas o zonas de ocio.</rdfs:comment>
         <rdfs:label xml:lang="en">Garden</rdfs:label>
         <rdfs:label xml:lang="es">Jardín</rdfs:label>
-        <rdfs:label xml:lang="es">Parque urbano</rdfs:label>
         <rdfs:label xml:lang="en">Urban park</rdfs:label>
+        <skos:altLabel xml:lang="es">Parque urbano</skos:altLabel>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -7326,8 +7332,8 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         <rdfs:comment xml:lang="es">Establecimiento en el que se preparan y sirven comidas y que está decorado de forma tradicional y rústica.</rdfs:comment>
         <rdfs:comment xml:lang="en">Establishment in which meals are prepared and served and which is decorated in a traditional and rustic way.</rdfs:comment>
         <rdfs:label xml:lang="es">Mesón</rdfs:label>
-        <rdfs:label xml:lang="es">Venta</rdfs:label>
         <rdfs:label xml:lang="en">inn</rdfs:label>
+        <skos:altLabel xml:lang="es">Venta</skos:altLabel>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -9359,9 +9365,9 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#AccommodationEstablishment"/>
         <rdfs:comment xml:lang="es">Tipo de establecimiento extrahotelero ubicado en un inmueble situado en suelo rústico y de ámbito rural que dispone de una unidad alojativa y que cuenta con el equipamiento y las instalaciones necesarias para la conservación, manipulado y consumo de alimentos.</rdfs:comment>
         <rdfs:comment xml:lang="en">Type of non-hotel establishment located in a property located on rustic land and in a rural area that has an accommodation unit and that has the equipment and facilities necessary for the conservation, handling and consumption of food.</rdfs:comment>
-        <rdfs:label xml:lang="es">Agroturismo</rdfs:label>
         <rdfs:label xml:lang="es">Casa rural</rdfs:label>
         <rdfs:label xml:lang="en">Rural house</rdfs:label>
+        <skos:altLabel xml:lang="es">Agroturismo</skos:altLabel>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -9386,9 +9392,9 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
         <rdfs:comment xml:lang="en">A place of worship where the image or relic of a highly venerated saint is revered.</rdfs:comment>
         <rdfs:comment xml:lang="es">Templo en que se venera la imagen o reliquia de un santo de especial devoción.</rdfs:comment>
-        <rdfs:label xml:lang="es">Ermita</rdfs:label>
         <rdfs:label xml:lang="en">Sanctuary</rdfs:label>
         <rdfs:label xml:lang="es">Santuario</rdfs:label>
+        <skos:altLabel xml:lang="es">Ermita</skos:altLabel>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -9650,9 +9656,9 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Lugar que dispone de diferentes instalaciones e infraestructuras para la práctica de disciplinas deportivas.</rdfs:comment>
         <rdfs:comment xml:lang="en">Place that has different facilities and infrastructure for practicing sports disciplines.</rdfs:comment>
-        <rdfs:label xml:lang="es">Centro deportivo</rdfs:label>
         <rdfs:label xml:lang="es">Polideportivo</rdfs:label>
         <rdfs:label xml:lang="en">Sports centre</rdfs:label>
+        <skos:altLabel xml:lang="es">Centro deportivo</skos:altLabel>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -11063,9 +11069,9 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#VernacularArchitecture"/>
         <rdfs:comment xml:lang="es">Pequeña edificación construida tradicionalmente en piedra y destinada al refugio del propio agricultor, al almacenamiento de sus herramientas y como puesto de vigilancia de las cosechas.</rdfs:comment>
         <rdfs:comment xml:lang="en">Small building traditionally constructed in stone and used as a shelter for the farmer, for storing his tools and as a lookout post for the crops.</rdfs:comment>
-        <rdfs:label xml:lang="es">Chozo</rdfs:label>
         <rdfs:label xml:lang="es">Guardaviña</rdfs:label>
         <rdfs:label xml:lang="en">Vineyard shelter</rdfs:label>
+        <skos:altLabel xml:lang="es">Chozo</skos:altLabel>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -11155,9 +11161,9 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#AgrotourismFacility"/>
         <rdfs:comment xml:lang="es">Lugar donde se exponen, guardan, venden e incluso se catan o degustan distintas clases de vinos.</rdfs:comment>
         <rdfs:comment xml:lang="en">Place where different types of wines are exhibited, stored, sold and even tasted or tasted.</rdfs:comment>
-        <rdfs:label xml:lang="es">Enoteca</rdfs:label>
         <rdfs:label xml:lang="es">Vinoteca</rdfs:label>
         <rdfs:label xml:lang="en">Wine shop</rdfs:label>
+        <skos:altLabel xml:lang="es">Enoteca</skos:altLabel>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
