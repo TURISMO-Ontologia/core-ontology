@@ -8,7 +8,7 @@
 @prefix estur-core: <https://ontologia.segittur.es/turismo/def/core#> .
 @prefix estur-kos: <https://ontologia.segittur.es/turismo/kos/> .
 
-@prefix estur-civicbuildingtype: <https://ontologia.segittur.es/turismo/kos/civicbuildingtype/> .
+@prefix estur-civicbuildingtype: <https://ontologia.segittur.es/turismo/kos/CivicBuildingType/> .
 
 #################################################################
 #

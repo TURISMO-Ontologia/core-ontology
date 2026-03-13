@@ -8,7 +8,7 @@
 @prefix estur-core: <https://ontologia.segittur.es/turismo/def/core#> .
 @prefix estur-kos: <https://ontologia.segittur.es/turismo/kos/> .
 
-@prefix estur-lakeservice: <https://ontologia.segittur.es/turismo/kos/lakeservice/> .
+@prefix estur-lakeservice: <https://ontologia.segittur.es/turismo/kos/LakeService/> .
 
 #################################################################
 #

@@ -8,7 +8,7 @@
 @prefix estur-core: <https://ontologia.segittur.es/turismo/def/core#> .
 @prefix estur-kos: <https://ontologia.segittur.es/turismo/kos/> .
 
-@prefix estur-beachtype: <https://ontologia.segittur.es/turismo/kos/beachtype/> .
+@prefix estur-beachtype: <https://ontologia.segittur.es/turismo/kos/BeachType/> .
 
 #################################################################
 #

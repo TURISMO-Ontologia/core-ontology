@@ -8,7 +8,7 @@
 @prefix estur-core: <https://ontologia.segittur.es/turismo/def/core#> .
 @prefix estur-kos: <https://ontologia.segittur.es/turismo/kos/> .
 
-@prefix estur-adventureactivitytype: <https://ontologia.segittur.es/turismo/kos/adventureactivitytype/> .
+@prefix estur-adventureactivitytype: <https://ontologia.segittur.es/turismo/kos/AdventureActivityType/> .
 
 #################################################################
 #
