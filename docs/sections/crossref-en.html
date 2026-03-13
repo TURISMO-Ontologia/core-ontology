@@ -7173,6 +7173,16 @@ This section provides details for each class and property defined by turismo.
          <span class="markdown">Time interval that defines a continuous period of opening, delimited by a start time and an end time, and used to describe time ranges within a specific day.</span>
       </div>
       <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#closesAt"
+               title="https://ontologia.segittur.es/turismo/def/core#closesAt">closes at</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#opensAt"
+               title="https://ontologia.segittur.es/turismo/def/core#opensAt">opens at</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
          <dt>is in range of</dt>
          <dd>
             <a href="#hasTimeSlot"
@@ -7479,12 +7489,6 @@ This section provides details for each class and property defined by turismo.
             <sup class="type-c" title="class">c</sup>, <a href="#Route"
                title="https://ontologia.segittur.es/turismo/def/core#Route">Route</a>
             <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#hasAdditionalPetTourismResourceService"
-               title="https://ontologia.segittur.es/turismo/def/core#hasAdditionalPetTourismResourceService">has additional pet tourism resource service</a>
-            <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
    </div>
@@ -9918,8 +9922,16 @@ This section provides details for each class and property defined by turismo.
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#TourismResource"
-                  title="https://ontologia.segittur.es/turismo/def/core#TourismResource">Tourism Resource</a>
+               <a href="#HistoricalOrCulturalResource"
+                  title="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource">Historical or cultural resource</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#NaturalResource"
+                  title="https://ontologia.segittur.es/turismo/def/core#NaturalResource">Natural resource</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#Route"
+                  title="https://ontologia.segittur.es/turismo/def/core#Route">Route</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -12805,6 +12817,10 @@ tourism organisations, tourism or related facilities, tourism resources and serv
             title="https://ontologia.segittur.es/turismo/def/core#civilLiabilityInsuranceRequired">civil liability insurance required</a>
       </li>
       <li>
+         <a href="#closesAt"
+            title="https://ontologia.segittur.es/turismo/def/core#closesAt">closes at</a>
+      </li>
+      <li>
          <a href="#conditions"
             title="https://ontologia.segittur.es/turismo/def/core#conditions">conditions</a>
       </li>
@@ -13003,6 +13019,10 @@ tourism organisations, tourism or related facilities, tourism resources and serv
       <li>
          <a href="#open24Hours"
             title="https://ontologia.segittur.es/turismo/def/core#open24Hours">open 24 hours</a>
+      </li>
+      <li>
+         <a href="#opensAt"
+            title="https://ontologia.segittur.es/turismo/def/core#opensAt">opens at</a>
       </li>
       <li>
          <a href="#outdoorEvent"
@@ -13735,6 +13755,33 @@ tourism organisations, tourism or related facilities, tourism resources and serv
                <a href="http://www.w3.org/2001/XMLSchema#boolean"
                   target="_blank"
                   title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="closesAt">
+      <h3>closes at<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ontologia.segittur.es/turismo/def/core#closesAt</p>
+      <div class="comment">
+         <span class="markdown">Closing time of a resource or service</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#TimeSlot"
+                  title="https://ontologia.segittur.es/turismo/def/core#TimeSlot">Time slot</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#time"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#time">time</a>
             </dd>
          </dl>
       </div>
@@ -15166,6 +15213,33 @@ tourism organisations, tourism or related facilities, tourism resources and serv
                <a href="http://www.w3.org/2001/XMLSchema#boolean"
                   target="_blank"
                   title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="opensAt">
+      <h3>opens at<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://ontologia.segittur.es/turismo/def/core#opensAt</p>
+      <div class="comment">
+         <span class="markdown">Opening time of a resource or service</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#TimeSlot"
+                  title="https://ontologia.segittur.es/turismo/def/core#TimeSlot">Time slot</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#time"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#time">time</a>
             </dd>
          </dl>
       </div>
