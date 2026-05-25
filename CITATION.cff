@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this ontology, please cite it as below."
+authors:
+- family-names: "Corcho"
+  given-names: "Oscar"
+  orcid: "https://orcid.org/0000-0002-9260-0753"
+title: "Core ontology for tourism by SEGITTUR"
+version: 1.2.0
+doi: --
+date-released: 2026-05-25
+url: "https://github.com/TURISMO-Ontologia/core-ontology"
