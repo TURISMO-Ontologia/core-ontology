@@ -7907,6 +7907,19 @@ Start of the validity period of the certification, opening hours, rule or tip.</
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#MountainRefuge -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#MountainRefuge">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#AccommodationEstablishment"/>
+        <rdfs:comment xml:lang="es">Alojamiento aislado situado en la montaña, con o sin personal, que suele ofrecer habitaciones compartidas.</rdfs:comment>
+        <rdfs:comment xml:lang="en">An isolated accommodation located in the mountains, with or without staff, that usually offers shared rooms.</rdfs:comment>
+        <rdfs:label xml:lang="en">Mountain refuge</rdfs:label>
+        <rdfs:label xml:lang="es">Refugio de montaña</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#MovieTheater -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#MovieTheater">
