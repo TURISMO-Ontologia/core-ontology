@@ -2610,6 +2610,30 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#technicalDifficulty -->
+
+    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#technicalDifficulty">
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AdventureActivity"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/TechnicalDifficulty"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Difficulty level of an adventure activity, considering technical complexity, physical demand, and perceived risk.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Nivel de dificultad de una actividad de turismo activo, considerando la complejidad técnica, la exigencia física y el riesgo percibido.</rdfs:comment>
+        <rdfs:label xml:lang="es">dificultad técnica</rdfs:label>
+        <rdfs:label xml:lang="en">technical difficulty</rdfs:label>
+        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#timeOfTheYear -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#timeOfTheYear">
@@ -5027,6 +5051,12 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#technicalDifficulty"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#includes"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -6454,6 +6484,19 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         <rdfs:comment xml:lang="es">Espacio provisto de una o varias pistas preparadas para disputar carreras.</rdfs:comment>
         <rdfs:label xml:lang="es">Circuito de motor</rdfs:label>
         <rdfs:label xml:lang="en">Engine circuit</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#EquestrianCentre -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#EquestrianCentre">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#SportFacility"/>
+        <rdfs:comment xml:lang="en">A place where horseback riding is taught and practiced, catering to both the general public and more experienced riders.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Lugar donde se enseña y se practica la equitación, orientado tanto al público en general como a aficionados con conocimientos más avanzados.</rdfs:comment>
+        <rdfs:label xml:lang="es">Centro ecuestre</rdfs:label>
+        <rdfs:label xml:lang="en">Equestrian centre</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -12031,6 +12074,19 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         <rdfs:label xml:lang="es">Público objetivo</rdfs:label>
         <rdfs:label xml:lang="en">Target audience</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://ontologia.segittur.es/turismo/def/core/kos/skos-TargetAudience.ttl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/kos/TechnicalDifficulty -->
+
+    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/TechnicalDifficulty">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdfs:comment xml:lang="en">Difficulty level of an adventure activity, considering technical complexity, physical demand, and perceived risk.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Nivel de dificultad de una actividad de turismo activo, considerando la complejidad técnica, la exigencia física y el riesgo percibido.</rdfs:comment>
+        <rdfs:label xml:lang="es">Dificultad técnica</rdfs:label>
+        <rdfs:label xml:lang="en">Technical difficulty</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://ontologia.segittur.es/turismo/def/core/kos/skos-TechnicalDifficulty.ttl"/>
     </owl:NamedIndividual>
     
 

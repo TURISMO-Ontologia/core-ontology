@@ -18,7 +18,7 @@
 
 estur-kos:EventType a skos:ConceptScheme ; 
     dct:issued "2024-05-24"^^xsd:date ;
-    dct:modified "2026-03-06"^^xsd:date ;
+    dct:modified "2026-05-25"^^xsd:date ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
@@ -58,8 +58,14 @@ estur-eventtype:Bullfight a skos:Concept;
   skos:inScheme estur-kos:EventType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:broader estur-eventttype:Spectacle ;
   skos:prefLabel "Bullfight"@en ;
   skos:prefLabel "Toros"@es .
+
+estur-eventtype:Bullrun a skos:Concept;
+  skos:inScheme estur-kos:EventType;
+  skos:prefLabel "Bull run"@en ;
+  skos:prefLabel "Encierro"@es .
 
 estur-eventtype:BusinessEvent a skos:Concept;
   skos:inScheme estur-kos:EventType;
@@ -151,6 +157,29 @@ estur-eventtype:Environmental a skos:Concept;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Environmental"@en ;
   skos:prefLabel "Medioambiental"@es .
+
+estur-eventtype:EquestrianEvent a skos:Concept;
+  skos:inScheme estur-kos:EventType;
+  skos:prefLabel "Equestrian event"@en ;
+  skos:prefLabel "Evento ecuestre"@es .
+
+estur-eventtype:EquestrianCompetition a skos:Concept;
+  skos:inScheme estur-kos:EventType;
+  skos:broader estur-eventtype:EquestrianEvent ;
+  skos:prefLabel "Equestrian competition"@en ;
+  skos:prefLabel "Competición ecuestre"@es .
+
+estur-eventtype:EquestrianExhibition a skos:Concept;
+  skos:inScheme estur-kos:EventType;
+  skos:broader estur-eventtype:EquestrianEvent ;
+  skos:prefLabel "Equestrian exhibition"@en ;
+  skos:prefLabel "Exhibición ecuestre"@es .
+
+estur-eventtype:EquestrianFair a skos:Concept;
+  skos:inScheme estur-kos:EventType;
+  skos:broader estur-eventtype:EquestrianEvent ;
+  skos:prefLabel "Equestrian fair"@en ;
+  skos:prefLabel "Feria ecuestre"@es .
 
 estur-eventtype:ExhibitionEvent a skos:Concept;
   skos:inScheme estur-kos:EventType;
@@ -277,6 +306,12 @@ estur-eventtype:ReligionEvent a skos:Concept;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:prefLabel "Religion event"@en ;
   skos:prefLabel "Evento religioso"@es .
+
+estur-eventtype:Procession a skos:Concept;
+  skos:inScheme estur-kos:EventType;
+  skos:broader estur-eventtype:ReligionEvent ;
+  skos:prefLabel "Procession"@en ;
+  skos:prefLabel "Romería"@es .
 
 estur-eventtype:Specials a skos:Concept;
   skos:inScheme estur-kos:EventType;

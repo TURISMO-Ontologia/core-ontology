@@ -18,7 +18,7 @@
 
 estur-kos:AdditionalPetAccommodationService a skos:ConceptScheme ; 
     dct:issued "2026-03-06"^^xsd:date ;
-    dct:modified "2026-03-06"^^xsd:date ;
+    dct:modified "2026-05-25"^^xsd:date ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
@@ -117,4 +117,24 @@ estur-additionalpetaccommodationservice:PetShower a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetAccommodationService;
   skos:prefLabel "Pet shower"@en ;
   skos:prefLabel "Ducha para mascotas"@es .
+
+estur-additionalpetaccommodationservice:StableHand a skos:Concept;
+  skos:inScheme estur-kos:AdditionalPetAccommodationService;
+  skos:prefLabel "Stable hand"@en ;
+  skos:prefLabel "Mozo de cuadra"@es .
+
+estur-additionalpetaccommodationservice:Stable a skos:Concept;
+  skos:inScheme estur-kos:AdditionalPetAccommodationService;
+  skos:prefLabel "Stable"@en ;
+  skos:prefLabel "Caballeriza"@es .
+
+estur-additionalpetaccommodationservice:RidingArena a skos:Concept;
+  skos:inScheme estur-kos:AdditionalPetAccommodationService;
+  skos:prefLabel "Riding arena"@en ;
+  skos:prefLabel "Picadero"@es .
+
+estur-additionalpetaccommodationservice:Paddock a skos:Concept;
+  skos:inScheme estur-kos:AdditionalPetAccommodationService;
+  skos:prefLabel "Paddock"@en ;
+  skos:prefLabel "Paddock"@es .
 

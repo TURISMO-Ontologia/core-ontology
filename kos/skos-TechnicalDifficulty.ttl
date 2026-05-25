@@ -1,0 +1,59 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix estur-core: <https://ontologia.segittur.es/turismo/def/core#> .
+@prefix estur-kos: <https://ontologia.segittur.es/turismo/kos/> .
+
+@prefix estur-technicaldifficulty: <https://ontologia.segittur.es/turismo/kos/TechnicalDifficulty/> .
+
+#################################################################
+#
+#    Concept Scheme
+#
+#################################################################
+
+estur-kos:TechnicalDifficulty a skos:ConceptScheme ; 
+    dct:issued "2026-05-25"^^xsd:date ;
+    dct:modified "2026-05-25"^^xsd:date ;
+    cc:license <https://creativecommons.org/licenses/by/4.0/> ;
+    rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
+    rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:label "Technical difficulty"@en ;
+    rdfs:label "Dificultad técnica"@es ;
+    dct:title "Concept scheme for representing the difficulty level of an adventure activity, considering technical complexity, physical demand, and perceived risk."@en ;
+    dct:title "Esquema de conceptos para la representación del nivel de dificultad de una actividad de turismo activo, considerando la complejidad técnica, la exigencia física y el riesgo percibido"@es .
+
+#################################################################
+#
+#    Concepts
+#
+#################################################################
+
+estur-technicaldifficulty:Initiation a skos:Concept;
+  skos:inScheme estur-kos:TechnicalDifficulty;
+  skos:prefLabel "Initiation"@en ;
+  skos:prefLabel "Iniciación"@es .
+
+estur-technicaldifficulty:Easy a skos:Concept;
+  skos:inScheme estur-kos:TechnicalDifficulty;
+  skos:prefLabel "Easy"@en ;
+  skos:prefLabel "Fácil"@es .
+
+estur-technicaldifficulty:Intermediate a skos:Concept;
+  skos:inScheme estur-kos:TechnicalDifficulty;
+  skos:prefLabel "Intermediate"@en ;
+  skos:prefLabel "Intermedio"@es .
+
+estur-technicaldifficulty:Difficult a skos:Concept;
+  skos:inScheme estur-kos:TechnicalDifficulty;
+  skos:prefLabel "Difficult"@en ;
+  skos:prefLabel "Difícil"@es .
+
+estur-technicaldifficulty:Extreme a skos:Concept;
+  skos:inScheme estur-kos:TechnicalDifficulty;
+  skos:prefLabel "Extreme"@en ;
+  skos:prefLabel "Extremo"@es .
