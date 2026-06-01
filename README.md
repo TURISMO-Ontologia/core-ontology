@@ -1,6 +1,6 @@
 # Ontología de turismo de SEGITTUR
 
-Test integración con JIRA 
+Test integración con JIRA   
 
 Esta ontología de dominio del sector turístico está construida a partir del ‘Modelo Conceptual de Referencia Semántico de Turismo’ de SEGITTUR, un modelo para el desarrollo de una Red de Ontologías del Sector Turístico al servicio de la futura Plataforma Inteligente de Destino (PID) promovida por SEGITTUR. El Modelo Conceptual de Referencia de Turismo de SEGITTUR ofrece un corazón ontológico extensible para conceptos e información sobre el dominio de turismo, y aspira a convertirse en una referencia para el intercambio controlado de información sobre turismo.
 
