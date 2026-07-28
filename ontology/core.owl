@@ -4207,7 +4207,7 @@ tourism organisations, tourism or related facilities, tourism resources and serv
     <!-- https://ontologia.segittur.es/turismo/def/core#position -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#position">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Itinerary"/>
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#ItineraryElement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:comment xml:lang="en">Number indicating the sequential order of a point of interest within an itinerary.</rdfs:comment>
         <rdfs:comment xml:lang="es">Número que indica el orden secuencial de un punto de interés dentro de un itinerario.</rdfs:comment>
@@ -7453,12 +7453,6 @@ Start of the validity period of the certification, opening hours, rule or tip.</
                 <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#ItineraryElement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#position"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">A collection of points of interest involved in a route or tourism service.</rdfs:comment>
         <rdfs:comment xml:lang="es">Colección de puntos de interés de referencia asociados a la realización de una ruta o servicio turístico.</rdfs:comment>
         <rdfs:label xml:lang="es">Itinerario</rdfs:label>
@@ -7486,8 +7480,36 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#refPointOfInterest"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Event"/>
+                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#Place"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:onClass>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#refPointOfInterestAsText"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#refPointOfInterestAsText"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#position"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">A point of interest with, optionally, the position or numerical order it occupies in the sequence of an itinerary.</rdfs:comment>
