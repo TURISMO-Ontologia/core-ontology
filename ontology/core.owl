@@ -3242,7 +3242,14 @@ tourism organisations, tourism or related facilities, tourism resources and serv
     <!-- https://ontologia.segittur.es/turismo/def/core#conditions -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#conditions">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AdditionalInformation"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AdditionalInformation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#PetAdmissionPolicy"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="es">Circunstancias o requisitos específicos que deben cumplirse para que algo suceda o se lleve a cabo de manera adecuada.</rdfs:comment>
         <rdfs:comment xml:lang="en">Specific circumstances or requirements that must be met for something to occur or be carried out properly.</rdfs:comment>
@@ -4415,7 +4422,14 @@ tourism organisations, tourism or related facilities, tourism resources and serv
     <!-- https://ontologia.segittur.es/turismo/def/core#remarks -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#remarks">
-        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#AdditionalInformation"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#AdditionalInformation"/>
+                    <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#PetAdmissionPolicy"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
         <rdfs:comment xml:lang="es">Anotaciones o comentarios realizados para registrar y destacar información relevante o peculiaridades sobre un tema, evento o situación en particular.</rdfs:comment>
         <rdfs:comment xml:lang="en">Notes or comments made to record and highlight relevant information or particular features about a specific topic, event, or situation.</rdfs:comment>
