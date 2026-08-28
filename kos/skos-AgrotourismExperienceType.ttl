@@ -57,3 +57,13 @@ estur-agrotourismexperiencetype:Visit a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceType;
   skos:prefLabel "Visit"@en ;
   skos:prefLabel "Visita"@es .
+
+estur-agrotourismexperiencetype:Harvesting a skos:Concept;
+  skos:inScheme estur-kos:AgrotourismExperienceType;
+  skos:prefLabel "Harvesting"@en ;
+  skos:prefLabel "Recolección agrícola"@es .
+
+estur-agrotourismexperiencetype:OilMillBreakfast a skos:Concept;
+  skos:inScheme estur-kos:AgrotourismExperienceType;
+  skos:prefLabel "Oil mill breakfast"@en ;
+  skos:prefLabel "Desayuno molinero"@es .
