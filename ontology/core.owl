@@ -1945,6 +1945,20 @@ It is possible that this annotation property is taken out in the future from the
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#isVisible -->
+
+    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#isVisible">
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismEntity"/>
+        <rdfs:range rdf:resource="https://ontologia.segittur.es/turismo/def/core#Visibility"/>
+        <rdfs:comment xml:lang="es">Asociación de una entidad turística con información sobre su visibilidad.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Association of a tourism entity with information about its visibility.</rdfs:comment>
+        <rdfs:label xml:lang="es">es visible</rdfs:label>
+        <rdfs:label xml:lang="en">is visible</rdfs:label>
+        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#itinerary -->
 
     <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#itinerary">
@@ -2964,6 +2978,54 @@ tourism organisations, tourism or related facilities, tourism resources and serv
         <rdfs:comment xml:lang="en">Place where an event is held.</rdfs:comment>
         <rdfs:label xml:lang="es">lugar de celebración</rdfs:label>
         <rdfs:label xml:lang="en">venue</rdfs:label>
+        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#visibilityCriteria -->
+
+    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#visibilityCriteria">
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Visibility"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/VisibilityCriteria"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">Criterio de visibilidad para una entidad turística.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Visibility criteria for a tourism entity.</rdfs:comment>
+        <rdfs:label xml:lang="es">criterio de visibilidad</rdfs:label>
+        <rdfs:label xml:lang="en">visibility criteria</rdfs:label>
+        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#visibilityLevel -->
+
+    <owl:ObjectProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#visibilityLevel">
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Visibility"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/VisibilityLevel"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">Nivel de visibilidad para una entidad turística de acuerdo con un criterio.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Visibility level for a tourism entity according to some criterion.</rdfs:comment>
+        <rdfs:label xml:lang="es">nivel de visibilidad</rdfs:label>
+        <rdfs:label xml:lang="en">visibility level</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:ObjectProperty>
     
@@ -10509,6 +10571,13 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#isVisible"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#Visibility"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#name"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -11371,6 +11440,32 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         <rdfs:label xml:lang="en">Vineyard shelter</rdfs:label>
         <skos:altLabel xml:lang="es">Chozo</skos:altLabel>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#Visibility -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Visibility">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#visibilityCriteria"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#visibilityLevel"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Visibilidad que se puede asociar a cualquier entidad turística, permitiendo determinar su nivel de visibilidad para distintos tipos de criterios (desestacionalización, desaturación, descentralización o general)</rdfs:comment>
+        <rdfs:comment xml:lang="en">Visibility that can be associated with any tourism entity, allowing its level of visibility to be determined for different types of criteria (deseasonalization, desaturation, decentralization or general)</rdfs:comment>
+        <rdfs:label xml:lang="es">Visibilidad</rdfs:label>
+        <rdfs:label xml:lang="en">Visibility</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</estur-annot:visibleResource>
     </owl:Class>
     
 
@@ -12390,6 +12485,32 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         <rdfs:label xml:lang="es">Tipo de vehículo</rdfs:label>
         <rdfs:label xml:lang="en">Vehicle type</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://ontologia.segittur.es/turismo/def/core/kos/skos-VehicleType.ttl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/kos/VisibilityCriteria -->
+
+    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/VisibilityCriteria">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdfs:comment xml:lang="es">Criterio de visibilidad para una entidad turística.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Visibility criteria for a tourism entity.</rdfs:comment>
+        <rdfs:label xml:lang="es">Criterio de visibilidad</rdfs:label>
+        <rdfs:label xml:lang="en">Visibility criteria</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://ontologia.segittur.es/turismo/def/core/kos/skos-VisibilityCriteria.ttl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/kos/VisibilityLevel -->
+
+    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/VisibilityLevel">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdfs:comment xml:lang="es">Nivel de visibilidad para una entidad turística de acuerdo con un criterio.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Visibility level for a tourism entity according to some criterion.</rdfs:comment>
+        <rdfs:label xml:lang="es">Nivel de visibilidad</rdfs:label>
+        <rdfs:label xml:lang="en">Visibility level</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://ontologia.segittur.es/turismo/def/core/kos/skos-VisibilityLevel.ttl"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
