@@ -3176,6 +3176,20 @@ tourism organisations, tourism or related facilities, tourism resources and serv
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#additionalVisibilityCriteria -->
+
+    <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#additionalVisibilityCriteria">
+        <rdfs:domain rdf:resource="https://ontologia.segittur.es/turismo/def/core#Visibility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <rdfs:comment xml:lang="en">Supplementary values to represent visibility criteria that has not been already considered (desaturation, deseasonalisation, decentralisation). To be used only when the selected visibility criteria is set to Other.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Valores complementarios para representar criterios de visibilidad en cualquier recurso turístico que no estén contemplados previamente (desaturación, desestacionalización, descentralización). Utilizable únicamente en el caso de que se haya seleccionado Otro como criterio de visibilidad.</rdfs:comment>
+        <rdfs:label xml:lang="en">additional visibility criteria</rdfs:label>
+        <rdfs:label xml:lang="es">criterio de visibilidad adicional</rdfs:label>
+        <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#allowedPetAreasOnANonStrechtableLeash -->
 
     <owl:DatatypeProperty rdf:about="https://ontologia.segittur.es/turismo/def/core#allowedPetAreasOnANonStrechtableLeash">
@@ -11536,6 +11550,13 @@ Start of the validity period of the certification, opening hours, rule or tip.</
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#visibilityLevel"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#additionalVisibilityCriteria"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Visibilidad que se puede asociar a cualquier entidad turística, permitiendo determinar su nivel de visibilidad para distintos tipos de criterios (desestacionalización, desaturación, descentralización o general)</rdfs:comment>

@@ -18,7 +18,7 @@
 
 estur-kos:VisibilityLevel a skos:ConceptScheme ; 
     dct:issued "2026-08-31"^^xsd:date ;
-    dct:modified "2026-08-31"^^xsd:date ;
+    dct:modified "2026-09-25"^^xsd:date ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
@@ -33,88 +33,88 @@ estur-kos:VisibilityLevel a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-visibilitylevel:Disabled a skos:Concept;
-  skos:inScheme estur-kos:VisibilityLevel;
-  skos:prefLabel "Disabled"@en ;
-  skos:prefLabel "Deshabilitado"@es .
+#estur-visibilitylevel:Disabled a skos:Concept;
+#  skos:inScheme estur-kos:VisibilityLevel;
+#  skos:prefLabel "Disabled"@en ;
+#  skos:prefLabel "Deshabilitado"@es .
 
-estur-visibilitylevel:LowVisibility a skos:Concept;
-  skos:inScheme estur-kos:VisibilityLevel;
-  skos:prefLabel "Low visibility"@en ;
-  skos:prefLabel "Visibilidad baja"@es .
+#estur-visibilitylevel:LowVisibility a #skos:Concept;
+#  skos:inScheme estur-kos:VisibilityLevel;
+#  skos:prefLabel "Low visibility"@en ;
+#  skos:prefLabel "Visibilidad baja"@es .
 
-estur-visibilitylevel:MediumVisibility a skos:Concept;
-  skos:inScheme estur-kos:VisibilityLevel;
-  skos:prefLabel "Medium visibility"@en ;
-  skos:prefLabel "Visibilidad media"@es .
+#estur-visibilitylevel:MediumVisibility a skos:Concept;
+#  skos:inScheme estur-kos:VisibilityLevel;
+#  skos:prefLabel "Medium visibility"@en ;
+#  skos:prefLabel "Visibilidad media"@es .
 
-estur-visibilitylevel:HighVisibility a skos:Concept;
-  skos:inScheme estur-kos:VisibilityLevel;
-  skos:prefLabel "High visibility"@en ;
-  skos:prefLabel "Visibilidad alta"@es .
+#estur-visibilitylevel:HighVisibility a skos:Concept;
+#  skos:inScheme estur-kos:VisibilityLevel;
+#  skos:prefLabel "High visibility"@en ;
+#  skos:prefLabel "Visibilidad alta"@es .
 
-estur-visibilitylevel:VeryHighVisibility a skos:Concept;
-  skos:inScheme estur-kos:VisibilityLevel;
-  skos:prefLabel "Very high visibility"@en ;
-  skos:prefLabel "Visibilidad muy alta"@es .
+#estur-visibilitylevel:VeryHighVisibility a skos:Concept;
+#  skos:inScheme estur-kos:VisibilityLevel;
+#  skos:prefLabel "Very high visibility"@en ;
+#  skos:prefLabel "Visibilidad muy alta"@es .
 
 estur-visibilitylevel:1 a skos:Concept;
   skos:inScheme estur-kos:VisibilityLevel;
-  skos:broader estur-visibilitylevel:LowVisibility ;
+#  skos:broader estur-visibilitylevel:LowVisibility ;
   skos:prefLabel "1"@en ;
   skos:prefLabel "1"@es .
 
 estur-visibilitylevel:2 a skos:Concept;
   skos:inScheme estur-kos:VisibilityLevel;
-  skos:broader estur-visibilitylevel:LowVisibility ;
+#  skos:broader estur-visibilitylevel:LowVisibility ;
   skos:prefLabel "2"@en ;
   skos:prefLabel "2"@es .
 
 estur-visibilitylevel:3 a skos:Concept;
   skos:inScheme estur-kos:VisibilityLevel;
-  skos:broader estur-visibilitylevel:LowVisibility ;
+#  skos:broader estur-visibilitylevel:LowVisibility ;
   skos:prefLabel "3"@en ;
   skos:prefLabel "3"@es .
 
 estur-visibilitylevel:4 a skos:Concept;
   skos:inScheme estur-kos:VisibilityLevel;
-  skos:broader estur-visibilitylevel:MediumVisibility ;
+#  skos:broader estur-visibilitylevel:MediumVisibility ;
   skos:prefLabel "4"@en ;
   skos:prefLabel "4"@es .
 
 estur-visibilitylevel:5 a skos:Concept;
   skos:inScheme estur-kos:VisibilityLevel;
-  skos:broader estur-visibilitylevel:MediumVisibility ;
+#  skos:broader estur-visibilitylevel:MediumVisibility ;
   skos:prefLabel "5"@en ;
   skos:prefLabel "5"@es .
 
 estur-visibilitylevel:6 a skos:Concept;
   skos:inScheme estur-kos:VisibilityLevel;
-  skos:broader estur-visibilitylevel:MediumVisibility ;
+#  skos:broader estur-visibilitylevel:MediumVisibility ;
   skos:prefLabel "6"@en ;
   skos:prefLabel "6"@es .
 
 estur-visibilitylevel:7 a skos:Concept;
   skos:inScheme estur-kos:VisibilityLevel;
-  skos:broader estur-visibilitylevel:HighVisibility ;
+#  skos:broader estur-visibilitylevel:HighVisibility ;
   skos:prefLabel "7"@en ;
   skos:prefLabel "7"@es .
 
 estur-visibilitylevel:8 a skos:Concept;
   skos:inScheme estur-kos:VisibilityLevel;
-  skos:broader estur-visibilitylevel:HighVisibility ;
+#  skos:broader estur-visibilitylevel:HighVisibility ;
   skos:prefLabel "8"@en ;
   skos:prefLabel "8"@es .
 
 estur-visibilitylevel:9 a skos:Concept;
   skos:inScheme estur-kos:VisibilityLevel;
-  skos:broader estur-visibilitylevel:VeryHighVisibility ;
+#  skos:broader estur-visibilitylevel:VeryHighVisibility ;
   skos:prefLabel "9"@en ;
   skos:prefLabel "9"@es .
 
 estur-visibilitylevel:10 a skos:Concept;
   skos:inScheme estur-kos:VisibilityLevel;
-  skos:broader estur-visibilitylevel:VeryHighVisibility ;
+#  skos:broader estur-visibilitylevel:VeryHighVisibility ;
   skos:prefLabel "10"@en ;
   skos:prefLabel "10"@es .
 
