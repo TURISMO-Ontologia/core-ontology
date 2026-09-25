@@ -10635,6 +10635,12 @@ Start of the validity period of the certification, opening hours, rule or tip.</
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#isVisible"/>
+                <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#Visibility"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#relatedTourismDestination"/>
                 <owl:allValuesFrom rdf:resource="https://ontologia.segittur.es/turismo/def/core#TourismDestination"/>
             </owl:Restriction>
@@ -10658,13 +10664,6 @@ Start of the validity period of the certification, opening hours, rule or tip.</
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#hasAdditionalInformation"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#AdditionalInformation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#isVisible"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="https://ontologia.segittur.es/turismo/def/core#Visibility"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
