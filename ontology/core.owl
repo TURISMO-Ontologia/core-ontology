@@ -9002,7 +9002,7 @@ tourism organisations, tourism or related facilities, tourism resources and serv
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#name"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="es"> Cualquier punto de interés.</rdfs:comment>
@@ -10725,7 +10725,7 @@ tourism organisations, tourism or related facilities, tourism resources and serv
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#name"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                <owl:onDataRange rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Concepto general que agrupa los elementos públicos y privados con capacidad de intervenir en el ciclo de viaje del turista.</rdfs:comment>
