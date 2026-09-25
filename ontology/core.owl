@@ -9,27 +9,44 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:estur="https://ontologia.segittur.es/turismo/def/core#"
+     xmlns:schema="https://schema.org/"
+     xmlns:schema1="http://schema.org/"
      xmlns:estur-kos="https://ontologia.segittur.es/turismo/kos/"
      xmlns:geosparql="http://www.opengis.net/ont/geosparql#"
      xmlns:estur-annot="https://ontologia.segittur.es/turismo/def/annot#">
     <owl:Ontology rdf:about="https://ontologia.segittur.es/turismo/def/core#">
         <owl:versionIRI rdf:resource="https://ontologia.segittur.es/turismo/def/core/1.2.2"/>
         <dc:rights>Creative Commons Attribution Share-Alike 4.0 International (CC BY-SA 4.0)</dc:rights>
+        <dct:bibliographicCitation xml:lang="en">Core ontology for tourism by SEGITTUR. Version 1.2.2</dct:bibliographicCitation>
+        <dct:bibliographicCitation xml:lang="es">Ontología de referencia de turismo de SEGITTUR. Versión 1.2.2.</dct:bibliographicCitation>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-09-01</dct:created>
         <dct:description xml:lang="es">Esta ontología de dominio del sector turístico está construida a partir del Modelo Conceptual de Referencia Semántico de Turismo de SEGITTUR, un modelo para el desarrollo de una Red de Ontologías del Sector Turístico al servicio de la futura Plataforma Inteligente de Destino (PID) promovida por SEGITTUR. El Modelo Conceptual de Referencia de Turismo de SEGITTUR ofrece un corazón ontológico extensible para conceptos e información sobre el dominio de turismo, y aspira a convertirse en una referencia para el intercambio controlado de información sobre turismo.</dct:description>
         <dct:description xml:lang="en">This tourism domain ontology is built from SEGITTUR&apos;s Conceptual Tourism Semantic Reference Model, a model for the development of a Network of Tourism Sector Ontologies at the service of the future Intelligent Destination Platform (IDP) promoted by SEGITTUR. The SEGITTUR Conceptual Tourism Reference Model offers an extensible ontological core for concepts and information on the tourism domain, and aims to become a reference for the controlled exchange of tourism information.</dct:description>
         <dct:hasFormat rdf:resource="https://ontologia.segittur.es/turismo/def/core.owl"/>
-        <dct:issued>2026-03-13</dct:issued>
+        <dct:issued>2026-09-25</dct:issued>
         <dct:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <dct:license>CC BY-SA</dct:license>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-25</dct:modified>
+        <dct:publisher>
+            <rdf:Description>
+                <schema1:affiliation>Secretaría de Estado de Turismo</schema1:affiliation>
+                <foaf:homepage>https://segittur.es/</foaf:homepage>
+                <foaf:name>SEGITTUR</foaf:name>
+            </rdf:Description>
+        </dct:publisher>
         <dct:title xml:lang="en">Core ontology for tourism by SEGITTUR</dct:title>
         <dct:title xml:lang="es">Ontología de referencia de turismo de SEGITTUR</dct:title>
         <vann:preferredNamespacePrefix>estur</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="https://ontologia.segittur.es/turismo/def/core#"/>
-        <owl:priorVersion>1.2.1</owl:priorVersion>
+        <schema1:codeRepository>https://github.com/TurISMO-Ontologia/core-ontology/</schema1:codeRepository>
+        <schema1:creativeWorkStatus>Ontology specification</schema1:creativeWorkStatus>
+        <schema1:funding>Espacio de datos de turismo</schema1:funding>
+        <owl:priorVersion>https://github.com/TURISMO-Ontologia/core-ontology/releases/tag/v1.2.1</owl:priorVersion>
         <owl:versionInfo>1.2.2</owl:versionInfo>
     </owl:Ontology>
     
@@ -49,6 +66,18 @@
     <!-- http://purl.org/dc/elements/1.1/rights -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
     
 
 
@@ -76,6 +105,18 @@
     
 
 
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
     <!-- http://purl.org/dc/terms/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
@@ -94,9 +135,45 @@
     
 
 
+    <!-- http://schema.org/affiliation -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/affiliation"/>
+    
+
+
+    <!-- http://schema.org/codeRepository -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/codeRepository"/>
+    
+
+
+    <!-- http://schema.org/creativeWorkStatus -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/creativeWorkStatus"/>
+    
+
+
+    <!-- http://schema.org/funding -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/funding"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
     
 
 
