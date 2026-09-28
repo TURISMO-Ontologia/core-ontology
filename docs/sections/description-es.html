@@ -10,12 +10,12 @@
     
 <p>La Figura 1.1 muestra la jerarquía de <a href="#TourismEntity">Entidad turística</a> con sus subclases.</p>
 
-<p><center><img src="images/fig1-1-general-tourism-entity-hierarchy.png"/><figcaption>
+<p><center><img src="images/fig1-1-general-tourism-entity-hierarchy.png" style="max-width: 100%; height: auto;"/><figcaption>
 Figura 1.1. Clase Entidad Turística y sus subclases.</figcaption></center></p> 
     
 <p>Las relaciones entre las subclases de la <a href="#TourismEntity">Entidad turística</a> se presentan en las Figuras 1.2, 1.3 y 1.4.</p>
    
-<p><center><img src="images/fig1-2-general-tourism-entiy-classes.png"/><figcaption>
+<p><center><img src="images/fig1-2-general-tourism-entity-classes.png" style="max-width: 100%; height: auto;"/><figcaption>
 Figura 1.2. Relaciones entre las clases Entidad turística y sus subclases Servicio turístico, Organización turística, Recurso turístico, Destino turístico e Instalación turística o vinculada.</figcaption></center></p> 
 
 <p>La Figura 1.2 ilustra varias de las subclases de <a href="#TourismEntity">Entidad turística</a> y las principales relaciones entre ellas: <a href="#TourismService">Servicio turístico</a>, <a href="#TourismOrganization">Organización turística</a>, <a href="#TourismResource">Recurso turístico</a>, <a href="#TourismDestination">Destino turístico</a> e <a href="#TourismOrRelatedFacility">Instalación turística o vinculada</a>.</p>  
@@ -34,7 +34,7 @@ Figura 1.2. Relaciones entre las clases Entidad turística y sus subclases Servi
 
 <p>La Figura 1.3 ilustra algunas otras subclases más particulares de la clase <a href="#TourismEntity">Entidad turística</a>: <a href="#Event">Evento</a>, <a href="#PublicService">Servicio público</a> e <a href="#TransportInfrastructure">Infraestructura de transporte</a>. Se mantienen en la figura algunas de las subclases anteriores, para mostrar algunas de sus relaciones principales con las mismas. </p> 
     
-<p><center><img src="images/fig1-3-general-tourism-entity-classes.png"/><figcaption>
+<p><center><img src="images/fig1-3-general-tourism-entity-classes.png" style="max-width: 100%; height: auto;"/><figcaption>
 Figura 1.3. Relaciones entre la clase Entidad turística y sus subclases Evento, Servicio público e Infraestructura de transporte.</figcaption></center></p> 
     
 <p>Un <a href="#Event">Evento</a> se define como un acontecimiento planificado o programado que tiene un propósito específico y reúne a un grupo de personas para participar en actividades, celebraciones o experiencias compartidas. Puede ser ofrecido por un <a href="#TourismDestination">Destino turístico</a> o por una <a href="#TourismOrganization">Organización turística</a>. Asimismo, un <a href="#TourismService">Servicio turístico</a> puede tener uno o varios <a href="#relatedEvent">eventos relacionados</a>. Un <a href="#Event">Evento</a> puede estar <a href="#relatedTo">relacionado con</a> una o varias <a href="#TourismEntity">Entidades turísticas</a>.</p>
@@ -45,7 +45,7 @@ Figura 1.3. Relaciones entre la clase Entidad turística y sus subclases Evento,
     
 <p>Finalmente, la Figura 1.4 ilustra la subclase <a href="#SpecialOffer">Propuesta especial</a> y sus relaciones con otras subclases de la clase <a href="#TourismEntity">Entidad turística</a>.</p>
    
-<p><center><img src="images/fig1-4-general-tourism-entity-classes.png"/><figcaption>
+<p><center><img src="images/fig1-4-general-tourism-entity-classes.png" style="max-width: 100%; height: auto;"/><figcaption>
 Figura 1.4. Relaciones entre la clase Entidad turística, su subclase Propuesta especial y algunas otras de sus subclases.</figcaption></center></p> 
    
 <p>La <a href="#SpecialOffer">Propuesta especial</a> puede ser una promoción temporal, un descuento o un paquete de servicios (alojamiento, actividades, comidas) <a href="#offeredBy">ofrecida por</a> un <a href="#TourismDestination">Destino turístico</a> o por una <a href="#TourismOrganization">Organización turística</a>. Debe tener al menos una <a href="#relatedTourismOrRelatedFacility">instalación turística o vinculada relacionada</a>.</p>
@@ -54,7 +54,7 @@ Figura 1.4. Relaciones entre la clase Entidad turística, su subclase Propuesta 
     
 <p>La clase <a href="#Place">Lugar</a> es también una clase muy relevante dentro de este dominio y representa cualquier punto de interés, que normalmente tiene una <a href="#Location">Localización</a> asociada (enlazada mediante la relación <a href="#hasLocation">tiene localización</a>). La Figura 2.1 proporciona una representación más detallada de la clase <a href="#Place">Lugar</a> y sus subclases, así como de algunas relaciones entre ellas (por ejemplo, un <a href="#Place">Lugar</a> puede estar <a href="#nearTo">cerca de</a> otro <a href="#Place">Lugar</a>), y con la clase <a href="#TourismEntity">Entidad turística</a> (con quien puede estar <a href="#relatedTo">relacionada</a>.</p>   
     
-<p><center><img src="images/fig2-1-place-hierarchy.png"/><figcaption>
+<p><center><img src="images/fig2-1-place-hierarchy.png" style="max-width: 100%; height: auto;"/><figcaption>
 Figura 2.1. La clase Lugar, sus subclases y relaciones con Entidad turística.</figcaption></center></p> 
 
 <p>Varias de las subclases de <a href="#TourismEntity">Entidad turística</a> son también subclases de <a href="#Place">Lugar</a> (<a href="#TourismDestination">Destino turístico</a>, <a href="#TourismOrRelatedFacility">Instalación turística o vinculada</a>, <a href="#PublicService">Servicio público</a> e <a href="#TransportInfrastructure">Infraestructura de transporte</a>). Asimismo, varias subclases de la clase <a href="#TourismResource">Recurso turístico</a>, tales como los <a href="#HistoricalAndCulturalResource">Recursos históricos y culturales</a>, <a href="#NaturalResource">Recursos Naturales</a> y <a href="#Route">Rutas</a>, son también subclases de <a href="#Place">Lugar</a>. Estas tres clases se describirán con más detalle en la sección 3, junto con la clase <a href="#GastronomicResource">Recurso Gastronómico</a>, que es la única que no se considera como un tipo de <a href="#Place">Lugar</a>. El <a href="#Place">Lugar</a> puede estar relacionado con una o varias <a href="#TourismEntity">Entidades turísticas</a>.</p>
@@ -63,7 +63,7 @@ Figura 2.1. La clase Lugar, sus subclases y relaciones con Entidad turística.</
     
 <p>La Figura 2.2 ilustra algunos detalles de la clase <a href="#Location">Localización</a>. Por un lado, una <a href="#Location">Localización</a> proporciona información, a través de sus atributos, sobre la dirección postal de una ubicación física. Asimismo, reutiliza un patrón de diseño ampliamente utilizado para la representación de geometrías, reutilizando la ontología <a href="http://www.opengis.net/ont/geosparql#">geosparql</a>. Así, la clase <a href="#Location">Localización</a> es subclase de la clase <a href="#http://www.opengis.net/ont/geosparql#Feature">geosparql:Feature</a>, lo que permite relacionarla con una o varias representaciones espaciales (geometrías), <a href="#http://www.opengis.net/ont/geosparql#Geometry">geosparql:Geometry</a>, a través de la propiedad <a href="#http://www.opengis.net/ont/geosparql#hasGeometry">geosparql:hasGeometry</a> y posteriormente de las propiedades <a href="#http://www.opengis.net/ont/geosparql#asWKT">geosparql:asWKT</a> o <a href="#http://www.opengis.net/ont/geosparql#asGeoJSON">geosparql:asGeoJSON</a> para representar las geometrías en WKT o GeoJSON, respectivamente. También se puede utilizar, en el caso de puntos, las propiedades <a href="#http://www.w3.org/2003/01/geo/wgs84_pos#lat">geo:lat</a> y <a href="#http://www.w3.org/2003/01/geo/wgs84_pos#long">geo:long</a> para representar la latitud y longitud del punto geográfico.</p>    
     
-<p><center><img src="images/fig2-2-place-location-geosparql.png"/><figcaption>Figura 2.2. La clase Localización con sus propiedades principales y la reutilización del vocabulario geosparql para representar datos geoespaciales.</figcaption></center></p> 
+<p><center><img src="images/fig2-2-place-location-geosparql.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 2.2. La clase Localización con sus propiedades principales y la reutilización del vocabulario geosparql para representar datos geoespaciales.</figcaption></center></p> 
 
 <p>A continuación se muestra un ejemplo de una instancia de la clase <a href="#Place">Lugar</a>, concretamente una churrería, con su <a href="#Location">Localización</a> correspondiente, que contiene la dirección y el punto geográfico correspondiente.</p>
 
@@ -120,7 +120,7 @@ ex:ChurreriaSanLorenzoGeometry a geosparql:Geometry, geo:Point ;
 
 <p>Un <a href="#TourismService">Servicio turístico</a> es una prestación destinada a satisfacer las necesidades del turista en el destino. Puede ser de varios tipos (subclases), tal como se ilustra en la Figura 3.1: <a href="#AdventureActivity">Actividad de aventura</a>, <a href="#AgrotourismExperience">Experiencia agroturística</a>, <a href="#DestinationExperience">Experiencia en destino</a>, <a href="#FoodAndBeverageService">Servicio de comidas y bebidas</a>, <a href="#HolidayPackage">Paquete turístico</a>, <a href="#LodgingService">Servicio de hospedaje</a>,  <a href="#TicketOrEntrance">Ticket o Entrada</a>, <a href="#Tour">Visita guiada</a>, <a href="#TransportService">Servicio de transporte</a> y <a href="#VehicleExperience">Experiencia en vehículo</a>. </p> 
 
-<p><center><img src="images/fig3-1-tourism-service-hierarchy.png"/><figcaption>Figura 3.1. La clase Servicio turístico, sus subclases directas y sus relaciones.</figcaption></center></p> 
+<p><center><img src="images/fig3-1-tourism-service-hierarchy.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 3.1. La clase Servicio turístico, sus subclases directas y sus relaciones.</figcaption></center></p> 
 
 <p>Un <a href="#TourismService">Servicio turístico</a> puede tener reconocimientos asociados. Un <a href="#Acknowledgement">Reconocimiento</a> representa los logros o distinciones otorgadas a personas, empresas o productos por cumplir con ciertos estándares o criterios específicos. Ejemplos de reconocimientos pueden ser el número de estrellas de un hotel, la consideración de que una playa tiene bandera azul, etc.</p>
     
@@ -134,7 +134,7 @@ ex:ChurreriaSanLorenzoGeometry a geosparql:Geometry, geo:Point ;
     
 <p>En la Figura 3.2 se presentan los atributos de la clase principal y los atributos y relaciones de algunas de sus subclases: <a href="#AdventureActivity">Actividad de aventura</a>, <a href="#AgrotourismExperience">Experiencia agroturística</a>, <a href="#Tour">Visita guiada</a>y <a href="#VehicleExperience">Experiencia en vehículo</a>. Se han elegido clases que tienen distintos tipos de atributos y relaciones, para de esta manera ilustrar el tipo de información que se puede almacenar para cada una de ellas.</p>
     
-<p><center><img src="images/fig3-2-tourism-service-with-data-properties.png"/><figcaption>Figura 3.2. La clase Servicio turístico y algunas de sus subclases con relaciones y atributos</figcaption></center></p> 
+<p><center><img src="images/fig3-2-tourism-service-with-data-properties.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 3.2. La clase Servicio turístico y algunas de sus subclases con relaciones y atributos</figcaption></center></p> 
     
 <p>La clase <a href="#AdventureActivity">Actividad de aventura</a> es <a href="#offeredBy">ofrecida por</a> una <a href="#ComplementaryActivitiesCompany">Empresa de actividades complementarias</a>. Tiene como <a href="#relatedTourismOrRelatedFacility">instalación turística o vinculada relacionada</a> al menos un <a href="#AdventureActivityCentre">Centro de actividades de aventura</a>, donde se realiza la actividad. También puede tener una <a href="#technicalDifficulty">dificultad técnica</a>, cuyos valores se encuentran disponibles en una lista controlada de valores. Asimismo, puede <a href="#includes">incluir</a> determinados tipos de características, y tiene una <a href="#hasPriceClass">gama de precios</a> asociada, que también se define mediante una lista controlada de valores.</p>
 
@@ -150,7 +150,7 @@ ex:ChurreriaSanLorenzoGeometry a geosparql:Geometry, geo:Point ;
 
 <p>Una <a href="#TourismOrganisation">Organización turística</a> tiene una jerarquía de subclases que está representada, junto con las relaciones de la clase principal, en la Figura 4.1.</p>
     
-<p><center><img src="images/fig4-1-tourism-organisation-hierarchy.png"/><figcaption>Figura 4.1. La clase Organización turística, sus subclases y algunas de sus propiedades y relaciones.
+<p><center><img src="images/fig4-1-tourism-organisation-hierarchy.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 4.1. La clase Organización turística, sus subclases y algunas de sus propiedades y relaciones.
 </figcaption></center></p> 
  
 <p>Una <a href="#TourismOrganisation">Organización turística</a> puede ser una <a href="#AccommodationCompany">Empresa de alojamiento</a>, una <a href="#PassengerTransportCompany">Empresa de transporte de pasajeros</a> que a su vez se divide en las clases correspondientes a diferentes tipos de transporte (<a href="#BusOperator">Operador de autocares</a>, <a href="#FerryOperator">Operador de ferries</a>, <a href="#PrivateHireCompany">Empresa VTC</a> y <a href="#VehicleRentalCompany">Empresa de alquiler de vehículos</a>), una <a href="#ComplementaryActivitiesCompany">Empresa que ofrece actividades complementarias</a>, una <a href="#EventOrganisationCompany">Empresa de organización de eventos</a>, una <a href="#RestaurantCompany">Empresa de servicios de restauración</a>, un <a href="#TourGuide">Guía turístico</a>, o un <a href="#TourismIntermediary">Intermediario turístico</a> que puede ser una <a href="#TravelAgency">Agencia de viajes</a> o un <a href="#DestinationManagementCompany">Operador receptivo</a>.</p>
@@ -161,7 +161,7 @@ ex:ChurreriaSanLorenzoGeometry a geosparql:Geometry, geo:Point ;
 
 <p>En la Figura 4.2 se presentan los atributos de la clase principal y los atributos y relaciones de algunas de sus subclases.</p>
 
-<p><center><img src="images/fig4-2-tourism-organisation-with-data-properties.png"/><figcaption>Figura 4.2. La clase Organización turística y algunas de sus subclases, con relaciones y atributos relevantes.</figcaption></center></p>  
+<p><center><img src="images/fig4-2-tourism-organisation-with-data-properties.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 4.2. La clase Organización turística y algunas de sus subclases, con relaciones y atributos relevantes.</figcaption></center></p>  
 
 <p>Una <a href="#VehicleRentalCompany">Empresa de alquiler de vehículos</a> puede ofrecer distintos <a href="#vehicleType">tipos de vehículo</a>, que están codificados en una lista normalizada de valores. Un <a href="#TourismIntermediary">Intermediario turístico</a> atiende a distintos <a href="#touristType">tipos de turista</a> y <a href="#travelUnit">unidades de viaje</a>. Estas propiedades están también relacionadas con listas normalizadas de valores.</p>
 
@@ -169,22 +169,22 @@ ex:ChurreriaSanLorenzoGeometry a geosparql:Geometry, geo:Point ;
 
 <p>Una Instalación turística o vinculada puede ser de varios tipos tal como se puede ver en la Figura 11. Puede ser un Establecimiento alojativo, una Instalación agroturítica, una Instalación educativa, una Instalación para eventos, un Establecimiento de restauración, una Instalación de salud y bienestar, una Instalación de cultura y ocio, un Negocio local, una Instalación para fiestas y entretenimiento o una Instalación deportiva. Los negocios locales a su vez pueden ser de varios tipos.</p>
  
-<p><center><img src="images/fig5-1-Place-tourism-or-related-facility.png"/><figcaption>Figura 11. La clase Instalación turística o vinculada</figcaption></center></p> 
+<p><center><img src="images/fig5-1-Place-tourism-or-related-facility.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 11. La clase Instalación turística o vinculada</figcaption></center></p> 
 
 <p>Una Instalación turística o vinculada puede tener reconocimiento y puede tener un perfil en redes sociales.  
 Adicionalmente, la instalación turística puede atender distintas unidades de viaje y tipos de turista, puede tener un método de pago (por ejemplo “Bizum”, “Metálico”), y ofrece servicio adicional de la instalación turística o vinculada (por ejemplo, “Acceso para personas de movilidad reducida”). Estas relaciones corresponden a listas normalizadas de valores.</p>
     
 <p>En la Figura 12 se presentan los atributos de la clase principal y los atributos y relaciones de sus subclases.</p>
  
-<p><center><img src="images/fig6-Place-tourism-or-related-facility-with-data-properties.png"/><figcaption>Figura 12. La clase Instalación turística o vinculada y sus subclases con atributos y relaciones</figcaption></center></p> 
+<p><center><img src="images/fig6-Place-tourism-or-related-facility-with-data-properties.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 12. La clase Instalación turística o vinculada y sus subclases con atributos y relaciones</figcaption></center></p> 
     
 <p>La Instalación agroturística, Instalación educativa, Instalación para eventos, Instalación de salud y bienestar, Instalación deportiva, Instalación de cultura y ocio y el Negocio local pueden ofrecer servicios adicionales. Por ejemplo, la Instalación deportiva ofrece servicio adicional de la instalación deportiva. Todas estas propiedades corresponden a listas normalizadas de valores. La Instalación agroturística además ofrece una gama de precios.</p> 
     
 <p>Las conceptualizaciones detaladas de Establecimiento alojativo y del Establecimiento de restauración pueden verse en las Figuras 13 y 14 respectivamente.</p>
  
-<p><center><img src="images/fig5-Accommodation.png"/><figcaption>Figura 13. La clase Instalación alojativa</figcaption></center></p> 
+<p><center><img src="images/fig5-Accommodation.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 13. La clase Instalación alojativa</figcaption></center></p> 
 
-<p><center><img src="images/fig6-Place-food-establishment.png"/><figcaption>Figura 14. La clase Establecimiento de restauración</figcaption></center></p> 
+<p><center><img src="images/fig6-Place-food-establishment.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 14. La clase Establecimiento de restauración</figcaption></center></p> 
  
 <p>La Instalación alojativa se relaciona con listas normalizadas de valores para la categoría de unidad de alojamiento, la gama de precios, el tipo de tarifa de alojamiento y ofrece servicio adicional de alojamiento. Además tiene clasificación de alojamiento.</p>
 
@@ -193,24 +193,24 @@ Adicionalmente, la instalación turística puede atender distintas unidades de v
 <h4>Recurso turístico</h4>
 <p>Un Recurso turístico puede ser un Recurso gastronómico, Recursos histórico o cultural, Recursos natural o una Ruta tal como puede verse en la Figura 15.</p>
  
-<p><center><img src="images/fig8-TourismResource-tourism-resource.png"/><figcaption>Figura 15. <p>La clase Recurso turístico</figcaption></center></p> 
+<p><center><img src="images/fig8-TourismResource-tourism-resource.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 15. <p>La clase Recurso turístico</figcaption></center></p> 
 
 <p>Un recurso turístico tiene reconocimiento y puede tener un perfil en redes sociales. El recurso puede tener además un canal de reserva.</p>
     
 <p>En la Figura 16 se presentan los atributos de la clase principal y los atributos y relaciones de sus subclases.</p>
  
-<p><center><img src="images/fig8-TourismResource-tourism-resource-with-datatype-properties.png"/><figcaption>Figura 16. La clase Recurso turístico y sus subclases con atributos y relaciones</figcaption></center></p> 
+<p><center><img src="images/fig8-TourismResource-tourism-resource-with-datatype-properties.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 16. La clase Recurso turístico y sus subclases con atributos y relaciones</figcaption></center></p> 
 
 <p>Las clases Recurso hisórico o cultural, Recurso natural y Ruta tienen un método de pago, una unidad de viaje,  y ofrece un servicio adicional de recurso turístico. En particular, el Recurso hisórico o cultural ofrece servicio adicional del recurso histórico o cultural.</p> 
     
 <p>La conceptualización de la Ruta se ilustra en la Figura 17.</p>
  
-<p><center><img src="images/fig8-TourismResource-route.png"/><figcaption>Figura 17. La clase Ruta</figcaption></center></p> 
+<p><center><img src="images/fig8-TourismResource-route.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 17. La clase Ruta</figcaption></center></p> 
 
 <h4>Destino turístico</h4>
 <p>Un Destino turístico tiene varias relaciones como se ilustra en la Figura 18.</p>
  
-<p><center><img src="images/fig9-TourismDestination.png"/><figcaption>Figura 18. La clase Destino turístico</figcaption></center></p> 
+<p><center><img src="images/fig9-TourismDestination.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 18. La clase Destino turístico</figcaption></center></p> 
 
 <p>Un Destino turístico tiene reconocimiento. También puede tener un perfil en redes sociales y tiene reglas y consejos.</p>
     
@@ -219,7 +219,7 @@ Adicionalmente, la instalación turística puede atender distintas unidades de v
 <h4>Evento</h4>
 <p>Un Evento tiene relaciones con otros conceptos y con listas normalizadas de valores tal como se representa en la Figura 19.</p>
   
-<p><center><img src="images/fig7-Event-event-with-relations-dp.png"/><figcaption>Figura 19. <p>La clase Evento</figcaption></center></p> 
+<p><center><img src="images/fig7-Event-event-with-relations-dp.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 19. <p>La clase Evento</figcaption></center></p> 
 
 <p>Un Evento tiene agenda asociada. La agenda tiene un sub evento y un evento puede tener un super evento. El Evento tiene especificación de precio y tiene una programación del evento. El evento tiene reconocimiento, tiene punto de contacto y un punto de interés de referencia que es un Lugar.</p>
     
@@ -228,12 +228,12 @@ Adicionalmente, la instalación turística puede atender distintas unidades de v
 <h4>Servicio Público</h4>
 <p>Un servicio público puede ser de varios tipos tal como se ilustra en la Figura 20.</p>
  
-<p><center><img src="images/fig10-PublicService.png"/><figcaption>Figura 20. La clase Servicio público</figcaption></center></p> 
+<p><center><img src="images/fig10-PublicService.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 20. La clase Servicio público</figcaption></center></p> 
 
 <h4>Infraestructura de transporte</h4>
 <p>Existen varios tipos de Infraestructura de transporte. Algunos están ejemplificados en la Figura 21 tales como Aeropuerto, Sistema de bicicleta compartidas, Aparcamiento, Carril bici, Parada de transporte público o Estación de tren.</p>
 
-<p><center><img src="images/fig12-TransportInfrastructure.png"/><figcaption>Figura 21. La clase Infraestructura de transporte</figcaption></center></p> 
+<p><center><img src="images/fig12-TransportInfrastructure.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 21. La clase Infraestructura de transporte</figcaption></center></p> 
 
 <p>La Infraestructura de transporte ofrece servicio adicional de la infraestructura de transporte que es una lista normalizada de valores (por ejemplo, “Parking”). Asimismo, el Aparcamiento ofrece servicio adicional del aparcamiento. La Parada de transporte público tiene un tipo de estación.</p> 
     
@@ -242,21 +242,21 @@ Adicionalmente, la instalación turística puede atender distintas unidades de v
 <h4>Oferta especial</h4>
 <p>Las relaciones de la clase Oferta especial pueden verse en la Figura 22.</p> 
 
-<p><center><img src="images/fig11-SpecialOffer.png"/><figcaption>Figura 22. La clase Oferta especial</figcaption></center></p>
+<p><center><img src="images/fig11-SpecialOffer.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 22. La clase Oferta especial</figcaption></center></p>
 
 <p>La Oferta especial tiene especificación del precio, unidad de viaje, y tiene programación de la oferta. También puede corresponder a un tipo de turista el cual es una lista normalizada de valores.</p>
     
 <h4>Lugar</h4>
 <p>La Figura 23 ilustra las relaciones de la clase Lugar.</p>
  
-<p><center><img src="images/fig6-Place-place-with-relation.png"/><figcaption>Figura 23. La clase Lugar y sus relaciones</figcaption></center></p>
+<p><center><img src="images/fig6-Place-place-with-relation.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 23. La clase Lugar y sus relaciones</figcaption></center></p>
 
 <p>Un Lugar está relacionado con una Entidad turística. El Lugar tiene horario de apertura, tiene punto de contacto  y tiene información adicional.</p> 
     
 <h4>Entidad turística</h4> 
 <p>La Entidad turística tiene relaciones con varias clases de identificación del negocio tal como se ilustra en la Figura 24.</p>
  
-<p><center><img src="images/fig1-General-tourism-entity-identifying-business-classes.png"/><figcaption>Figura 24. Relación de Entidad turística con clases de identificación del negocio</figcaption></center></p>
+<p><center><img src="images/fig1-General-tourism-entity-identifying-business-classes.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 24. Relación de Entidad turística con clases de identificación del negocio</figcaption></center></p>
 
 <p>Una Entidad turística tiene información adicional. La clase  Información adicional permite proporcionar  detalles, datos o explicaciones adicionales que complementan o amplían la información principal proporcionada. Es información extra que puede proporcionar aclaraciones, contexto o detalles específicos sobre un tema determinado. La información adicional puede incluir alguna pregunta frecuente. La Pregunta frecuente es una clase que representa preguntas frecuentes y sus respuestas.</p>
 
@@ -264,7 +264,7 @@ Adicionalmente, la instalación turística puede atender distintas unidades de v
 
 <p>Otras clases de identificación del negocio se representan en la Figura 25.</p>
 
-<p><center><img src="images/fig1-General-other-identifying-business-classes.png"/><figcaption>Figura 25. Clases de identificación del negocio: Descripción, Especificación de precio, Programación</figcaption></center></p>
+<p><center><img src="images/fig1-General-other-identifying-business-classes.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 25. Clases de identificación del negocio: Descripción, Especificación de precio, Programación</figcaption></center></p>
 
 <h3>Visibilidad de recursos</h3>
 <p>En esta sección se describe la parte del modelo que se utiliza para la representación de datos relacionados con la visibilidad de los recursos según distintos criterios de ordenación (para evitar problemas de estacionalización, centralización, etc.).</p> 
