@@ -522,7 +522,7 @@ It is possible that this annotation property is taken out in the future from the
         <rdfs:comment xml:lang="en">An agri-food product linked to an agrotourism experience.</rdfs:comment>
         <rdfs:comment xml:lang="es">Producto agroalimentario vinculado con una experiencia agroturística.</rdfs:comment>
         <rdfs:label xml:lang="en">agrotourism experience related product</rdfs:label>
-        <rdfs:label xml:lang="es">producto relacionado con experiencia agriturística</rdfs:label>
+        <rdfs:label xml:lang="es">producto relacionado con experiencia agroturística</rdfs:label>
         <estur-annot:presentationOrderCategory>other</estur-annot:presentationOrderCategory>
     </owl:ObjectProperty>
     
