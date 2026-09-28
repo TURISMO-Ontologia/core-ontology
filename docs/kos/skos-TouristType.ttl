@@ -58,6 +58,11 @@ estur-touristtype:CulturalAndHeritage a skos:Concept;
   skos:prefLabel "Cultural and heritage"@en ;
   skos:prefLabel "Cultura y patrimonio"@es .
 
+estur-touristtype:Ecotourism a skos:Concept;
+  skos:inScheme estur-kos:TouristType;
+  skos:prefLabel "Ecotourism"@en ;
+  skos:prefLabel "Ecoturismo"@es .
+
 estur-touristtype:Education a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Education"@en ;
