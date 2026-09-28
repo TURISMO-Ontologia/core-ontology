@@ -148,22 +148,22 @@ ex:ChurreriaSanLorenzoGeometry a geosparql:Geometry, geo:Point ;
 
 <h4>Organización turística</h4>
 
-<p>Una <a href="#TourismOrganisation">Organización turística</a> tiene una jerarquía de subclases que está representada, junto con las relaciones de la clase principal, en la Figura 9.</p>
+<p>Una <a href="#TourismOrganisation">Organización turística</a> tiene una jerarquía de subclases que está representada, junto con las relaciones de la clase principal, en la Figura 4.1.</p>
     
-<p><center><img src="images/fig4-1-Organisation-tourism-organisation-with-relations.png"/><figcaption>Figura 9. La clase Organización turística y sus relaciones
+<p><center><img src="images/fig4-1-tourism-organisation-hierarchy.png"/><figcaption>Figura 4.1. La clase Organización turística, sus subclases y algunas de sus propiedades y relaciones.
 </figcaption></center></p> 
  
-<p>Puede ser una <a href="#Accommodation">Empresa de alojamiento</a>, una <a href="#PassengerTransportCompany">Empresa de transporte de pasajeros</a> que a su vez se divide en las clases correspondientes a diferentes tipos de transporte, una <a href="#ComplementaryActivitiesCompany">Empresa que ofrece actividades complementarias</a>, una <a href="#EventOrganisationCompany">Empresa de organización de eventos</a>, una <a href="#RestaurantService">Empresa de servicios de restauración</a>, un <a href="#TourGuide">Guía turístico</a>, o un <a href="#TourismIntermediary">Intermediario turístico</a> que puede ser una <a href="#TravelAgency">Agencia de viajes</a> o un <a href="#DestinationManagementCompany">Operador receptivo</a>.</p>
+<p>Una <a href="#TourismOrganisation">Organización turística</a> puede ser una <a href="#AccommodationCompany">Empresa de alojamiento</a>, una <a href="#PassengerTransportCompany">Empresa de transporte de pasajeros</a> que a su vez se divide en las clases correspondientes a diferentes tipos de transporte (<a href="#BusOperator">Operador de autocares</a>, <a href="#FerryOperator">Operador de ferries</a>, <a href="#PrivateHireCompany">Empresa VTC</a> y <a href="#VehicleRentalCompany">Empresa de alquiler de vehículos</a>), una <a href="#ComplementaryActivitiesCompany">Empresa que ofrece actividades complementarias</a>, una <a href="#EventOrganisationCompany">Empresa de organización de eventos</a>, una <a href="#RestaurantCompany">Empresa de servicios de restauración</a>, un <a href="#TourGuide">Guía turístico</a>, o un <a href="#TourismIntermediary">Intermediario turístico</a> que puede ser una <a href="#TravelAgency">Agencia de viajes</a> o un <a href="#DestinationManagementCompany">Operador receptivo</a>.</p>
 
-<p>Las organizaciones pueden tener reconocimientos. También pueden tener perfil en redes sociales. </p>
+<p>Tal y como ocurría con los Servicios turísticos, las organizaciones también pueden tener <a href="Acknowledgement">Reconocimientos</a>, un <a href="#BookingChannel">Canal de reserva</a> y varios <a href="#ContactPoint">Puntos de contacto</a>. También pueden tener <a href="#SocialMediaProfile">perfil en redes sociales</a>. </p>
 
-<p>Finalmente, la organización puede tener un punto de contacto. Un Punto de contacto contiene los datos necesarios para establecer comunicación con una persona o entidad.</p> 
+<p>Algunas otras propiedades y relaciones relevantes son la de <a href="#additionalClassification">clasificación adicional</a>, que ya se ha descrito en secciones anteriores, y la de <a href="#offers">ofrecer</a> distintos tipos de servicios turísticos, eventos, experiencias en destino o promociones especiales.</p> 
 
-<p>En la Figura 10 se presentan los atributos de la clase principal y los atributos y relaciones de sus subclases.</p>
+<p>En la Figura 4.2 se presentan los atributos de la clase principal y los atributos y relaciones de algunas de sus subclases.</p>
 
-<p><center><img src="images/fig4-2-Organisation-tourism-organisation-with-data-properties.png"/><figcaption>Figura 10. La clase Organización turística y sus subclases, con relaciones y atributos</figcaption></center></p>  
+<p><center><img src="images/fig4-2-tourism-organisation-with-data-properties.png"/><figcaption>Figura 4.2. La clase Organización turística y algunas de sus subclases, con relaciones y atributos relevantes.</figcaption></center></p>  
 
-<p>Una Empresa de alquiler de vehículos puede ofrecer distintos tipos de vehículo. Un Intermediario turístico atiende a distintos tipos de turista y unidades de viaje. Estas propiedades están también relacionadas con listas normalizadas de valores.</p>
+<p>Una <a href="#VehicleRentalCompany">Empresa de alquiler de vehículos</a> puede ofrecer distintos <a href="#vehicleType">tipos de vehículo</a>, que están codificados en una lista normalizada de valores. Un <a href="#TourismIntermediary">Intermediario turístico</a> atiende a distintos <a href="#touristType">tipos de turista</a> y <a href="#travelUnit">unidades de viaje</a>. Estas propiedades están también relacionadas con listas normalizadas de valores.</p>
 
 <h4>Instalación turística o vinculada</h4> 
 
