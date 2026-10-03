@@ -34,32 +34,32 @@ estur-kos:SocialMediaPlatform a skos:ConceptScheme ;
 #################################################################
 
 estur-socialmediaplatform:Facebook a skos:Concept;
-  skos:inScheme estur-kos:SocialMediaProfile;
+  skos:inScheme estur-kos:SocialMediaPlatform;
   skos:prefLabel "Facebook"@en ;
   skos:prefLabel "Facebook"@es .
 
 estur-socialmediaplatform:Instagram a skos:Concept;
-  skos:inScheme estur-kos:SocialMediaProfile;
+  skos:inScheme estur-kos:SocialMediaPlatform;
   skos:prefLabel "Instagram"@en ;
   skos:prefLabel "Instagram"@es .
 
 estur-socialmediaplatform:TikTok a skos:Concept;
-  skos:inScheme estur-kos:SocialMediaProfile;
+  skos:inScheme estur-kos:SocialMediaPlatform;
   skos:prefLabel "TikTok"@en ;
   skos:prefLabel "TikTok"@es .
 
 estur-socialmediaplatform:X a skos:Concept;
-  skos:inScheme estur-kos:SocialMediaProfile;
+  skos:inScheme estur-kos:SocialMediaPlatform;
   skos:prefLabel "X"@en ;
   skos:prefLabel "X"@es .
 
 estur-socialmediaplatform:TripAdvisor a skos:Concept;
-  skos:inScheme estur-kos:SocialMediaProfile;
+  skos:inScheme estur-kos:SocialMediaPlatform;
   skos:prefLabel "TripAdvisor"@en ;
   skos:prefLabel "TripAdvisor"@es .
 
 estur-socialmediaplatform:Youtube a skos:Concept;
-  skos:inScheme estur-kos:SocialMediaProfile;
+  skos:inScheme estur-kos:SocialMediaPlatform;
   skos:prefLabel "Youtube"@en ;
   skos:prefLabel "Youtube"@es .
 
