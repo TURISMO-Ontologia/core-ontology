@@ -58,7 +58,7 @@ estur-eventtype:Bullfight a skos:Concept;
   skos:inScheme estur-kos:EventType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
-  skos:broader estur-eventttype:Spectacle ;
+  skos:broader estur-eventtype:Spectacle ;
   skos:prefLabel "Bullfight"@en ;
   skos:prefLabel "Toros"@es .
 
@@ -384,12 +384,6 @@ estur-eventtype:DogExhibitionEvent a skos:Concept;
   skos:broader estur-eventtype:DogEvent;
   skos:prefLabel "Dog exhibition event"@en ;
   skos:prefLabel "Exposición canina"@es .
-
-estur-eventtype:SpecialtyDogShow a skos:Concept;
-  skos:inScheme estur-kos:EventType;
-  skos:broader estur-eventtype:DogEvent;
-  skos:prefLabel "Specialty dog show"@en ;
-  skos:prefLabel "Exposición canina monográfica"@es .
 
 estur-eventtype:SpecialtyDogShow a skos:Concept;
   skos:inScheme estur-kos:EventType;
