@@ -57,8 +57,3 @@ estur-targetaudience:Kids a skos:Concept;
   skos:inScheme estur-kos:TargetAudience;
   skos:prefLabel "Kids"@en ;
   skos:prefLabel "Niños"@es .
-
-
-
-
- Implica deprecar los siguientes individuos del esquema de conceptos "LabelType" (@ es "Tipo de distintivo") por solapamiento: solo para adultos (@ en "adultsOnly") / apto para niños (@ en "kidsFriendly").
