@@ -112,7 +112,7 @@ ex:ChurreriaSanLorenzoGeometry a geosparql:Geometry, geo:Point ;
     
 <p>A continuación se describen de forma más detallada las clases más relevantes de la ontología, incluyendo referencias a sus atributos y relaciones principales, y a sus subclases.</p>
     
-<p>Para cada clase se presenta en primer lugar su jerarquía de subclases y sus relaciones. En segundo lugar, se muestra el modelo con las propiedades y relaciones que se consideran más relevantes.</p>
+<p>En general, para cada clase se presenta en primer lugar su jerarquía de subclases y sus relaciones. En segundo lugar, se muestran las propiedades de todas estas clases, así como las relaciones que se consideran más relevantes. En aquellos casos en que se puede utilizar una única imagen, se presentan todas las clases, subclases, propiedades y relaciones de manera única.</p>
     
 <p>Cuando el rango de una relación es un <a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a> perteneciente a una lista normalizada de valores (representada como un <a href="http://www.w3.org/2004/02/skos/core#ConceptScheme">skos:ConceptScheme</a>), estos se representan con una caja azul donde se indica el nombre de la lista correspondiente.</p>
 
@@ -167,28 +167,25 @@ ex:ChurreriaSanLorenzoGeometry a geosparql:Geometry, geo:Point ;
 
 <h4>Instalación turística o vinculada</h4> 
 
-<p>Una Instalación turística o vinculada puede ser de varios tipos tal como se puede ver en la Figura 11. Puede ser un Establecimiento alojativo, una Instalación agroturítica, una Instalación educativa, una Instalación para eventos, un Establecimiento de restauración, una Instalación de salud y bienestar, una Instalación de cultura y ocio, un Negocio local, una Instalación para fiestas y entretenimiento o una Instalación deportiva. Los negocios locales a su vez pueden ser de varios tipos.</p>
+<p>La clase <a href="#TourismOrRelatedFacility">Instalación turística o vinculada</a> se utiliza para referirse a las infraestructuras y servicios que están diseñados tanto para satisfacer las necesidades de los turistas como para brindar beneficios a los residentes locales. Esta clase se divide en varias subclases, como se muestra en la figura 5.1: <a href="#AccommodationEstablishment">Establecimiento alojativo</a>, <a href="#AgrotourismFacility">Instalación agroturística</a>, <a href="#EducationalFacility">Instalación educativa</a>, <a href="#EventAttendanceFacility">Instalación para eventos</a>,<a href="#FoodEstablishment">Establecimiento de restauración</a>, <a href="#HealthAndWellnessFacility">Instalación de salud y bienestar</a>, <a href="#LeisureAndCultureFacility">Instalación de cultura y ocio</a>, <a href="#LocalBusiness">Negocio local</a> (que en la figura aparece también con sus subclases), <a href="#PartyAndEntertainmentFacility">Instalación para fiestas y entretenimiento</a>, <a href="#SportFacility">Instalación deportiva</a> y <a href="#VehicleRentalAgency">Agencia de alquiler de vehículos</a>. Todas estas subclases tienen a su vez una jerarquía de subclases adicional, de uno o dos niveles de profundidad.</p>
  
-<p><center><img src="images/fig5-1-Place-tourism-or-related-facility.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 11. La clase Instalación turística o vinculada</figcaption></center></p> 
-
-<p>Una Instalación turística o vinculada puede tener reconocimiento y puede tener un perfil en redes sociales.  
-Adicionalmente, la instalación turística puede atender distintas unidades de viaje y tipos de turista, puede tener un método de pago (por ejemplo “Bizum”, “Metálico”), y ofrece servicio adicional de la instalación turística o vinculada (por ejemplo, “Acceso para personas de movilidad reducida”). Estas relaciones corresponden a listas normalizadas de valores.</p>
+<p><center><img src="images/fig5-1-tourism-or-related-facility.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 5.1. La clase Instalación turística o vinculada y su jerarquía de subclases, propiedades y relaciones principales.</figcaption></center></p> 
     
-<p>En la Figura 12 se presentan los atributos de la clase principal y los atributos y relaciones de sus subclases.</p>
- 
-<p><center><img src="images/fig6-Place-tourism-or-related-facility-with-data-properties.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 12. La clase Instalación turística o vinculada y sus subclases con atributos y relaciones</figcaption></center></p> 
-    
-<p>La Instalación agroturística, Instalación educativa, Instalación para eventos, Instalación de salud y bienestar, Instalación deportiva, Instalación de cultura y ocio y el Negocio local pueden ofrecer servicios adicionales. Por ejemplo, la Instalación deportiva ofrece servicio adicional de la instalación deportiva. Todas estas propiedades corresponden a listas normalizadas de valores. La Instalación agroturística además ofrece una gama de precios.</p> 
-    
-<p>Las conceptualizaciones detaladas de Establecimiento alojativo y del Establecimiento de restauración pueden verse en las Figuras 13 y 14 respectivamente.</p>
- 
-<p><center><img src="images/fig5-Accommodation.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 13. La clase Instalación alojativa</figcaption></center></p> 
+<p>Un aspecto importante es que una <a href="#TourismOrRelatedFacility">Instalación turística o vinculada</a> es también un <a href="#Place">Lugar</a>, por lo que podrá estar conectado con una <a href="#Location">Localización</a>, como se mostró más arriba en esta documentación.</p>
 
-<p><center><img src="images/fig6-Place-food-establishment.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 14. La clase Establecimiento de restauración</figcaption></center></p> 
+<p>Una <a href="#TourismOrRelatedFacility">Instalación turística o vinculada</a> puede <a href="#hasAcknowledgement">tener uno o varios reconocimientos</a> y puede <a href="#hasSocialMediaProfile">tener perfiles en redes sociales</a>. Adicionalmente, la instalación turística puede atender distintas <a href="travelUnit">unidades de viaje</a> y <a href="#touristType">tipos de turista</a>, puede tener un <a href="#paymentMethod">método de pago</a> (por ejemplo “Bizum”, “Metálico”), y ofrecer varios <a href="#additionalTourismOrRelatedFacilityService">servicios adicionales de la instalación turística o vinculada</a> (por ejemplo, “Acceso para personas de movilidad reducida”). Todas estas relaciones se corresponden con listas normalizadas de valores.</p>
+        
+<p>Como se muestra en la parte baja de la figura, con puntos suspensivos, la mayor parte de las subclases de <a href="#TourismOrRelatedFacility">Instalación turística o vinculada</a> tienen una propiedad que permite indicar los servicios adicionales que ofrecen, cuyos valores pertenecen a listas normalizadas de valores.</p> 
+    
+<p>Las conceptualizaciones detaladas de <a href="#AccommodationEstablishment">Establecimiento alojativo</a> y de <a href="#FoodEstablishment">Establecimiento de restauración</a> pueden verse en las Figuras 5.2 y 5.3 respectivamente.</p>
  
-<p>La Instalación alojativa se relaciona con listas normalizadas de valores para la categoría de unidad de alojamiento, la gama de precios, el tipo de tarifa de alojamiento y ofrece servicio adicional de alojamiento. Además tiene clasificación de alojamiento.</p>
+<p><center><img src="images/fig5-2-accommodation-establishment.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 5.2. La clase Instalación alojativa y sus propiedades y relaciones</figcaption></center></p> 
 
-<p>El Establecimiento de restauración tiene un tipo de cocina, opciones de la carta, gama de precios y ofrece servicio adicional de restauracion. Todas estas propiedades corresponden a listas normalizadas de valores.</p>
+<p><center><img src="images/fig5-3-food-establishment.png" style="max-width: 100%; height: auto;"/><figcaption>Figura 5.3. La clase Establecimiento de restauración y sus propiedades y relaciones</figcaption></center></p> 
+ 
+<!--<p>La Instalación alojativa se relaciona con listas normalizadas de valores para la categoría de unidad de alojamiento, la gama de precios, el tipo de tarifa de alojamiento y ofrece servicio adicional de alojamiento. Además tiene clasificación de alojamiento.</p>
+
+<p>El Establecimiento de restauración tiene un tipo de cocina, opciones de la carta, gama de precios y ofrece servicio adicional de restauracion. Todas estas propiedades corresponden a listas normalizadas de valores.</p>-->
 
 <h4>Recurso turístico</h4>
 <p>Un Recurso turístico puede ser un Recurso gastronómico, Recursos histórico o cultural, Recursos natural o una Ruta tal como puede verse en la Figura 15.</p>

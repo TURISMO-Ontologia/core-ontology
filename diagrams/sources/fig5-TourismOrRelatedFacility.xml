@@ -1,0 +1,622 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" pages="3">
+  <diagram name="fig5-1-tourism-or-related-facility-hierarchy" id="Nn8YjaEfyQuHlfxZx5jk">
+    <mxGraphModel dx="2068" dy="2016" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="TK3qZutq_bcLfkljU9on-0" />
+        <mxCell id="TK3qZutq_bcLfkljU9on-1" parent="TK3qZutq_bcLfkljU9on-0" />
+        <mxCell id="TK3qZutq_bcLfkljU9on-2" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Tourism or related facility&lt;br&gt;(Instalación turística o vinculada)" vertex="1">
+          <mxGeometry height="40" width="235" x="300" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="TK3qZutq_bcLfkljU9on-3" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;" value="Leisure and culture facility&lt;br&gt;(Instalación de cultura y ocio)" vertex="1">
+          <mxGeometry height="30" width="170" x="550" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="TK3qZutq_bcLfkljU9on-5" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;" value="Agrotourism facility&lt;div&gt;(Instalación agroturística)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="28" width="150" x="-10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TK3qZutq_bcLfkljU9on-6" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;" value="Food establishment &lt;br&gt;(Establecimiento de restauración)" vertex="1">
+          <mxGeometry height="30" width="185" x="271" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TK3qZutq_bcLfkljU9on-7" edge="1" parent="TK3qZutq_bcLfkljU9on-1" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="eV9n5Eihyi_PIkfT5Cl_-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="417.5" y="70" as="sourcePoint" />
+            <mxPoint x="420" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TK3qZutq_bcLfkljU9on-9" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;" value="Party and entertainment facility&lt;br&gt;(Instalación para fiestas y entretenimiento)" vertex="1">
+          <mxGeometry height="30" width="235" x="630" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TK3qZutq_bcLfkljU9on-10" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="TK3qZutq_bcLfkljU9on-6" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="383" y="98" as="sourcePoint" />
+            <mxPoint x="363.5" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TK3qZutq_bcLfkljU9on-12" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="TK3qZutq_bcLfkljU9on-3" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="138" as="sourcePoint" />
+            <mxPoint x="635" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-1" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:AdditionalTourismOrRelatedFacilityService&amp;gt;&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="330" x="890" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-2" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="TK3qZutq_bcLfkljU9on-2" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.9;exitDx=0;exitDy=0;" target="KnlwK4F8ouBCsZaBtEyh-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="-44" />
+              <mxPoint x="540" y="-30" />
+              <mxPoint x="540" y="-10" />
+              <mxPoint x="540" />
+              <mxPoint x="600" />
+            </Array>
+            <mxPoint x="480" y="-70" as="sourcePoint" />
+            <mxPoint x="620" y="-26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-3" connectable="0" parent="KnlwK4F8ouBCsZaBtEyh-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="has additional tourism or related facility service&lt;div&gt;(tiene servicio adicional de la instalación turística o vinculada)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1067" y="2" as="geometry">
+            <mxPoint x="44" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-4" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Acknowledgement&lt;br&gt;(Reconocimiento)" vertex="1">
+          <mxGeometry height="40" width="185" x="-105" as="geometry" />
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-5" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="TK3qZutq_bcLfkljU9on-2" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.9;exitDx=0;exitDy=0;" target="KnlwK4F8ouBCsZaBtEyh-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="-44" />
+              <mxPoint x="290" y="-20" />
+              <mxPoint x="290" y="20" />
+            </Array>
+            <mxPoint x="370" y="13" as="sourcePoint" />
+            <mxPoint x="220" y="13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-6" connectable="0" parent="KnlwK4F8ouBCsZaBtEyh-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="has acknowledgement&lt;br&gt;(tiene reconocimiento)" vertex="1">
+          <mxGeometry relative="1" x="0.0567" y="-2" as="geometry">
+            <mxPoint x="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-7" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Place&lt;div&gt;(Lugar)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="357" y="-210" as="geometry" />
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-11" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="_0LBq_aVJUuHmLgXoGqU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="TK3qZutq_bcLfkljU9on-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="160" y="-90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-12" connectable="0" parent="KnlwK4F8ouBCsZaBtEyh-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;offered by&lt;br&gt;(ofrecido por)&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0088" y="-1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-10" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Tourism Destination&lt;br&gt;(Destino turístico)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="185" x="-105" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-13" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Social media profile&lt;br&gt;(Perfil de redes sociales)" vertex="1">
+          <mxGeometry height="40" width="160" x="680" y="-210" as="geometry" />
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-14" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="KnlwK4F8ouBCsZaBtEyh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="TK3qZutq_bcLfkljU9on-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="-190" />
+              <mxPoint x="540" y="-76" />
+            </Array>
+            <mxPoint x="350" y="-20" as="sourcePoint" />
+            <mxPoint x="500" y="66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-15" connectable="0" parent="KnlwK4F8ouBCsZaBtEyh-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="has social media profile&lt;div&gt;(tiene perfil de redes sociales)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0088" y="-1" as="geometry">
+            <mxPoint x="46" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-16" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:TouristType&amp;gt;&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="890" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-17" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="KnlwK4F8ouBCsZaBtEyh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="TK3qZutq_bcLfkljU9on-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="660" y="-10" as="sourcePoint" />
+            <mxPoint x="490" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-18" connectable="0" parent="KnlwK4F8ouBCsZaBtEyh-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="tourist type&lt;br&gt;(tipo de turista)" vertex="1">
+          <mxGeometry relative="1" x="0.0088" y="-1" as="geometry">
+            <mxPoint x="14" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-20" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="KnlwK4F8ouBCsZaBtEyh-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="TK3qZutq_bcLfkljU9on-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="-190" />
+              <mxPoint x="290" y="-76" />
+            </Array>
+            <mxPoint x="220" y="-190" as="sourcePoint" />
+            <mxPoint x="430" y="2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-21" connectable="0" parent="KnlwK4F8ouBCsZaBtEyh-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="payment method&lt;br&gt;(método de pago)" vertex="1">
+          <mxGeometry relative="1" x="0.0088" y="-1" as="geometry">
+            <mxPoint x="-69" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnlwK4F8ouBCsZaBtEyh-22" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:PaymentMethod&amp;gt;&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="185" x="-105" y="-210" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTvOvm-28KXAphvhbpC-4" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="RoTvOvm-28KXAphvhbpC-8" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_0LBq_aVJUuHmLgXoGqU-0" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-42.5" y="70" />
+              <mxPoint x="955" y="70" />
+            </Array>
+            <mxPoint x="429" y="438" as="sourcePoint" />
+            <mxPoint x="754" y="348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoTvOvm-28KXAphvhbpC-5" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;" value="Local business&lt;br&gt;(Negocio local)" vertex="1">
+          <mxGeometry height="30" width="130" x="478" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTvOvm-28KXAphvhbpC-6" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="TK3qZutq_bcLfkljU9on-5" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="204" y="308" as="sourcePoint" />
+            <mxPoint x="65" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoTvOvm-28KXAphvhbpC-8" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;" value="Accommodation establishment&lt;br&gt;(Establecimiento alojativo)" vertex="1">
+          <mxGeometry height="30" width="185" x="-135" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTvOvm-28KXAphvhbpC-10" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;" value="Event attendance facility&lt;br&gt;(Instalación para eventos)" vertex="1">
+          <mxGeometry height="30" width="160" x="80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTvOvm-28KXAphvhbpC-11" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="RoTvOvm-28KXAphvhbpC-10" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="544" y="358" as="sourcePoint" />
+            <mxPoint x="160" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoTvOvm-28KXAphvhbpC-12" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;" value="Educational facility&lt;br&gt;(Instalación educativa)" vertex="1">
+          <mxGeometry height="30" width="130" x="176" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTvOvm-28KXAphvhbpC-13" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="RoTvOvm-28KXAphvhbpC-12" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="684" y="358" as="sourcePoint" />
+            <mxPoint x="240" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoTvOvm-28KXAphvhbpC-14" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;" value="Health and wellness facility&lt;br&gt;(Instalación de salud y bienestar)" vertex="1">
+          <mxGeometry height="30" width="185" x="330" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTvOvm-28KXAphvhbpC-15" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="RoTvOvm-28KXAphvhbpC-14" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="434" y="348" as="sourcePoint" />
+            <mxPoint x="422.5" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoTvOvm-28KXAphvhbpC-18" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;" value="Vehicle rental agency&lt;br&gt;(Agencia de alquiler de vehículos)" vertex="1">
+          <mxGeometry height="30" width="192" x="755" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="RoTvOvm-28KXAphvhbpC-19" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="RoTvOvm-28KXAphvhbpC-5" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="554" y="318" as="sourcePoint" />
+            <mxPoint x="543" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RoTvOvm-28KXAphvhbpC-21" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="TK3qZutq_bcLfkljU9on-9" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="634" y="140" as="sourcePoint" />
+            <mxPoint x="747.5" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eV9n5Eihyi_PIkfT5Cl_-1" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];dashed=1;dashPattern=8 8;align=left;" value="registration number (número de registro)&lt;div&gt;additional classification (clasificación adicional)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="235" x="300" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="_0LBq_aVJUuHmLgXoGqU-0" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;" value="Sport facility&lt;br&gt;(Instalación deportiva)" vertex="1">
+          <mxGeometry height="30" width="150" x="880" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_0LBq_aVJUuHmLgXoGqU-3" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="RoTvOvm-28KXAphvhbpC-18" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="108" as="sourcePoint" />
+            <mxPoint x="851" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0LBq_aVJUuHmLgXoGqU-4" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="_0LBq_aVJUuHmLgXoGqU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="TK3qZutq_bcLfkljU9on-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="-120" />
+              <mxPoint x="630" y="-68" />
+            </Array>
+            <mxPoint x="970" y="-120" as="sourcePoint" />
+            <mxPoint x="1060" y="-6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0LBq_aVJUuHmLgXoGqU-5" connectable="0" parent="_0LBq_aVJUuHmLgXoGqU-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="travel unit&lt;br&gt;(unidad de viaje)" vertex="1">
+          <mxGeometry relative="1" x="0.0088" y="-1" as="geometry">
+            <mxPoint x="41" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0LBq_aVJUuHmLgXoGqU-6" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:TravelUnit&amp;gt;&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="890" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="_0LBq_aVJUuHmLgXoGqU-7" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="TK3qZutq_bcLfkljU9on-2" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="KnlwK4F8ouBCsZaBtEyh-7" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="473" y="-101" as="sourcePoint" />
+            <mxPoint x="470" y="-149" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0LBq_aVJUuHmLgXoGqU-8" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Tourism Organisation&lt;br&gt;(Organización turística)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="185" x="-105" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="_0LBq_aVJUuHmLgXoGqU-10" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;U&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="40" x="110" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="_0LBq_aVJUuHmLgXoGqU-11" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="_0LBq_aVJUuHmLgXoGqU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="_0LBq_aVJUuHmLgXoGqU-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="160" y="-60" as="sourcePoint" />
+            <mxPoint x="320" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0LBq_aVJUuHmLgXoGqU-13" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="KnlwK4F8ouBCsZaBtEyh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="_0LBq_aVJUuHmLgXoGqU-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="-40" />
+              <mxPoint x="100" y="-60" />
+            </Array>
+            <mxPoint x="90" y="-90" as="sourcePoint" />
+            <mxPoint x="120" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WzX_VTp9_LH-x0-8QG9Y-1" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Medical Business&lt;br&gt;(Negocio médico)" vertex="1">
+          <mxGeometry height="30" width="110" x="488" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="WzX_VTp9_LH-x0-8QG9Y-2" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="WzX_VTp9_LH-x0-8QG9Y-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="466" y="220" />
+            </Array>
+            <mxPoint x="466" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WzX_VTp9_LH-x0-8QG9Y-3" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Groceries service&lt;br&gt;(Servicio de alimentación)" vertex="1">
+          <mxGeometry height="30" width="150" x="391" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="WzX_VTp9_LH-x0-8QG9Y-4" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="WzX_VTp9_LH-x0-8QG9Y-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="616.5" y="220" />
+            </Array>
+            <mxPoint x="610" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WzX_VTp9_LH-x0-8QG9Y-5" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Miscellaneous&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;business&lt;br&gt;(Negocios varios)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="128" x="552.5" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="WzX_VTp9_LH-x0-8QG9Y-6" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Retail and fashion business&lt;br&gt;( Negocio de comercio y moda)" vertex="1">
+          <mxGeometry height="30" width="185" x="634" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="WzX_VTp9_LH-x0-8QG9Y-7" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="WzX_VTp9_LH-x0-8QG9Y-1" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitX=0.5;exitY=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="792.5" y="176" as="sourcePoint" />
+            <mxPoint x="542.5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WzX_VTp9_LH-x0-8QG9Y-8" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="ffeLpd5_BTIP280ROa2w-38" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="363.5" y="220" />
+              <mxPoint x="442.5" y="220" />
+              <mxPoint x="720" y="220" />
+            </Array>
+            <mxPoint x="442.5" y="256" as="sourcePoint" />
+            <mxPoint x="720" y="254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ffeLpd5_BTIP280ROa2w-20" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:AdditionalSportFacilityService&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="245" x="832.5" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="ffeLpd5_BTIP280ROa2w-21" edge="1" parent="TK3qZutq_bcLfkljU9on-1" source="_0LBq_aVJUuHmLgXoGqU-0" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ffeLpd5_BTIP280ROa2w-20" value="has additional sport facility service&lt;br&gt;(tiene servicio adicional de instalación deportiva)">
+          <mxGeometry height="50" relative="1" width="50" x="0.6875" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="430" y="450" as="sourcePoint" />
+            <mxPoint x="220" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ffeLpd5_BTIP280ROa2w-38" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Financial service&lt;br&gt;(servicio financiero)" vertex="1">
+          <mxGeometry height="28" width="130" x="298.5" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="ffeLpd5_BTIP280ROa2w-44" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:AdditionalAccommodationService&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="280" x="-180" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="ffeLpd5_BTIP280ROa2w-45" edge="1" parent="TK3qZutq_bcLfkljU9on-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ffeLpd5_BTIP280ROa2w-44" value="has additional accommodation service&lt;br&gt;(tiene servicio adicional del alojamiento)">
+          <mxGeometry height="50" relative="1" width="50" x="0.6875" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-42.5" y="180" as="sourcePoint" />
+            <mxPoint x="-777.5" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ffeLpd5_BTIP280ROa2w-46" parent="TK3qZutq_bcLfkljU9on-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:AdditionalEducationalFacilityService&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="280" x="111" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="ffeLpd5_BTIP280ROa2w-47" edge="1" parent="TK3qZutq_bcLfkljU9on-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ffeLpd5_BTIP280ROa2w-46" value="has additional educational facility service&lt;br&gt;(tiene servicio adicional de instalación educativa)">
+          <mxGeometry height="50" relative="1" width="50" x="0.6875" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="248.5" y="130" as="sourcePoint" />
+            <mxPoint x="-486.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ffeLpd5_BTIP280ROa2w-48" parent="TK3qZutq_bcLfkljU9on-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;...&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="550" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="J2wFFcarXy35znyZ6Uqf" name="fig5-2-accommodation-establishment">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TEu0e14STvAw70j_VAjA-3" edge="1" parent="1" source="TEu0e14STvAw70j_VAjA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.9;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TEu0e14STvAw70j_VAjA-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="335" />
+            </Array>
+            <mxPoint x="580" y="298" as="sourcePoint" />
+            <mxPoint x="770" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-4" connectable="0" parent="TEu0e14STvAw70j_VAjA-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="has additional accommodation service&lt;br&gt;(tiene servicio adicional de alojamiento)" vertex="1">
+          <mxGeometry relative="1" x="0.4496" y="3" as="geometry">
+            <mxPoint x="-77" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-5" edge="1" parent="1" source="TEu0e14STvAw70j_VAjA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TEu0e14STvAw70j_VAjA-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="295" />
+            </Array>
+            <mxPoint x="432" y="281" as="sourcePoint" />
+            <mxPoint x="729" y="336" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-6" connectable="0" parent="TEu0e14STvAw70j_VAjA-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="accommodation unit category&lt;br&gt;(tipo de unidad de alojamiento)" vertex="1">
+          <mxGeometry relative="1" x="0.6547" y="-1" as="geometry">
+            <mxPoint x="-111" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Accommodation establishment&lt;br&gt;(Establecimiento alojativo)" vertex="1">
+          <mxGeometry height="40" width="380" x="110" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;skos:Concept&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;lt;&amp;lt;estur-kos:AdditionalAccomodationService&amp;gt;&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="271" x="780" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];dashed=1;align=left;" value="&lt;div&gt;autonomous check-in (check-in autónomo)&lt;div&gt;check-in time (hora de llegada)&lt;div&gt;check-out time (hora de salida)&lt;/div&gt;&lt;div&gt;number of accommodation units (número de unidades de alojamiento)&lt;/div&gt;&lt;div&gt;number of beds (número de camas)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="98" width="380" x="110" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-13" edge="1" parent="1" source="TEu0e14STvAw70j_VAjA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329.71428571428555" y="388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Camping&lt;br&gt;(Camping)" vertex="1">
+          <mxGeometry height="30" width="60" x="300" y="406.0000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Aparthotel&lt;br&gt;(Apartahotel)" vertex="1">
+          <mxGeometry height="30" width="79" x="391" y="406" as="geometry" />
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-16" edge="1" parent="1" source="TEu0e14STvAw70j_VAjA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260.19047619047615" y="388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Hostel&lt;br&gt;(Albergue)" vertex="1">
+          <mxGeometry height="30" width="60" x="230" y="406.0000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Hotel&lt;br&gt;(Hotel)" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="406.0000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-19" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;...&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="40" x="355" y="401" as="geometry" />
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-20" edge="1" parent="1" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="317" y="388" as="sourcePoint" />
+            <mxPoint x="317" y="348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-21" edge="1" parent="1" source="TEu0e14STvAw70j_VAjA-18" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TEu0e14STvAw70j_VAjA-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="388" />
+              <mxPoint x="430" y="388" />
+            </Array>
+            <mxPoint x="337" y="348" as="sourcePoint" />
+            <mxPoint x="387" y="298" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;skos:Concept&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;estur-kos:AccommodationUnitCategory&amp;gt;&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="271" x="780" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-23" edge="1" parent="1" source="TEu0e14STvAw70j_VAjA-12" style="endArrow=classic;html=1;rounded=0;exitX=0.999;exitY=0.036;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="aHv7fvNCiAlBWrzD75vr-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="590" y="358" as="sourcePoint" />
+            <mxPoint x="730" y="219" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TEu0e14STvAw70j_VAjA-24" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="accommodation rating&lt;br&gt;(clasificación del alojamiento)" vertex="1">
+          <mxGeometry x="620" y="299" as="geometry">
+            <mxPoint y="-49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aHv7fvNCiAlBWrzD75vr-1" edge="1" parent="1" source="TEu0e14STvAw70j_VAjA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.001;exitY=0.634;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="aHv7fvNCiAlBWrzD75vr-3" value="x">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110.4" y="314" />
+            </Array>
+            <mxPoint x="204" y="317" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aHv7fvNCiAlBWrzD75vr-2" connectable="0" parent="aHv7fvNCiAlBWrzD75vr-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="has price class&lt;br&gt;(gama de precios)" vertex="1">
+          <mxGeometry relative="1" x="0.5425" y="1" as="geometry">
+            <mxPoint x="48" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aHv7fvNCiAlBWrzD75vr-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:PriceClass&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="165" x="-260" y="299" as="geometry" />
+        </mxCell>
+        <mxCell id="aHv7fvNCiAlBWrzD75vr-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Price specification&lt;br&gt;(Especificacion de precio)" vertex="1">
+          <mxGeometry height="30" width="165" x="-260" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="aHv7fvNCiAlBWrzD75vr-5" edge="1" parent="1" source="TEu0e14STvAw70j_VAjA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.007;exitY=0.193;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="aHv7fvNCiAlBWrzD75vr-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="268.9" />
+              <mxPoint x="70" y="265" />
+            </Array>
+            <mxPoint x="204" y="303" as="sourcePoint" />
+            <mxPoint x="170" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aHv7fvNCiAlBWrzD75vr-6" connectable="0" parent="aHv7fvNCiAlBWrzD75vr-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="has price specification&lt;br&gt;(tiene especificación de precios)" vertex="1">
+          <mxGeometry relative="1" x="0.5425" y="1" as="geometry">
+            <mxPoint x="60" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aHv7fvNCiAlBWrzD75vr-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;skos:Concept&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;estur-kos:AccommodationRating&amp;gt;&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="271" x="780" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="aHv7fvNCiAlBWrzD75vr-8" edge="1" parent="1" source="TEu0e14STvAw70j_VAjA-7" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aHv7fvNCiAlBWrzD75vr-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="214" />
+            </Array>
+            <mxPoint x="240" y="130" as="sourcePoint" />
+            <mxPoint x="730" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aHv7fvNCiAlBWrzD75vr-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;skos:Concept&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;estur-kos:AccommodationRateType&amp;gt;&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="271" x="780" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aHv7fvNCiAlBWrzD75vr-10" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="accommodation rate type&lt;br&gt;(tipo de tarifa de alojamiento)" vertex="1">
+          <mxGeometry x="620" y="255" as="geometry">
+            <mxPoint y="-49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dfX4X3lJ7ZB2CRY3k7fr" name="fig5-3-food-establishment">
+    <mxGraphModel dx="1696" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Food establishment&lt;br&gt;(Establecimiento de restauración" vertex="1">
+          <mxGeometry height="30" width="196" x="394" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-2" edge="1" parent="1" source="1xnDM_p9ip8HnYp2jmWk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.2;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1xnDM_p9ip8HnYp2jmWk-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="433.2" y="320" />
+              <mxPoint x="265" y="320" />
+            </Array>
+            <mxPoint x="360" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-3" connectable="0" parent="1xnDM_p9ip8HnYp2jmWk-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="serves cuisine&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;(sirve tipo de cocina)&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.45" as="geometry">
+            <mxPoint x="-115" y="58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-4" edge="1" parent="1" source="1xnDM_p9ip8HnYp2jmWk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="1xnDM_p9ip8HnYp2jmWk-9" value="x">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-5" connectable="0" parent="1xnDM_p9ip8HnYp2jmWk-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="has price class&lt;br&gt;(gama de precios)" vertex="1">
+          <mxGeometry relative="1" x="0.5425" y="1" as="geometry">
+            <mxPoint x="39" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-6" edge="1" parent="1" source="1xnDM_p9ip8HnYp2jmWk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="1xnDM_p9ip8HnYp2jmWk-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-7" connectable="0" parent="1xnDM_p9ip8HnYp2jmWk-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="offers additional food establishment&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;service&lt;br&gt;(ofrece servicio adicional de establecimiento de restauración)&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3333" as="geometry">
+            <mxPoint x="-56" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];dashed=1;align=left;" value="average price per person (precio medio por persona)" vertex="1">
+          <mxGeometry height="34" width="196" x="394" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:PriceClass&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="196" x="-26" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:AdditionalFoodEstablishmentService&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="280" x="961" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:CuisineType&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="190" x="170" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-12" edge="1" parent="1" source="1xnDM_p9ip8HnYp2jmWk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.752;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;" target="1xnDM_p9ip8HnYp2jmWk-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="541.4" y="320" />
+              <mxPoint x="745" y="320" />
+            </Array>
+            <mxPoint x="540" y="300" as="sourcePoint" />
+            <mxPoint x="630" y="247" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-13" connectable="0" parent="1xnDM_p9ip8HnYp2jmWk-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="menu o&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ptions&amp;nbsp;&lt;br&gt;(opciones de menú)&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0104" y="-1" as="geometry">
+            <mxPoint x="61" y="59" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fillColor=#dae8fc;strokeColor=#6c8ebf;" value="skos:Concept&lt;div&gt;&amp;lt;&amp;lt;estur-kos:MenuOptions&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="170" x="660" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Price specification&lt;br&gt;(Especificacion de precio)" vertex="1">
+          <mxGeometry height="30" width="196" x="-26" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" value="Gastronomic resource&lt;br&gt;(Recurso gastronómico)" vertex="1">
+          <mxGeometry height="30" width="196" x="394" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-17" edge="1" parent="1" source="1xnDM_p9ip8HnYp2jmWk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1xnDM_p9ip8HnYp2jmWk-16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="492" y="390" />
+              <mxPoint x="492" y="390" />
+            </Array>
+            <mxPoint x="610" y="330" as="sourcePoint" />
+            <mxPoint x="765" y="503" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-18" connectable="0" parent="1xnDM_p9ip8HnYp2jmWk-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;offers gastronomic resource&lt;br&gt;(ofrece recurso gastronómico)&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0104" y="-1" as="geometry">
+            <mxPoint x="1" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-19" edge="1" parent="1" source="1xnDM_p9ip8HnYp2jmWk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="1xnDM_p9ip8HnYp2jmWk-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="394" y="230" />
+              <mxPoint x="315" y="230" />
+              <mxPoint x="315" y="225" />
+            </Array>
+            <mxPoint x="574" y="260" as="sourcePoint" />
+            <mxPoint x="360" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xnDM_p9ip8HnYp2jmWk-20" connectable="0" parent="1xnDM_p9ip8HnYp2jmWk-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="has price specification&lt;br&gt;(tiene especificación de precios)" vertex="1">
+          <mxGeometry relative="1" x="0.5425" y="1" as="geometry">
+            <mxPoint x="48" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
