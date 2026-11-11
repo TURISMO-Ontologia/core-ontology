@@ -46,7 +46,7 @@ estur-kos:AdditionalTourService a skos:ConceptScheme ;
 #################################################################
 
 estur-additionaltourservice:Audiodescription a skos:Concept;
-  skos:inScheme estur-kos:TourSeAdditionalTourServicervice;
+  skos:inScheme estur-kos:AdditionalTourService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
   skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
