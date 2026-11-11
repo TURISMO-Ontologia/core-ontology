@@ -22,10 +22,22 @@ estur-kos:AccommodationUnitCategory a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Accommodation unit category"@en ;
     rdfs:label "Categorías de unidades de alojamiento"@es ;
+    rdfs:label "Categories d'unitats d'allotjament"@ca ;
+    rdfs:label "Categories d'unitats d'allotjament"@ca-valencia ;
+    rdfs:label "Categorías de unidades de aloxamento"@gl ;
+    rdfs:label "Ostatu-unitateen kategoriak"@eu ;
     dct:title "Concept scheme grouping accommodation unit categories"@en ;
-    dct:title "Esquema de conceptos agrupando categorías de unidades de alojamiento"@es .
+    dct:title "Esquema de conceptos agrupando categorías de unidades de alojamiento"@es ;
+    dct:title "Esquema de conceptes que agrupa categories d'unitats d'allotjament"@ca ;
+    dct:title "Esquema de conceptes que agrupa categories d'unitats d'allotjament"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa categorías de unidades de aloxamento"@gl ;
+    dct:title "Ostatu-unitateen kategoriak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,34 +48,62 @@ estur-kos:AccommodationUnitCategory a skos:ConceptScheme ;
 estur-accommodationunitcategory:SingleRoom a skos:Concept;
   skos:inScheme estur-kos:AccommodationUnitCategory;
   skos:prefLabel "Single room"@en ;
-  skos:prefLabel "Habitación individual"@es .
+  skos:prefLabel "Habitación individual"@es ;
+  skos:prefLabel "Habitació individual"@ca ;
+  skos:prefLabel "Habitació individual"@ca-valencia ;
+  skos:prefLabel "Cuarto individual"@gl ;
+  skos:prefLabel "Banako gela"@eu .
 
 estur-accommodationunitcategory:DoubleRoom a skos:Concept;
   skos:inScheme estur-kos:AccommodationUnitCategory;
   skos:prefLabel "Double room"@en ;
-  skos:prefLabel "Habitación doble"@es .
+  skos:prefLabel "Habitación doble"@es ;
+  skos:prefLabel "Habitació doble"@ca ;
+  skos:prefLabel "Habitació doble"@ca-valencia ;
+  skos:prefLabel "Cuarto dobre"@gl ;
+  skos:prefLabel "Gela bikoitza"@eu .
 
 estur-accommodationunitcategory:TwinRoom a skos:Concept;
   skos:inScheme estur-kos:AccommodationUnitCategory;
   skos:prefLabel "Twin room"@en ;
-  skos:prefLabel "Habitación con camas separadas"@es .
+  skos:prefLabel "Habitación con camas separadas"@es ;
+  skos:prefLabel "Habitació amb llits separats"@ca ;
+  skos:prefLabel "Habitació amb llits separats"@ca-valencia ;
+  skos:prefLabel "Cuarto con camas separadas"@gl ;
+  skos:prefLabel "Ohe bereiziko gela"@eu .
 
 estur-accommodationunitcategory:FamilyRoom a skos:Concept;
   skos:inScheme estur-kos:AccommodationUnitCategory;
   skos:prefLabel "Family room"@en ;
-  skos:prefLabel "Habitación familiar"@es .
+  skos:prefLabel "Habitación familiar"@es ;
+  skos:prefLabel "Habitació familiar"@ca ;
+  skos:prefLabel "Habitació familiar"@ca-valencia ;
+  skos:prefLabel "Cuarto familiar"@gl ;
+  skos:prefLabel "Familientzako gela"@eu .
 
 estur-accommodationunitcategory:Suite a skos:Concept;
   skos:inScheme estur-kos:AccommodationUnitCategory;
   skos:prefLabel "Suite"@en ;
-  skos:prefLabel "Suite"@es .
+  skos:prefLabel "Suite"@es ;
+  skos:prefLabel "Suite"@ca ;
+  skos:prefLabel "Suite"@ca-valencia ;
+  skos:prefLabel "Suite"@gl ;
+  skos:prefLabel "Suitea"@eu .
 
 estur-accommodationunitcategory:Studio a skos:Concept;
   skos:inScheme estur-kos:AccommodationUnitCategory;
   skos:prefLabel "Studio"@en ;
-  skos:prefLabel "Estudio"@es .
+  skos:prefLabel "Estudio"@es ;
+  skos:prefLabel "Estudi"@ca ;
+  skos:prefLabel "Estudi"@ca-valencia ;
+  skos:prefLabel "Estudo"@gl ;
+  skos:prefLabel "Estudioa"@eu .
 
 estur-accommodationunitcategory:Apartment a skos:Concept;
   skos:inScheme estur-kos:AccommodationUnitCategory;
   skos:prefLabel "Apartment"@en ;
-  skos:prefLabel "Apartamento"@es .
+  skos:prefLabel "Apartamento"@es ;
+  skos:prefLabel "Apartament"@ca ;
+  skos:prefLabel "Apartament"@ca-valencia ;
+  skos:prefLabel "Apartamento"@gl ;
+  skos:prefLabel "Apartamentua"@eu .

@@ -22,10 +22,22 @@ estur-kos:AdditionalTransportInfrastructureService a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Additional transport infrastructure service"@en ;
     rdfs:label "Servicio adicional de infraestructura de transporte"@es ;
+    rdfs:label "Servei addicional d'infraestructura de transport"@ca ;
+    rdfs:label "Servici addicional d'infraestructura de transport"@ca-valencia ;
+    rdfs:label "Servizo adicional de infraestrutura de transporte"@gl ;
+    rdfs:label "Garraio-azpiegituraren zerbitzu gehigarria"@eu ;
     dct:title "Concept scheme grouping additional transport infrastructure services"@en ;
-    dct:title "Esquema de conceptos agrupando servicios adicionales de infraestructura de transporte"@es .
+    dct:title "Esquema de conceptos agrupando servicios adicionales de infraestructura de transporte"@es ;
+    dct:title "Esquema de conceptes que agrupa serveis addicionals d'infraestructura de transport"@ca ;
+    dct:title "Esquema de conceptes que agrupa servicis addicionals d'infraestructura de transport"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa servizos adicionais de infraestrutura de transporte"@gl ;
+    dct:title "Garraio-azpiegituraren zerbitzu gehigarriak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,48 +49,100 @@ estur-additionaltransportinfrastructureservice:InformationPoint a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportInfrastructureService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Information point"@en ;
-  skos:prefLabel "Punto de información"@es .
+  skos:prefLabel "Punto de información"@es ;
+  skos:prefLabel "Punt d'informació"@ca ;
+  skos:prefLabel "Punt d'informació"@ca-valencia ;
+  skos:prefLabel "Punto de información"@gl ;
+  skos:prefLabel "Informazio-gunea"@eu .
 
 estur-additionaltransportinfrastructureservice:ParkingFacility a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportInfrastructureService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Parking facility"@en ;
-  skos:prefLabel "Aparcamiento"@es .
+  skos:prefLabel "Aparcamiento"@es ;
+  skos:prefLabel "Aparcament"@ca ;
+  skos:prefLabel "Aparcament"@ca-valencia ;
+  skos:prefLabel "Aparcadoiro"@gl ;
+  skos:prefLabel "Aparkalekua"@eu .
 
 estur-additionaltransportinfrastructureservice:SmokingRooms a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportInfrastructureService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Smoking rooms"@en ;
-  skos:prefLabel "Salas para fumadores"@es .
+  skos:prefLabel "Salas para fumadores"@es ;
+  skos:prefLabel "Sales per a fumadors"@ca ;
+  skos:prefLabel "Sales per a fumadors"@ca-valencia ;
+  skos:prefLabel "Salas para fumadores"@gl ;
+  skos:prefLabel "Erretzaileentzako aretoak"@eu .
 
 estur-additionaltransportinfrastructureservice:VipRooms a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportInfrastructureService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "VIP rooms"@en ;
-  skos:prefLabel "Salas VIP"@es .
+  skos:prefLabel "Salas VIP"@es ;
+  skos:prefLabel "Sales VIP"@ca ;
+  skos:prefLabel "Sales VIP"@ca-valencia ;
+  skos:prefLabel "Salas VIP"@gl ;
+  skos:prefLabel "VIP aretoak"@eu .
 
 estur-additionaltransportinfrastructureservice:Wifi a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportInfrastructureService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Wifi"@en ;
-  skos:prefLabel "Wifi"@es .
+  skos:prefLabel "Wifi"@es ;
+  skos:prefLabel "Wifi"@ca ;
+  skos:prefLabel "Wifi"@ca-valencia ;
+  skos:prefLabel "Wifi"@gl ;
+  skos:prefLabel "Wifi"@eu .
 
 estur-additionaltransportinfrastructureservice:PetRecreationArea a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportInfrastructureService;
   skos:prefLabel "Pet recreation area"@en ;
-  skos:prefLabel "Zona de recreo para mascotas"@es .
+  skos:prefLabel "Zona de recreo para mascotas"@es ;
+  skos:prefLabel "Zona d'esbarjo per a animals de companyia"@ca ;
+  skos:prefLabel "Zona d'esbarjo per a animals de companyia"@ca-valencia ;
+  skos:prefLabel "Zona de recreo para mascotas"@gl ;
+  skos:prefLabel "Maskotentzako jolas-eremua"@eu .
 
 estur-additionaltransportinfrastructureservice:PetRestingPoint a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportInfrastructureService;
   skos:prefLabel "Pet resting point"@en ;
-  skos:prefLabel "Área de descanso para mascotas"@es .
+  skos:prefLabel "Área de descanso para mascotas"@es ;
+  skos:prefLabel "Àrea de descans per a animals de companyia"@ca ;
+  skos:prefLabel "Àrea de descans per a animals de companyia"@ca-valencia ;
+  skos:prefLabel "Área de descanso para mascotas"@gl ;
+  skos:prefLabel "Maskotentzako atseden-eremua"@eu .
 
 estur-additionaltransportinfrastructureservice:PetFriendlySpace a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportInfrastructureService;
   skos:prefLabel "Pet friendly space"@en ;
-  skos:prefLabel "Espacio habilitado para mascotas"@es .
+  skos:prefLabel "Espacio habilitado para mascotas"@es ;
+  skos:prefLabel "Espai habilitat per a animals de companyia"@ca ;
+  skos:prefLabel "Espai habilitat per a animals de companyia"@ca-valencia ;
+  skos:prefLabel "Espazo habilitado para mascotas"@gl ;
+  skos:prefLabel "Maskotentzako egokitutako gunea"@eu .

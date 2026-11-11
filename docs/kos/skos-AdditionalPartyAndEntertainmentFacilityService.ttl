@@ -22,10 +22,22 @@ estur-kos:AdditionalPartyAndEntertainmentFacilityService a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Additional party and entertainment facility service"@en ;
     rdfs:label "Servicio adicional de una instalación de fiesta y entretenimiento"@es ;
+    rdfs:label "Servei addicional d'una instal·lació de festa i entreteniment"@ca ;
+    rdfs:label "Servici addicional d'una instal·lació de festa i entreteniment"@ca-valencia ;
+    rdfs:label "Servizo adicional dunha instalación de festa e entretemento"@gl ;
+    rdfs:label "Festa- eta entretenimendu-instalazio baten zerbitzu gehigarria"@eu ;
     dct:title "Concept scheme grouping additional party and entertainment facility services"@en ;
-    dct:title "Esquema de conceptos agrupando servicios adicionales de instalaciones de fiesta y entretenimiento"@es .
+    dct:title "Esquema de conceptos agrupando servicios adicionales de instalaciones de fiesta y entretenimiento"@es ;
+    dct:title "Esquema de conceptes que agrupa serveis addicionals d'instal·lacions de festa i entreteniment"@ca ;
+    dct:title "Esquema de conceptes que agrupa servicis addicionals d'instal·lacions de festa i entreteniment"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa servizos adicionais de instalacións de festa e entretemento"@gl ;
+    dct:title "Festa- eta entretenimendu-instalazioen zerbitzu gehigarriak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -35,22 +47,38 @@ estur-kos:AdditionalPartyAndEntertainmentFacilityService a skos:ConceptScheme ;
 estur-additionalpartyandentertainmentfacilityservice:CloackRoom a skos:Concept;
   skos:inScheme estur-kos:AdditionalPartyAndEntertainmentFacilityService;
   skos:prefLabel "Cloack room"@en ;
-  skos:prefLabel "Guardarropa"@es .
+  skos:prefLabel "Guardarropa"@es ;
+  skos:prefLabel "Guarda-roba"@ca ;
+  skos:prefLabel "Guarda-roba"@ca-valencia ;
+  skos:prefLabel "Gardarroupa"@gl ;
+  skos:prefLabel "Arropazaindegia"@eu .
 
 estur-additionalpartyandentertainmentfacilityservice:OutdoorTables a skos:Concept;
   skos:inScheme estur-kos:AdditionalPartyAndEntertainmentFacilityService;
   skos:prefLabel "Outdoor tables"@en ;
-  skos:prefLabel "Mesas exteriores"@es .
+  skos:prefLabel "Mesas exteriores"@es ;
+  skos:prefLabel "Taules exteriors"@ca ;
+  skos:prefLabel "Taules exteriors"@ca-valencia ;
+  skos:prefLabel "Mesas exteriores"@gl ;
+  skos:prefLabel "Kanpoko mahaiak"@eu .
 
 estur-additionalpartyandentertainmentfacilityservice:Venue a skos:Concept;
   skos:inScheme estur-kos:AdditionalPartyAndEntertainmentFacilityService;
   skos:prefLabel "Venue"@en ;
-  skos:prefLabel "Lugar de celebración"@es .
+  skos:prefLabel "Lugar de celebración"@es ;
+  skos:prefLabel "Lloc de celebració"@ca ;
+  skos:prefLabel "Lloc de celebració"@ca-valencia ;
+  skos:prefLabel "Lugar de celebración"@gl ;
+  skos:prefLabel "Ospakizun-lekua"@eu .
 
 estur-additionalpartyandentertainmentfacilityservice:VIPRoom a skos:Concept;
   skos:inScheme estur-kos:AdditionalPartyAndEntertainmentFacilityService;
   skos:prefLabel "VIP room"@en ;
-  skos:prefLabel "Sala VIP"@es .
+  skos:prefLabel "Sala VIP"@es ;
+  skos:prefLabel "Sala VIP"@ca ;
+  skos:prefLabel "Sala VIP"@ca-valencia ;
+  skos:prefLabel "Sala VIP"@gl ;
+  skos:prefLabel "VIP aretoa"@eu .
 
 
 

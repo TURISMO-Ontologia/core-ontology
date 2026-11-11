@@ -22,10 +22,22 @@ estur-kos:AgrotourismExperienceRelatedProduct a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Agrotourism experience related product"@en ;
     rdfs:label "Producto relacionado con una experiencia agriturística"@es ;
+    rdfs:label "Producte relacionat amb una experiència agroturística"@ca ;
+    rdfs:label "Producte relacionat amb una experiència agroturística"@ca-valencia ;
+    rdfs:label "Produto relacionado cunha experiencia agroturística"@gl ;
+    rdfs:label "Agroturismo-esperientzia batekin lotutako produktua"@eu ;
     dct:title "Concept scheme grouping agrotourism experience related products"@en ;
-    dct:title "Esquema de conceptos agrupando productos relacionados con experiencias agroturísticas"@es .
+    dct:title "Esquema de conceptos agrupando productos relacionados con experiencias agroturísticas"@es ;
+    dct:title "Esquema de conceptes que agrupa productes relacionats amb experiències agroturístiques"@ca ;
+    dct:title "Esquema de conceptes que agrupa productes relacionats amb experiències agroturístiques"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa produtos relacionados con experiencias agroturísticas"@gl ;
+    dct:title "Agroturismo-esperientziekin lotutako produktuak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,99 +48,179 @@ estur-kos:AgrotourismExperienceRelatedProduct a skos:ConceptScheme ;
 estur-agrotourismexperiencerelatedproduct:Oil a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Oil"@en ;
-  skos:prefLabel "Aceite"@es .
+  skos:prefLabel "Aceite"@es ;
+  skos:prefLabel "Oli"@ca ;
+  skos:prefLabel "Oli"@ca-valencia ;
+  skos:prefLabel "Aceite"@gl ;
+  skos:prefLabel "Olioa"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Almond a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Almond"@en ;
-  skos:prefLabel "Almendra"@es .
+  skos:prefLabel "Almendra"@es ;
+  skos:prefLabel "Ametlla"@ca ;
+  skos:prefLabel "Ametla"@ca-valencia ;
+  skos:prefLabel "Améndoa"@gl ;
+  skos:prefLabel "Almendra"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Handicraft a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Handicraft"@en ;
-  skos:prefLabel "Artesanía"@es .
+  skos:prefLabel "Artesanía"@es ;
+  skos:prefLabel "Artesania"@ca ;
+  skos:prefLabel "Artesania"@ca-valencia ;
+  skos:prefLabel "Artesanía"@gl ;
+  skos:prefLabel "Artisautza"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Meat a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Meat"@en ;
-  skos:prefLabel "Cárnico"@es .
+  skos:prefLabel "Cárnico"@es ;
+  skos:prefLabel "Producte carni"@ca ;
+  skos:prefLabel "Producte carni"@ca-valencia ;
+  skos:prefLabel "Produto cárnico"@gl ;
+  skos:prefLabel "Haragi-produktua"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Beer a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Beer"@en ;
-  skos:prefLabel "Cerveza"@es .
+  skos:prefLabel "Cerveza"@es ;
+  skos:prefLabel "Cervesa"@ca ;
+  skos:prefLabel "Cervesa"@ca-valencia ;
+  skos:prefLabel "Cervexa"@gl ;
+  skos:prefLabel "Garagardoa"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Preserve a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Preserve"@en ;
-  skos:prefLabel "Conserva"@es .
+  skos:prefLabel "Conserva"@es ;
+  skos:prefLabel "Conserva"@ca ;
+  skos:prefLabel "Conserva"@ca-valencia ;
+  skos:prefLabel "Conserva"@gl ;
+  skos:prefLabel "Kontserba"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Sweet a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Sweet"@en ;
-  skos:prefLabel "Dulce"@es .
+  skos:prefLabel "Dulce"@es ;
+  skos:prefLabel "Dolç"@ca ;
+  skos:prefLabel "Dolç"@ca-valencia ;
+  skos:prefLabel "Doce"@gl ;
+  skos:prefLabel "Gozoa"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Fruit a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Fruit"@en ;
-  skos:prefLabel "Fruta"@es .
+  skos:prefLabel "Fruta"@es ;
+  skos:prefLabel "Fruita"@ca ;
+  skos:prefLabel "Fruita"@ca-valencia ;
+  skos:prefLabel "Froita"@gl ;
+  skos:prefLabel "Fruta"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Nut a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Nut"@en ;
-  skos:prefLabel "Fruto seco"@es .
+  skos:prefLabel "Fruto seco"@es ;
+  skos:prefLabel "Fruita seca"@ca ;
+  skos:prefLabel "Fruita seca"@ca-valencia ;
+  skos:prefLabel "Froito seco"@gl ;
+  skos:prefLabel "Fruitu lehorra"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Vegetable a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Vegetable"@en ;
-  skos:prefLabel "Hortaliza"@es .
+  skos:prefLabel "Hortaliza"@es ;
+  skos:prefLabel "Hortalissa"@ca ;
+  skos:prefLabel "Hortalissa"@ca-valencia ;
+  skos:prefLabel "Hortaliza"@gl ;
+  skos:prefLabel "Barazkia"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Ham a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Ham"@en ;
-  skos:prefLabel "Jamón"@es .
+  skos:prefLabel "Jamón"@es ;
+  skos:prefLabel "Pernil"@ca ;
+  skos:prefLabel "Pernil"@ca-valencia ;
+  skos:prefLabel "Xamón"@gl ;
+  skos:prefLabel "Urdaiazpikoa"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Seafood a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Seafood"@en ;
-  skos:prefLabel "Marisco"@es .
+  skos:prefLabel "Marisco"@es ;
+  skos:prefLabel "Marisc"@ca ;
+  skos:prefLabel "Marisc"@ca-valencia ;
+  skos:prefLabel "Marisco"@gl ;
+  skos:prefLabel "Itsaskia"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Honey a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Honey"@en ;
-  skos:prefLabel "Miel"@es .
+  skos:prefLabel "Miel"@es ;
+  skos:prefLabel "Mel"@ca ;
+  skos:prefLabel "Mel"@ca-valencia ;
+  skos:prefLabel "Mel"@gl ;
+  skos:prefLabel "Eztia"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Bread a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Bread"@en ;
-  skos:prefLabel "Pan"@es .
+  skos:prefLabel "Pan"@es ;
+  skos:prefLabel "Pa"@ca ;
+  skos:prefLabel "Pa"@ca-valencia ;
+  skos:prefLabel "Pan"@gl ;
+  skos:prefLabel "Ogia"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Fish a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Fish"@en ;
-  skos:prefLabel "Pescado"@es .
+  skos:prefLabel "Pescado"@es ;
+  skos:prefLabel "Peix"@ca ;
+  skos:prefLabel "Peix"@ca-valencia ;
+  skos:prefLabel "Peixe"@gl ;
+  skos:prefLabel "Arraina"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Cheese a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Cheese"@en ;
-  skos:prefLabel "Queso"@es .
+  skos:prefLabel "Queso"@es ;
+  skos:prefLabel "Formatge"@ca ;
+  skos:prefLabel "Formatge"@ca-valencia ;
+  skos:prefLabel "Queixo"@gl ;
+  skos:prefLabel "Gazta"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Mushroom a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Mushroom"@en ;
-  skos:prefLabel "Seta"@es .
+  skos:prefLabel "Seta"@es ;
+  skos:prefLabel "Bolet"@ca ;
+  skos:prefLabel "Bolet"@ca-valencia ;
+  skos:prefLabel "Cogomelo"@gl ;
+  skos:prefLabel "Perretxikoa"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Cider a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Cider"@en ;
-  skos:prefLabel "Sidra"@es .
+  skos:prefLabel "Sidra"@es ;
+  skos:prefLabel "Sidra"@ca ;
+  skos:prefLabel "Sidra"@ca-valencia ;
+  skos:prefLabel "Sidra"@gl ;
+  skos:prefLabel "Sagardoa"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Truffle a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Truffle"@en ;
-  skos:prefLabel "Trufa"@es .
+  skos:prefLabel "Trufa"@es ;
+  skos:prefLabel "Tòfona"@ca ;
+  skos:prefLabel "Tòfona"@ca-valencia ;
+  skos:prefLabel "Trufa"@gl ;
+  skos:prefLabel "Boilurra"@eu .
 
 estur-agrotourismexperiencerelatedproduct:Wine a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceRelatedProduct;
   skos:prefLabel "Wine"@en ;
-  skos:prefLabel "Vino"@es .
+  skos:prefLabel "Vino"@es ;
+  skos:prefLabel "Vi"@ca ;
+  skos:prefLabel "Vi"@ca-valencia ;
+  skos:prefLabel "Viño"@gl ;
+  skos:prefLabel "Ardoa"@eu .

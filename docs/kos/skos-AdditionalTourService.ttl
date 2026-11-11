@@ -22,10 +22,22 @@ estur-kos:AdditionalTourService a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Additional tour service"@en ;
     rdfs:label "Servicio adicional de una visita guiada"@es ;
+    rdfs:label "Servei addicional d'una visita guiada"@ca ;
+    rdfs:label "Servici addicional d'una visita guiada"@ca-valencia ;
+    rdfs:label "Servizo adicional dunha visita guiada"@gl ;
+    rdfs:label "Bisita gidatu baten zerbitzu gehigarria"@eu ;
     dct:title "Concept scheme grouping additional tour services"@en ;
-    dct:title "Esquema de conceptos agrupando servicios adicionales de una visita guiada"@es .
+    dct:title "Esquema de conceptos agrupando servicios adicionales de una visita guiada"@es ;
+    dct:title "Esquema de conceptes que agrupa serveis addicionals d'una visita guiada"@ca ;
+    dct:title "Esquema de conceptes que agrupa servicis addicionals d'una visita guiada"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa servizos adicionais dunha visita guiada"@gl ;
+    dct:title "Bisita gidatu baten zerbitzu gehigarriak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,35 +49,75 @@ estur-additionaltourservice:Audiodescription a skos:Concept;
   skos:inScheme estur-kos:TourSeAdditionalTourServicervice;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Audiodescription"@en ;
-  skos:prefLabel "Audiodescripción"@es .
+  skos:prefLabel "Audiodescripción"@es ;
+  skos:prefLabel "Audiodescripció"@ca ;
+  skos:prefLabel "Audiodescripció"@ca-valencia ;
+  skos:prefLabel "Audiodescrición"@gl ;
+  skos:prefLabel "Audiodeskribapena"@eu .
 
 estur-additionaltourservice:Audioguide a skos:Concept;
   skos:inScheme estur-kos:AdditionalTourService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Audioguide"@en ;
-  skos:prefLabel "Audioguía"@es .
+  skos:prefLabel "Audioguía"@es ;
+  skos:prefLabel "Audioguia"@ca ;
+  skos:prefLabel "Audioguia"@ca-valencia ;
+  skos:prefLabel "Audioguía"@gl ;
+  skos:prefLabel "Audiogida"@eu .
 
 estur-additionaltourservice:Gamification a skos:Concept;
   skos:inScheme estur-kos:AdditionalTourService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Gamification"@en ;
-  skos:prefLabel "Gamificación"@es .
+  skos:prefLabel "Gamificación"@es ;
+  skos:prefLabel "Gamificació"@ca ;
+  skos:prefLabel "Gamificació"@ca-valencia ;
+  skos:prefLabel "Gamificación"@gl ;
+  skos:prefLabel "Gamifikazioa"@eu .
 
 estur-additionaltourservice:FastLane a skos:Concept;
   skos:inScheme estur-kos:AdditionalTourService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Fast lane"@en ;
-  skos:prefLabel "Fast lane"@es .
+  skos:prefLabel "Fast lane"@es ;
+  skos:prefLabel "Accés ràpid"@ca ;
+  skos:prefLabel "Accés ràpid"@ca-valencia ;
+  skos:prefLabel "Acceso rápido"@gl ;
+  skos:prefLabel "Sarbide azkarra"@eu .
 
 estur-additionaltourservice:GearProvision a skos:Concept;
   skos:inScheme estur-kos:AdditionalTourService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Gear provision"@en ;
-  skos:prefLabel "Gear provision"@es .
+  skos:prefLabel "Gear provision"@es ;
+  skos:prefLabel "Subministrament d'equipament"@ca ;
+  skos:prefLabel "Subministrament d'equipament"@ca-valencia ;
+  skos:prefLabel "Subministración de equipamento"@gl ;
+  skos:prefLabel "Ekipamendu-hornidura"@eu .
 
 

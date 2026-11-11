@@ -22,10 +22,22 @@ estur-kos:LabelType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Label type"@en ;
     rdfs:label "Tipo de distintivo"@es ;
+    rdfs:label "Tipus de distintiu"@ca ;
+    rdfs:label "Tipus de distintiu"@ca-valencia ;
+    rdfs:label "Tipo de distintivo"@gl ;
+    rdfs:label "Bereizgarri mota"@eu ;
     dct:title "Concept scheme grouping label types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de distintivos"@es .
+    dct:title "Esquema de conceptos agrupando tipos de distintivos"@es ;
+    dct:title "Esquema de conceptes que agrupa tipus de distintius"@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus de distintius"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de distintivos"@gl ;
+    dct:title "Bereizgarri motak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,28 +48,52 @@ estur-kos:LabelType a skos:ConceptScheme ;
 estur-labeltype:LGTBIFriendly a skos:Concept;
   skos:inScheme estur-kos:LabelType;
   skos:prefLabel "Friendly with the LGTBI+ community"@en ;
-  skos:prefLabel "Amigable con la comunidad LGTBI+"@es .
+  skos:prefLabel "Amigable con la comunidad LGTBI+"@es ;
+  skos:prefLabel "Amigable amb la comunitat LGTBI+"@ca ;
+  skos:prefLabel "Amigable amb la comunitat LGTBI+"@ca-valencia ;
+  skos:prefLabel "Amigable coa comunidade LGTBI+"@gl ;
+  skos:prefLabel "LGTBI+ komunitatearekiko atsegina"@eu .
 
 estur-labeltype:PetFriendly a skos:Concept;
   skos:inScheme estur-kos:LabelType;
   skos:prefLabel "Pet friendly"@en ;
-  skos:prefLabel "Amigable con las mascotas"@es .
+  skos:prefLabel "Amigable con las mascotas"@es ;
+  skos:prefLabel "Amigable amb els animals de companyia"@ca ;
+  skos:prefLabel "Amigable amb els animals de companyia"@ca-valencia ;
+  skos:prefLabel "Amigable coas mascotas"@gl ;
+  skos:prefLabel "Maskotekiko atsegina"@eu .
 
 estur-labeltype:TaxFree a skos:Concept;
   skos:inScheme estur-kos:LabelType;
   skos:note "This concept is only applicable to shops"@en;
   skos:note "Este concepto es sólo aplicable a comercios"@es;
+  skos:note "Aquest concepte només és aplicable a comerços"@ca;
+  skos:note "Este concepte només és aplicable a comerços"@ca-valencia;
+  skos:note "Este concepto só é aplicable a comercios"@gl;
+  skos:note "Kontzeptu hau saltokiei soilik aplika dakieke"@eu;
   skos:prefLabel "Tax free"@en ;
-  skos:prefLabel "Libre de impuestos"@es .
+  skos:prefLabel "Libre de impuestos"@es ;
+  skos:prefLabel "Lliure d'impostos"@ca ;
+  skos:prefLabel "Lliure d'impostos"@ca-valencia ;
+  skos:prefLabel "Libre de impostos"@gl ;
+  skos:prefLabel "Zergarik gabea"@eu .
 
 estur-labeltype:EarlyTaxRefund a skos:Concept;
   skos:inScheme estur-kos:LabelType;
   skos:prefLabel "Early tax refund"@en ;
-  skos:prefLabel "Devolución anticipada del IVA"@es .
+  skos:prefLabel "Devolución anticipada del IVA"@es ;
+  skos:prefLabel "Devolució anticipada de l'IVA"@ca ;
+  skos:prefLabel "Devolució anticipada de l'IVA"@ca-valencia ;
+  skos:prefLabel "Devolución anticipada do IVE"@gl ;
+  skos:prefLabel "BEZaren itzulketa aurreratua"@eu .
 
 estur-labeltype:LocallySourcedProduct a skos:Concept;
   skos:inScheme estur-kos:LabelType;
   skos:prefLabel "Locally sourced product"@en ;
   skos:prefLabel "Producto de proximidad"@es ;
+  skos:prefLabel "Producte de proximitat"@ca ;
+  skos:prefLabel "Producte de proximitat"@ca-valencia ;
+  skos:prefLabel "Produto de proximidade"@gl ;
+  skos:prefLabel "Hurbileko produktua"@eu ;
   skos:altLabel "Producto Km0"@es.
 

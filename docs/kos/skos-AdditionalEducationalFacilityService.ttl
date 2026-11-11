@@ -22,10 +22,22 @@ estur-kos:AdditionalEducationalFacilityService a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Additional educational facility service"@en ;
     rdfs:label "Servicio adicional de la instalación educativa"@es ;
+    rdfs:label "Servei addicional de la instal·lació educativa"@ca ;
+    rdfs:label "Servici addicional de la instal·lació educativa"@ca-valencia ;
+    rdfs:label "Servizo adicional da instalación educativa"@gl ;
+    rdfs:label "Hezkuntza-instalazioaren zerbitzu gehigarria"@eu ;
     dct:title "Concept scheme grouping additional educational facility services"@en ;
-    dct:title "Esquema de conceptos agrupando servicios adicionales de instalaciones educativas"@es .
+    dct:title "Esquema de conceptos agrupando servicios adicionales de instalaciones educativas"@es ;
+    dct:title "Esquema de conceptes que agrupa serveis addicionals d'instal·lacions educatives"@ca ;
+    dct:title "Esquema de conceptes que agrupa servicis addicionals d'instal·lacions educatives"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa servizos adicionais de instalacións educativas"@gl ;
+    dct:title "Hezkuntza-instalazioen zerbitzu gehigarriak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,41 +49,89 @@ estur-additionaleducationalfacilityservice:ChildrenGames a skos:Concept;
   skos:inScheme estur-kos:AdditionalEducationalFacilityService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Children games"@en ;
-  skos:prefLabel "Juegos para niños"@es .
+  skos:prefLabel "Juegos para niños"@es ;
+  skos:prefLabel "Jocs per a nens"@ca ;
+  skos:prefLabel "Jocs per a xiquets"@ca-valencia ;
+  skos:prefLabel "Xogos para nenos"@gl ;
+  skos:prefLabel "Haurrentzako jolasak"@eu .
 
 estur-additionaleducationalfacilityservice:Gamification a skos:Concept;
   skos:inScheme estur-kos:AdditionalEducationalFacilityService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Gamification"@en ;
-  skos:prefLabel "Gamificación"@es .
+  skos:prefLabel "Gamificación"@es ;
+  skos:prefLabel "Gamificació"@ca ;
+  skos:prefLabel "Gamificació"@ca-valencia ;
+  skos:prefLabel "Gamificación"@gl ;
+  skos:prefLabel "Gamifikazioa"@eu .
 
 estur-additionaleducationalfacilityservice:Pool a skos:Concept;
   skos:inScheme estur-kos:AdditionalEducationalFacilityService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Pool"@en ;
-  skos:prefLabel "Piscina"@es .
+  skos:prefLabel "Piscina"@es ;
+  skos:prefLabel "Piscina"@ca ;
+  skos:prefLabel "Piscina"@ca-valencia ;
+  skos:prefLabel "Piscina"@gl ;
+  skos:prefLabel "Igerilekua"@eu .
 
 estur-additionaleducationalfacilityservice:QrCodes a skos:Concept;
   skos:inScheme estur-kos:AdditionalEducationalFacilityService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "QR codes"@en ;
-  skos:prefLabel "Códigos QR"@es .
+  skos:prefLabel "Códigos QR"@es ;
+  skos:prefLabel "Codis QR"@ca ;
+  skos:prefLabel "Codis QR"@ca-valencia ;
+  skos:prefLabel "Códigos QR"@gl ;
+  skos:prefLabel "QR kodeak"@eu .
 
 estur-additionaleducationalfacilityservice:EventVenue a skos:Concept;
   skos:inScheme estur-kos:AdditionalEducationalFacilityService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Event venue"@en ;
-  skos:prefLabel "Lugar de celebración"@es .
+  skos:prefLabel "Lugar de celebración"@es ;
+  skos:prefLabel "Lloc de celebració"@ca ;
+  skos:prefLabel "Lloc de celebració"@ca-valencia ;
+  skos:prefLabel "Lugar de celebración"@gl ;
+  skos:prefLabel "Ospakizun-lekua"@eu .
 
 estur-additionaleducationalfacilityservice:Workshop a skos:Concept;
   skos:inScheme estur-kos:AdditionalEducationalFacilityService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Workshop"@en ;
-  skos:prefLabel "Taller"@es .
+  skos:prefLabel "Taller"@es ;
+  skos:prefLabel "Taller"@ca ;
+  skos:prefLabel "Taller"@ca-valencia ;
+  skos:prefLabel "Obradoiro"@gl ;
+  skos:prefLabel "Tailerra"@eu .
 

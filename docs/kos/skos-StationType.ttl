@@ -22,10 +22,22 @@ estur-kos:StationType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Station type"@en ;
     rdfs:label "Tipo de estación"@es ;
+    rdfs:label "Tipus d'estació"@ca ;
+    rdfs:label "Tipus d'estació"@ca-valencia ;
+    rdfs:label "Tipo de estación"@gl ;
+    rdfs:label "Geltoki mota"@eu ;
     dct:title "Concept scheme grouping station types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de estación"@es .
+    dct:title "Esquema de conceptos agrupando tipos de estación"@es ;
+    dct:title "Esquema de conceptes que agrupa tipus d'estació"@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus d'estació"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de estación"@gl ;
+    dct:title "Geltoki motak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,33 +49,73 @@ estur-stationtype:BusStop a skos:Concept;
   skos:inScheme estur-kos:StationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Bus stop"@en ;
-  skos:prefLabel "Parada de autobús"@es .
+  skos:prefLabel "Parada de autobús"@es ;
+  skos:prefLabel "Parada d'autobús"@ca ;
+  skos:prefLabel "Parada d'autobús"@ca-valencia ;
+  skos:prefLabel "Parada de autobús"@gl ;
+  skos:prefLabel "Autobus-geltokia"@eu .
 
 estur-stationtype:CableCarStop a skos:Concept;
   skos:inScheme estur-kos:StationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Cable car stop"@en ;
-  skos:prefLabel "Parada de cable car"@es .
+  skos:prefLabel "Parada de cable car"@es ;
+  skos:prefLabel "Parada de funicular"@ca ;
+  skos:prefLabel "Parada de funicular"@ca-valencia ;
+  skos:prefLabel "Parada de funicular"@gl ;
+  skos:prefLabel "Funikular-geltokia"@eu .
 
 estur-stationtype:CableWayStop a skos:Concept;
   skos:inScheme estur-kos:StationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Cable way stop"@en ;
-  skos:prefLabel "Parada de cable way"@es .
+  skos:prefLabel "Parada de cable way"@es ;
+  skos:prefLabel "Parada de telefèric"@ca ;
+  skos:prefLabel "Parada de telefèric"@ca-valencia ;
+  skos:prefLabel "Parada de teleférico"@gl ;
+  skos:prefLabel "Teleferiko-geltokia"@eu .
 
 estur-stationtype:SubwayStation a skos:Concept;
   skos:inScheme estur-kos:StationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Subway station"@en ;
-  skos:prefLabel "Estación de suburbano"@es .
+  skos:prefLabel "Estación de suburbano"@es ;
+  skos:prefLabel "Estació de metro"@ca ;
+  skos:prefLabel "Estació de metro"@ca-valencia ;
+  skos:prefLabel "Estación de metro"@gl ;
+  skos:prefLabel "Metro-geltokia"@eu .
 
 estur-stationtype:TramStop a skos:Concept;
   skos:inScheme estur-kos:StationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Tram stop"@en ;
-  skos:prefLabel "Parada de tranvía"@es .
+  skos:prefLabel "Parada de tranvía"@es ;
+  skos:prefLabel "Parada de tramvia"@ca ;
+  skos:prefLabel "Parada de tramvia"@ca-valencia ;
+  skos:prefLabel "Parada de tranvía"@gl ;
+  skos:prefLabel "Tranbia-geltokia"@eu .

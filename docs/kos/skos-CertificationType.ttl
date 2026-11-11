@@ -22,10 +22,22 @@ estur-kos:CertificationType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Certification type"@en ;
     rdfs:label "Tipo de certificación"@es ;
+    rdfs:label "Tipus de certificació"@ca ;
+    rdfs:label "Tipus de certificació"@ca-valencia ;
+    rdfs:label "Tipo de certificación"@gl ;
+    rdfs:label "Ziurtapen mota"@eu ;
     dct:title "Concept scheme grouping certification types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de certificación"@es .
+    dct:title "Esquema de conceptos agrupando tipos de certificación"@es ;
+    dct:title "Esquema de conceptes que agrupa tipus de certificació"@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus de certificació"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de certificación"@gl ;
+    dct:title "Ziurtapen motak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,25 +49,41 @@ estur-kos:CertificationType a skos:ConceptScheme ;
 estur-certificationtype:TourismCertification a skos:Concept;
   skos:inScheme estur-kos:CertificationType;
   skos:prefLabel "Tourism certification"@en ;
-  skos:prefLabel "Certificación turística"@es .
+  skos:prefLabel "Certificación turística"@es ;
+  skos:prefLabel "Certificació turística"@ca ;
+  skos:prefLabel "Certificació turística"@ca-valencia ;
+  skos:prefLabel "Certificación turística"@gl ;
+  skos:prefLabel "Turismo-ziurtapena"@eu .
 
 estur-certificationtype:BestTourismVillages a skos:Concept;
   skos:inScheme estur-kos:CertificationType;
   skos:broader estur-certificationtype:TourismCertification;
   skos:prefLabel "Best Tourism Villages"@en ;
-  skos:prefLabel "Best Tourism Villages"@es .
+  skos:prefLabel "Best Tourism Villages"@es ;
+  skos:prefLabel "Best Tourism Villages"@ca ;
+  skos:prefLabel "Best Tourism Villages"@ca-valencia ;
+  skos:prefLabel "Best Tourism Villages"@gl ;
+  skos:prefLabel "Best Tourism Villages"@eu .
 
 estur-certificationtype:BiosphereCertification a skos:Concept;
   skos:inScheme estur-kos:CertificationType;
   skos:broader estur-certificationtype:TourismCertification;
   skos:prefLabel "Biosphere certification"@en ;
-  skos:prefLabel "Biosphere"@es .
+  skos:prefLabel "Biosphere"@es ;
+  skos:prefLabel "Biosphere"@ca ;
+  skos:prefLabel "Biosphere"@ca-valencia ;
+  skos:prefLabel "Biosphere"@gl ;
+  skos:prefLabel "Biosphere"@eu .
 
 estur-certificationtype:EuropeanRouteOfIndustrialHeritage a skos:Concept;
   skos:inScheme estur-kos:CertificationType;
   skos:broader estur-certificationtype:TourismCertification;
   skos:prefLabel "European route of industrial heritage"@en ;
   skos:prefLabel "European route of industrial heritage"@es ;
+  skos:prefLabel "Ruta Europea del Patrimoni Industrial"@ca ;
+  skos:prefLabel "Ruta Europea del Patrimoni Industrial"@ca-valencia ;
+  skos:prefLabel "Ruta Europea do Patrimonio Industrial"@gl ;
+  skos:prefLabel "Industria Ondarearen Europako Ibilbidea"@eu ;
   skos:altLabel "ERIH"@en ;
   skos:altLabel "ERIH"@es .
 
@@ -64,63 +92,103 @@ estur-certificationtype:IntegralQualitySystemOfTouristDestinations a skos:Concep
   skos:broader estur-certificationtype:TourismCertification;
   skos:prefLabel "Integral quality system of tourist destinations"@en ;
   skos:prefLabel "Sistema Integral de Calidad Turística Española en Destinos"@es ;
+  skos:prefLabel "Sistema Integral de Qualitat Turística Espanyola en Destinacions"@ca ;
+  skos:prefLabel "Sistema Integral de Qualitat Turística Espanyola en Destinacions"@ca-valencia ;
+  skos:prefLabel "Sistema Integral de Calidade Turística Española en Destinos"@gl ;
+  skos:prefLabel "Helmugetako Espainiako Turismo Kalitatearen Sistema Integrala"@eu ;
   skos:altLabel "SICTED"@es .
 
 estur-certificationtype:QTourismQualityMark a skos:Concept;
   skos:inScheme estur-kos:CertificationType;
   skos:broader estur-certificationtype:TourismCertification;
   skos:prefLabel "Q Tourism quality mark"@en ;
-  skos:prefLabel "Marca Q, Certificado de calidad turística"@es .
+  skos:prefLabel "Marca Q, Certificado de calidad turística"@es ;
+  skos:prefLabel "Marca Q, certificat de qualitat turística"@ca ;
+  skos:prefLabel "Marca Q, certificat de qualitat turística"@ca-valencia ;
+  skos:prefLabel "Marca Q, certificado de calidade turística"@gl ;
+  skos:prefLabel "Q marka, turismo-kalitatearen ziurtagiria"@eu .
 
 estur-certificationtype:SmartTourismDestinations a skos:Concept;
   skos:inScheme estur-kos:CertificationType;
   skos:broader estur-certificationtype:TourismCertification;
   skos:prefLabel "Smart tourism destinations"@en ;
   skos:prefLabel "Destinos turísticos inteligentes"@es ;
+  skos:prefLabel "Destinacions turístiques intel·ligents"@ca ;
+  skos:prefLabel "Destinacions turístiques intel·ligents"@ca-valencia ;
+  skos:prefLabel "Destinos turísticos intelixentes"@gl ;
+  skos:prefLabel "Turismo-helmuga adimendunak"@eu ;
   skos:altLabel "DTI"@es .
 
 estur-certificationtype:SoyEcoturista a skos:Concept;
   skos:inScheme estur-kos:CertificationType;
   skos:broader estur-certificationtype:TourismCertification;
   skos:prefLabel "Soy ecoturista"@en ;
-  skos:prefLabel "Soy ecoturista"@es .
+  skos:prefLabel "Soy ecoturista"@es ;
+  skos:prefLabel "Soc ecoturista"@ca ;
+  skos:prefLabel "Soc ecoturista"@ca-valencia ;
+  skos:prefLabel "Son ecoturista"@gl ;
+  skos:prefLabel "Ekoturista naiz"@eu .
 
 ## Environment certification
 estur-certificationtype:EnvironmentCertification a skos:Concept;
   skos:inScheme estur-kos:CertificationType;
   skos:prefLabel "Environment certification"@en ;
-  skos:prefLabel "Certificación medioambiental"@es .
+  skos:prefLabel "Certificación medioambiental"@es ;
+  skos:prefLabel "Certificació mediambiental"@ca ;
+  skos:prefLabel "Certificació mediambiental"@ca-valencia ;
+  skos:prefLabel "Certificación ambiental"@gl ;
+  skos:prefLabel "Ingurumen-ziurtapena"@eu .
 
 estur-certificationtype:BlueFlags a skos:Concept;
   skos:inScheme estur-kos:CertificationType;
   skos:broader estur-certificationtype:EnvironmentCertification;
   skos:prefLabel "Blue flags"@en ;
-  skos:prefLabel "Banderas azules"@es .
+  skos:prefLabel "Banderas azules"@es ;
+  skos:prefLabel "Banderes blaves"@ca ;
+  skos:prefLabel "Banderes blaves"@ca-valencia ;
+  skos:prefLabel "Bandeiras azuis"@gl ;
+  skos:prefLabel "Bandera urdinak"@eu .
 
 estur-certificationtype:StarlightCertification a skos:Concept;
   skos:inScheme estur-kos:CertificationType;
   skos:broader estur-certificationtype:EnvironmentCertification;
   skos:prefLabel "Starlight certification"@en ;
-  skos:prefLabel "Certificación Starlight"@es .
+  skos:prefLabel "Certificación Starlight"@es ;
+  skos:prefLabel "Certificació Starlight"@ca ;
+  skos:prefLabel "Certificació Starlight"@ca-valencia ;
+  skos:prefLabel "Certificación Starlight"@gl ;
+  skos:prefLabel "Starlight ziurtapena"@eu .
 
 estur-certificationtype:UNESCOGlobalGeoparks a skos:Concept;
   skos:inScheme estur-kos:CertificationType;
   skos:broader estur-certificationtype:EnvironmentCertification;
   skos:prefLabel "UNESCO global geoparks"@en ;
-  skos:prefLabel "Geoparques UNESCO"@es .
+  skos:prefLabel "Geoparques UNESCO"@es ;
+  skos:prefLabel "Geoparcs UNESCO"@ca ;
+  skos:prefLabel "Geoparcs UNESCO"@ca-valencia ;
+  skos:prefLabel "Xeoparques UNESCO"@gl ;
+  skos:prefLabel "UNESCO geoparkeak"@eu .
 
 
 ## Agricultural product certification 
 estur-certificationtype:AgriculturalProductCertification a skos:Concept;
   skos:inScheme estur-kos:CertificationType;
   skos:prefLabel "Agricultural product certification"@en ;
-  skos:prefLabel "Certificación de productos agroalimentarios"@es .
+  skos:prefLabel "Certificación de productos agroalimentarios"@es ;
+  skos:prefLabel "Certificació de productes agroalimentaris"@ca ;
+  skos:prefLabel "Certificació de productes agroalimentaris"@ca-valencia ;
+  skos:prefLabel "Certificación de produtos agroalimentarios"@gl ;
+  skos:prefLabel "Nekazaritzako elikagaien ziurtapena"@eu .
 
 estur-certificationtype:ProtectedDesignationOfOrigin a skos:Concept;
   skos:inScheme estur-kos:CertificationType;
   skos:broader estur-certificationtype:AgriculturalProductCertification;
   skos:prefLabel "Protected designation of origin"@en ;
   skos:prefLabel "Denominación de origen protegida"@es ;
+  skos:prefLabel "Denominació d'origen protegida"@ca ;
+  skos:prefLabel "Denominació d'origen protegida"@ca-valencia ;
+  skos:prefLabel "Denominación de orixe protexida"@gl ;
+  skos:prefLabel "Jatorri-deitura babestua"@eu ;
   skos:altLabel "DOP"@es.
 
 estur-certificationtype:QualifiedDesignationOfOrigin a skos:Concept;
@@ -128,6 +196,10 @@ estur-certificationtype:QualifiedDesignationOfOrigin a skos:Concept;
   skos:broader estur-certificationtype:AgriculturalProductCertification;
   skos:prefLabel "Qualified designation of origin"@en ;
   skos:prefLabel "Denominación de origen calificada"@es ;
+  skos:prefLabel "Denominació d'origen qualificada"@ca ;
+  skos:prefLabel "Denominació d'origen qualificada"@ca-valencia ;
+  skos:prefLabel "Denominación de orixe cualificada"@gl ;
+  skos:prefLabel "Jatorri-deitura kalifikatua"@eu ;
   skos:altLabel "DOCa"@es.
 
 estur-certificationtype:ProtectedGeographicalIndication a skos:Concept;
@@ -135,6 +207,10 @@ estur-certificationtype:ProtectedGeographicalIndication a skos:Concept;
   skos:broader estur-certificationtype:AgriculturalProductCertification;
   skos:prefLabel "Protected geographical indication"@en ;
   skos:prefLabel "Indicación geográfica protegida"@es ;
+  skos:prefLabel "Indicació geogràfica protegida"@ca ;
+  skos:prefLabel "Indicació geogràfica protegida"@ca-valencia ;
+  skos:prefLabel "Indicación xeográfica protexida"@gl ;
+  skos:prefLabel "Adierazpen geografiko babestua"@eu ;
   skos:altLabel "IGP"@es.
 
 estur-certificationtype:VinoDePago a skos:Concept;
@@ -142,4 +218,8 @@ estur-certificationtype:VinoDePago a skos:Concept;
   skos:broader estur-certificationtype:AgriculturalProductCertification;
   skos:prefLabel "Vino de pago"@en ;
   skos:prefLabel "Vino de pago"@es ;
+  skos:prefLabel "Vi de finca"@ca ;
+  skos:prefLabel "Vi de finca"@ca-valencia ;
+  skos:prefLabel "Viño de pago"@gl ;
+  skos:prefLabel "Lursail jakin bateko ardoa"@eu ;
   skos:altLabel "VP"@es.

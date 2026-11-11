@@ -22,10 +22,22 @@ estur-kos:AdditionalTransportService a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Additional transport service"@en ;
     rdfs:label "Servicio adicional de transporte"@es ;
+    rdfs:label "Servei addicional de transport"@ca ;
+    rdfs:label "Servici addicional de transport"@ca-valencia ;
+    rdfs:label "Servizo adicional de transporte"@gl ;
+    rdfs:label "Garraio-zerbitzu gehigarria"@eu ;
     dct:title "Concept scheme grouping additional transport services"@en ;
-    dct:title "Esquema de conceptos agrupando servicios adicionales de transporte"@es .
+    dct:title "Esquema de conceptos agrupando servicios adicionales de transporte"@es ;
+    dct:title "Esquema de conceptes que agrupa serveis addicionals de transport"@ca ;
+    dct:title "Esquema de conceptes que agrupa servicis addicionals de transport"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa servizos adicionais de transporte"@gl ;
+    dct:title "Garraio-zerbitzu gehigarriak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,39 +48,71 @@ estur-kos:AdditionalTransportService a skos:ConceptScheme ;
 estur-additionaltransportservice:BabySeat a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportService;
   skos:prefLabel "Baby seat"@en ;
-  skos:prefLabel "Silla infantil"@es .
+  skos:prefLabel "Silla infantil"@es ;
+  skos:prefLabel "Cadira infantil"@ca ;
+  skos:prefLabel "Cadira infantil"@ca-valencia ;
+  skos:prefLabel "Cadeira infantil"@gl ;
+  skos:prefLabel "Haurrentzako aulkia"@eu .
 
 estur-additionaltransportservice:ChargingPlug a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportService;
   skos:prefLabel "Charging plug"@en ;
-  skos:prefLabel "Enchufe de carga"@es .
+  skos:prefLabel "Enchufe de carga"@es ;
+  skos:prefLabel "Endoll de càrrega"@ca ;
+  skos:prefLabel "Endoll de càrrega"@ca-valencia ;
+  skos:prefLabel "Enchufe de carga"@gl ;
+  skos:prefLabel "Kargatzeko entxufea"@eu .
 
 estur-additionaltransportservice:Wifi a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportService;
   skos:prefLabel "Wifi"@en ;
-  skos:prefLabel "Wifi"@es .
+  skos:prefLabel "Wifi"@es ;
+  skos:prefLabel "Wifi"@ca ;
+  skos:prefLabel "Wifi"@ca-valencia ;
+  skos:prefLabel "Wifi"@gl ;
+  skos:prefLabel "Wifi"@eu .
 
 estur-additionaltransportservice:Bathrooms a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportService;
   skos:prefLabel "Bathrooms"@en ;
-  skos:prefLabel "Baño"@es .
+  skos:prefLabel "Baño"@es ;
+  skos:prefLabel "Bany"@ca ;
+  skos:prefLabel "Bany"@ca-valencia ;
+  skos:prefLabel "Baño"@gl ;
+  skos:prefLabel "Bainugela"@eu .
 
 estur-additionaltransportservice:AirConditioning a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportService;
   skos:prefLabel "Air conditioning"@en ;
-  skos:prefLabel "Aire acondicionado"@es .
+  skos:prefLabel "Aire acondicionado"@es ;
+  skos:prefLabel "Aire condicionat"@ca ;
+  skos:prefLabel "Aire condicionat"@ca-valencia ;
+  skos:prefLabel "Aire acondicionado"@gl ;
+  skos:prefLabel "Aire girotua"@eu .
 
 estur-additionaltransportservice:AdditionalLuggage a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportService;
   skos:prefLabel "Additional luggage"@en ;
-  skos:prefLabel "Equipaje adicional"@es .
+  skos:prefLabel "Equipaje adicional"@es ;
+  skos:prefLabel "Equipatge addicional"@ca ;
+  skos:prefLabel "Equipatge addicional"@ca-valencia ;
+  skos:prefLabel "Equipaxe adicional"@gl ;
+  skos:prefLabel "Ekipaje gehigarria"@eu .
 
 estur-additionaltransportservice:UnaccompaniedChildService a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportService;
   skos:prefLabel "Unaccompanied child service"@en ;
-  skos:prefLabel "Servicio para menores no acompañados"@es .
+  skos:prefLabel "Servicio para menores no acompañados"@es ;
+  skos:prefLabel "Servei per a menors no acompanyats"@ca ;
+  skos:prefLabel "Servici per a menors no acompanyats"@ca-valencia ;
+  skos:prefLabel "Servizo para menores non acompañados"@gl ;
+  skos:prefLabel "Bakarrik doazen adingabeentzako zerbitzua"@eu .
 
 estur-additionaltransportservice:PetTransport a skos:Concept;
   skos:inScheme estur-kos:AdditionalTransportService;
   skos:prefLabel "Pet transport"@en ;
-  skos:prefLabel "Transporte de mascotas"@es .
+  skos:prefLabel "Transporte de mascotas"@es ;
+  skos:prefLabel "Transport d'animals de companyia"@ca ;
+  skos:prefLabel "Transport d'animals de companyia"@ca-valencia ;
+  skos:prefLabel "Transporte de mascotas"@gl ;
+  skos:prefLabel "Maskoten garraioa"@eu .

@@ -22,10 +22,22 @@ estur-kos:DestinationType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Destination type"@en ;
     rdfs:label "Tipo de destino"@es ;
+    rdfs:label "Tipus de destinació"@ca ;
+    rdfs:label "Tipus de destinació"@ca-valencia ;
+    rdfs:label "Tipo de destino"@gl ;
+    rdfs:label "Helmuga mota"@eu ;
     dct:title "Concept scheme grouping destination types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de destinos"@es .
+    dct:title "Esquema de conceptos agrupando tipos de destinos"@es ;
+    dct:title "Esquema de conceptes que agrupa tipus de destinacions"@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus de destinacions"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de destinos"@gl ;
+    dct:title "Helmuga motak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,47 +49,103 @@ estur-destinationtype:CoastalDestination a skos:Concept;
   skos:inScheme estur-kos:DestinationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Coastal destination"@en ;
-  skos:prefLabel "Destino de costa"@es .
+  skos:prefLabel "Destino de costa"@es ;
+  skos:prefLabel "Destinació de costa"@ca ;
+  skos:prefLabel "Destinació de costa"@ca-valencia ;
+  skos:prefLabel "Destino de costa"@gl ;
+  skos:prefLabel "Kostaldeko helmuga"@eu .
 
 estur-destinationtype:enotourismDestination a skos:Concept;
   skos:inScheme estur-kos:DestinationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Enotourism destination"@en ;
-  skos:prefLabel "Destino enoturístico"@es .
+  skos:prefLabel "Destino enoturístico"@es ;
+  skos:prefLabel "Destinació enoturística"@ca ;
+  skos:prefLabel "Destinació enoturística"@ca-valencia ;
+  skos:prefLabel "Destino enoturístico"@gl ;
+  skos:prefLabel "Enoturismoko helmuga"@eu .
 
 estur-destinationtype:InlandDestination a skos:Concept;
   skos:inScheme estur-kos:DestinationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Inland destination"@en ;
-  skos:prefLabel "Destino de interior"@es .
+  skos:prefLabel "Destino de interior"@es ;
+  skos:prefLabel "Destinació d'interior"@ca ;
+  skos:prefLabel "Destinació d'interior"@ca-valencia ;
+  skos:prefLabel "Destino de interior"@gl ;
+  skos:prefLabel "Barnealdeko helmuga"@eu .
 
 estur-destinationtype:IslandDestination a skos:Concept;
   skos:inScheme estur-kos:DestinationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Island destination"@en ;
-  skos:prefLabel "Destino insular"@es .
+  skos:prefLabel "Destino insular"@es ;
+  skos:prefLabel "Destinació insular"@ca ;
+  skos:prefLabel "Destinació insular"@ca-valencia ;
+  skos:prefLabel "Destino insular"@gl ;
+  skos:prefLabel "Uharteko helmuga"@eu .
 
 estur-destinationtype:MountainDestination a skos:Concept;
   skos:inScheme estur-kos:DestinationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Mountain destination"@en ;
-  skos:prefLabel "Destino de montaña"@es .
+  skos:prefLabel "Destino de montaña"@es ;
+  skos:prefLabel "Destinació de muntanya"@ca ;
+  skos:prefLabel "Destinació de muntanya"@ca-valencia ;
+  skos:prefLabel "Destino de montaña"@gl ;
+  skos:prefLabel "Mendiko helmuga"@eu .
 
 estur-destinationtype:RuralDestination a skos:Concept;
   skos:inScheme estur-kos:DestinationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Rural destination"@en ;
-  skos:prefLabel "Destino rural"@es .
+  skos:prefLabel "Destino rural"@es ;
+  skos:prefLabel "Destinació rural"@ca ;
+  skos:prefLabel "Destinació rural"@ca-valencia ;
+  skos:prefLabel "Destino rural"@gl ;
+  skos:prefLabel "Landa-helmuga"@eu .
 
 estur-destinationtype:UrbanDestination a skos:Concept;
   skos:inScheme estur-kos:DestinationType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Urban destination"@en ;
-  skos:prefLabel "Destino urbano"@es .
+  skos:prefLabel "Destino urbano"@es ;
+  skos:prefLabel "Destinació urbana"@ca ;
+  skos:prefLabel "Destinació urbana"@ca-valencia ;
+  skos:prefLabel "Destino urbano"@gl ;
+  skos:prefLabel "Hiriko helmuga"@eu .

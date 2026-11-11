@@ -22,10 +22,22 @@ estur-kos:AgrotourismExperienceType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Agrotourism experience type"@en ;
     rdfs:label "Tipo de experiencia agroturística"@es ;
+    rdfs:label "Tipus d'experiència agroturística"@ca ;
+    rdfs:label "Tipus d'experiència agroturística"@ca-valencia ;
+    rdfs:label "Tipo de experiencia agroturística"@gl ;
+    rdfs:label "Agroturismo-esperientzia mota"@eu ;
     dct:title "Concept scheme grouping agrotourism experience types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de experiencias agroturísticas"@es .
+    dct:title "Esquema de conceptos agrupando tipos de experiencias agroturísticas"@es ;
+    dct:title "Esquema de conceptes que agrupa tipus d'experiències agroturístiques"@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus d'experiències agroturístiques"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de experiencias agroturísticas"@gl ;
+    dct:title "Agroturismo-esperientzia motak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,34 +48,62 @@ estur-kos:AgrotourismExperienceType a skos:ConceptScheme ;
 estur-agrotourismexperiencetype:GuidedTour a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceType;
   skos:prefLabel "Guided tour"@en ;
-  skos:prefLabel "Visita guiada"@es .
+  skos:prefLabel "Visita guiada"@es ;
+  skos:prefLabel "Visita guiada"@ca ;
+  skos:prefLabel "Visita guiada"@ca-valencia ;
+  skos:prefLabel "Visita guiada"@gl ;
+  skos:prefLabel "Bisita gidatua"@eu .
 
 estur-agrotourismexperiencetype:Workshop a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceType;
   skos:prefLabel "Workshop"@en ;
-  skos:prefLabel "Taller"@es .
+  skos:prefLabel "Taller"@es ;
+  skos:prefLabel "Taller"@ca ;
+  skos:prefLabel "Taller"@ca-valencia ;
+  skos:prefLabel "Obradoiro"@gl ;
+  skos:prefLabel "Tailerra"@eu .
 
 estur-agrotourismexperiencetype:Tasting a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceType;
   skos:prefLabel "Tasting"@en ;
-  skos:prefLabel "Degustación"@es .
+  skos:prefLabel "Degustación"@es ;
+  skos:prefLabel "Degustació"@ca ;
+  skos:prefLabel "Degustació"@ca-valencia ;
+  skos:prefLabel "Degustación"@gl ;
+  skos:prefLabel "Dastaketa"@eu .
 
 estur-agrotourismexperiencetype:Sampling a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceType;
   skos:prefLabel "Sampling"@en ;
-  skos:prefLabel "Cata"@es .
+  skos:prefLabel "Cata"@es ;
+  skos:prefLabel "Tast"@ca ;
+  skos:prefLabel "Tast"@ca-valencia ;
+  skos:prefLabel "Cata"@gl ;
+  skos:prefLabel "Dastaketa"@eu .
 
 estur-agrotourismexperiencetype:Visit a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceType;
   skos:prefLabel "Visit"@en ;
-  skos:prefLabel "Visita"@es .
+  skos:prefLabel "Visita"@es ;
+  skos:prefLabel "Visita"@ca ;
+  skos:prefLabel "Visita"@ca-valencia ;
+  skos:prefLabel "Visita"@gl ;
+  skos:prefLabel "Bisita"@eu .
 
 estur-agrotourismexperiencetype:Harvesting a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceType;
   skos:prefLabel "Harvesting"@en ;
-  skos:prefLabel "Recolección agrícola"@es .
+  skos:prefLabel "Recolección agrícola"@es ;
+  skos:prefLabel "Collita agrícola"@ca ;
+  skos:prefLabel "Collita agrícola"@ca-valencia ;
+  skos:prefLabel "Colleita agrícola"@gl ;
+  skos:prefLabel "Nekazaritzako uzta-bilketa"@eu .
 
 estur-agrotourismexperiencetype:OilMillBreakfast a skos:Concept;
   skos:inScheme estur-kos:AgrotourismExperienceType;
   skos:prefLabel "Oil mill breakfast"@en ;
-  skos:prefLabel "Desayuno molinero"@es .
+  skos:prefLabel "Desayuno molinero"@es ;
+  skos:prefLabel "Esmorzar de moliner"@ca ;
+  skos:prefLabel "Esmorzar de moliner"@ca-valencia ;
+  skos:prefLabel "Almorzo de muiñeiro"@gl ;
+  skos:prefLabel "Errotari-gosaria"@eu .

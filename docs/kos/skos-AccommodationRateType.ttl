@@ -22,10 +22,22 @@ estur-kos:AccommodationRateType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Accommodation rate type"@en ;
     rdfs:label "Tipo de tarifa de alojamiento"@es ;
+    rdfs:label "Tipus de tarifa d'allotjament"@ca ;
+    rdfs:label "Tipus de tarifa d'allotjament"@ca-valencia ;
+    rdfs:label "Tipo de tarifa de aloxamento"@gl ;
+    rdfs:label "Ostatu-tarifa mota"@eu ;
     dct:title "Concept scheme grouping accommodation rate types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de tarifas de alojamiento"@es .
+    dct:title "Esquema de conceptos agrupando tipos de tarifas de alojamiento"@es ;
+    dct:title "Esquema de conceptes que agrupa tipus de tarifes d'allotjament"@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus de tarifes d'allotjament"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de tarifas de aloxamento"@gl ;
+    dct:title "Ostatu-tarifa motak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,33 +49,73 @@ estur-accommodationratetype:AccommodationOnly a skos:Concept;
   skos:inScheme estur-kos:AccommodationRateType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Accommodation only"@en ;
-  skos:prefLabel "Sólo alojamiento"@es .
+  skos:prefLabel "Sólo alojamiento"@es ;
+  skos:prefLabel "Només allotjament"@ca ;
+  skos:prefLabel "Només allotjament"@ca-valencia ;
+  skos:prefLabel "Só aloxamento"@gl ;
+  skos:prefLabel "Ostatua soilik"@eu .
 
 estur-accommodationratetype:AllInclusive a skos:Concept;
   skos:inScheme estur-kos:AccommodationRateType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "All inclusive"@en ;
-  skos:prefLabel "Todo incluido"@es .
+  skos:prefLabel "Todo incluido"@es ;
+  skos:prefLabel "Tot inclòs"@ca ;
+  skos:prefLabel "Tot inclòs"@ca-valencia ;
+  skos:prefLabel "Todo incluído"@gl ;
+  skos:prefLabel "Dena barne"@eu .
 
 estur-accommodationratetype:AccommodationWithBreakfast a skos:Concept;
   skos:inScheme estur-kos:AccommodationRateType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Accommodation with breakfast"@en ;
-  skos:prefLabel "Alojamiento con desayuno"@es .
+  skos:prefLabel "Alojamiento con desayuno"@es ;
+  skos:prefLabel "Allotjament amb esmorzar"@ca ;
+  skos:prefLabel "Allotjament amb esmorzar"@ca-valencia ;
+  skos:prefLabel "Aloxamento con almorzo"@gl ;
+  skos:prefLabel "Ostatua eta gosaria"@eu .
 
 estur-accommodationratetype:FullBoard a skos:Concept;
   skos:inScheme estur-kos:AccommodationRateType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Full board"@en ;
-  skos:prefLabel "Pensión completa"@es .
+  skos:prefLabel "Pensión completa"@es ;
+  skos:prefLabel "Pensió completa"@ca ;
+  skos:prefLabel "Pensió completa"@ca-valencia ;
+  skos:prefLabel "Pensión completa"@gl ;
+  skos:prefLabel "Mantenu osoa"@eu .
 
 estur-accommodationratetype:HalfBoard a skos:Concept;
   skos:inScheme estur-kos:AccommodationRateType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Half board"@en ;
-  skos:prefLabel "Media pensión"@es .
+  skos:prefLabel "Media pensión"@es ;
+  skos:prefLabel "Mitja pensió"@ca ;
+  skos:prefLabel "Mitja pensió"@ca-valencia ;
+  skos:prefLabel "Media pensión"@gl ;
+  skos:prefLabel "Mantenu erdia"@eu .

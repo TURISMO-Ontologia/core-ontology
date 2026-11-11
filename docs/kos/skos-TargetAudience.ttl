@@ -22,10 +22,22 @@ estur-kos:TargetAudience a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Target Audience"@en ;
     rdfs:label "Público objetivo"@es ;
+    rdfs:label "Públic objectiu"@ca ;
+    rdfs:label "Públic objectiu"@ca-valencia ;
+    rdfs:label "Público obxectivo"@gl ;
+    rdfs:label "Xede-publikoa"@eu ;
     dct:title "Concept scheme grouping target audiences"@en ;
-    dct:title "Esquema de conceptos agrupando públicos objetivo"@es .
+    dct:title "Esquema de conceptos agrupando públicos objetivo"@es ;
+    dct:title "Esquema de conceptes que agrupa públics objectiu"@ca ;
+    dct:title "Esquema de conceptes que agrupa públics objectiu"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa públicos obxectivo"@gl ;
+    dct:title "Xede-publikoak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,24 +48,44 @@ estur-kos:TargetAudience a skos:ConceptScheme ;
 estur-targetaudience:Families a skos:Concept;
   skos:inScheme estur-kos:TargetAudience;
   skos:prefLabel "Families"@en ;
-  skos:prefLabel "Familias"@es .
+  skos:prefLabel "Familias"@es ;
+  skos:prefLabel "Famílies"@ca ;
+  skos:prefLabel "Famílies"@ca-valencia ;
+  skos:prefLabel "Familias"@gl ;
+  skos:prefLabel "Familiak"@eu .
 
 estur-targetaudience:Adults a skos:Concept;
   skos:inScheme estur-kos:TargetAudience;
   skos:prefLabel "Adults"@en ;
-  skos:prefLabel "Adultos"@es .
+  skos:prefLabel "Adultos"@es ;
+  skos:prefLabel "Adults"@ca ;
+  skos:prefLabel "Adults"@ca-valencia ;
+  skos:prefLabel "Adultos"@gl ;
+  skos:prefLabel "Helduak"@eu .
 
 estur-targetaudience:Youth a skos:Concept;
   skos:inScheme estur-kos:TargetAudience;
   skos:prefLabel "Youth"@en ;
-  skos:prefLabel "Jóvenes"@es .
+  skos:prefLabel "Jóvenes"@es ;
+  skos:prefLabel "Joves"@ca ;
+  skos:prefLabel "Joves"@ca-valencia ;
+  skos:prefLabel "Mozos"@gl ;
+  skos:prefLabel "Gazteak"@eu .
 
 estur-targetaudience:Senior a skos:Concept;
   skos:inScheme estur-kos:TargetAudience;
   skos:prefLabel "Senior"@en ;
-  skos:prefLabel "Senior"@es .
+  skos:prefLabel "Senior"@es ;
+  skos:prefLabel "Gent gran"@ca ;
+  skos:prefLabel "Gent gran"@ca-valencia ;
+  skos:prefLabel "Persoas maiores"@gl ;
+  skos:prefLabel "Adinekoak"@eu .
 
 estur-targetaudience:Kids a skos:Concept;
   skos:inScheme estur-kos:TargetAudience;
   skos:prefLabel "Kids"@en ;
-  skos:prefLabel "Niños"@es .
+  skos:prefLabel "Niños"@es ;
+  skos:prefLabel "Nens"@ca ;
+  skos:prefLabel "Xiquets"@ca-valencia ;
+  skos:prefLabel "Nenos"@gl ;
+  skos:prefLabel "Haurrak"@eu .

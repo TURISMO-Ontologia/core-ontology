@@ -22,10 +22,22 @@ estur-kos:AdditionalVehicleRentalAgencyService a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Additional vehicle rental agency service"@en ;
     rdfs:label "Servicio adicional de una agencia de alquiler de vehículos"@es ;
+    rdfs:label "Servei addicional d'una agència de lloguer de vehicles"@ca ;
+    rdfs:label "Servici addicional d'una agència de lloguer de vehicles"@ca-valencia ;
+    rdfs:label "Servizo adicional dunha axencia de alugueiro de vehículos"@gl ;
+    rdfs:label "Ibilgailuak alokatzeko agentzia baten zerbitzu gehigarria"@eu ;
     dct:title "Concept scheme grouping additional vehicle rental agency services"@en ;
-    dct:title "Esquema de conceptos agrupando servicios adicionales de una agencia de alquiler de vehículos"@es .
+    dct:title "Esquema de conceptos agrupando servicios adicionales de una agencia de alquiler de vehículos"@es ;
+    dct:title "Esquema de conceptes que agrupa serveis addicionals d'una agència de lloguer de vehicles"@ca ;
+    dct:title "Esquema de conceptes que agrupa servicis addicionals d'una agència de lloguer de vehicles"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa servizos adicionais dunha axencia de alugueiro de vehículos"@gl ;
+    dct:title "Ibilgailuak alokatzeko agentzia baten zerbitzu gehigarriak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,39 +49,83 @@ estur-additionalvehiclerentalagencyservice:AccessibleVehicleFleet a skos:Concept
   skos:inScheme estur-kos:AdditionalVehicleRentalAgencyService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Accessible vehicle fleet"@en ;
-  skos:prefLabel "Flota de vehículos accesibles"@es .
+  skos:prefLabel "Flota de vehículos accesibles"@es ;
+  skos:prefLabel "Flota de vehicles accessibles"@ca ;
+  skos:prefLabel "Flota de vehicles accessibles"@ca-valencia ;
+  skos:prefLabel "Frota de vehículos accesibles"@gl ;
+  skos:prefLabel "Ibilgailu irisgarrien flota"@eu .
 
 estur-additionalvehiclerentalagencyservice:AdditionalDriver a skos:Concept;
   skos:inScheme estur-kos:AdditionalVehicleRentalAgencyService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Additional driver"@en ;
-  skos:prefLabel "Conductor adicional"@es .
+  skos:prefLabel "Conductor adicional"@es ;
+  skos:prefLabel "Conductor addicional"@ca ;
+  skos:prefLabel "Conductor addicional"@ca-valencia ;
+  skos:prefLabel "Condutor adicional"@gl ;
+  skos:prefLabel "Gidari gehigarria"@eu .
 
 estur-additionalvehiclerentalagencyservice:BabySeat a skos:Concept;
   skos:inScheme estur-kos:AdditionalVehicleRentalAgencyService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Baby seat"@en ;
-  skos:prefLabel "Asientos para niños"@es .
+  skos:prefLabel "Asientos para niños"@es ;
+  skos:prefLabel "Seients per a nens"@ca ;
+  skos:prefLabel "Seients per a xiquets"@ca-valencia ;
+  skos:prefLabel "Asentos para nenos"@gl ;
+  skos:prefLabel "Haurrentzako eserlekuak"@eu .
 
 estur-additionalvehiclerentalagencyservice:RentByTheHour a skos:Concept;
   skos:inScheme estur-kos:AdditionalVehicleRentalAgencyService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Rent by the hour"@en ;
-  skos:prefLabel "Alquiler por horas"@es .
+  skos:prefLabel "Alquiler por horas"@es ;
+  skos:prefLabel "Lloguer per hores"@ca ;
+  skos:prefLabel "Lloguer per hores"@ca-valencia ;
+  skos:prefLabel "Alugueiro por horas"@gl ;
+  skos:prefLabel "Ordukako alokairua"@eu .
 
 estur-additionalvehiclerentalagencyservice:SnowChains a skos:Concept;
   skos:inScheme estur-kos:AdditionalVehicleRentalAgencyService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Snow chains"@en ;
-  skos:prefLabel "Cadenas para la nieve"@es .
+  skos:prefLabel "Cadenas para la nieve"@es ;
+  skos:prefLabel "Cadenes per a la neu"@ca ;
+  skos:prefLabel "Cadenes per a la neu"@ca-valencia ;
+  skos:prefLabel "Cadeas para a neve"@gl ;
+  skos:prefLabel "Elurretako kateak"@eu .
 
 estur-additionalvehiclerentalagencyservice:PetSeatBelt a skos:Concept;
   skos:inScheme estur-kos:AdditionalVehicleRentalAgencyService;
   skos:prefLabel "Peat seat belt"@en ;
-  skos:prefLabel "Cinturón de seguridad para mascotas"@es .
+  skos:prefLabel "Cinturón de seguridad para mascotas"@es ;
+  skos:prefLabel "Cinturó de seguretat per a animals de companyia"@ca ;
+  skos:prefLabel "Cinturó de seguretat per a animals de companyia"@ca-valencia ;
+  skos:prefLabel "Cinto de seguridade para mascotas"@gl ;
+  skos:prefLabel "Maskotentzako segurtasun-uhala"@eu .
 

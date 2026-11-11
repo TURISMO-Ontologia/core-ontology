@@ -22,10 +22,22 @@ estur-kos:CivicBuildingType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Civic building type"@en ;
     rdfs:label "Tipo de edificio cívico"@es ;
+    rdfs:label "Tipus d'edifici cívic"@ca ;
+    rdfs:label "Tipus d'edifici cívic"@ca-valencia ;
+    rdfs:label "Tipo de edificio cívico"@gl ;
+    rdfs:label "Eraikin zibiko mota"@eu ;
     dct:title "Concept scheme grouping civic building types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de edificios cívicos"@es .
+    dct:title "Esquema de conceptos agrupando tipos de edificios cívicos"@es ;
+    dct:title "Esquema de conceptes que agrupa tipus d'edificis cívics"@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus d'edificis cívics"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de edificios cívicos"@gl ;
+    dct:title "Eraikin zibiko motak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,26 +49,58 @@ estur-civicbuildingtype:Library a skos:Concept;
   skos:inScheme estur-kos:CivicBuildingType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Library"@en ;
-  skos:prefLabel "Biblioteca"@es .
+  skos:prefLabel "Biblioteca"@es ;
+  skos:prefLabel "Biblioteca"@ca ;
+  skos:prefLabel "Biblioteca"@ca-valencia ;
+  skos:prefLabel "Biblioteca"@gl ;
+  skos:prefLabel "Liburutegia"@eu .
 
 estur-civicbuildingtype:FishMarket a skos:Concept;
   skos:inScheme estur-kos:CivicBuildingType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Fish market"@en ;
-  skos:prefLabel "Lonja de pescado"@es .
+  skos:prefLabel "Lonja de pescado"@es ;
+  skos:prefLabel "Llotja de peix"@ca ;
+  skos:prefLabel "Llotja de peix"@ca-valencia ;
+  skos:prefLabel "Lonxa de peixe"@gl ;
+  skos:prefLabel "Arrain-lonja"@eu .
 
 estur-civicbuildingtype:Palace a skos:Concept;
   skos:inScheme estur-kos:CivicBuildingType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Palace"@en ;
-  skos:prefLabel "Palacio"@es .
+  skos:prefLabel "Palacio"@es ;
+  skos:prefLabel "Palau"@ca ;
+  skos:prefLabel "Palau"@ca-valencia ;
+  skos:prefLabel "Pazo"@gl ;
+  skos:prefLabel "Jauregia"@eu .
 
 estur-civicbuildingtype:TownHall a skos:Concept;
   skos:inScheme estur-kos:CivicBuildingType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Town hall"@en ;
-  skos:prefLabel "Ayuntamiento"@es .
+  skos:prefLabel "Ayuntamiento"@es ;
+  skos:prefLabel "Ajuntament"@ca ;
+  skos:prefLabel "Ajuntament"@ca-valencia ;
+  skos:prefLabel "Casa do concello"@gl ;
+  skos:prefLabel "Udaletxea"@eu .

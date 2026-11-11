@@ -22,10 +22,22 @@ estur-kos:TouristType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Tourist type"@en ;
     rdfs:label "Tipo de turista"@es ;
+    rdfs:label "Tipus de turista"@ca ;
+    rdfs:label "Tipus de turista"@ca-valencia ;
+    rdfs:label "Tipo de turista"@gl ;
+    rdfs:label "Turista mota"@eu ;
     dct:title "Concept scheme grouping tourist types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de turistas"@es .
+    dct:title "Esquema de conceptos agrupando tipos de turistas"@es ;
+    dct:title "Esquema de conceptes que agrupa tipus de turistes"@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus de turistes"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de turistas"@gl ;
+    dct:title "Turista motak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,115 +48,207 @@ estur-kos:TouristType a skos:ConceptScheme ;
 estur-touristtype:Adventure a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Adventure"@en ;
-  skos:prefLabel "Aventura"@es .
+  skos:prefLabel "Aventura"@es ;
+  skos:prefLabel "Aventura"@ca ;
+  skos:prefLabel "Aventura"@ca-valencia ;
+  skos:prefLabel "Aventura"@gl ;
+  skos:prefLabel "Abentura"@eu .
 
 estur-touristtype:Blue a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Blue"@en ;
-  skos:prefLabel "Azul"@es .
+  skos:prefLabel "Azul"@es ;
+  skos:prefLabel "Blau"@ca ;
+  skos:prefLabel "Blau"@ca-valencia ;
+  skos:prefLabel "Azul"@gl ;
+  skos:prefLabel "Urdina"@eu .
 
 estur-touristtype:BusinessOrMICE a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Business or MICE"@en ;
-  skos:prefLabel "Negocio o MICE"@es .
+  skos:prefLabel "Negocio o MICE"@es ;
+  skos:prefLabel "Negocis o MICE"@ca ;
+  skos:prefLabel "Negocis o MICE"@ca-valencia ;
+  skos:prefLabel "Negocios ou MICE"@gl ;
+  skos:prefLabel "Negozioak edo MICE"@eu .
 
 estur-touristtype:Cruise a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Cruise"@en ;
-  skos:prefLabel "Cruceros"@es .
+  skos:prefLabel "Cruceros"@es ;
+  skos:prefLabel "Creuers"@ca ;
+  skos:prefLabel "Creuers"@ca-valencia ;
+  skos:prefLabel "Cruceiros"@gl ;
+  skos:prefLabel "Gurutzaldiak"@eu .
 
 estur-touristtype:CulturalAndHeritage a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Cultural and heritage"@en ;
-  skos:prefLabel "Cultura y patrimonio"@es .
+  skos:prefLabel "Cultura y patrimonio"@es ;
+  skos:prefLabel "Cultura i patrimoni"@ca ;
+  skos:prefLabel "Cultura i patrimoni"@ca-valencia ;
+  skos:prefLabel "Cultura e patrimonio"@gl ;
+  skos:prefLabel "Kultura eta ondarea"@eu .
 
 estur-touristtype:Ecotourism a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Ecotourism"@en ;
-  skos:prefLabel "Ecoturismo"@es .
+  skos:prefLabel "Ecoturismo"@es ;
+  skos:prefLabel "Ecoturisme"@ca ;
+  skos:prefLabel "Ecoturisme"@ca-valencia ;
+  skos:prefLabel "Ecoturismo"@gl ;
+  skos:prefLabel "Ekoturismoa"@eu .
 
 estur-touristtype:Education a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Education"@en ;
-  skos:prefLabel "Educación"@es .
+  skos:prefLabel "Educación"@es ;
+  skos:prefLabel "Educació"@ca ;
+  skos:prefLabel "Educació"@ca-valencia ;
+  skos:prefLabel "Educación"@gl ;
+  skos:prefLabel "Hezkuntza"@eu .
 
 estur-touristtype:EventsAndFestivals a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Events and festivals"@en ;
-  skos:prefLabel "Eventos y festivales"@es .
+  skos:prefLabel "Eventos y festivales"@es ;
+  skos:prefLabel "Esdeveniments i festivals"@ca ;
+  skos:prefLabel "Esdeveniments i festivals"@ca-valencia ;
+  skos:prefLabel "Eventos e festivais"@gl ;
+  skos:prefLabel "Ekitaldiak eta jaialdiak"@eu .
 
 estur-touristtype:Wine a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Wine"@en ;
-  skos:prefLabel "Vino"@es .
+  skos:prefLabel "Vino"@es ;
+  skos:prefLabel "Vi"@ca ;
+  skos:prefLabel "Vi"@ca-valencia ;
+  skos:prefLabel "Viño"@gl ;
+  skos:prefLabel "Ardoa"@eu .
 
 estur-touristtype:Equestrian a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Equestrian"@en ;
-  skos:prefLabel "Ecuestre"@es .
+  skos:prefLabel "Ecuestre"@es ;
+  skos:prefLabel "Eqüestre"@ca ;
+  skos:prefLabel "Eqüestre"@ca-valencia ;
+  skos:prefLabel "Ecuestre"@gl ;
+  skos:prefLabel "Zaldikoa"@eu .
 
 estur-touristtype:Gastronomy a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Gastronomy"@en ;
-  skos:prefLabel "Gastronomía"@es .
+  skos:prefLabel "Gastronomía"@es ;
+  skos:prefLabel "Gastronomia"@ca ;
+  skos:prefLabel "Gastronomia"@ca-valencia ;
+  skos:prefLabel "Gastronomía"@gl ;
+  skos:prefLabel "Gastronomia"@eu .
 
 estur-touristtype:Health a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Health"@en ;
-  skos:prefLabel "Salud"@es .
+  skos:prefLabel "Salud"@es ;
+  skos:prefLabel "Salut"@ca ;
+  skos:prefLabel "Salut"@ca-valencia ;
+  skos:prefLabel "Saúde"@gl ;
+  skos:prefLabel "Osasuna"@eu .
 
 estur-touristtype:Language a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Language"@en ;
-  skos:prefLabel "Idioma"@es .
+  skos:prefLabel "Idioma"@es ;
+  skos:prefLabel "Idioma"@ca ;
+  skos:prefLabel "Idioma"@ca-valencia ;
+  skos:prefLabel "Idioma"@gl ;
+  skos:prefLabel "Hizkuntza"@eu .
 
 estur-touristtype:Nature a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Nature"@en ;
-  skos:prefLabel "Naturaleza"@es .
+  skos:prefLabel "Naturaleza"@es ;
+  skos:prefLabel "Natura"@ca ;
+  skos:prefLabel "Natura"@ca-valencia ;
+  skos:prefLabel "Natureza"@gl ;
+  skos:prefLabel "Natura"@eu .
 
 estur-touristtype:Party a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Party"@en ;
-  skos:prefLabel "Fiesta"@es .
+  skos:prefLabel "Fiesta"@es ;
+  skos:prefLabel "Festa"@ca ;
+  skos:prefLabel "Festa"@ca-valencia ;
+  skos:prefLabel "Festa"@gl ;
+  skos:prefLabel "Jaia"@eu .
 
 estur-touristtype:Pet a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Pet"@en ;
-  skos:prefLabel "Mascotas"@es .
+  skos:prefLabel "Mascotas"@es ;
+  skos:prefLabel "Animals de companyia"@ca ;
+  skos:prefLabel "Animals de companyia"@ca-valencia ;
+  skos:prefLabel "Mascotas"@gl ;
+  skos:prefLabel "Maskotak"@eu .
 
 estur-touristtype:Religion a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Religion"@en ;
-  skos:prefLabel "Religión"@es .
+  skos:prefLabel "Religión"@es ;
+  skos:prefLabel "Religió"@ca ;
+  skos:prefLabel "Religió"@ca-valencia ;
+  skos:prefLabel "Relixión"@gl ;
+  skos:prefLabel "Erlijioa"@eu .
 
 estur-touristtype:Rural a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Rural"@en ;
-  skos:prefLabel "Rural"@es .
+  skos:prefLabel "Rural"@es ;
+  skos:prefLabel "Rural"@ca ;
+  skos:prefLabel "Rural"@ca-valencia ;
+  skos:prefLabel "Rural"@gl ;
+  skos:prefLabel "Landakoa"@eu .
 
 estur-touristtype:Shopping a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Shopping"@en ;
-  skos:prefLabel "Compras"@es .
+  skos:prefLabel "Compras"@es ;
+  skos:prefLabel "Compres"@ca ;
+  skos:prefLabel "Compres"@ca-valencia ;
+  skos:prefLabel "Compras"@gl ;
+  skos:prefLabel "Erosketak"@eu .
 
 estur-touristtype:Sports a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Sports"@en ;
-  skos:prefLabel "Deporte"@es .
+  skos:prefLabel "Deporte"@es ;
+  skos:prefLabel "Esport"@ca ;
+  skos:prefLabel "Esport"@ca-valencia ;
+  skos:prefLabel "Deporte"@gl ;
+  skos:prefLabel "Kirola"@eu .
 
 estur-touristtype:SunAndBeach a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Sun and beach"@en ;
-  skos:prefLabel "Sol y playa"@es .
+  skos:prefLabel "Sol y playa"@es ;
+  skos:prefLabel "Sol i platja"@ca ;
+  skos:prefLabel "Sol i platja"@ca-valencia ;
+  skos:prefLabel "Sol e praia"@gl ;
+  skos:prefLabel "Eguzkia eta hondartza"@eu .
 
 estur-touristtype:Thermal a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Thermal"@en ;
-  skos:prefLabel "Termal"@es .
+  skos:prefLabel "Termal"@es ;
+  skos:prefLabel "Termal"@ca ;
+  skos:prefLabel "Termal"@ca-valencia ;
+  skos:prefLabel "Termal"@gl ;
+  skos:prefLabel "Termala"@eu .
 
 estur-touristtype:Urban a skos:Concept;
   skos:inScheme estur-kos:TouristType;
   skos:prefLabel "Urban"@en ;
-  skos:prefLabel "Ciudad"@es .
+  skos:prefLabel "Ciudad"@es ;
+  skos:prefLabel "Ciutat"@ca ;
+  skos:prefLabel "Ciutat"@ca-valencia ;
+  skos:prefLabel "Cidade"@gl ;
+  skos:prefLabel "Hiria"@eu .
 

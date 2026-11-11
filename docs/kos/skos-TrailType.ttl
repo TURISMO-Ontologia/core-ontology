@@ -22,10 +22,22 @@ estur-kos:TrailType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Trail type"@en ;
     rdfs:label "Tipo de camino"@es ;
+    rdfs:label "Tipus de camí"@ca ;
+    rdfs:label "Tipus de camí"@ca-valencia ;
+    rdfs:label "Tipo de camiño"@gl ;
+    rdfs:label "Bide mota"@eu ;
     dct:title "Concept scheme grouping trail types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de camino"@es .
+    dct:title "Esquema de conceptos agrupando tipos de camino"@es ;
+    dct:title "Esquema de conceptes que agrupa tipus de camí"@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus de camí"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de camiño"@gl ;
+    dct:title "Bide motak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,54 +48,98 @@ estur-kos:TrailType a skos:ConceptScheme ;
 estur-trailtype:CircularTrail a skos:Concept;
   skos:inScheme estur-kos:TrailType;
   skos:prefLabel "Circular trail"@en ;
-  skos:prefLabel "Camino circular"@es .
+  skos:prefLabel "Camino circular"@es ;
+  skos:prefLabel "Camí circular"@ca ;
+  skos:prefLabel "Camí circular"@ca-valencia ;
+  skos:prefLabel "Camiño circular"@gl ;
+  skos:prefLabel "Ibilbide zirkularra"@eu .
 
 estur-trailtype:LinearTrail a skos:Concept;
   skos:inScheme estur-kos:TrailType;
   skos:prefLabel "Linear trail"@en ;
-  skos:prefLabel "Camino lineal"@es .
+  skos:prefLabel "Camino lineal"@es ;
+  skos:prefLabel "Camí lineal"@ca ;
+  skos:prefLabel "Camí lineal"@ca-valencia ;
+  skos:prefLabel "Camiño lineal"@gl ;
+  skos:prefLabel "Ibilbide lineala"@eu .
 
 estur-trailtype:BlueTrail a skos:Concept;
   skos:inScheme estur-kos:TrailType;
   skos:prefLabel "Blue trail"@en ;
-  skos:prefLabel "Camino azul"@es .
+  skos:prefLabel "Camino azul"@es ;
+  skos:prefLabel "Camí blau"@ca ;
+  skos:prefLabel "Camí blau"@ca-valencia ;
+  skos:prefLabel "Camiño azul"@gl ;
+  skos:prefLabel "Bide urdina"@eu .
 
 estur-trailtype:CoastalTrail a skos:Concept;
   skos:inScheme estur-kos:TrailType;
   skos:prefLabel "Coastal trail"@en ;
-  skos:prefLabel "Camino costero"@es .
+  skos:prefLabel "Camino costero"@es ;
+  skos:prefLabel "Camí costaner"@ca ;
+  skos:prefLabel "Camí costaner"@ca-valencia ;
+  skos:prefLabel "Camiño costeiro"@gl ;
+  skos:prefLabel "Kostaldeko bidea"@eu .
 
 estur-trailtype:CulturalTrail a skos:Concept;
   skos:inScheme estur-kos:TrailType;
   skos:prefLabel "Cultural trail"@en ;
-  skos:prefLabel "Camino cultural"@es .
+  skos:prefLabel "Camino cultural"@es ;
+  skos:prefLabel "Camí cultural"@ca ;
+  skos:prefLabel "Camí cultural"@ca-valencia ;
+  skos:prefLabel "Camiño cultural"@gl ;
+  skos:prefLabel "Kultura-bidea"@eu .
 
 estur-trailtype:WaterwayTrail a skos:Concept;
   skos:inScheme estur-kos:TrailType;
   skos:prefLabel "Waterway trail"@en ;
-  skos:prefLabel "Camino fluvial"@es .
+  skos:prefLabel "Camino fluvial"@es ;
+  skos:prefLabel "Camí fluvial"@ca ;
+  skos:prefLabel "Camí fluvial"@ca-valencia ;
+  skos:prefLabel "Camiño fluvial"@gl ;
+  skos:prefLabel "Ibai-bidea"@eu .
 
 estur-trailtype:ScenicTrail a skos:Concept;
   skos:inScheme estur-kos:TrailType;
   skos:prefLabel "Scenic trail"@en ;
-  skos:prefLabel "Camino panorámico"@es .
+  skos:prefLabel "Camino panorámico"@es ;
+  skos:prefLabel "Camí panoràmic"@ca ;
+  skos:prefLabel "Camí panoràmic"@ca-valencia ;
+  skos:prefLabel "Camiño panorámico"@gl ;
+  skos:prefLabel "Bide panoramikoa"@eu .
 
 estur-trailtype:ThematicTrail a skos:Concept;
   skos:inScheme estur-kos:TrailType;
   skos:prefLabel "Thematic trail"@en ;
-  skos:prefLabel "Camino temático"@es .
+  skos:prefLabel "Camino temático"@es ;
+  skos:prefLabel "Camí temàtic"@ca ;
+  skos:prefLabel "Camí temàtic"@ca-valencia ;
+  skos:prefLabel "Camiño temático"@gl ;
+  skos:prefLabel "Bide tematikoa"@eu .
 
 estur-trailtype:UrbanTrail a skos:Concept;
   skos:inScheme estur-kos:TrailType;
   skos:prefLabel "Urban trail"@en ;
-  skos:prefLabel "Camino urbano"@es .
+  skos:prefLabel "Camino urbano"@es ;
+  skos:prefLabel "Camí urbà"@ca ;
+  skos:prefLabel "Camí urbà"@ca-valencia ;
+  skos:prefLabel "Camiño urbano"@gl ;
+  skos:prefLabel "Hiriko bidea"@eu .
 
 estur-trailtype:RuralTrail a skos:Concept;
   skos:inScheme estur-kos:TrailType;
   skos:prefLabel "Rural trail"@en ;
-  skos:prefLabel "Camino rural"@es .
+  skos:prefLabel "Camino rural"@es ;
+  skos:prefLabel "Camí rural"@ca ;
+  skos:prefLabel "Camí rural"@ca-valencia ;
+  skos:prefLabel "Camiño rural"@gl ;
+  skos:prefLabel "Landa-bidea"@eu .
 
 estur-trailtype:MountainousTrail a skos:Concept;
   skos:inScheme estur-kos:TrailType;
   skos:prefLabel "Mountainous trail"@en ;
-  skos:prefLabel "Camino montañoso"@es .
+  skos:prefLabel "Camino montañoso"@es ;
+  skos:prefLabel "Camí de muntanya"@ca ;
+  skos:prefLabel "Camí de muntanya"@ca-valencia ;
+  skos:prefLabel "Camiño de montaña"@gl ;
+  skos:prefLabel "Mendiko bidea"@eu .

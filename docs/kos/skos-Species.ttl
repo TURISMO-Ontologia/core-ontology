@@ -22,10 +22,22 @@ estur-kos:Species a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Species"@en ;
     rdfs:label "Especies"@es ;
+    rdfs:label "Espècies"@ca ;
+    rdfs:label "Espècies"@ca-valencia ;
+    rdfs:label "Especies"@gl ;
+    rdfs:label "Espezieak"@eu ;
     dct:title "Concept scheme grouping biological species of pets whose entry is permitted."@en ;
-    dct:title "Esquema de conceptos agrupando especies biológicas de mascotas cuyo ingreso es permitido."@es .
+    dct:title "Esquema de conceptos agrupando especies biológicas de mascotas cuyo ingreso es permitido."@es ;
+    dct:title "Esquema de conceptes que agrupa espècies biològiques d'animals de companyia l'entrada dels quals és permesa."@ca ;
+    dct:title "Esquema de conceptes que agrupa espècies biològiques d'animals de companyia l'entrada dels quals és permesa."@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa especies biolóxicas de mascotas cuxa entrada está permitida."@gl ;
+    dct:title "Sarrera baimenduta duten maskoten espezie biologikoak biltzen dituen kontzeptu-eskema."@eu .
 
 #################################################################
 #
@@ -36,29 +48,53 @@ estur-kos:Species a skos:ConceptScheme ;
 estur-species:Dog a skos:Concept;
   skos:inScheme estur-kos:Species;
   skos:prefLabel "Dog"@en ;
-  skos:prefLabel "Perro"@es .
+  skos:prefLabel "Perro"@es ;
+  skos:prefLabel "Gos"@ca ;
+  skos:prefLabel "Gos"@ca-valencia ;
+  skos:prefLabel "Can"@gl ;
+  skos:prefLabel "Txakurra"@eu .
 
 estur-species:Cat a skos:Concept;
   skos:inScheme estur-kos:Species;
   skos:prefLabel "Cat"@en ;
-  skos:prefLabel "Gato"@es .
+  skos:prefLabel "Gato"@es ;
+  skos:prefLabel "Gat"@ca ;
+  skos:prefLabel "Gat"@ca-valencia ;
+  skos:prefLabel "Gato"@gl ;
+  skos:prefLabel "Katua"@eu .
 
 estur-species:Ferret a skos:Concept;
   skos:inScheme estur-kos:Species;
   skos:prefLabel "Ferret"@en ;
-  skos:prefLabel "Hurón"@es .
+  skos:prefLabel "Hurón"@es ;
+  skos:prefLabel "Fura"@ca ;
+  skos:prefLabel "Fura"@ca-valencia ;
+  skos:prefLabel "Furón"@gl ;
+  skos:prefLabel "Hudoa"@eu .
 
 estur-species:Fish a skos:Concept;
   skos:inScheme estur-kos:Species;
   skos:prefLabel "Fish"@en ;
-  skos:prefLabel "Pez"@es .
+  skos:prefLabel "Pez"@es ;
+  skos:prefLabel "Peix"@ca ;
+  skos:prefLabel "Peix"@ca-valencia ;
+  skos:prefLabel "Peixe"@gl ;
+  skos:prefLabel "Arraina"@eu .
 
 estur-species:Bird a skos:Concept;
   skos:inScheme estur-kos:Species;
   skos:prefLabel "Bird"@en ;
-  skos:prefLabel "Ave"@es .
+  skos:prefLabel "Ave"@es ;
+  skos:prefLabel "Au"@ca ;
+  skos:prefLabel "Au"@ca-valencia ;
+  skos:prefLabel "Ave"@gl ;
+  skos:prefLabel "Hegaztia"@eu .
 
 estur-species:Turtle a skos:Concept;
   skos:inScheme estur-kos:Species;
   skos:prefLabel "Turtle"@en ;
-  skos:prefLabel "Tortuga"@es .
+  skos:prefLabel "Tortuga"@es ;
+  skos:prefLabel "Tortuga"@ca ;
+  skos:prefLabel "Tortuga"@ca-valencia ;
+  skos:prefLabel "Tartaruga"@gl ;
+  skos:prefLabel "Dortoka"@eu .

@@ -22,10 +22,22 @@ estur-kos:VisibilityCriteria a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Visibility criteria"@en ;
     rdfs:label "Criterio de visibilidad"@es ;
+    rdfs:label "Criteri de visibilitat"@ca ;
+    rdfs:label "Criteri de visibilitat"@ca-valencia ;
+    rdfs:label "Criterio de visibilidade"@gl ;
+    rdfs:label "Ikusgarritasun-irizpidea"@eu ;
     dct:title "Concept scheme for visibility criteria"@en ;
-    dct:title "Esquema de conceptos para criterios de visibilidad"@es .
+    dct:title "Esquema de conceptos para criterios de visibilidad"@es ;
+    dct:title "Esquema de conceptes per a criteris de visibilitat"@ca ;
+    dct:title "Esquema de conceptes per a criteris de visibilitat"@ca-valencia ;
+    dct:title "Esquema de conceptos para criterios de visibilidade"@gl ;
+    dct:title "Ikusgarritasun-irizpideetarako kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,19 +48,35 @@ estur-kos:VisibilityCriteria a skos:ConceptScheme ;
 estur-visibilitycriteria:Desaturation a skos:Concept;
   skos:inScheme estur-kos:VisibilityCriteria;
   skos:prefLabel "Desaturation"@en ;
-  skos:prefLabel "Desaturación"@es .
+  skos:prefLabel "Desaturación"@es ;
+  skos:prefLabel "Desaturació"@ca ;
+  skos:prefLabel "Desaturació"@ca-valencia ;
+  skos:prefLabel "Desaturación"@gl ;
+  skos:prefLabel "Desaturazioa"@eu .
 
 estur-visibilitycriteria:Deseasonalisation a skos:Concept;
   skos:inScheme estur-kos:VisibilityCriteria;
   skos:prefLabel "Deseasonalisation"@en ;
-  skos:prefLabel "Desestacionalización"@es .
+  skos:prefLabel "Desestacionalización"@es ;
+  skos:prefLabel "Desestacionalització"@ca ;
+  skos:prefLabel "Desestacionalització"@ca-valencia ;
+  skos:prefLabel "Desestacionalización"@gl ;
+  skos:prefLabel "Desestazionalizazioa"@eu .
 
 estur-visibilitycriteria:Decentralisation a skos:Concept;
   skos:inScheme estur-kos:VisibilityCriteria;
   skos:prefLabel "Decentralisation"@en ;
-  skos:prefLabel "Descentralización"@es .
+  skos:prefLabel "Descentralización"@es ;
+  skos:prefLabel "Descentralització"@ca ;
+  skos:prefLabel "Descentralització"@ca-valencia ;
+  skos:prefLabel "Descentralización"@gl ;
+  skos:prefLabel "Deszentralizazioa"@eu .
 
 estur-visibilitycriteria:Other a skos:Concept;
   skos:inScheme estur-kos:VisibilityCriteria;
   skos:prefLabel "Other"@en ;
-  skos:prefLabel "Otro"@es .
+  skos:prefLabel "Otro"@es ;
+  skos:prefLabel "Altre"@ca ;
+  skos:prefLabel "Altre"@ca-valencia ;
+  skos:prefLabel "Outro"@gl ;
+  skos:prefLabel "Beste bat"@eu .

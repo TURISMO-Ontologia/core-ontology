@@ -22,10 +22,22 @@ estur-kos:TravelUnit a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Travel unit"@en ;
     rdfs:label "Unidad de viaje"@es ;
+    rdfs:label "Unitat de viatge"@ca ;
+    rdfs:label "Unitat de viatge"@ca-valencia ;
+    rdfs:label "Unidade de viaxe"@gl ;
+    rdfs:label "Bidaia-unitatea"@eu ;
     dct:title "Concept scheme grouping travel units"@en ;
-    dct:title "Esquema de conceptos agrupando unidades de viaje"@es .
+    dct:title "Esquema de conceptos agrupando unidades de viaje"@es ;
+    dct:title "Esquema de conceptes que agrupa unitats de viatge"@ca ;
+    dct:title "Esquema de conceptes que agrupa unitats de viatge"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa unidades de viaxe"@gl ;
+    dct:title "Bidaia-unitateak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,20 +48,36 @@ estur-kos:TravelUnit a skos:ConceptScheme ;
 estur-travelunit:Alone a skos:Concept;
   skos:inScheme estur-kos:TravelUnit;
   skos:prefLabel "Alone"@en ;
-  skos:prefLabel "Sólo"@es .
+  skos:prefLabel "Sólo"@es ;
+  skos:prefLabel "Sol"@ca ;
+  skos:prefLabel "Sol"@ca-valencia ;
+  skos:prefLabel "Só"@gl ;
+  skos:prefLabel "Bakarrik"@eu .
 
 estur-travelunit:Couple a skos:Concept;
   skos:inScheme estur-kos:TravelUnit;
   skos:prefLabel "Couple"@en ;
-  skos:prefLabel "Pareja"@es .
+  skos:prefLabel "Pareja"@es ;
+  skos:prefLabel "Parella"@ca ;
+  skos:prefLabel "Parella"@ca-valencia ;
+  skos:prefLabel "Parella"@gl ;
+  skos:prefLabel "Bikotea"@eu .
 
 estur-travelunit:FamilyAndKids a skos:Concept;
   skos:inScheme estur-kos:TravelUnit;
   skos:prefLabel "Family and kids"@en ;
-  skos:prefLabel "Familia con niños"@es .
+  skos:prefLabel "Familia con niños"@es ;
+  skos:prefLabel "Família amb nens"@ca ;
+  skos:prefLabel "Família amb xiquets"@ca-valencia ;
+  skos:prefLabel "Familia con nenos"@gl ;
+  skos:prefLabel "Familia haurrekin"@eu .
 
 estur-travelunit:Group a skos:Concept;
   skos:inScheme estur-kos:TravelUnit;
   skos:prefLabel "Group"@en ;
-  skos:prefLabel "Grupo"@es .
+  skos:prefLabel "Grupo"@es ;
+  skos:prefLabel "Grup"@ca ;
+  skos:prefLabel "Grup"@ca-valencia ;
+  skos:prefLabel "Grupo"@gl ;
+  skos:prefLabel "Taldea"@eu .
 

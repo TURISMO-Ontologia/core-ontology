@@ -22,10 +22,22 @@ estur-kos:BeachType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Beach type"@en ;
     rdfs:label "Tipo de playa"@es ;
+    rdfs:label "Tipus de platja"@ca ;
+    rdfs:label "Tipus de platja"@ca-valencia ;
+    rdfs:label "Tipo de praia"@gl ;
+    rdfs:label "Hondartza mota"@eu ;
     dct:title "Concept scheme grouping beach types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de playas"@es .
+    dct:title "Esquema de conceptos agrupando tipos de playas"@es ;
+    dct:title "Esquema de conceptes que agrupa tipus de platges"@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus de platges"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de praias"@gl ;
+    dct:title "Hondartza motak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,69 +49,145 @@ estur-beachtype:BlackSand a skos:Concept;
   skos:inScheme estur-kos:BeachType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Black sand"@en ;
-  skos:prefLabel "Arena negra"@es .
+  skos:prefLabel "Arena negra"@es ;
+  skos:prefLabel "Sorra negra"@ca ;
+  skos:prefLabel "Arena negra"@ca-valencia ;
+  skos:prefLabel "Area negra"@gl ;
+  skos:prefLabel "Hondar beltza"@eu .
 
 estur-beachtype:CalmWaters a skos:Concept;
   skos:inScheme estur-kos:BeachType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Calm waters"@en ;
-  skos:prefLabel "Aguas tranquilas"@es .
+  skos:prefLabel "Aguas tranquilas"@es ;
+  skos:prefLabel "Aigües tranquil·les"@ca ;
+  skos:prefLabel "Aigües tranquil·les"@ca-valencia ;
+  skos:prefLabel "Augas tranquilas"@gl ;
+  skos:prefLabel "Ur lasaiak"@eu .
 
 estur-beachtype:inland a skos:Concept;
   skos:inScheme estur-kos:BeachType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Inland"@en ;
-  skos:prefLabel "Playa de interior"@es .
+  skos:prefLabel "Playa de interior"@es ;
+  skos:prefLabel "Platja d'interior"@ca ;
+  skos:prefLabel "Platja d'interior"@ca-valencia ;
+  skos:prefLabel "Praia de interior"@gl ;
+  skos:prefLabel "Barnealdeko hondartza"@eu .
 
 estur-beachtype:isolatedBeach a skos:Concept;
   skos:inScheme estur-kos:BeachType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Isolated beach"@en ;
-  skos:prefLabel "Playa no urbana"@es .
+  skos:prefLabel "Playa no urbana"@es ;
+  skos:prefLabel "Platja no urbana"@ca ;
+  skos:prefLabel "Platja no urbana"@ca-valencia ;
+  skos:prefLabel "Praia non urbana"@gl ;
+  skos:prefLabel "Hirikoa ez den hondartza"@eu .
 
 estur-beachtype:riverBeach a skos:Concept;
   skos:inScheme estur-kos:BeachType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "River beach"@en ;
-  skos:prefLabel "Playa fluvial"@es .
+  skos:prefLabel "Playa fluvial"@es ;
+  skos:prefLabel "Platja fluvial"@ca ;
+  skos:prefLabel "Platja fluvial"@ca-valencia ;
+  skos:prefLabel "Praia fluvial"@gl ;
+  skos:prefLabel "Ibai-hondartza"@eu .
 
 estur-beachtype:strongWaves a skos:Concept;
   skos:inScheme estur-kos:BeachType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Strong waves"@en ;
-  skos:prefLabel "Playa de olas fuertes"@es .
+  skos:prefLabel "Playa de olas fuertes"@es ;
+  skos:prefLabel "Platja d'onatge fort"@ca ;
+  skos:prefLabel "Platja d'onatge fort"@ca-valencia ;
+  skos:prefLabel "Praia de ondas fortes"@gl ;
+  skos:prefLabel "Olatu handiko hondartza"@eu .
 
 estur-beachtype:urbanBeach a skos:Concept;
   skos:inScheme estur-kos:BeachType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Urban beach"@en ;
-  skos:prefLabel "Playa urbana"@es .
+  skos:prefLabel "Playa urbana"@es ;
+  skos:prefLabel "Platja urbana"@ca ;
+  skos:prefLabel "Platja urbana"@ca-valencia ;
+  skos:prefLabel "Praia urbana"@gl ;
+  skos:prefLabel "Hiriko hondartza"@eu .
 
 estur-beachtype:whiteSand a skos:Concept;
   skos:inScheme estur-kos:BeachType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "White sand"@en ;
-  skos:prefLabel "Arena blanca"@es .
+  skos:prefLabel "Arena blanca"@es ;
+  skos:prefLabel "Sorra blanca"@ca ;
+  skos:prefLabel "Arena blanca"@ca-valencia ;
+  skos:prefLabel "Area branca"@gl ;
+  skos:prefLabel "Hondar zuria"@eu .
 
 estur-beachtype:urbanised a skos:Concept;
   skos:inScheme estur-kos:BeachType;
   skos:prefLabel "Urbanised"@en ;
-  skos:prefLabel "Playa urbanizada"@es .
+  skos:prefLabel "Playa urbanizada"@es ;
+  skos:prefLabel "Platja urbanitzada"@ca ;
+  skos:prefLabel "Platja urbanitzada"@ca-valencia ;
+  skos:prefLabel "Praia urbanizada"@gl ;
+  skos:prefLabel "Hondartza urbanizatua"@eu .
 
 estur-beachtype:sandyBottom a skos:Concept;
   skos:inScheme estur-kos:BeachType;
   skos:prefLabel "Sandy bottom"@en ;
-  skos:prefLabel "Fondo arenoso"@es .
+  skos:prefLabel "Fondo arenoso"@es ;
+  skos:prefLabel "Fons sorrenc"@ca ;
+  skos:prefLabel "Fons sorrenc"@ca-valencia ;
+  skos:prefLabel "Fondo areoso"@gl ;
+  skos:prefLabel "Hondo hareatsua"@eu .
 
 estur-beachtype:rockyBottom a skos:Concept;
   skos:inScheme estur-kos:BeachType;
   skos:prefLabel "Rocky bottom"@en ;
-  skos:prefLabel "Fondo rocoso"@es .
+  skos:prefLabel "Fondo rocoso"@es ;
+  skos:prefLabel "Fons rocós"@ca ;
+  skos:prefLabel "Fons rocós"@ca-valencia ;
+  skos:prefLabel "Fondo rochoso"@gl ;
+  skos:prefLabel "Hondo harritsua"@eu .

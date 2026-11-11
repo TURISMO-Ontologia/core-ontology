@@ -22,10 +22,22 @@ estur-kos:SingularTreeType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Singular tree type"@en ;
     rdfs:label "Tipo de árbol singular"@es ;
+    rdfs:label "Tipus d'arbre singular"@ca ;
+    rdfs:label "Tipus d'arbre singular"@ca-valencia ;
+    rdfs:label "Tipo de árbore senlleira"@gl ;
+    rdfs:label "Zuhaitz berezi mota"@eu ;
     dct:title "Classification of singular trees based on their characteristics."@en ;
-    dct:title "Categorización de árboles singulares en función de sus características."@es .
+    dct:title "Categorización de árboles singulares en función de sus características."@es ;
+    dct:title "Categorització d'arbres singulars en funció de les seves característiques."@ca ;
+    dct:title "Categorització d'arbres singulars en funció de les seues característiques."@ca-valencia ;
+    dct:title "Categorización de árbores senlleiras en función das súas características."@gl ;
+    dct:title "Zuhaitz berezien kategorizazioa, haien ezaugarrien arabera."@eu .
 
 #################################################################
 #
@@ -36,16 +48,28 @@ estur-kos:SingularTreeType a skos:ConceptScheme ;
 estur-singulartreetype:OliveTree a skos:Concept;
   skos:inScheme estur-kos:SingularTreeType;
   skos:prefLabel "Olive tree"@en ;
-  skos:prefLabel "Olivo"@es .
+  skos:prefLabel "Olivo"@es ;
+  skos:prefLabel "Olivera"@ca ;
+  skos:prefLabel "Olivera"@ca-valencia ;
+  skos:prefLabel "Oliveira"@gl ;
+  skos:prefLabel "Olibondoa"@eu .
 
 estur-singulartreetype:WildOliveTree a skos:Concept;
   skos:inScheme estur-kos:SingularTreeType;
   skos:broader estur-singulartreetype:OliveTree ;
   skos:prefLabel "Wild olive tree"@en ;
-  skos:prefLabel "Acebuche"@es .
+  skos:prefLabel "Acebuche"@es ;
+  skos:prefLabel "Ullastre"@ca ;
+  skos:prefLabel "Ullastre"@ca-valencia ;
+  skos:prefLabel "Oliveira brava"@gl ;
+  skos:prefLabel "Basolibondoa"@eu .
 
 estur-singulartreetype:MilenaryOliveTree a skos:Concept;
   skos:inScheme estur-kos:SingularTreeType;
   skos:broader estur-singulartreetype:OliveTree ;
   skos:prefLabel "Milenary olive tree"@en ;
-  skos:prefLabel "Olivo milenario"@es .
+  skos:prefLabel "Olivo milenario"@es ;
+  skos:prefLabel "Olivera mil·lenària"@ca ;
+  skos:prefLabel "Olivera mil·lenària"@ca-valencia ;
+  skos:prefLabel "Oliveira milenaria"@gl ;
+  skos:prefLabel "Mila urteko olibondoa"@eu .

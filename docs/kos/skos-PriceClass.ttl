@@ -22,10 +22,22 @@ estur-kos:PriceClass a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Price class"@en ;
     rdfs:label "Gama de precios"@es ;
+    rdfs:label "Gamma de preus"@ca ;
+    rdfs:label "Gamma de preus"@ca-valencia ;
+    rdfs:label "Gama de prezos"@gl ;
+    rdfs:label "Prezio-tartea"@eu ;
     dct:title "Concept scheme grouping price classes"@en ;
-    dct:title "Esquema de conceptos agrupando gamas de precios"@es .
+    dct:title "Esquema de conceptos agrupando gamas de precios"@es ;
+    dct:title "Esquema de conceptes que agrupa gammes de preus"@ca ;
+    dct:title "Esquema de conceptes que agrupa gammes de preus"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa gamas de prezos"@gl ;
+    dct:title "Prezio-tarteak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,26 +49,58 @@ estur-priceclass:HighRange a skos:Concept;
   skos:inScheme estur-kos:PriceClass;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "High range"@en ;
-  skos:prefLabel "Gama alta"@es .
+  skos:prefLabel "Gama alta"@es ;
+  skos:prefLabel "Gamma alta"@ca ;
+  skos:prefLabel "Gamma alta"@ca-valencia ;
+  skos:prefLabel "Gama alta"@gl ;
+  skos:prefLabel "Gama altua"@eu .
 
 estur-priceclass:LowRange a skos:Concept;
   skos:inScheme estur-kos:PriceClass;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Low range"@en ;
-  skos:prefLabel "Gama baja"@es .
+  skos:prefLabel "Gama baja"@es ;
+  skos:prefLabel "Gamma baixa"@ca ;
+  skos:prefLabel "Gamma baixa"@ca-valencia ;
+  skos:prefLabel "Gama baixa"@gl ;
+  skos:prefLabel "Gama baxua"@eu .
 
 estur-priceclass:MidRange a skos:Concept;
   skos:inScheme estur-kos:PriceClass;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Mid range"@en ;
-  skos:prefLabel "Gama media"@es .
+  skos:prefLabel "Gama media"@es ;
+  skos:prefLabel "Gamma mitjana"@ca ;
+  skos:prefLabel "Gamma mitjana"@ca-valencia ;
+  skos:prefLabel "Gama media"@gl ;
+  skos:prefLabel "Gama ertaina"@eu .
 
 estur-priceclass:TopRange a skos:Concept;
   skos:inScheme estur-kos:PriceClass;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Top range"@en ;
-  skos:prefLabel "Gama superior"@es .
+  skos:prefLabel "Gama superior"@es ;
+  skos:prefLabel "Gamma superior"@ca ;
+  skos:prefLabel "Gamma superior"@ca-valencia ;
+  skos:prefLabel "Gama superior"@gl ;
+  skos:prefLabel "Goi-mailako gama"@eu .

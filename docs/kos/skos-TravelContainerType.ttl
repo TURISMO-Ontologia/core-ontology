@@ -22,10 +22,22 @@ estur-kos:TravelContainerType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Travel container type"@en ;
     rdfs:label "Tipo de contenedor de viaje"@es ;
+    rdfs:label "Tipus de contenidor de viatge"@ca ;
+    rdfs:label "Tipus de contenidor de viatge"@ca-valencia ;
+    rdfs:label "Tipo de contedor de viaxe"@gl ;
+    rdfs:label "Bidaia-edukiontzi mota"@eu ;
     dct:title "Concept scheme grouping types of portable enclosures used to transport or house pets."@en ;
-    dct:title "Esquema de conceptos agrupando tipos de habitáculos portátiles utilizados para transportar o albergar a mascotas."@es .
+    dct:title "Esquema de conceptos agrupando tipos de habitáculos portátiles utilizados para transportar o albergar a mascotas."@es ;
+    dct:title "Esquema de conceptes que agrupa tipus d'habitacles portàtils utilitzats per transportar o allotjar animals de companyia."@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus d'habitacles portàtils utilitzats per transportar o allotjar animals de companyia."@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de habitáculos portátiles utilizados para transportar ou aloxar mascotas."@gl ;
+    dct:title "Maskotak garraiatzeko edo ostatatzeko erabiltzen diren bizitoki eramangarri motak biltzen dituen kontzeptu-eskema."@eu .
 
 #################################################################
 #
@@ -36,14 +48,26 @@ estur-kos:TravelContainerType a skos:ConceptScheme ;
 estur-travelcontainertype:Cage a skos:Concept;
   skos:inScheme estur-kos:TravelContainerType;
   skos:prefLabel "Cage"@en ;
-  skos:prefLabel "Jaula"@es .
+  skos:prefLabel "Jaula"@es ;
+  skos:prefLabel "Gàbia"@ca ;
+  skos:prefLabel "Gàbia"@ca-valencia ;
+  skos:prefLabel "Gaiola"@gl ;
+  skos:prefLabel "Kaiola"@eu .
 
 estur-travelcontainertype:SoftBag a skos:Concept;
   skos:inScheme estur-kos:TravelContainerType;
   skos:prefLabel "Soft  bag"@en ;
-  skos:prefLabel "Bolsa de transporte"@es .
+  skos:prefLabel "Bolsa de transporte"@es ;
+  skos:prefLabel "Bossa de transport"@ca ;
+  skos:prefLabel "Bossa de transport"@ca-valencia ;
+  skos:prefLabel "Bolsa de transporte"@gl ;
+  skos:prefLabel "Garraio-poltsa"@eu .
 
 estur-travelcontainertype:Carrier a skos:Concept;
   skos:inScheme estur-kos:TravelContainerType;
   skos:prefLabel "Carrier"@en ;
-  skos:prefLabel "Transportín"@es .
+  skos:prefLabel "Transportín"@es ;
+  skos:prefLabel "Cistella de transport"@ca ;
+  skos:prefLabel "Cistella de transport"@ca-valencia ;
+  skos:prefLabel "Caixa de transporte"@gl ;
+  skos:prefLabel "Garraio-kutxa"@eu .

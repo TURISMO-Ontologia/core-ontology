@@ -22,10 +22,22 @@ estur-kos:SocialMediaPlatform a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Social media platform"@en ;
     rdfs:label "Plataforma de redes sociales"@es ;
+    rdfs:label "Plataforma de xarxes socials"@ca ;
+    rdfs:label "Plataforma de xarxes socials"@ca-valencia ;
+    rdfs:label "Plataforma de redes sociais"@gl ;
+    rdfs:label "Sare sozialen plataforma"@eu ;
     dct:title "Concept scheme grouping social media platforms"@en ;
-    dct:title "Esquema de conceptos agrupando plataformas de redes sociales"@es .
+    dct:title "Esquema de conceptos agrupando plataformas de redes sociales"@es ;
+    dct:title "Esquema de conceptes que agrupa plataformes de xarxes socials"@ca ;
+    dct:title "Esquema de conceptes que agrupa plataformes de xarxes socials"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa plataformas de redes sociais"@gl ;
+    dct:title "Sare sozialen plataformak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,30 +48,54 @@ estur-kos:SocialMediaPlatform a skos:ConceptScheme ;
 estur-socialmediaplatform:Facebook a skos:Concept;
   skos:inScheme estur-kos:SocialMediaPlatform;
   skos:prefLabel "Facebook"@en ;
-  skos:prefLabel "Facebook"@es .
+  skos:prefLabel "Facebook"@es ;
+  skos:prefLabel "Facebook"@ca ;
+  skos:prefLabel "Facebook"@ca-valencia ;
+  skos:prefLabel "Facebook"@gl ;
+  skos:prefLabel "Facebook"@eu .
 
 estur-socialmediaplatform:Instagram a skos:Concept;
   skos:inScheme estur-kos:SocialMediaPlatform;
   skos:prefLabel "Instagram"@en ;
-  skos:prefLabel "Instagram"@es .
+  skos:prefLabel "Instagram"@es ;
+  skos:prefLabel "Instagram"@ca ;
+  skos:prefLabel "Instagram"@ca-valencia ;
+  skos:prefLabel "Instagram"@gl ;
+  skos:prefLabel "Instagram"@eu .
 
 estur-socialmediaplatform:TikTok a skos:Concept;
   skos:inScheme estur-kos:SocialMediaPlatform;
   skos:prefLabel "TikTok"@en ;
-  skos:prefLabel "TikTok"@es .
+  skos:prefLabel "TikTok"@es ;
+  skos:prefLabel "TikTok"@ca ;
+  skos:prefLabel "TikTok"@ca-valencia ;
+  skos:prefLabel "TikTok"@gl ;
+  skos:prefLabel "TikTok"@eu .
 
 estur-socialmediaplatform:X a skos:Concept;
   skos:inScheme estur-kos:SocialMediaPlatform;
   skos:prefLabel "X"@en ;
-  skos:prefLabel "X"@es .
+  skos:prefLabel "X"@es ;
+  skos:prefLabel "X"@ca ;
+  skos:prefLabel "X"@ca-valencia ;
+  skos:prefLabel "X"@gl ;
+  skos:prefLabel "X"@eu .
 
 estur-socialmediaplatform:TripAdvisor a skos:Concept;
   skos:inScheme estur-kos:SocialMediaPlatform;
   skos:prefLabel "TripAdvisor"@en ;
-  skos:prefLabel "TripAdvisor"@es .
+  skos:prefLabel "TripAdvisor"@es ;
+  skos:prefLabel "TripAdvisor"@ca ;
+  skos:prefLabel "TripAdvisor"@ca-valencia ;
+  skos:prefLabel "TripAdvisor"@gl ;
+  skos:prefLabel "TripAdvisor"@eu .
 
 estur-socialmediaplatform:Youtube a skos:Concept;
   skos:inScheme estur-kos:SocialMediaPlatform;
   skos:prefLabel "Youtube"@en ;
-  skos:prefLabel "Youtube"@es .
+  skos:prefLabel "Youtube"@es ;
+  skos:prefLabel "Youtube"@ca ;
+  skos:prefLabel "Youtube"@ca-valencia ;
+  skos:prefLabel "Youtube"@gl ;
+  skos:prefLabel "Youtube"@eu .
 

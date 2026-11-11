@@ -22,10 +22,22 @@ estur-kos:AccommodationRatingSystem a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Accommodation rating system"@en ;
     rdfs:label "Sistema de clasificación de alojamientos"@es ;
+    rdfs:label "Sistema de classificació d'allotjaments"@ca ;
+    rdfs:label "Sistema de classificació d'allotjaments"@ca-valencia ;
+    rdfs:label "Sistema de clasificación de aloxamentos"@gl ;
+    rdfs:label "Ostatuak sailkatzeko sistema"@eu ;
     dct:title "Concept scheme grouping accommodation rating systems"@en ;
-    dct:title "Esquema de conceptos agrupando sistemas de clasificación de alojamientos"@es .
+    dct:title "Esquema de conceptos agrupando sistemas de clasificación de alojamientos"@es ;
+    dct:title "Esquema de conceptes que agrupa sistemes de classificació d'allotjaments"@ca ;
+    dct:title "Esquema de conceptes que agrupa sistemes de classificació d'allotjaments"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa sistemas de clasificación de aloxamentos"@gl ;
+    dct:title "Ostatuak sailkatzeko sistemak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,69 +48,117 @@ estur-kos:AccommodationRatingSystem a skos:ConceptScheme ;
 estur-accommodationratingsystem:Stars a skos:Concept;
   skos:inScheme estur-kos:AccommodationRatingSystem;
   skos:prefLabel "Stars"@en ;
-  skos:prefLabel "Estrellas"@es .
+  skos:prefLabel "Estrellas"@es ;
+  skos:prefLabel "Estrelles"@ca ;
+  skos:prefLabel "Estrelles"@ca-valencia ;
+  skos:prefLabel "Estrelas"@gl ;
+  skos:prefLabel "Izarrak"@eu .
 
 estur-accommodationratingsystem:OneStar a skos:Concept;
   skos:inScheme estur-kos:AccommodationRatingSystem;
   skos:broader estur-accommodationratingsystem:Stars;
   skos:prefLabel "1 star"@en ;
-  skos:prefLabel "1 estrella"@es .
+  skos:prefLabel "1 estrella"@es ;
+  skos:prefLabel "1 estrella"@ca ;
+  skos:prefLabel "1 estrella"@ca-valencia ;
+  skos:prefLabel "1 estrela"@gl ;
+  skos:prefLabel "Izar 1"@eu .
 
 estur-accommodationratingsystem:TwoStars a skos:Concept;
   skos:inScheme estur-kos:AccommodationRatingSystem;
   skos:broader estur-accommodationratingsystem:Stars;
   skos:prefLabel "2 stars"@en ;
-  skos:prefLabel "2 estrellas"@es .
+  skos:prefLabel "2 estrellas"@es ;
+  skos:prefLabel "2 estrelles"@ca ;
+  skos:prefLabel "2 estrelles"@ca-valencia ;
+  skos:prefLabel "2 estrelas"@gl ;
+  skos:prefLabel "2 izar"@eu .
 
 estur-accommodationratingsystem:ThreeStars a skos:Concept;
   skos:inScheme estur-kos:AccommodationRatingSystem;
   skos:broader estur-accommodationratingsystem:Stars;
   skos:prefLabel "3 stars"@en ;
-  skos:prefLabel "3 estrellas"@es .
+  skos:prefLabel "3 estrellas"@es ;
+  skos:prefLabel "3 estrelles"@ca ;
+  skos:prefLabel "3 estrelles"@ca-valencia ;
+  skos:prefLabel "3 estrelas"@gl ;
+  skos:prefLabel "3 izar"@eu .
 
 estur-accommodationratingsystem:FourStars a skos:Concept;
   skos:inScheme estur-kos:AccommodationRatingSystem;
   skos:broader estur-accommodationratingsystem:Stars;
   skos:prefLabel "4 stars"@en ;
-  skos:prefLabel "4 estrellas"@es .
+  skos:prefLabel "4 estrellas"@es ;
+  skos:prefLabel "4 estrelles"@ca ;
+  skos:prefLabel "4 estrelles"@ca-valencia ;
+  skos:prefLabel "4 estrelas"@gl ;
+  skos:prefLabel "4 izar"@eu .
 
 estur-accommodationratingsystem:FiveStars a skos:Concept;
   skos:inScheme estur-kos:AccommodationRatingSystem;
   skos:broader estur-accommodationratingsystem:Stars;
   skos:prefLabel "5 stars"@en ;
-  skos:prefLabel "5 estrellas"@es .
+  skos:prefLabel "5 estrellas"@es ;
+  skos:prefLabel "5 estrelles"@ca ;
+  skos:prefLabel "5 estrelles"@ca-valencia ;
+  skos:prefLabel "5 estrelas"@gl ;
+  skos:prefLabel "5 izar"@eu .
 
 estur-accommodationratingsystem:Keys a skos:Concept;
   skos:inScheme estur-kos:AccommodationRatingSystem;
   skos:prefLabel "Keys"@en ;
-  skos:prefLabel "Llaves"@es .
+  skos:prefLabel "Llaves"@es ;
+  skos:prefLabel "Claus"@ca ;
+  skos:prefLabel "Claus"@ca-valencia ;
+  skos:prefLabel "Chaves"@gl ;
+  skos:prefLabel "Giltzak"@eu .
 
 estur-accommodationratingsystem:OneKey a skos:Concept;
   skos:inScheme estur-kos:AccommodationRatingSystem;
   skos:broader estur-accommodationratingsystem:Keys;
   skos:prefLabel "1 key"@en ;
-  skos:prefLabel "1 llave"@es .
+  skos:prefLabel "1 llave"@es ;
+  skos:prefLabel "1 clau"@ca ;
+  skos:prefLabel "1 clau"@ca-valencia ;
+  skos:prefLabel "1 chave"@gl ;
+  skos:prefLabel "Giltza 1"@eu .
 
 estur-accommodationratingsystem:TwoKeys a skos:Concept;
   skos:inScheme estur-kos:AccommodationRatingSystem;
   skos:broader estur-accommodationratingsystem:Keys;
   skos:prefLabel "2 keys"@en ;
-  skos:prefLabel "2 llaves"@es .
+  skos:prefLabel "2 llaves"@es ;
+  skos:prefLabel "2 claus"@ca ;
+  skos:prefLabel "2 claus"@ca-valencia ;
+  skos:prefLabel "2 chaves"@gl ;
+  skos:prefLabel "2 giltza"@eu .
 
 estur-accommodationratingsystem:ThreeKeys a skos:Concept;
   skos:inScheme estur-kos:AccommodationRatingSystem;
   skos:broader estur-accommodationratingsystem:Keys;
   skos:prefLabel "3 keys"@en ;
-  skos:prefLabel "3 llaves"@es .
+  skos:prefLabel "3 llaves"@es ;
+  skos:prefLabel "3 claus"@ca ;
+  skos:prefLabel "3 claus"@ca-valencia ;
+  skos:prefLabel "3 chaves"@gl ;
+  skos:prefLabel "3 giltza"@eu .
 
 estur-accommodationratingsystem:FourKeys a skos:Concept;
   skos:inScheme estur-kos:AccommodationRatingSystem;
   skos:broader estur-accommodationratingsystem:Keys;
   skos:prefLabel "4 keys"@en ;
-  skos:prefLabel "4 llaves"@es .
+  skos:prefLabel "4 llaves"@es ;
+  skos:prefLabel "4 claus"@ca ;
+  skos:prefLabel "4 claus"@ca-valencia ;
+  skos:prefLabel "4 chaves"@gl ;
+  skos:prefLabel "4 giltza"@eu .
 
 estur-accommodationratingsystem:FiveKeys a skos:Concept;
   skos:inScheme estur-kos:AccommodationRatingSystem;
   skos:broader estur-accommodationratingsystem:Keys;
   skos:prefLabel "5 keys"@en ;
-  skos:prefLabel "5 llaves"@es .
+  skos:prefLabel "5 llaves"@es ;
+  skos:prefLabel "5 claus"@ca ;
+  skos:prefLabel "5 claus"@ca-valencia ;
+  skos:prefLabel "5 chaves"@gl ;
+  skos:prefLabel "5 giltza"@eu .

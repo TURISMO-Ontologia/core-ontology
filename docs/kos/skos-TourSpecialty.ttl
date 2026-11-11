@@ -22,10 +22,22 @@ estur-kos:TourSpecialty a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Tour specialty"@en ;
     rdfs:label "Especialidad del tour"@es ;
+    rdfs:label "Especialitat del tour"@ca ;
+    rdfs:label "Especialitat del tour"@ca-valencia ;
+    rdfs:label "Especialidade do tour"@gl ;
+    rdfs:label "Tourraren espezialitatea"@eu ;
     dct:title "Concept scheme grouping tour specialties"@en ;
-    dct:title "Esquema de conceptos agrupando especialidades de tours"@es .
+    dct:title "Esquema de conceptos agrupando especialidades de tours"@es ;
+    dct:title "Esquema de conceptes que agrupa especialitats de tours"@ca ;
+    dct:title "Esquema de conceptes que agrupa especialitats de tours"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa especialidades de tours"@gl ;
+    dct:title "Tourren espezialitateak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,24 +48,44 @@ estur-kos:TourSpecialty a skos:ConceptScheme ;
 estur-tourspecialty:EducationalTour a skos:Concept;
   skos:inScheme estur-kos:TourSpecialty;
   skos:prefLabel "Educational tour"@en ;
-  skos:prefLabel "Visita educativa"@es .
+  skos:prefLabel "Visita educativa"@es ;
+  skos:prefLabel "Visita educativa"@ca ;
+  skos:prefLabel "Visita educativa"@ca-valencia ;
+  skos:prefLabel "Visita educativa"@gl ;
+  skos:prefLabel "Hezkuntza-bisita"@eu .
 
 estur-tourspecialty:GroupTour a skos:Concept;
   skos:inScheme estur-kos:TourSpecialty;
   skos:prefLabel "Group tour"@en ;
-  skos:prefLabel "Visita en grupos"@es .
+  skos:prefLabel "Visita en grupos"@es ;
+  skos:prefLabel "Visita en grups"@ca ;
+  skos:prefLabel "Visita en grups"@ca-valencia ;
+  skos:prefLabel "Visita en grupos"@gl ;
+  skos:prefLabel "Taldeko bisita"@eu .
 
 estur-tourspecialty:PrivateTour a skos:Concept;
   skos:inScheme estur-kos:TourSpecialty;
   skos:prefLabel "Private tour"@en ;
-  skos:prefLabel "Visita privada"@es .
+  skos:prefLabel "Visita privada"@es ;
+  skos:prefLabel "Visita privada"@ca ;
+  skos:prefLabel "Visita privada"@ca-valencia ;
+  skos:prefLabel "Visita privada"@gl ;
+  skos:prefLabel "Bisita pribatua"@eu .
 
 estur-tourspecialty:BikeTour a skos:Concept;
   skos:inScheme estur-kos:TourSpecialty;
   skos:prefLabel "Bike tour"@en ;
-  skos:prefLabel "Visita en bicicleta"@es .
+  skos:prefLabel "Visita en bicicleta"@es ;
+  skos:prefLabel "Visita amb bicicleta"@ca ;
+  skos:prefLabel "Visita amb bicicleta"@ca-valencia ;
+  skos:prefLabel "Visita en bicicleta"@gl ;
+  skos:prefLabel "Bizikletazko bisita"@eu .
 
 estur-tourspecialty:NightTour a skos:Concept;
   skos:inScheme estur-kos:TourSpecialty;
   skos:prefLabel "Night tour"@en ;
-  skos:prefLabel "Visita nocturna"@es .
+  skos:prefLabel "Visita nocturna"@es ;
+  skos:prefLabel "Visita nocturna"@ca ;
+  skos:prefLabel "Visita nocturna"@ca-valencia ;
+  skos:prefLabel "Visita nocturna"@gl ;
+  skos:prefLabel "Gaueko bisita"@eu .
