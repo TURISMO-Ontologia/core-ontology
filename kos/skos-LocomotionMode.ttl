@@ -22,10 +22,22 @@ estur-kos:LocomotionMode a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Locomotion mode"@en ;
     rdfs:label "Modalidad de locomoción"@es ;
+    rdfs:label "Modalitat de locomoció"@ca ;
+    rdfs:label "Modalitat de locomoció"@ca-valencia ;
+    rdfs:label "Modalidade de locomoción"@gl ;
+    rdfs:label "Lokomozio-modalitatea"@eu ;
     dct:title "Concept scheme grouping locomotion modes"@en ;
-    dct:title "Esquema de conceptos agrupando modalidades de locomoción"@es .
+    dct:title "Esquema de conceptos agrupando modalidades de locomoción"@es ;
+    dct:title "Esquema de conceptes que agrupa modalitats de locomoció"@ca ;
+    dct:title "Esquema de conceptes que agrupa modalitats de locomoció"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa modalidades de locomoción"@gl ;
+    dct:title "Lokomozio-modalitateak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,19 +48,35 @@ estur-kos:LocomotionMode a skos:ConceptScheme ;
 estur-locomotionmode:OnFoot a skos:Concept;
   skos:inScheme estur-kos:LocomotionMode;
   skos:prefLabel "On foot"@en ;
-  skos:prefLabel "A pie"@es .
+  skos:prefLabel "A pie"@es ;
+  skos:prefLabel "A peu"@ca ;
+  skos:prefLabel "A peu"@ca-valencia ;
+  skos:prefLabel "A pé"@gl ;
+  skos:prefLabel "Oinez"@eu .
 
 estur-locomotionmode:ByBicycle a skos:Concept;
   skos:inScheme estur-kos:LocomotionMode;
   skos:prefLabel "By bicycle"@en ;
-  skos:prefLabel "En bicicleta"@es .
+  skos:prefLabel "En bicicleta"@es ;
+  skos:prefLabel "Amb bicicleta"@ca ;
+  skos:prefLabel "Amb bicicleta"@ca-valencia ;
+  skos:prefLabel "En bicicleta"@gl ;
+  skos:prefLabel "Bizikletaz"@eu .
 
 estur-locomotionmode:OnHorseback a skos:Concept;
   skos:inScheme estur-kos:LocomotionMode;
   skos:prefLabel "On horseback"@en ;
-  skos:prefLabel "A caballo"@es .
+  skos:prefLabel "A caballo"@es ;
+  skos:prefLabel "A cavall"@ca ;
+  skos:prefLabel "A cavall"@ca-valencia ;
+  skos:prefLabel "A cabalo"@gl ;
+  skos:prefLabel "Zaldiz"@eu .
 
 estur-locomotionmode:ByCar a skos:Concept;
   skos:inScheme estur-kos:LocomotionMode;
   skos:prefLabel "By car"@en ;
-  skos:prefLabel "En coche"@es .
+  skos:prefLabel "En coche"@es ;
+  skos:prefLabel "Amb cotxe"@ca ;
+  skos:prefLabel "Amb cotxe"@ca-valencia ;
+  skos:prefLabel "En coche"@gl ;
+  skos:prefLabel "Autoz"@eu .

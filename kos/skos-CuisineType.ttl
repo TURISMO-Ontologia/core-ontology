@@ -22,10 +22,22 @@ estur-kos:CuisineType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Cuisine type"@en ;
     rdfs:label "Tipo de cocina"@es ;
+    rdfs:label "Tipus de cuina"@ca ;
+    rdfs:label "Tipus de cuina"@ca-valencia ;
+    rdfs:label "Tipo de cociña"@gl ;
+    rdfs:label "Sukaldaritza mota"@eu ;
     dct:title "Concept scheme grouping cuisine types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de cocina"@es .
+    dct:title "Esquema de conceptos agrupando tipos de cocina"@es ;
+    dct:title "Esquema de conceptes que agrupa tipus de cuina"@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus de cuina"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de cociña"@gl ;
+    dct:title "Sukaldaritza motak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,230 +49,494 @@ estur-cuisinetype:AfricanCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "African cuisine"@en ;
-  skos:prefLabel "Cocina africana"@es .
+  skos:prefLabel "Cocina africana"@es ;
+  skos:prefLabel "Cuina africana"@ca ;
+  skos:prefLabel "Cuina africana"@ca-valencia ;
+  skos:prefLabel "Cociña africana"@gl ;
+  skos:prefLabel "Afrikako sukaldaritza"@eu .
 
 estur-cuisinetype:ArgentinanCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Argentinan cuisine"@en ;
-  skos:prefLabel "Cocina argentina"@es .
+  skos:prefLabel "Cocina argentina"@es ;
+  skos:prefLabel "Cuina argentina"@ca ;
+  skos:prefLabel "Cuina argentina"@ca-valencia ;
+  skos:prefLabel "Cociña arxentina"@gl ;
+  skos:prefLabel "Argentinako sukaldaritza"@eu .
 
 estur-cuisinetype:BrazilianCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Brazilian cuisine"@en ;
-  skos:prefLabel "Cocina brasileña"@es .
+  skos:prefLabel "Cocina brasileña"@es ;
+  skos:prefLabel "Cuina brasilera"@ca ;
+  skos:prefLabel "Cuina brasilera"@ca-valencia ;
+  skos:prefLabel "Cociña brasileira"@gl ;
+  skos:prefLabel "Brasilgo sukaldaritza"@eu .
 
 estur-cuisinetype:ChineseCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Chinese cuisine"@en ;
-  skos:prefLabel "Cocina china"@es .
+  skos:prefLabel "Cocina china"@es ;
+  skos:prefLabel "Cuina xinesa"@ca ;
+  skos:prefLabel "Cuina xinesa"@ca-valencia ;
+  skos:prefLabel "Cociña chinesa"@gl ;
+  skos:prefLabel "Txinako sukaldaritza"@eu .
 
 estur-cuisinetype:FastFood a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Fast food"@en ;
-  skos:prefLabel "Comida rápida"@es .
+  skos:prefLabel "Comida rápida"@es ;
+  skos:prefLabel "Menjar ràpid"@ca ;
+  skos:prefLabel "Menjar ràpid"@ca-valencia ;
+  skos:prefLabel "Comida rápida"@gl ;
+  skos:prefLabel "Janari azkarra"@eu .
 
 estur-cuisinetype:FishAndSeafood a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Fish and seafood"@en ;
-  skos:prefLabel "Pescados y mariscos"@es .
+  skos:prefLabel "Pescados y mariscos"@es ;
+  skos:prefLabel "Peix i marisc"@ca ;
+  skos:prefLabel "Peix i marisc"@ca-valencia ;
+  skos:prefLabel "Peixes e mariscos"@gl ;
+  skos:prefLabel "Arrainak eta itsaskiak"@eu .
 
 estur-cuisinetype:FrenchCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "French cuisine"@en ;
-  skos:prefLabel "Cocina francesa"@es .
+  skos:prefLabel "Cocina francesa"@es ;
+  skos:prefLabel "Cuina francesa"@ca ;
+  skos:prefLabel "Cuina francesa"@ca-valencia ;
+  skos:prefLabel "Cociña francesa"@gl ;
+  skos:prefLabel "Frantziako sukaldaritza"@eu .
 
 estur-cuisinetype:Fusion a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Fusion"@en ;
-  skos:prefLabel "Fusión"@es .
+  skos:prefLabel "Fusión"@es ;
+  skos:prefLabel "Fusió"@ca ;
+  skos:prefLabel "Fusió"@ca-valencia ;
+  skos:prefLabel "Fusión"@gl ;
+  skos:prefLabel "Fusioa"@eu .
 
 estur-cuisinetype:GermanCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "German cuisine"@en ;
-  skos:prefLabel "Cocina alemana"@es .
+  skos:prefLabel "Cocina alemana"@es ;
+  skos:prefLabel "Cuina alemanya"@ca ;
+  skos:prefLabel "Cuina alemanya"@ca-valencia ;
+  skos:prefLabel "Cociña alemá"@gl ;
+  skos:prefLabel "Alemaniako sukaldaritza"@eu .
 
 estur-cuisinetype:GreekCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Greek cuisine"@en ;
-  skos:prefLabel "Cocina griega"@es .
+  skos:prefLabel "Cocina griega"@es ;
+  skos:prefLabel "Cuina grega"@ca ;
+  skos:prefLabel "Cuina grega"@ca-valencia ;
+  skos:prefLabel "Cociña grega"@gl ;
+  skos:prefLabel "Greziako sukaldaritza"@eu .
 
 estur-cuisinetype:Hamburger a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Hamburger"@en ;
-  skos:prefLabel "Hamburguesería"@es .
+  skos:prefLabel "Hamburguesería"@es ;
+  skos:prefLabel "Hamburgueseria"@ca ;
+  skos:prefLabel "Hamburgueseria"@ca-valencia ;
+  skos:prefLabel "Hamburguesaría"@gl ;
+  skos:prefLabel "Hanburgesategia"@eu .
 
 estur-cuisinetype:HauteCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Haute cuisine"@en ;
-  skos:prefLabel "Alta cocina"@es .
+  skos:prefLabel "Alta cocina"@es ;
+  skos:prefLabel "Alta cuina"@ca ;
+  skos:prefLabel "Alta cuina"@ca-valencia ;
+  skos:prefLabel "Alta cociña"@gl ;
+  skos:prefLabel "Goi-mailako sukaldaritza"@eu .
 
 estur-cuisinetype:HomeCooking a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Home cooking"@en ;
-  skos:prefLabel "Cocina casera"@es .
+  skos:prefLabel "Cocina casera"@es ;
+  skos:prefLabel "Cuina casolana"@ca ;
+  skos:prefLabel "Cuina casolana"@ca-valencia ;
+  skos:prefLabel "Cociña caseira"@gl ;
+  skos:prefLabel "Etxeko sukaldaritza"@eu .
 
 estur-cuisinetype:IndianCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Indian cuisine"@en ;
-  skos:prefLabel "Cocina india"@es .
+  skos:prefLabel "Cocina india"@es ;
+  skos:prefLabel "Cuina índia"@ca ;
+  skos:prefLabel "Cuina índia"@ca-valencia ;
+  skos:prefLabel "Cociña india"@gl ;
+  skos:prefLabel "Indiako sukaldaritza"@eu .
 
 estur-cuisinetype:ItalianCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Italian cuisine"@en ;
-  skos:prefLabel "Cocina italiana"@es .
+  skos:prefLabel "Cocina italiana"@es ;
+  skos:prefLabel "Cuina italiana"@ca ;
+  skos:prefLabel "Cuina italiana"@ca-valencia ;
+  skos:prefLabel "Cociña italiana"@gl ;
+  skos:prefLabel "Italiako sukaldaritza"@eu .
 
 estur-cuisinetype:JapaneseCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Japanese cuisine"@en ;
-  skos:prefLabel "Cocina japonesa"@es .
+  skos:prefLabel "Cocina japonesa"@es ;
+  skos:prefLabel "Cuina japonesa"@ca ;
+  skos:prefLabel "Cuina japonesa"@ca-valencia ;
+  skos:prefLabel "Cociña xaponesa"@gl ;
+  skos:prefLabel "Japoniako sukaldaritza"@eu .
 
 estur-cuisinetype:Kebab a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Kebab"@en ;
-  skos:prefLabel "Kebab"@es .
+  skos:prefLabel "Kebab"@es ;
+  skos:prefLabel "Kebab"@ca ;
+  skos:prefLabel "Kebab"@ca-valencia ;
+  skos:prefLabel "Kebab"@gl ;
+  skos:prefLabel "Kebaba"@eu .
 
 estur-cuisinetype:KoreanCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Korean cuisine"@en ;
-  skos:prefLabel "Cocina coreana"@es .
+  skos:prefLabel "Cocina coreana"@es ;
+  skos:prefLabel "Cuina coreana"@ca ;
+  skos:prefLabel "Cuina coreana"@ca-valencia ;
+  skos:prefLabel "Cociña coreana"@gl ;
+  skos:prefLabel "Koreako sukaldaritza"@eu .
 
 estur-cuisinetype:LatinamericanCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Latinamerican cuisine"@en ;
-  skos:prefLabel "Cocina latinoamericana"@es .
+  skos:prefLabel "Cocina latinoamericana"@es ;
+  skos:prefLabel "Cuina llatinoamericana"@ca ;
+  skos:prefLabel "Cuina llatinoamericana"@ca-valencia ;
+  skos:prefLabel "Cociña latinoamericana"@gl ;
+  skos:prefLabel "Latinoamerikako sukaldaritza"@eu .
 
 estur-cuisinetype:Macrobiotic a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Macrobiotic"@en ;
-  skos:prefLabel "Macrobiótica"@es .
+  skos:prefLabel "Macrobiótica"@es ;
+  skos:prefLabel "Macrobiòtica"@ca ;
+  skos:prefLabel "Macrobiòtica"@ca-valencia ;
+  skos:prefLabel "Macrobiótica"@gl ;
+  skos:prefLabel "Makrobiotika"@eu .
 
 estur-cuisinetype:MexicanCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Mexican cuisine"@en ;
-  skos:prefLabel "Cocina mexicana"@es .
+  skos:prefLabel "Cocina mexicana"@es ;
+  skos:prefLabel "Cuina mexicana"@ca ;
+  skos:prefLabel "Cuina mexicana"@ca-valencia ;
+  skos:prefLabel "Cociña mexicana"@gl ;
+  skos:prefLabel "Mexikoko sukaldaritza"@eu .
 
 estur-cuisinetype:MiddleEastCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Middle East cuisine"@en ;
-  skos:prefLabel "Cocina de oriente medio"@es .
+  skos:prefLabel "Cocina de oriente medio"@es ;
+  skos:prefLabel "Cuina de l'Orient Mitjà"@ca ;
+  skos:prefLabel "Cuina de l'Orient Mitjà"@ca-valencia ;
+  skos:prefLabel "Cociña de Oriente Medio"@gl ;
+  skos:prefLabel "Ekialde Hurbileko sukaldaritza"@eu .
 
 estur-cuisinetype:PeruvianCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Peruvian cuisine"@en ;
-  skos:prefLabel "Cocina peruana"@es .
+  skos:prefLabel "Cocina peruana"@es ;
+  skos:prefLabel "Cuina peruana"@ca ;
+  skos:prefLabel "Cuina peruana"@ca-valencia ;
+  skos:prefLabel "Cociña peruana"@gl ;
+  skos:prefLabel "Peruko sukaldaritza"@eu .
 
 estur-cuisinetype:Pizza a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Pizza"@en ;
-  skos:prefLabel "Pizzería"@es .
+  skos:prefLabel "Pizzería"@es ;
+  skos:prefLabel "Pizzeria"@ca ;
+  skos:prefLabel "Pizzeria"@ca-valencia ;
+  skos:prefLabel "Pizzaría"@gl ;
+  skos:prefLabel "Pizzeria"@eu .
 
 estur-cuisinetype:Rices a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Rices"@en ;
-  skos:prefLabel "Arroces"@es .
+  skos:prefLabel "Arroces"@es ;
+  skos:prefLabel "Arrossos"@ca ;
+  skos:prefLabel "Arrossos"@ca-valencia ;
+  skos:prefLabel "Arroces"@gl ;
+  skos:prefLabel "Arroz-platerak"@eu .
 
 estur-cuisinetype:SeasonalCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Seasonal cuisine"@en ;
-  skos:prefLabel "Cocina de temporada"@es .
+  skos:prefLabel "Cocina de temporada"@es ;
+  skos:prefLabel "Cuina de temporada"@ca ;
+  skos:prefLabel "Cuina de temporada"@ca-valencia ;
+  skos:prefLabel "Cociña de tempada"@gl ;
+  skos:prefLabel "Sasoiko sukaldaritza"@eu .
 
 estur-cuisinetype:SignatureCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Signature cuisine"@en ;
-  skos:prefLabel "Cocina de autor"@es .
+  skos:prefLabel "Cocina de autor"@es ;
+  skos:prefLabel "Cuina d'autor"@ca ;
+  skos:prefLabel "Cuina d'autor"@ca-valencia ;
+  skos:prefLabel "Cociña de autor"@gl ;
+  skos:prefLabel "Egile-sukaldaritza"@eu .
 
 estur-cuisinetype:SpanishCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Spanish cuisine"@en ;
-  skos:prefLabel "Cocina española"@es .
+  skos:prefLabel "Cocina española"@es ;
+  skos:prefLabel "Cuina espanyola"@ca ;
+  skos:prefLabel "Cuina espanyola"@ca-valencia ;
+  skos:prefLabel "Cociña española"@gl ;
+  skos:prefLabel "Espainiako sukaldaritza"@eu .
 
 estur-cuisinetype:Steakhouse a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Steakhouse"@en ;
-  skos:prefLabel "Asador"@es .
+  skos:prefLabel "Asador"@es ;
+  skos:prefLabel "Brasseria"@ca ;
+  skos:prefLabel "Brasseria"@ca-valencia ;
+  skos:prefLabel "Asador"@gl ;
+  skos:prefLabel "Erretegia"@eu .
 
 estur-cuisinetype:Tapas a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Tapas"@en ;
-  skos:prefLabel "Tapas"@es .
+  skos:prefLabel "Tapas"@es ;
+  skos:prefLabel "Tapes"@ca ;
+  skos:prefLabel "Tapes"@ca-valencia ;
+  skos:prefLabel "Tapas"@gl ;
+  skos:prefLabel "Tapak"@eu .
 
 estur-cuisinetype:ThaiCuisine a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Thai cuisine"@en ;
-  skos:prefLabel "Cocina tailandesa"@es .
+  skos:prefLabel "Cocina tailandesa"@es ;
+  skos:prefLabel "Cuina tailandesa"@ca ;
+  skos:prefLabel "Cuina tailandesa"@ca-valencia ;
+  skos:prefLabel "Cociña tailandesa"@gl ;
+  skos:prefLabel "Thailandiako sukaldaritza"@eu .
 
 estur-cuisinetype:Vegan a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Vegan"@en ;
-  skos:prefLabel "Cocina vegana"@es .
+  skos:prefLabel "Cocina vegana"@es ;
+  skos:prefLabel "Cuina vegana"@ca ;
+  skos:prefLabel "Cuina vegana"@ca-valencia ;
+  skos:prefLabel "Cociña vegana"@gl ;
+  skos:prefLabel "Sukaldaritza beganoa"@eu .
 
 estur-cuisinetype:Vegetarian a skos:Concept;
   skos:inScheme estur-kos:CuisineType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Vegetarian"@en ;
-  skos:prefLabel "Cocina vegetariana"@es .
+  skos:prefLabel "Cocina vegetariana"@es ;
+  skos:prefLabel "Cuina vegetariana"@ca ;
+  skos:prefLabel "Cuina vegetariana"@ca-valencia ;
+  skos:prefLabel "Cociña vexetariana"@gl ;
+  skos:prefLabel "Sukaldaritza begetarianoa"@eu .
 

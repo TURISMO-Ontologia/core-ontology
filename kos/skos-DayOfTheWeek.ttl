@@ -22,10 +22,22 @@ estur-kos:DayOfTheWeek a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Day of the week"@en ;
     rdfs:label "Día de la semana"@es ;
+    rdfs:label "Dia de la setmana"@ca ;
+    rdfs:label "Dia de la setmana"@ca-valencia ;
+    rdfs:label "Día da semana"@gl ;
+    rdfs:label "Asteko eguna"@eu ;
     dct:title "Concept scheme grouping days of the week"@en ;
-    dct:title "Esquema de conceptos agrupando días de la semana"@es .
+    dct:title "Esquema de conceptos agrupando días de la semana"@es ;
+    dct:title "Esquema de conceptes que agrupa dies de la setmana"@ca ;
+    dct:title "Esquema de conceptes que agrupa dies de la setmana"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa días da semana"@gl ;
+    dct:title "Asteko egunak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,35 +48,63 @@ estur-kos:DayOfTheWeek a skos:ConceptScheme ;
 estur-dayoftheweek:Monday a skos:Concept;
   skos:inScheme estur-kos:DayOfTheWeek;
   skos:prefLabel "Monday"@en ;
-  skos:prefLabel "Lunes"@es .
+  skos:prefLabel "Lunes"@es ;
+  skos:prefLabel "Dilluns"@ca ;
+  skos:prefLabel "Dilluns"@ca-valencia ;
+  skos:prefLabel "Luns"@gl ;
+  skos:prefLabel "Astelehena"@eu .
 
 estur-dayoftheweek:Tuesday a skos:Concept;
   skos:inScheme estur-kos:DayOfTheWeek;
   skos:prefLabel "Tuesday"@en ;
-  skos:prefLabel "Martes"@es .
+  skos:prefLabel "Martes"@es ;
+  skos:prefLabel "Dimarts"@ca ;
+  skos:prefLabel "Dimarts"@ca-valencia ;
+  skos:prefLabel "Martes"@gl ;
+  skos:prefLabel "Asteartea"@eu .
 
 estur-dayoftheweek:Wednesday a skos:Concept;
   skos:inScheme estur-kos:DayOfTheWeek;
   skos:prefLabel "Wednesday"@en ;
-  skos:prefLabel "Miércoles"@es .
+  skos:prefLabel "Miércoles"@es ;
+  skos:prefLabel "Dimecres"@ca ;
+  skos:prefLabel "Dimecres"@ca-valencia ;
+  skos:prefLabel "Mércores"@gl ;
+  skos:prefLabel "Asteazkena"@eu .
 
 estur-dayoftheweek:Thursday a skos:Concept;
   skos:inScheme estur-kos:DayOfTheWeek;
   skos:prefLabel "Thursday"@en ;
-  skos:prefLabel "Jueves"@es .
+  skos:prefLabel "Jueves"@es ;
+  skos:prefLabel "Dijous"@ca ;
+  skos:prefLabel "Dijous"@ca-valencia ;
+  skos:prefLabel "Xoves"@gl ;
+  skos:prefLabel "Osteguna"@eu .
 
 estur-dayoftheweek:Friday a skos:Concept;
   skos:inScheme estur-kos:DayOfTheWeek;
   skos:prefLabel "Friday"@en ;
-  skos:prefLabel "Viernes"@es .
+  skos:prefLabel "Viernes"@es ;
+  skos:prefLabel "Divendres"@ca ;
+  skos:prefLabel "Divendres"@ca-valencia ;
+  skos:prefLabel "Venres"@gl ;
+  skos:prefLabel "Ostirala"@eu .
 
 estur-dayoftheweek:Saturday a skos:Concept;
   skos:inScheme estur-kos:DayOfTheWeek;
   skos:prefLabel "Saturday"@en ;
-  skos:prefLabel "Sábado"@es .
+  skos:prefLabel "Sábado"@es ;
+  skos:prefLabel "Dissabte"@ca ;
+  skos:prefLabel "Dissabte"@ca-valencia ;
+  skos:prefLabel "Sábado"@gl ;
+  skos:prefLabel "Larunbata"@eu .
 
 estur-dayoftheweek:Sunday a skos:Concept;
   skos:inScheme estur-kos:DayOfTheWeek;
   skos:prefLabel "Sunday"@en ;
-  skos:prefLabel "Domingo"@es .
+  skos:prefLabel "Domingo"@es ;
+  skos:prefLabel "Diumenge"@ca ;
+  skos:prefLabel "Diumenge"@ca-valencia ;
+  skos:prefLabel "Domingo"@gl ;
+  skos:prefLabel "Igandea"@eu .
 

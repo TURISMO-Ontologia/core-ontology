@@ -22,10 +22,22 @@ estur-kos:PaymentMethod a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Payment method"@en ;
     rdfs:label "Formas de pago"@es ;
+    rdfs:label "Formes de pagament"@ca ;
+    rdfs:label "Formes de pagament"@ca-valencia ;
+    rdfs:label "Formas de pagamento"@gl ;
+    rdfs:label "Ordaintzeko moduak"@eu ;
     dct:title "Concept scheme grouping payment methods"@en ;
-    dct:title "Esquema de conceptos agrupando formas de pago"@es .
+    dct:title "Esquema de conceptos agrupando formas de pago"@es ;
+    dct:title "Esquema de conceptes que agrupa formes de pagament"@ca ;
+    dct:title "Esquema de conceptes que agrupa formes de pagament"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa formas de pagamento"@gl ;
+    dct:title "Ordaintzeko moduak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,44 +48,80 @@ estur-kos:PaymentMethod a skos:ConceptScheme ;
 estur-paymentmethod:BankCard a skos:Concept;
   skos:inScheme estur-kos:PaymentMethod;
   skos:prefLabel "Bank card"@en ;
-  skos:prefLabel "Tarjeta bancaria"@es .
+  skos:prefLabel "Tarjeta bancaria"@es ;
+  skos:prefLabel "Targeta bancària"@ca ;
+  skos:prefLabel "Targeta bancària"@ca-valencia ;
+  skos:prefLabel "Tarxeta bancaria"@gl ;
+  skos:prefLabel "Banku-txartela"@eu .
 
 estur-paymentmethod:BankTransfer a skos:Concept;
   skos:inScheme estur-kos:PaymentMethod;
   skos:prefLabel "Bank transfer"@en ;
-  skos:prefLabel "Transferencia bancaria"@es .
+  skos:prefLabel "Transferencia bancaria"@es ;
+  skos:prefLabel "Transferència bancària"@ca ;
+  skos:prefLabel "Transferència bancària"@ca-valencia ;
+  skos:prefLabel "Transferencia bancaria"@gl ;
+  skos:prefLabel "Banku-transferentzia"@eu .
 
 estur-paymentmethod:Bizum a skos:Concept;
   skos:inScheme estur-kos:PaymentMethod;
   skos:prefLabel "Bizum"@en ;
-  skos:prefLabel "Bizum"@es .
+  skos:prefLabel "Bizum"@es ;
+  skos:prefLabel "Bizum"@ca ;
+  skos:prefLabel "Bizum"@ca-valencia ;
+  skos:prefLabel "Bizum"@gl ;
+  skos:prefLabel "Bizum"@eu .
 
 estur-paymentmethod:Cash a skos:Concept;
   skos:inScheme estur-kos:PaymentMethod;
   skos:prefLabel "Cash"@en ;
-  skos:prefLabel "Metálico"@es .
+  skos:prefLabel "Metálico"@es ;
+  skos:prefLabel "Efectiu"@ca ;
+  skos:prefLabel "Efectiu"@ca-valencia ;
+  skos:prefLabel "Efectivo"@gl ;
+  skos:prefLabel "Eskudirua"@eu .
 
 estur-paymentmethod:CheckAndPromissoryNote a skos:Concept;
   skos:inScheme estur-kos:PaymentMethod;
   skos:prefLabel "Check and promissory note"@en ;
-  skos:prefLabel "Cheque"@es .
+  skos:prefLabel "Cheque"@es ;
+  skos:prefLabel "Xec"@ca ;
+  skos:prefLabel "Xec"@ca-valencia ;
+  skos:prefLabel "Cheque"@gl ;
+  skos:prefLabel "Txekea"@eu .
 
 estur-paymentmethod:Cryptocurrency a skos:Concept;
   skos:inScheme estur-kos:PaymentMethod;
   skos:prefLabel "Cryptocurrency"@en ;
-  skos:prefLabel "Criptomoneda"@es .
+  skos:prefLabel "Criptomoneda"@es ;
+  skos:prefLabel "Criptomoneda"@ca ;
+  skos:prefLabel "Criptomoneda"@ca-valencia ;
+  skos:prefLabel "Criptomoeda"@gl ;
+  skos:prefLabel "Kriptomoneta"@eu .
 
 estur-paymentmethod:DirectBill a skos:Concept;
   skos:inScheme estur-kos:PaymentMethod;
   skos:prefLabel "Direct bill"@en ;
-  skos:prefLabel "Domiciliación bancaria"@es .
+  skos:prefLabel "Domiciliación bancaria"@es ;
+  skos:prefLabel "Domiciliació bancària"@ca ;
+  skos:prefLabel "Domiciliació bancària"@ca-valencia ;
+  skos:prefLabel "Domiciliación bancaria"@gl ;
+  skos:prefLabel "Banku-helbideratzea"@eu .
 
 estur-paymentmethod:NFC a skos:Concept;
   skos:inScheme estur-kos:PaymentMethod;
   skos:prefLabel "NFC"@en ;
-  skos:prefLabel "NFC"@es .
+  skos:prefLabel "NFC"@es ;
+  skos:prefLabel "NFC"@ca ;
+  skos:prefLabel "NFC"@ca-valencia ;
+  skos:prefLabel "NFC"@gl ;
+  skos:prefLabel "NFC"@eu .
 
 estur-paymentmethod:Paypal a skos:Concept;
   skos:inScheme estur-kos:PaymentMethod;
   skos:prefLabel "Paypal"@en ;
-  skos:prefLabel "Paypal"@es .
+  skos:prefLabel "Paypal"@es ;
+  skos:prefLabel "Paypal"@ca ;
+  skos:prefLabel "Paypal"@ca-valencia ;
+  skos:prefLabel "Paypal"@gl ;
+  skos:prefLabel "Paypal"@eu .

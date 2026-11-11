@@ -22,10 +22,22 @@ estur-kos:AdditionalDMCService a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Additional DMC service"@en ;
     rdfs:label "Servicio adicional del operador receptivo"@es ;
+    rdfs:label "Servei addicional de l'operador receptiu"@ca ;
+    rdfs:label "Servici addicional de l'operador receptiu"@ca-valencia ;
+    rdfs:label "Servizo adicional do operador receptivo"@gl ;
+    rdfs:label "Turismo-operadore hartzailearen zerbitzu gehigarria"@eu ;
     dct:title "Concept scheme grouping additional DMC services"@en ;
-    dct:title "Esquema de conceptos agrupando servicios adicionales del operador receptivo"@es .
+    dct:title "Esquema de conceptos agrupando servicios adicionales del operador receptivo"@es ;
+    dct:title "Esquema de conceptes que agrupa serveis addicionals de l'operador receptiu"@ca ;
+    dct:title "Esquema de conceptes que agrupa servicis addicionals de l'operador receptiu"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa servizos adicionais do operador receptivo"@gl ;
+    dct:title "Turismo-operadore hartzailearen zerbitzu gehigarriak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,41 +49,89 @@ estur-additionaldmcservice:AccessForDisabled a skos:Concept;
   skos:inScheme estur-kos:AdditionalDMCService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Access for disabled"@en ;
-  skos:prefLabel "Acceso para personas de movilidad reducida"@es .
+  skos:prefLabel "Acceso para personas de movilidad reducida"@es ;
+  skos:prefLabel "Accés per a persones amb mobilitat reduïda"@ca ;
+  skos:prefLabel "Accés per a persones amb mobilitat reduïda"@ca-valencia ;
+  skos:prefLabel "Acceso para persoas con mobilidade reducida"@gl ;
+  skos:prefLabel "Mugikortasun urriko pertsonentzako sarbidea"@eu .
 
 estur-additionaldmcservice:CurrencyExchange a skos:Concept;
   skos:inScheme estur-kos:AdditionalDMCService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Currency exchange"@en ;
-  skos:prefLabel "Cambio de moneda"@es .
+  skos:prefLabel "Cambio de moneda"@es ;
+  skos:prefLabel "Canvi de moneda"@ca ;
+  skos:prefLabel "Canvi de moneda"@ca-valencia ;
+  skos:prefLabel "Cambio de moeda"@gl ;
+  skos:prefLabel "Moneta-trukea"@eu .
 
 estur-additionaldmcservice:Insurance a skos:Concept;
   skos:inScheme estur-kos:AdditionalDMCService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Insurance"@en ;
-  skos:prefLabel "Seguros"@es .
+  skos:prefLabel "Seguros"@es ;
+  skos:prefLabel "Assegurances"@ca ;
+  skos:prefLabel "Assegurances"@ca-valencia ;
+  skos:prefLabel "Seguros"@gl ;
+  skos:prefLabel "Aseguruak"@eu .
 
 estur-additionaldmcservice:LuggageStorage a skos:Concept;
   skos:inScheme estur-kos:AdditionalDMCService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Luggage storage"@en ;
-  skos:prefLabel "Almacenamiento de equipaje"@es .
+  skos:prefLabel "Almacenamiento de equipaje"@es ;
+  skos:prefLabel "Consigna d'equipatge"@ca ;
+  skos:prefLabel "Consigna d'equipatge"@ca-valencia ;
+  skos:prefLabel "Consigna de equipaxe"@gl ;
+  skos:prefLabel "Ekipaje-kontsigna"@eu .
 
 estur-additionaldmcservice:TravelAgency a skos:Concept;
   skos:inScheme estur-kos:AdditionalDMCService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Travel agency"@en ;
-  skos:prefLabel "Agencia de viajes"@es .
+  skos:prefLabel "Agencia de viajes"@es ;
+  skos:prefLabel "Agència de viatges"@ca ;
+  skos:prefLabel "Agència de viatges"@ca-valencia ;
+  skos:prefLabel "Axencia de viaxes"@gl ;
+  skos:prefLabel "Bidaia-agentzia"@eu .
 
 estur-additionaldmcservice:VisasAndPermits a skos:Concept;
   skos:inScheme estur-kos:AdditionalDMCService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Visas and permits"@en ;
-  skos:prefLabel "Visas y permisos"@es .
+  skos:prefLabel "Visas y permisos"@es ;
+  skos:prefLabel "Visats i permisos"@ca ;
+  skos:prefLabel "Visats i permisos"@ca-valencia ;
+  skos:prefLabel "Visados e permisos"@gl ;
+  skos:prefLabel "Bisak eta baimenak"@eu .
 

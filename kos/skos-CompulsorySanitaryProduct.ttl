@@ -22,10 +22,22 @@ estur-kos:CompulsorySanitaryProduct a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Compulsory sanitary product"@en ;
     rdfs:label "Producto zoosanitario obligatorio"@es ;
+    rdfs:label "Producte zoosanitari obligatori"@ca ;
+    rdfs:label "Producte zoosanitari obligatori"@ca-valencia ;
+    rdfs:label "Produto zoosanitario obrigatorio"@gl ;
+    rdfs:label "Nahitaezko animalia-osasunerako produktua"@eu ;
     dct:title "Concept scheme grouping substances, active ingredients, formulations or preparations intended for the diagnosis, prevention, treatment, alleviation or cure of diseases or ailments in animals, and whose administration is required for admission."@en ;
-    dct:title "Esquema de conceptos agrupando sustancias, ingredientes activos, formulaciones o preparados destinados al diagnóstico, prevención, tratamiento, alivio o cura de las enfermedades o dolencias de los animales, y cuya administración es requerida para su admisión."@es .
+    dct:title "Esquema de conceptos agrupando sustancias, ingredientes activos, formulaciones o preparados destinados al diagnóstico, prevención, tratamiento, alivio o cura de las enfermedades o dolencias de los animales, y cuya administración es requerida para su admisión."@es ;
+    dct:title "Esquema de conceptes que agrupa substàncies, ingredients actius, formulacions o preparats destinats al diagnòstic, la prevenció, el tractament, l'alleujament o la cura de les malalties o afeccions dels animals, l'administració dels quals és requerida per a la seva admissió."@ca ;
+    dct:title "Esquema de conceptes que agrupa substàncies, ingredients actius, formulacions o preparats destinats al diagnòstic, la prevenció, el tractament, l'alleujament o la cura de les malalties o afeccions dels animals, l'administració dels quals és requerida per a la seua admissió."@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa substancias, ingredientes activos, formulacións ou preparados destinados ao diagnóstico, prevención, tratamento, alivio ou curación das enfermidades ou doenzas dos animais, e cuxa administración é requirida para a súa admisión."@gl ;
+    dct:title "Animalien gaixotasunak edo gaitzak diagnostikatzeko, prebenitzeko, tratatzeko, arintzeko edo sendatzeko substantziak, osagai aktiboak, formulazioak edo prestakinak biltzen dituen kontzeptu-eskema, animaliei sarrera baimentzeko haiek ematea nahitaezkoa denean."@eu .
 
 #################################################################
 #
@@ -36,19 +48,35 @@ estur-kos:CompulsorySanitaryProduct a skos:ConceptScheme ;
 estur-compulsorysanitaryproduct:RabiesVaccination a skos:Concept;
   skos:inScheme estur-kos:CompulsorySanitaryProduct;
   skos:prefLabel "Rabies vaccination"@en ;
-  skos:prefLabel "Vacunación antirrábica"@es .
+  skos:prefLabel "Vacunación antirrábica"@es ;
+  skos:prefLabel "Vacunació antiràbica"@ca ;
+  skos:prefLabel "Vacunació antiràbica"@ca-valencia ;
+  skos:prefLabel "Vacinación antirrábica"@gl ;
+  skos:prefLabel "Amorruaren aurkako txertaketa"@eu .
 
 estur-compulsorysanitaryproduct:LeptospirosisVaccination a skos:Concept;
   skos:inScheme estur-kos:CompulsorySanitaryProduct;
   skos:prefLabel "Leptospirosis vaccination"@en ;
-  skos:prefLabel "Vacunación leptospirosis"@es .
+  skos:prefLabel "Vacunación leptospirosis"@es ;
+  skos:prefLabel "Vacunació contra la leptospirosi"@ca ;
+  skos:prefLabel "Vacunació contra la leptospirosi"@ca-valencia ;
+  skos:prefLabel "Vacinación contra a leptospirose"@gl ;
+  skos:prefLabel "Leptospirosiaren aurkako txertaketa"@eu .
 
 estur-compulsorysanitaryproduct:InternalParasiteTreatment a skos:Concept;
   skos:inScheme estur-kos:CompulsorySanitaryProduct;
   skos:prefLabel "Internal parasite treatment"@en ;
-  skos:prefLabel "Antiparasitario interno"@es .
+  skos:prefLabel "Antiparasitario interno"@es ;
+  skos:prefLabel "Antiparasitari intern"@ca ;
+  skos:prefLabel "Antiparasitari intern"@ca-valencia ;
+  skos:prefLabel "Antiparasitario interno"@gl ;
+  skos:prefLabel "Barne-parasitoen aurkako produktua"@eu .
 
 estur-compulsorysanitaryproduct:ExternalParasiteTreatment a skos:Concept;
   skos:inScheme estur-kos:CompulsorySanitaryProduct;
   skos:prefLabel "External parasite treatment"@en ;
-  skos:prefLabel "Antiparasitario externo"@es .
+  skos:prefLabel "Antiparasitario externo"@es ;
+  skos:prefLabel "Antiparasitari extern"@ca ;
+  skos:prefLabel "Antiparasitari extern"@ca-valencia ;
+  skos:prefLabel "Antiparasitario externo"@gl ;
+  skos:prefLabel "Kanpo-parasitoen aurkako produktua"@eu .

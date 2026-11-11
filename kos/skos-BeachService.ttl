@@ -22,10 +22,22 @@ estur-kos:BeachService a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Beach service"@en ;
     rdfs:label "Servicio de una playa"@es ;
+    rdfs:label "Servei d'una platja"@ca ;
+    rdfs:label "Servici d'una platja"@ca-valencia ;
+    rdfs:label "Servizo dunha praia"@gl ;
+    rdfs:label "Hondartza baten zerbitzua"@eu ;
     dct:title "Concept scheme grouping beach services"@en ;
-    dct:title "Esquema de conceptos agrupando servicios de una playa"@es .
+    dct:title "Esquema de conceptos agrupando servicios de una playa"@es ;
+    dct:title "Esquema de conceptes que agrupa serveis d'una platja"@ca ;
+    dct:title "Esquema de conceptes que agrupa servicis d'una platja"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa servizos dunha praia"@gl ;
+    dct:title "Hondartza baten zerbitzuak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,108 +49,232 @@ estur-beachservice:AmphibiousChair a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Amphibious chair"@en ;
-  skos:prefLabel "Silla anfibia"@es .
+  skos:prefLabel "Silla anfibia"@es ;
+  skos:prefLabel "Cadira amfíbia"@ca ;
+  skos:prefLabel "Cadira amfíbia"@ca-valencia ;
+  skos:prefLabel "Cadeira anfibia"@gl ;
+  skos:prefLabel "Aulki anfibioa"@eu .
 
 estur-beachservice:Anchoring a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Anchoring"@en ;
-  skos:prefLabel "Anclaje"@es .
+  skos:prefLabel "Anclaje"@es ;
+  skos:prefLabel "Ancoratge"@ca ;
+  skos:prefLabel "Ancoratge"@ca-valencia ;
+  skos:prefLabel "Ancoraxe"@gl ;
+  skos:prefLabel "Ainguralekua"@eu .
 
 estur-beachservice:FishingArea a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Fishing area"@en ;
-  skos:prefLabel "Área de pesca"@es .
+  skos:prefLabel "Área de pesca"@es ;
+  skos:prefLabel "Àrea de pesca"@ca ;
+  skos:prefLabel "Àrea de pesca"@ca-valencia ;
+  skos:prefLabel "Área de pesca"@gl ;
+  skos:prefLabel "Arrantza-eremua"@eu .
 
 estur-beachservice:Footbath a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Footbath"@en ;
-  skos:prefLabel "Lavapiés"@es .
+  skos:prefLabel "Lavapiés"@es ;
+  skos:prefLabel "Rentapeus"@ca ;
+  skos:prefLabel "Rentapeus"@ca-valencia ;
+  skos:prefLabel "Lavapés"@gl ;
+  skos:prefLabel "Oin-garbigailua"@eu .
 
 estur-beachservice:Infirmary a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Infirmary"@en ;
-  skos:prefLabel "Enfermería"@es .
+  skos:prefLabel "Enfermería"@es ;
+  skos:prefLabel "Infermeria"@ca ;
+  skos:prefLabel "Infermeria"@ca-valencia ;
+  skos:prefLabel "Enfermaría"@gl ;
+  skos:prefLabel "Erizaindegia"@eu .
 
 estur-beachservice:JellyfishNet a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Jellyfish net"@en ;
-  skos:prefLabel "Red de medusas"@es .
+  skos:prefLabel "Red de medusas"@es ;
+  skos:prefLabel "Xarxa antimeduses"@ca ;
+  skos:prefLabel "Xarxa antimeduses"@ca-valencia ;
+  skos:prefLabel "Rede antimedusas"@gl ;
+  skos:prefLabel "Marmoken aurkako sarea"@eu .
 
 estur-beachservice:LifeGuard a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Life guard"@en ;
-  skos:prefLabel "Socorrista"@es .
+  skos:prefLabel "Socorrista"@es ;
+  skos:prefLabel "Socorrista"@ca ;
+  skos:prefLabel "Socorrista"@ca-valencia ;
+  skos:prefLabel "Socorrista"@gl ;
+  skos:prefLabel "Soroslea"@eu .
 
 estur-beachservice:PaddleSurfArea a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Paddle surf area"@en ;
-  skos:prefLabel "Área de paddle surf"@es .
+  skos:prefLabel "Área de paddle surf"@es ;
+  skos:prefLabel "Àrea de surf de rem"@ca ;
+  skos:prefLabel "Àrea de surf de rem"@ca-valencia ;
+  skos:prefLabel "Área de surf de remo"@gl ;
+  skos:prefLabel "Arraun-surferako eremua"@eu .
 
 estur-beachservice:Promenade a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Promenade"@en ;
-  skos:prefLabel "Paseo marítimo"@es .
+  skos:prefLabel "Paseo marítimo"@es ;
+  skos:prefLabel "Passeig marítim"@ca ;
+  skos:prefLabel "Passeig marítim"@ca-valencia ;
+  skos:prefLabel "Paseo marítimo"@gl ;
+  skos:prefLabel "Itsas pasealekua"@eu .
 
 estur-beachservice:SunLoungerRental a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Sun lounger rental"@en ;
-  skos:prefLabel "Alquiler de parasoles"@es .
+  skos:prefLabel "Alquiler de parasoles"@es ;
+  skos:prefLabel "Lloguer de para-sols"@ca ;
+  skos:prefLabel "Lloguer de para-sols"@ca-valencia ;
+  skos:prefLabel "Alugueiro de parasois"@gl ;
+  skos:prefLabel "Eguzkitakoen alokairua"@eu .
 
 estur-beachservice:SunshadeRental a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Sunshade rental"@en ;
-  skos:prefLabel "Alquiler de sombrillas"@es .
+  skos:prefLabel "Alquiler de sombrillas"@es ;
+  skos:prefLabel "Lloguer de para-sols de platja"@ca ;
+  skos:prefLabel "Lloguer de para-sols de platja"@ca-valencia ;
+  skos:prefLabel "Alugueiro de parasois de praia"@gl ;
+  skos:prefLabel "Hondartzako eguzkitakoen alokairua"@eu .
 
 estur-beachservice:WakeBoardingArea a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Wake boarding area"@en ;
-  skos:prefLabel "Wake boarding area"@es .
+  skos:prefLabel "Wake boarding area"@es ;
+  skos:prefLabel "Zona de surf d'estela"@ca ;
+  skos:prefLabel "Zona de surf d'estela"@ca-valencia ;
+  skos:prefLabel "Zona de wakeboard"@gl ;
+  skos:prefLabel "Wakeboard-eremua"@eu .
 
 estur-beachservice:Walkway a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Walkway"@en ;
-  skos:prefLabel "Pasarela"@es .
+  skos:prefLabel "Pasarela"@es ;
+  skos:prefLabel "Passarel·la"@ca ;
+  skos:prefLabel "Passarel·la"@ca-valencia ;
+  skos:prefLabel "Pasarela"@gl ;
+  skos:prefLabel "Pasabidea"@eu .
 
 estur-beachservice:Showers a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Showers"@en ;
-  skos:prefLabel "Duchas"@es .
+  skos:prefLabel "Duchas"@es ;
+  skos:prefLabel "Dutxes"@ca ;
+  skos:prefLabel "Dutxes"@ca-valencia ;
+  skos:prefLabel "Duchas"@gl ;
+  skos:prefLabel "Dutxak"@eu .
 
 estur-beachservice:SurfPracticeArea a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Surf practice area"@en ;
-  skos:prefLabel "Zona de práctica de surf"@es .
+  skos:prefLabel "Zona de práctica de surf"@es ;
+  skos:prefLabel "Zona de pràctica de surf"@ca ;
+  skos:prefLabel "Zona de pràctica de surf"@ca-valencia ;
+  skos:prefLabel "Zona de práctica de surf"@gl ;
+  skos:prefLabel "Surfean aritzeko eremua"@eu .
 
 estur-beachservice:InformationPoint a skos:Concept;
   skos:inScheme estur-kos:BeachService;
   skos:prefLabel "Information point"@en ;
-  skos:prefLabel "Punto de información"@es .
+  skos:prefLabel "Punto de información"@es ;
+  skos:prefLabel "Punt d'informació"@ca ;
+  skos:prefLabel "Punt d'informació"@ca-valencia ;
+  skos:prefLabel "Punto de información"@gl ;
+  skos:prefLabel "Informazio-gunea"@eu .

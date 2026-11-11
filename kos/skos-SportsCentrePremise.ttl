@@ -22,10 +22,22 @@ estur-kos:SportsCentrePremise a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Sports centre premise"@en ;
     rdfs:label "Instalación de polideportivo"@es ;
+    rdfs:label "Instal·lació de poliesportiu"@ca ;
+    rdfs:label "Instal·lació de poliesportiu"@ca-valencia ;
+    rdfs:label "Instalación de polideportivo"@gl ;
+    rdfs:label "Kiroldegiko instalazioa"@eu ;
     dct:title "Concept scheme grouping sports centre premises"@en ;
-    dct:title "Esquema de conceptos agrupando instalaciones de polideportivo"@es .
+    dct:title "Esquema de conceptos agrupando instalaciones de polideportivo"@es ;
+    dct:title "Esquema de conceptes que agrupa instal·lacions de poliesportiu"@ca ;
+    dct:title "Esquema de conceptes que agrupa instal·lacions de poliesportiu"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa instalacións de polideportivo"@gl ;
+    dct:title "Kiroldegiko instalazioak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,25 +48,45 @@ estur-kos:SportsCentrePremise a skos:ConceptScheme ;
 estur-sportscentrepremise:TennisCourt a skos:Concept;
   skos:inScheme estur-kos:SportsCentrePremise;
   skos:prefLabel "Tennis court"@en ;
-  skos:prefLabel "Pista de tenis"@es .
+  skos:prefLabel "Pista de tenis"@es ;
+  skos:prefLabel "Pista de tennis"@ca ;
+  skos:prefLabel "Pista de tennis"@ca-valencia ;
+  skos:prefLabel "Pista de tenis"@gl ;
+  skos:prefLabel "Tenis-pista"@eu .
 
 estur-sportscentrepremise:SwimmingPool a skos:Concept;
   skos:inScheme estur-kos:SportsCentrePremise;
   skos:prefLabel "Swimming pool"@en ;
-  skos:prefLabel "Piscina"@es .
+  skos:prefLabel "Piscina"@es ;
+  skos:prefLabel "Piscina"@ca ;
+  skos:prefLabel "Piscina"@ca-valencia ;
+  skos:prefLabel "Piscina"@gl ;
+  skos:prefLabel "Igerilekua"@eu .
 
 estur-sportscentrepremise:FootballField a skos:Concept;
   skos:inScheme estur-kos:SportsCentrePremise;
   skos:prefLabel "Football field"@en ;
-  skos:prefLabel "Campo de fútbol"@es .
+  skos:prefLabel "Campo de fútbol"@es ;
+  skos:prefLabel "Camp de futbol"@ca ;
+  skos:prefLabel "Camp de futbol"@ca-valencia ;
+  skos:prefLabel "Campo de fútbol"@gl ;
+  skos:prefLabel "Futbol-zelaia"@eu .
 
 estur-sportscentrepremise:PaddleCourt a skos:Concept;
   skos:inScheme estur-kos:SportsCentrePremise;
   skos:prefLabel "Paddle court"@en ;
-  skos:prefLabel "Pista de pádel"@es .
+  skos:prefLabel "Pista de pádel"@es ;
+  skos:prefLabel "Pista de pàdel"@ca ;
+  skos:prefLabel "Pista de pàdel"@ca-valencia ;
+  skos:prefLabel "Pista de pádel"@gl ;
+  skos:prefLabel "Padel-pista"@eu .
 
 estur-sportscentrepremise:RunningTrack a skos:Concept;
   skos:inScheme estur-kos:SportsCentrePremise;
   skos:prefLabel "Running track"@en ;
-  skos:prefLabel "Pista de atletismo"@es .
+  skos:prefLabel "Pista de atletismo"@es ;
+  skos:prefLabel "Pista d'atletisme"@ca ;
+  skos:prefLabel "Pista d'atletisme"@ca-valencia ;
+  skos:prefLabel "Pista de atletismo"@gl ;
+  skos:prefLabel "Atletismo-pista"@eu .
 

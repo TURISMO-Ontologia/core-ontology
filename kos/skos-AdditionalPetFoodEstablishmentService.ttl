@@ -22,10 +22,22 @@ estur-kos:AdditionalPetFoodEstablishmentService a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Additional pet food establishment service"@en ;
     rdfs:label "Servicio adicional de establecimiento de restauración con mascotas"@es ;
+    rdfs:label "Servei addicional d'establiment de restauració amb animals de companyia"@ca ;
+    rdfs:label "Servici addicional d'establiment de restauració amb animals de companyia"@ca-valencia ;
+    rdfs:label "Servizo adicional de establecemento de restauración con mascotas"@gl ;
+    rdfs:label "Maskotak onartzen dituen sukaldaritza-establezimenduaren zerbitzu gehigarria"@eu ;
     dct:title "Concept scheme grouping complementary or additional services that a food establishment may offer alongside its main service or activity in order to enhance or improve the experience of a tourist with pets."@en ;
-    dct:title "Esquema de conceptos agrupando servicios complementarios o adicionales que puede ofrecer un establecimiento de restauración junto a su servicio o actividad principal para ampliar o mejorar la experiencia del turista con mascotas."@es .
+    dct:title "Esquema de conceptos agrupando servicios complementarios o adicionales que puede ofrecer un establecimiento de restauración junto a su servicio o actividad principal para ampliar o mejorar la experiencia del turista con mascotas."@es ;
+    dct:title "Esquema de conceptes que agrupa serveis complementaris o addicionals que pot oferir un establiment de restauració juntament amb el seu servei o activitat principal per ampliar o millorar l'experiència del turista amb animals de companyia."@ca ;
+    dct:title "Esquema de conceptes que agrupa servicis complementaris o addicionals que pot oferir un establiment de restauració juntament amb el seu servici o activitat principal per ampliar o millorar l'experiència del turista amb animals de companyia."@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa servizos complementarios ou adicionais que pode ofrecer un establecemento de restauración xunto co seu servizo ou actividade principal para ampliar ou mellorar a experiencia do turista con mascotas."@gl ;
+    dct:title "Sukaldaritza-establezimendu batek bere zerbitzu edo jarduera nagusiarekin batera eskain ditzakeen zerbitzu osagarriak edo gehigarriak biltzen dituen kontzeptu-eskema, maskotak dituzten turisten esperientzia zabaltzeko edo hobetzeko."@eu .
 
 #################################################################
 #
@@ -36,36 +48,64 @@ estur-kos:AdditionalPetFoodEstablishmentService a skos:ConceptScheme ;
 estur-additionalpetfoodestablishmentservice:DrinkingBowl a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetFoodEstablishmentService;
   skos:prefLabel "Drinking bowl"@en ;
-  skos:prefLabel "Bebedero"@es .
+  skos:prefLabel "Bebedero"@es ;
+  skos:prefLabel "Abeurador"@ca ;
+  skos:prefLabel "Abeurador"@ca-valencia ;
+  skos:prefLabel "Bebedoiro"@gl ;
+  skos:prefLabel "Edateko ontzia"@eu .
 
 estur-additionalpetfoodestablishmentservice:FoodBowl a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetFoodEstablishmentService;
   skos:prefLabel "Food bowl"@en ;
-  skos:prefLabel "Comedero"@es .
+  skos:prefLabel "Comedero"@es ;
+  skos:prefLabel "Menjadora"@ca ;
+  skos:prefLabel "Menjadora"@ca-valencia ;
+  skos:prefLabel "Comedeiro"@gl ;
+  skos:prefLabel "Jateko ontzia"@eu .
 
 estur-additionalpetfoodestablishmentservice:Soaker a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetFoodEstablishmentService;
   skos:prefLabel "Soaker"@en ;
-  skos:prefLabel "Empapador"@es .
+  skos:prefLabel "Empapador"@es ;
+  skos:prefLabel "Empapador"@ca ;
+  skos:prefLabel "Empapador"@ca-valencia ;
+  skos:prefLabel "Empapador"@gl ;
+  skos:prefLabel "Maskotentzako azpiko xurgatzailea"@eu .
 
 estur-additionalpetfoodestablishmentservice:PetMenu a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetFoodEstablishmentService;
   skos:prefLabel "Pet menu"@en ;
-  skos:prefLabel "Menú para mascotas"@es .
+  skos:prefLabel "Menú para mascotas"@es ;
+  skos:prefLabel "Menú per a animals de companyia"@ca ;
+  skos:prefLabel "Menú per a animals de companyia"@ca-valencia ;
+  skos:prefLabel "Menú para mascotas"@gl ;
+  skos:prefLabel "Maskotentzako menua"@eu .
 
 estur-additionalpetfoodestablishmentservice:PetTreats a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetFoodEstablishmentService;
   skos:prefLabel "Pet treats"@en ;
-  skos:prefLabel "Golosinas para mascotas"@es .
+  skos:prefLabel "Golosinas para mascotas"@es ;
+  skos:prefLabel "Llaminadures per a animals de companyia"@ca ;
+  skos:prefLabel "Llaminadures per a animals de companyia"@ca-valencia ;
+  skos:prefLabel "Larpeiradas para mascotas"@gl ;
+  skos:prefLabel "Maskotentzako gozokiak"@eu .
 
 estur-additionalpetfoodestablishmentservice:PetToys a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetFoodEstablishmentService;
   skos:prefLabel "Pet toys"@en ;
-  skos:prefLabel "Juguetes para mascotas"@es .
+  skos:prefLabel "Juguetes para mascotas"@es ;
+  skos:prefLabel "Joguines per a animals de companyia"@ca ;
+  skos:prefLabel "Joguines per a animals de companyia"@ca-valencia ;
+  skos:prefLabel "Xoguetes para mascotas"@gl ;
+  skos:prefLabel "Maskotentzako jostailuak"@eu .
 
 estur-additionalpetfoodestablishmentservice:PetFriendlySpace a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetFoodEstablishmentService;
   skos:prefLabel "Pet friendly space"@en ;
-  skos:prefLabel "Espacio habilitado para mascotas"@es .
+  skos:prefLabel "Espacio habilitado para mascotas"@es ;
+  skos:prefLabel "Espai habilitat per a animals de companyia"@ca ;
+  skos:prefLabel "Espai habilitat per a animals de companyia"@ca-valencia ;
+  skos:prefLabel "Espazo habilitado para mascotas"@gl ;
+  skos:prefLabel "Maskotentzako egokitutako gunea"@eu .
 
 

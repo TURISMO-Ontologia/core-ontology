@@ -22,10 +22,22 @@ estur-kos:AdditionalTourismOrRelatedFacilityService a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Additional tourism or related facility services"@en ;
     rdfs:label "Servicios adicionales de una instalación turística o relacionada"@es ;
+    rdfs:label "Serveis addicionals d'una instal·lació turística o relacionada"@ca ;
+    rdfs:label "Servicis addicionals d'una instal·lació turística o relacionada"@ca-valencia ;
+    rdfs:label "Servizos adicionais dunha instalación turística ou relacionada"@gl ;
+    rdfs:label "Turismo-instalazio baten edo harekin lotutako instalazio baten zerbitzu gehigarriak"@eu ;
     dct:title "Concept scheme grouping additional tourism or related facility services"@en ;
-    dct:title "Esquema de conceptos agrupando servicios adicionales de una instalación turística o relacionada"@es .
+    dct:title "Esquema de conceptos agrupando servicios adicionales de una instalación turística o relacionada"@es ;
+    dct:title "Esquema de conceptes que agrupa serveis addicionals d'una instal·lació turística o relacionada"@ca ;
+    dct:title "Esquema de conceptes que agrupa servicis addicionals d'una instal·lació turística o relacionada"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa servizos adicionais dunha instalación turística ou relacionada"@gl ;
+    dct:title "Turismo-instalazio baten edo harekin lotutako instalazio baten zerbitzu gehigarriak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,48 +49,100 @@ estur-additionaltourismorrelatedfacilityservice:EventVenue a skos:Concept;
   skos:inScheme estur-kos:AdditionalTourismOrRelatedFacilityService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Event venue"@en ;
-  skos:prefLabel "Lugar de celebración"@es .
+  skos:prefLabel "Lugar de celebración"@es ;
+  skos:prefLabel "Lloc de celebració"@ca ;
+  skos:prefLabel "Lloc de celebració"@ca-valencia ;
+  skos:prefLabel "Lugar de celebración"@gl ;
+  skos:prefLabel "Ospakizun-lekua"@eu .
 
 estur-additionaltourismorrelatedfacilityservice:InformationPoint a skos:Concept;
   skos:inScheme estur-kos:AdditionalTourismOrRelatedFacilityService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Information point"@en ;
-  skos:prefLabel "Punto de información"@es .
+  skos:prefLabel "Punto de información"@es ;
+  skos:prefLabel "Punt d'informació"@ca ;
+  skos:prefLabel "Punt d'informació"@ca-valencia ;
+  skos:prefLabel "Punto de información"@gl ;
+  skos:prefLabel "Informazio-gunea"@eu .
 
 estur-additionaltourismorrelatedfacilityservice:Lockers a skos:Concept;
   skos:inScheme estur-kos:AdditionalTourismOrRelatedFacilityService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Lockers"@en ;
-  skos:prefLabel "Taquillas"@es .
+  skos:prefLabel "Taquillas"@es ;
+  skos:prefLabel "Taquilles"@ca ;
+  skos:prefLabel "Taquilles"@ca-valencia ;
+  skos:prefLabel "Armarios individuais"@gl ;
+  skos:prefLabel "Armairuak"@eu .
 
 estur-additionaltourismorrelatedfacilityservice:ParkingFacility a skos:Concept;
   skos:inScheme estur-kos:AdditionalTourismOrRelatedFacilityService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Parking facility"@en ;
-  skos:prefLabel "Aparcamiento"@es .
+  skos:prefLabel "Aparcamiento"@es ;
+  skos:prefLabel "Aparcament"@ca ;
+  skos:prefLabel "Aparcament"@ca-valencia ;
+  skos:prefLabel "Aparcadoiro"@gl ;
+  skos:prefLabel "Aparkalekua"@eu .
 
 estur-additionaltourismorrelatedfacilityservice:Restaurant a skos:Concept;
   skos:inScheme estur-kos:AdditionalTourismOrRelatedFacilityService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Restaurant"@en ;
-  skos:prefLabel "Restaurante"@es .
+  skos:prefLabel "Restaurante"@es ;
+  skos:prefLabel "Restaurant"@ca ;
+  skos:prefLabel "Restaurant"@ca-valencia ;
+  skos:prefLabel "Restaurante"@gl ;
+  skos:prefLabel "Jatetxea"@eu .
 
 estur-additionaltourismorrelatedfacilityservice:Wifi a skos:Concept;
   skos:inScheme estur-kos:AdditionalTourismOrRelatedFacilityService;
   skos:prefLabel "Wifi"@en ;
-  skos:prefLabel "Wifi"@es .
+  skos:prefLabel "Wifi"@es ;
+  skos:prefLabel "Wifi"@ca ;
+  skos:prefLabel "Wifi"@ca-valencia ;
+  skos:prefLabel "Wifi"@gl ;
+  skos:prefLabel "Wifi"@eu .
 
 estur-additionaltourismorrelatedfacilityservice:WiredInternet a skos:Concept;
   skos:inScheme estur-kos:AdditionalTourismOrRelatedFacilityService;
   skos:prefLabel "Wired Internet"@en ;
-  skos:prefLabel "Internet por cable"@es .
+  skos:prefLabel "Internet por cable"@es ;
+  skos:prefLabel "Internet per cable"@ca ;
+  skos:prefLabel "Internet per cable"@ca-valencia ;
+  skos:prefLabel "Internet por cable"@gl ;
+  skos:prefLabel "Kable bidezko Internet"@eu .
 
 estur-additionaltourismorrelatedfacilityservice:Wifi a skos:Concept;
   skos:inScheme estur-kos:AdditionalTourismOrRelatedFacilityService;
   skos:prefLabel "Wifi"@en ;
-  skos:prefLabel "Wifi"@es .
+  skos:prefLabel "Wifi"@es ;
+  skos:prefLabel "Wifi"@ca ;
+  skos:prefLabel "Wifi"@ca-valencia ;
+  skos:prefLabel "Wifi"@gl ;
+  skos:prefLabel "Wifi"@eu .

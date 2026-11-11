@@ -22,10 +22,22 @@ estur-kos:AdventureActivityType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Adventure activity type"@en ;
     rdfs:label "Tipo de actividad de aventura"@es ;
+    rdfs:label "Tipus d'activitat d'aventura"@ca ;
+    rdfs:label "Tipus d'activitat d'aventura"@ca-valencia ;
+    rdfs:label "Tipo de actividade de aventura"@gl ;
+    rdfs:label "Abentura-jarduera mota"@eu ;
     dct:title "Concept scheme grouping adventure activity types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de actividades de aventura"@es .
+    dct:title "Esquema de conceptos agrupando tipos de actividades de aventura"@es ;
+    dct:title "Esquema de conceptes que agrupa tipus d'activitats d'aventura"@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus d'activitats d'aventura"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de actividades de aventura"@gl ;
+    dct:title "Abentura-jarduera motak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,194 +49,418 @@ estur-adventureactivitytype:Canoe a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Canoe"@en ;
-  skos:prefLabel "Canoa / Piragüismo"@es .
+  skos:prefLabel "Canoa / Piragüismo"@es ;
+  skos:prefLabel "Canoa / Piragüisme"@ca ;
+  skos:prefLabel "Canoa / Piragüisme"@ca-valencia ;
+  skos:prefLabel "Canoa / Piragüismo"@gl ;
+  skos:prefLabel "Kanoa / Piraguismoa"@eu .
 
 estur-adventureactivitytype:CanoeRaft a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Canoe raft"@en ;
-  skos:prefLabel "Canoa-raft"@es .
+  skos:prefLabel "Canoa-raft"@es ;
+  skos:prefLabel "Canoa de ràfting"@ca ;
+  skos:prefLabel "Canoa de ràfting"@ca-valencia ;
+  skos:prefLabel "Canoa de ráfting"@gl ;
+  skos:prefLabel "Rafting-kanoa"@eu .
 
 estur-adventureactivitytype:Hydrospeed a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Hydrospeed"@en ;
-  skos:prefLabel "Hidrospeed"@es .
+  skos:prefLabel "Hidrospeed"@es ;
+  skos:prefLabel "Hidrospeed"@ca ;
+  skos:prefLabel "Hidrospeed"@ca-valencia ;
+  skos:prefLabel "Hidrospeed"@gl ;
+  skos:prefLabel "Hidrospeeda"@eu .
 
 estur-adventureactivitytype:Kayak a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Kayak"@en ;
-  skos:prefLabel "Kayak"@es .
+  skos:prefLabel "Kayak"@es ;
+  skos:prefLabel "Caiac"@ca ;
+  skos:prefLabel "Caiac"@ca-valencia ;
+  skos:prefLabel "Kaiak"@gl ;
+  skos:prefLabel "Kayaka"@eu .
 
 estur-adventureactivitytype:KiteSurf a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "KiteSurf"@en ;
-  skos:prefLabel "Kitesurf"@es .
+  skos:prefLabel "Kitesurf"@es ;
+  skos:prefLabel "Surf d'estel"@ca ;
+  skos:prefLabel "Surf d'estel"@ca-valencia ;
+  skos:prefLabel "Kitesurf"@gl ;
+  skos:prefLabel "Kitesurfa"@eu .
 
 estur-adventureactivitytype:PaddleSurf a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "PaddleSurf"@en ;
-  skos:prefLabel "Paddle surf"@es .
+  skos:prefLabel "Paddle surf"@es ;
+  skos:prefLabel "Surf de rem"@ca ;
+  skos:prefLabel "Surf de rem"@ca-valencia ;
+  skos:prefLabel "Surf de remo"@gl ;
+  skos:prefLabel "Arraun-surfa"@eu .
 
 estur-adventureactivitytype:ScubaDiving a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Scuba diving"@en ;
-  skos:prefLabel "Buceo"@es .
+  skos:prefLabel "Buceo"@es ;
+  skos:prefLabel "Submarinisme"@ca ;
+  skos:prefLabel "Submarinisme"@ca-valencia ;
+  skos:prefLabel "Mergullo"@gl ;
+  skos:prefLabel "Urpekaritza"@eu .
 
 estur-adventureactivitytype:Snorkeling a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Snorkeling"@en ;
-  skos:prefLabel "Esnórquel"@es .
+  skos:prefLabel "Esnórquel"@es ;
+  skos:prefLabel "Immersió lleugera"@ca ;
+  skos:prefLabel "Immersió lleugera"@ca-valencia ;
+  skos:prefLabel "Snorkel"@gl ;
+  skos:prefLabel "Snorkela"@eu .
 
 estur-adventureactivitytype:Surf a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Surf"@en ;
-  skos:prefLabel "Surf"@es .
+  skos:prefLabel "Surf"@es ;
+  skos:prefLabel "Surf"@ca ;
+  skos:prefLabel "Surf"@ca-valencia ;
+  skos:prefLabel "Surf"@gl ;
+  skos:prefLabel "Surfa"@eu .
 
 estur-adventureactivitytype:Rafting a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Rafting"@en ;
-  skos:prefLabel "Rafting"@es .
+  skos:prefLabel "Rafting"@es ;
+  skos:prefLabel "Ràfting"@ca ;
+  skos:prefLabel "Ràfting"@ca-valencia ;
+  skos:prefLabel "Ráfting"@gl ;
+  skos:prefLabel "Raftinga"@eu .
 
 estur-adventureactivitytype:WakeBoarding a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Wake boarding"@en ;
-  skos:prefLabel "Wakeboarding"@es .
+  skos:prefLabel "Wakeboarding"@es ;
+  skos:prefLabel "Surf d'estela"@ca ;
+  skos:prefLabel "Surf d'estela"@ca-valencia ;
+  skos:prefLabel "Wakeboard"@gl ;
+  skos:prefLabel "Wakeboarda"@eu .
 
 estur-adventureactivitytype:WakeFoil a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Wake foil"@en ;
-  skos:prefLabel "Wake foil"@es .
+  skos:prefLabel "Wake foil"@es ;
+  skos:prefLabel "Wake foil"@ca ;
+  skos:prefLabel "Wake foil"@ca-valencia ;
+  skos:prefLabel "Wake foil"@gl ;
+  skos:prefLabel "Wake foila"@eu .
 
 estur-adventureactivitytype:WaterCanyoning a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Water canyoning"@en ;
-  skos:prefLabel "Barranquismo acuático"@es .
+  skos:prefLabel "Barranquismo acuático"@es ;
+  skos:prefLabel "Barranquisme aquàtic"@ca ;
+  skos:prefLabel "Barranquisme aquàtic"@ca-valencia ;
+  skos:prefLabel "Barranquismo acuático"@gl ;
+  skos:prefLabel "Uretako arroila-jaitsiera"@eu .
 
 estur-adventureactivitytype:Abseiling a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Abseiling"@en ;
-  skos:prefLabel "Rappel"@es .
+  skos:prefLabel "Rappel"@es ;
+  skos:prefLabel "Ràpel"@ca ;
+  skos:prefLabel "Ràpel"@ca-valencia ;
+  skos:prefLabel "Rápel"@gl ;
+  skos:prefLabel "Rapela"@eu .
 
 estur-adventureactivitytype:Archery a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Archery"@en ;
-  skos:prefLabel "Tiro con arco"@es .
+  skos:prefLabel "Tiro con arco"@es ;
+  skos:prefLabel "Tir amb arc"@ca ;
+  skos:prefLabel "Tir amb arc"@ca-valencia ;
+  skos:prefLabel "Tiro con arco"@gl ;
+  skos:prefLabel "Arku-tiroa"@eu .
 
 estur-adventureactivitytype:Canoping a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Canoping"@en ;
-  skos:prefLabel "Canoping"@es .
+  skos:prefLabel "Canoping"@es ;
+  skos:prefLabel "Tirolina"@ca ;
+  skos:prefLabel "Tirolina"@ca-valencia ;
+  skos:prefLabel "Tirolina"@gl ;
+  skos:prefLabel "Tirolina"@eu .
 
 estur-adventureactivitytype:Canyoning a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Canyoning"@en ;
-  skos:prefLabel "Barranquismo"@es .
+  skos:prefLabel "Barranquismo"@es ;
+  skos:prefLabel "Barranquisme"@ca ;
+  skos:prefLabel "Barranquisme"@ca-valencia ;
+  skos:prefLabel "Barranquismo"@gl ;
+  skos:prefLabel "Arroila-jaitsiera"@eu .
 
 estur-adventureactivitytype:Caving a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Caving"@en ;
-  skos:prefLabel "Espeleología"@es .
+  skos:prefLabel "Espeleología"@es ;
+  skos:prefLabel "Espeleologia"@ca ;
+  skos:prefLabel "Espeleologia"@ca-valencia ;
+  skos:prefLabel "Espeleoloxía"@gl ;
+  skos:prefLabel "Espeleologia"@eu .
 
 estur-adventureactivitytype:Climbing a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Climbing"@en ;
-  skos:prefLabel "Escalada"@es .
+  skos:prefLabel "Escalada"@es ;
+  skos:prefLabel "Escalada"@ca ;
+  skos:prefLabel "Escalada"@ca-valencia ;
+  skos:prefLabel "Escalada"@gl ;
+  skos:prefLabel "Eskalada"@eu .
 
 estur-adventureactivitytype:CompressedAirShooting a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Compressed air shooting"@en ;
-  skos:prefLabel "Tiro con aire comprimido"@es .
+  skos:prefLabel "Tiro con aire comprimido"@es ;
+  skos:prefLabel "Tir amb aire comprimit"@ca ;
+  skos:prefLabel "Tir amb aire comprimit"@ca-valencia ;
+  skos:prefLabel "Tiro con aire comprimido"@gl ;
+  skos:prefLabel "Aire konprimituko tiroa"@eu .
 
 estur-adventureactivitytype:Geocaching a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Geocaching"@en ;
-  skos:prefLabel "Geocaching"@es .
+  skos:prefLabel "Geocaching"@es ;
+  skos:prefLabel "Geocerca"@ca ;
+  skos:prefLabel "Geocerca"@ca-valencia ;
+  skos:prefLabel "Xeocaching"@gl ;
+  skos:prefLabel "Geocachinga"@eu .
 
 estur-adventureactivitytype:Gymkhana a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Gymkhana"@en ;
-  skos:prefLabel "Yincana"@es .
+  skos:prefLabel "Yincana"@es ;
+  skos:prefLabel "Gimcana"@ca ;
+  skos:prefLabel "Gimcana"@ca-valencia ;
+  skos:prefLabel "Xincana"@gl ;
+  skos:prefLabel "Ginkana"@eu .
 
 estur-adventureactivitytype:HorseRiding a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Horse riding"@en ;
-  skos:prefLabel "Montar a caballo"@es .
+  skos:prefLabel "Montar a caballo"@es ;
+  skos:prefLabel "Muntar a cavall"@ca ;
+  skos:prefLabel "Muntar a cavall"@ca-valencia ;
+  skos:prefLabel "Montar a cabalo"@gl ;
+  skos:prefLabel "Zaldiz ibiltzea"@eu .
 
 estur-adventureactivitytype:Hunting a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Hunting"@en ;
-  skos:prefLabel "Caza"@es .
+  skos:prefLabel "Caza"@es ;
+  skos:prefLabel "Caça"@ca ;
+  skos:prefLabel "Caça"@ca-valencia ;
+  skos:prefLabel "Caza"@gl ;
+  skos:prefLabel "Ehiza"@eu .
 
 estur-adventureactivitytype:Orienteering a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Orienteering"@en ;
-  skos:prefLabel "Orientación"@es .
+  skos:prefLabel "Orientación"@es ;
+  skos:prefLabel "Orientació"@ca ;
+  skos:prefLabel "Orientació"@ca-valencia ;
+  skos:prefLabel "Orientación"@gl ;
+  skos:prefLabel "Orientazioa"@eu .
 
 estur-adventureactivitytype:Paintball a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Paintball"@en ;
-  skos:prefLabel "Paintball"@es .
+  skos:prefLabel "Paintball"@es ;
+  skos:prefLabel "Paintball"@ca ;
+  skos:prefLabel "Paintball"@ca-valencia ;
+  skos:prefLabel "Paintball"@gl ;
+  skos:prefLabel "Paintballa"@eu .
 
 estur-adventureactivitytype:PneumaticShooting a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Pneumatic shooting"@en ;
-  skos:prefLabel "Tiro neumático"@es .
+  skos:prefLabel "Tiro neumático"@es ;
+  skos:prefLabel "Tir pneumàtic"@ca ;
+  skos:prefLabel "Tir pneumàtic"@ca-valencia ;
+  skos:prefLabel "Tiro pneumático"@gl ;
+  skos:prefLabel "Tiro pneumatikoa"@eu .
 
 estur-adventureactivitytype:ViaFerrata a skos:Concept;
   skos:inScheme estur-kos:AdventureActivityType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Via ferrata"@en ;
-  skos:prefLabel "Vía ferrata"@es .
+  skos:prefLabel "Vía ferrata"@es ;
+  skos:prefLabel "Via ferrada"@ca ;
+  skos:prefLabel "Via ferrada"@ca-valencia ;
+  skos:prefLabel "Vía ferrata"@gl ;
+  skos:prefLabel "Bide ferrata"@eu .

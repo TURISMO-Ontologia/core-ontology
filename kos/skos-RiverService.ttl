@@ -22,10 +22,22 @@ estur-kos:RiverService a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "River service"@en ;
     rdfs:label "Servicio asociado a un río"@es ;
+    rdfs:label "Servei associat a un riu"@ca ;
+    rdfs:label "Servici associat a un riu"@ca-valencia ;
+    rdfs:label "Servizo asociado a un río"@gl ;
+    rdfs:label "Ibai bati lotutako zerbitzua"@eu ;
     dct:title "Concept scheme grouping river services"@en ;
-    dct:title "Esquema de conceptos agrupando servicios asociados a un río"@es .
+    dct:title "Esquema de conceptos agrupando servicios asociados a un río"@es ;
+    dct:title "Esquema de conceptes que agrupa serveis associats a un riu"@ca ;
+    dct:title "Esquema de conceptes que agrupa servicis associats a un riu"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa servizos asociados a un río"@gl ;
+    dct:title "Ibai bati lotutako zerbitzuak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,27 +49,59 @@ estur-riverservice:FishingArea a skos:Concept;
   skos:inScheme estur-kos:RiverService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Fishing area"@en ;
-  skos:prefLabel "Área de pesca"@es .
+  skos:prefLabel "Área de pesca"@es ;
+  skos:prefLabel "Àrea de pesca"@ca ;
+  skos:prefLabel "Àrea de pesca"@ca-valencia ;
+  skos:prefLabel "Área de pesca"@gl ;
+  skos:prefLabel "Arrantza-eremua"@eu .
 
 estur-riverservice:Infirmary a skos:Concept;
   skos:inScheme estur-kos:RiverService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Infirmary"@en ;
-  skos:prefLabel "Enfermería"@es .
+  skos:prefLabel "Enfermería"@es ;
+  skos:prefLabel "Infermeria"@ca ;
+  skos:prefLabel "Infermeria"@ca-valencia ;
+  skos:prefLabel "Enfermaría"@gl ;
+  skos:prefLabel "Erizaindegia"@eu .
 
 estur-riverservice:LifeGuard a skos:Concept;
   skos:inScheme estur-kos:RiverService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Life guard"@en ;
-  skos:prefLabel "Socorrista"@es .
+  skos:prefLabel "Socorrista"@es ;
+  skos:prefLabel "Socorrista"@ca ;
+  skos:prefLabel "Socorrista"@ca-valencia ;
+  skos:prefLabel "Socorrista"@gl ;
+  skos:prefLabel "Soroslea"@eu .
 
 estur-riverservice:Walkway a skos:Concept;
   skos:inScheme estur-kos:RiverService;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Walkway"@en ;
-  skos:prefLabel "Pasarela"@es .
+  skos:prefLabel "Pasarela"@es ;
+  skos:prefLabel "Passarel·la"@ca ;
+  skos:prefLabel "Passarel·la"@ca-valencia ;
+  skos:prefLabel "Pasarela"@gl ;
+  skos:prefLabel "Pasabidea"@eu .
 

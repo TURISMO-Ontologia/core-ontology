@@ -22,10 +22,22 @@ estur-kos:MuseumType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Museum type"@en ;
     rdfs:label "Tipo de museo"@es ;
+    rdfs:label "Tipus de museu"@ca ;
+    rdfs:label "Tipus de museu"@ca-valencia ;
+    rdfs:label "Tipo de museo"@gl ;
+    rdfs:label "Museo mota"@eu ;
     dct:title "Concept scheme grouping museum types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de museos"@es .
+    dct:title "Esquema de conceptos agrupando tipos de museos"@es ;
+    dct:title "Esquema de conceptes que agrupa tipus de museus"@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus de museus"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de museos"@gl ;
+    dct:title "Museo motak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,298 +49,638 @@ estur-museumtype:AppliedArts a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Applied arts"@en ;
-  skos:prefLabel "Artes aplicadas"@es .
+  skos:prefLabel "Artes aplicadas"@es ;
+  skos:prefLabel "Arts aplicades"@ca ;
+  skos:prefLabel "Arts aplicades"@ca-valencia ;
+  skos:prefLabel "Artes aplicadas"@gl ;
+  skos:prefLabel "Arte aplikatuak"@eu .
 
 estur-museumtype:Archeology a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Archeology"@en ;
-  skos:prefLabel "Arqueología"@es .
+  skos:prefLabel "Arqueología"@es ;
+  skos:prefLabel "Arqueologia"@ca ;
+  skos:prefLabel "Arqueologia"@ca-valencia ;
+  skos:prefLabel "Arqueoloxía"@gl ;
+  skos:prefLabel "Arkeologia"@eu .
 
 estur-museumtype:Architecture a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Architecture"@en ;
-  skos:prefLabel "Arquitectura"@es .
+  skos:prefLabel "Arquitectura"@es ;
+  skos:prefLabel "Arquitectura"@ca ;
+  skos:prefLabel "Arquitectura"@ca-valencia ;
+  skos:prefLabel "Arquitectura"@gl ;
+  skos:prefLabel "Arkitektura"@eu .
 
 estur-museumtype:BullFighting a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Bullfighting"@en ;
-  skos:prefLabel "Toros"@es .
+  skos:prefLabel "Toros"@es ;
+  skos:prefLabel "Toros"@ca ;
+  skos:prefLabel "Toros"@ca-valencia ;
+  skos:prefLabel "Touros"@gl ;
+  skos:prefLabel "Zezenak"@eu .
 
 estur-museumtype:CathedralMuseum a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Cathedral museum"@en ;
-  skos:prefLabel "Museo de una catedral"@es .
+  skos:prefLabel "Museo de una catedral"@es ;
+  skos:prefLabel "Museu d'una catedral"@ca ;
+  skos:prefLabel "Museu d'una catedral"@ca-valencia ;
+  skos:prefLabel "Museo dunha catedral"@gl ;
+  skos:prefLabel "Katedral bateko museoa"@eu .
 
 estur-museumtype:Ceramics a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Ceramics"@en ;
-  skos:prefLabel "Cerámica"@es .
+  skos:prefLabel "Cerámica"@es ;
+  skos:prefLabel "Ceràmica"@ca ;
+  skos:prefLabel "Ceràmica"@ca-valencia ;
+  skos:prefLabel "Cerámica"@gl ;
+  skos:prefLabel "Zeramika"@eu .
 
 estur-museumtype:ContemporaryArt a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Contemporary art"@en ;
-  skos:prefLabel "Arte contemporáneo"@es .
+  skos:prefLabel "Arte contemporáneo"@es ;
+  skos:prefLabel "Art contemporani"@ca ;
+  skos:prefLabel "Art contemporani"@ca-valencia ;
+  skos:prefLabel "Arte contemporánea"@gl ;
+  skos:prefLabel "Arte garaikidea"@eu .
 
 estur-museumtype:DecorativeArts a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Decorative arts"@en ;
-  skos:prefLabel "Artes decorativas"@es .
+  skos:prefLabel "Artes decorativas"@es ;
+  skos:prefLabel "Arts decoratives"@ca ;
+  skos:prefLabel "Arts decoratives"@ca-valencia ;
+  skos:prefLabel "Artes decorativas"@gl ;
+  skos:prefLabel "Dekorazio-arteak"@eu .
 
 estur-museumtype:DiocesanMuseum a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Diocesan museum"@en ;
-  skos:prefLabel "Museo diocesano"@es .
+  skos:prefLabel "Museo diocesano"@es ;
+  skos:prefLabel "Museu diocesà"@ca ;
+  skos:prefLabel "Museu diocesà"@ca-valencia ;
+  skos:prefLabel "Museo diocesano"@gl ;
+  skos:prefLabel "Elizbarrutiko museoa"@eu .
 
 estur-museumtype:Ethnology a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Ethnology"@en ;
-  skos:prefLabel "Etnología"@es .
+  skos:prefLabel "Etnología"@es ;
+  skos:prefLabel "Etnologia"@ca ;
+  skos:prefLabel "Etnologia"@ca-valencia ;
+  skos:prefLabel "Etnoloxía"@gl ;
+  skos:prefLabel "Etnologia"@eu .
 
 estur-museumtype:FineArts a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Fine arts"@en ;
-  skos:prefLabel "Bellas artes"@es .
+  skos:prefLabel "Bellas artes"@es ;
+  skos:prefLabel "Belles arts"@ca ;
+  skos:prefLabel "Belles arts"@ca-valencia ;
+  skos:prefLabel "Belas artes"@gl ;
+  skos:prefLabel "Arte ederrak"@eu .
 
 estur-museumtype:Goldsmith a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Goldsmith"@en ;
-  skos:prefLabel "Goldsmith"@es .
+  skos:prefLabel "Goldsmith"@es ;
+  skos:prefLabel "Orfebreria"@ca ;
+  skos:prefLabel "Orfebreria"@ca-valencia ;
+  skos:prefLabel "Ourivaría"@gl ;
+  skos:prefLabel "Urregintza"@eu .
 
 estur-museumtype:History a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "History"@en ;
-  skos:prefLabel "Historia"@es .
+  skos:prefLabel "Historia"@es ;
+  skos:prefLabel "Història"@ca ;
+  skos:prefLabel "Història"@ca-valencia ;
+  skos:prefLabel "Historia"@gl ;
+  skos:prefLabel "Historia"@eu .
 
 estur-museumtype:Interactive a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Interactive"@en ;
-  skos:prefLabel "Interactivo"@es .
+  skos:prefLabel "Interactivo"@es ;
+  skos:prefLabel "Interactiu"@ca ;
+  skos:prefLabel "Interactiu"@ca-valencia ;
+  skos:prefLabel "Interactivo"@gl ;
+  skos:prefLabel "Interaktiboa"@eu .
 
 estur-museumtype:Literature a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Literature"@en ;
-  skos:prefLabel "Literatura"@es .
+  skos:prefLabel "Literatura"@es ;
+  skos:prefLabel "Literatura"@ca ;
+  skos:prefLabel "Literatura"@ca-valencia ;
+  skos:prefLabel "Literatura"@gl ;
+  skos:prefLabel "Literatura"@eu .
 
 estur-museumtype:Maritime a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Maritime"@en ;
-  skos:prefLabel "Marítimo"@es .
+  skos:prefLabel "Marítimo"@es ;
+  skos:prefLabel "Marítim"@ca ;
+  skos:prefLabel "Marítim"@ca-valencia ;
+  skos:prefLabel "Marítimo"@gl ;
+  skos:prefLabel "Itsasokoa"@eu .
 
 estur-museumtype:MedicineAndPharmacy a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Medicine and pharmacy"@en ;
-  skos:prefLabel "Medicina y farmacia"@es .
+  skos:prefLabel "Medicina y farmacia"@es ;
+  skos:prefLabel "Medicina i farmàcia"@ca ;
+  skos:prefLabel "Medicina i farmàcia"@ca-valencia ;
+  skos:prefLabel "Medicina e farmacia"@gl ;
+  skos:prefLabel "Medikuntza eta farmazia"@eu .
 
 estur-museumtype:Military a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Military"@en ;
-  skos:prefLabel "Militar"@es .
+  skos:prefLabel "Militar"@es ;
+  skos:prefLabel "Militar"@ca ;
+  skos:prefLabel "Militar"@ca-valencia ;
+  skos:prefLabel "Militar"@gl ;
+  skos:prefLabel "Militarra"@eu .
 
 estur-museumtype:Mining a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Mining"@en ;
-  skos:prefLabel "Minería"@es .
+  skos:prefLabel "Minería"@es ;
+  skos:prefLabel "Mineria"@ca ;
+  skos:prefLabel "Mineria"@ca-valencia ;
+  skos:prefLabel "Minaría"@gl ;
+  skos:prefLabel "Meatzaritza"@eu .
 
 estur-museumtype:ModernArt a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Modern art"@en ;
-  skos:prefLabel "Arte moderno"@es .
+  skos:prefLabel "Arte moderno"@es ;
+  skos:prefLabel "Art modern"@ca ;
+  skos:prefLabel "Art modern"@ca-valencia ;
+  skos:prefLabel "Arte moderna"@gl ;
+  skos:prefLabel "Arte modernoa"@eu .
 
 estur-museumtype:Multidisciplinar a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Multidisciplinar"@en ;
-  skos:prefLabel "Multidisciplinar"@es .
+  skos:prefLabel "Multidisciplinar"@es ;
+  skos:prefLabel "Multidisciplinari"@ca ;
+  skos:prefLabel "Multidisciplinari"@ca-valencia ;
+  skos:prefLabel "Multidisciplinar"@gl ;
+  skos:prefLabel "Diziplina anitzekoa"@eu .
 
 estur-museumtype:MuseumHouse a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Museum house"@en ;
-  skos:prefLabel "Casa museo"@es .
+  skos:prefLabel "Casa museo"@es ;
+  skos:prefLabel "Casa museu"@ca ;
+  skos:prefLabel "Casa museu"@ca-valencia ;
+  skos:prefLabel "Casa museo"@gl ;
+  skos:prefLabel "Etxe-museoa"@eu .
 
 estur-museumtype:Music a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Music"@en ;
-  skos:prefLabel "Música"@es .
+  skos:prefLabel "Música"@es ;
+  skos:prefLabel "Música"@ca ;
+  skos:prefLabel "Música"@ca-valencia ;
+  skos:prefLabel "Música"@gl ;
+  skos:prefLabel "Musika"@eu .
 
 estur-museumtype:NaturalScience a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Natural Science"@en ;
-  skos:prefLabel "Ciencias Naturales"@es .
+  skos:prefLabel "Ciencias Naturales"@es ;
+  skos:prefLabel "Ciències naturals"@ca ;
+  skos:prefLabel "Ciències naturals"@ca-valencia ;
+  skos:prefLabel "Ciencias naturais"@gl ;
+  skos:prefLabel "Natura-zientziak"@eu .
 
 estur-museumtype:Numismatic a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Numismatic"@en ;
-  skos:prefLabel "Numismático"@es .
+  skos:prefLabel "Numismático"@es ;
+  skos:prefLabel "Numismàtic"@ca ;
+  skos:prefLabel "Numismàtic"@ca-valencia ;
+  skos:prefLabel "Numismático"@gl ;
+  skos:prefLabel "Numismatikoa"@eu .
 
 estur-museumtype:Painting a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Painting"@en ;
-  skos:prefLabel "Pintura"@es .
+  skos:prefLabel "Pintura"@es ;
+  skos:prefLabel "Pintura"@ca ;
+  skos:prefLabel "Pintura"@ca-valencia ;
+  skos:prefLabel "Pintura"@gl ;
+  skos:prefLabel "Pintura"@eu .
 
 estur-museumtype:Paleontology a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Paleontology"@en ;
-  skos:prefLabel "Paleontología"@es .
+  skos:prefLabel "Paleontología"@es ;
+  skos:prefLabel "Paleontologia"@ca ;
+  skos:prefLabel "Paleontologia"@ca-valencia ;
+  skos:prefLabel "Paleontoloxía"@gl ;
+  skos:prefLabel "Paleontologia"@eu .
 
 estur-museumtype:Parochial a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Parochial"@en ;
-  skos:prefLabel "Parroquial"@es .
+  skos:prefLabel "Parroquial"@es ;
+  skos:prefLabel "Parroquial"@ca ;
+  skos:prefLabel "Parroquial"@ca-valencia ;
+  skos:prefLabel "Parroquial"@gl ;
+  skos:prefLabel "Parrokiakoa"@eu .
 
 estur-museumtype:PopularArtsAndTraditions a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Popular arts and traditions"@en ;
-  skos:prefLabel "Artes populares y tradiciones"@es .
+  skos:prefLabel "Artes populares y tradiciones"@es ;
+  skos:prefLabel "Arts populars i tradicions"@ca ;
+  skos:prefLabel "Arts populars i tradicions"@ca-valencia ;
+  skos:prefLabel "Artes populares e tradicións"@gl ;
+  skos:prefLabel "Herri-arteak eta tradizioak"@eu .
 
 estur-museumtype:Prehistoric a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Prehistoric"@en ;
-  skos:prefLabel "Prehistórico"@es .
+  skos:prefLabel "Prehistórico"@es ;
+  skos:prefLabel "Prehistòric"@ca ;
+  skos:prefLabel "Prehistòric"@ca-valencia ;
+  skos:prefLabel "Prehistórico"@gl ;
+  skos:prefLabel "Historiaurrekoa"@eu .
 
 estur-museumtype:Railway a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Railway"@en ;
-  skos:prefLabel "Ferrocarril"@es .
+  skos:prefLabel "Ferrocarril"@es ;
+  skos:prefLabel "Ferrocarril"@ca ;
+  skos:prefLabel "Ferrocarril"@ca-valencia ;
+  skos:prefLabel "Ferrocarril"@gl ;
+  skos:prefLabel "Trenbidea"@eu .
 
 estur-museumtype:Ceramics a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Ceramics"@en ;
-  skos:prefLabel "Cerámica"@es .
+  skos:prefLabel "Cerámica"@es ;
+  skos:prefLabel "Ceràmica"@ca ;
+  skos:prefLabel "Ceràmica"@ca-valencia ;
+  skos:prefLabel "Cerámica"@gl ;
+  skos:prefLabel "Zeramika"@eu .
 
 estur-museumtype:SacredArt a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Sacred art"@en ;
-  skos:prefLabel "Arte sagrado"@es .
+  skos:prefLabel "Arte sagrado"@es ;
+  skos:prefLabel "Art sagrat"@ca ;
+  skos:prefLabel "Art sagrat"@ca-valencia ;
+  skos:prefLabel "Arte sacra"@gl ;
+  skos:prefLabel "Arte sakratua"@eu .
 
 estur-museumtype:ScienceAndTechnology a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Science and technology"@en ;
-  skos:prefLabel "Ciencia y tecnología"@es .
+  skos:prefLabel "Ciencia y tecnología"@es ;
+  skos:prefLabel "Ciència i tecnologia"@ca ;
+  skos:prefLabel "Ciència i tecnologia"@ca-valencia ;
+  skos:prefLabel "Ciencia e tecnoloxía"@gl ;
+  skos:prefLabel "Zientzia eta teknologia"@eu .
 
 estur-museumtype:Sculpture a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Sculpture"@en ;
-  skos:prefLabel "Escultura"@es .
+  skos:prefLabel "Escultura"@es ;
+  skos:prefLabel "Escultura"@ca ;
+  skos:prefLabel "Escultura"@ca-valencia ;
+  skos:prefLabel "Escultura"@gl ;
+  skos:prefLabel "Eskultura"@eu .
 
 estur-museumtype:Specials a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Specials"@en ;
-  skos:prefLabel "Especiales"@es .
+  skos:prefLabel "Especiales"@es ;
+  skos:prefLabel "Especials"@ca ;
+  skos:prefLabel "Especials"@ca-valencia ;
+  skos:prefLabel "Especiais"@gl ;
+  skos:prefLabel "Bereziak"@eu .
 
 estur-museumtype:SumptuaryArts a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Sumptuary arts"@en ;
-  skos:prefLabel "Artes suntuarias"@es .
+  skos:prefLabel "Artes suntuarias"@es ;
+  skos:prefLabel "Arts sumptuàries"@ca ;
+  skos:prefLabel "Arts sumptuàries"@ca-valencia ;
+  skos:prefLabel "Artes suntuarias"@gl ;
+  skos:prefLabel "Luxuzko arteak"@eu .
 
 estur-museumtype:Textile a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Textile"@en ;
-  skos:prefLabel "Textil"@es .
+  skos:prefLabel "Textil"@es ;
+  skos:prefLabel "Tèxtil"@ca ;
+  skos:prefLabel "Tèxtil"@ca-valencia ;
+  skos:prefLabel "Téxtil"@gl ;
+  skos:prefLabel "Ehungintza"@eu .
 
 estur-museumtype:ThematicMuseum a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Thematic museum"@en ;
-  skos:prefLabel "Museo temático"@es .
+  skos:prefLabel "Museo temático"@es ;
+  skos:prefLabel "Museu temàtic"@ca ;
+  skos:prefLabel "Museu temàtic"@ca-valencia ;
+  skos:prefLabel "Museo temático"@gl ;
+  skos:prefLabel "Museo tematikoa"@eu .
 
 estur-museumtype:Transport a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Transport"@en ;
-  skos:prefLabel "Transporte"@es .
+  skos:prefLabel "Transporte"@es ;
+  skos:prefLabel "Transport"@ca ;
+  skos:prefLabel "Transport"@ca-valencia ;
+  skos:prefLabel "Transporte"@gl ;
+  skos:prefLabel "Garraioa"@eu .
 
 estur-museumtype:UNESCO a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "UNESCO"@en ;
-  skos:prefLabel "UNESCO"@es .
+  skos:prefLabel "UNESCO"@es ;
+  skos:prefLabel "UNESCO"@ca ;
+  skos:prefLabel "UNESCO"@ca-valencia ;
+  skos:prefLabel "UNESCO"@gl ;
+  skos:prefLabel "UNESCO"@eu .
 
 estur-museumtype:Universitary a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Universitary"@en ;
-  skos:prefLabel "Universitario"@es .
+  skos:prefLabel "Universitario"@es ;
+  skos:prefLabel "Universitari"@ca ;
+  skos:prefLabel "Universitari"@ca-valencia ;
+  skos:prefLabel "Universitario"@gl ;
+  skos:prefLabel "Unibertsitatekoa"@eu .
 
 estur-museumtype:WineMuseum a skos:Concept;
   skos:inScheme estur-kos:MuseumType;
   skos:prefLabel "Wine museum"@en ;
-  skos:prefLabel "Museo del vino"@es .
+  skos:prefLabel "Museo del vino"@es ;
+  skos:prefLabel "Museu del vi"@ca ;
+  skos:prefLabel "Museu del vi"@ca-valencia ;
+  skos:prefLabel "Museo do viño"@gl ;
+  skos:prefLabel "Ardoaren museoa"@eu .
 

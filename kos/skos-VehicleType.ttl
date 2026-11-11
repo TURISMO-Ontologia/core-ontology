@@ -22,10 +22,22 @@ estur-kos:VehicleType a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Vehicle type"@en ;
     rdfs:label "Tipo de vehículo"@es ;
+    rdfs:label "Tipus de vehicle"@ca ;
+    rdfs:label "Tipus de vehicle"@ca-valencia ;
+    rdfs:label "Tipo de vehículo"@gl ;
+    rdfs:label "Ibilgailu mota"@eu ;
     dct:title "Concept scheme grouping vehicle types"@en ;
-    dct:title "Esquema de conceptos agrupando tipos de vehículos"@es .
+    dct:title "Esquema de conceptos agrupando tipos de vehículos"@es ;
+    dct:title "Esquema de conceptes que agrupa tipus de vehicles"@ca ;
+    dct:title "Esquema de conceptes que agrupa tipus de vehicles"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa tipos de vehículos"@gl ;
+    dct:title "Ibilgailu motak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,211 +49,427 @@ estur-vehicletype:AllTerrain a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Allterrain"@en ;
-  skos:prefLabel "Todoterreno"@es .
+  skos:prefLabel "Todoterreno"@es ;
+  skos:prefLabel "Tot terreny"@ca ;
+  skos:prefLabel "Tot terreny"@ca-valencia ;
+  skos:prefLabel "Todoterreo"@gl ;
+  skos:prefLabel "Lur orotako ibilgailua"@eu .
 
 estur-vehicletype:Bicycle a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Bicycle"@en ;
-  skos:prefLabel "Bicicleta"@es .
+  skos:prefLabel "Bicicleta"@es ;
+  skos:prefLabel "Bicicleta"@ca ;
+  skos:prefLabel "Bicicleta"@ca-valencia ;
+  skos:prefLabel "Bicicleta"@gl ;
+  skos:prefLabel "Bizikleta"@eu .
 
 estur-vehicletype:CarSedan a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Car sedan"@en ;
-  skos:prefLabel "Sedán"@es .
+  skos:prefLabel "Sedán"@es ;
+  skos:prefLabel "Berlina"@ca ;
+  skos:prefLabel "Berlina"@ca-valencia ;
+  skos:prefLabel "Berlina"@gl ;
+  skos:prefLabel "Sedana"@eu .
 
 estur-vehicletype:Convertible a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Convertible"@en ;
-  skos:prefLabel "Descapotable"@es .
+  skos:prefLabel "Descapotable"@es ;
+  skos:prefLabel "Descapotable"@ca ;
+  skos:prefLabel "Descapotable"@ca-valencia ;
+  skos:prefLabel "Descapotable"@gl ;
+  skos:prefLabel "Auto deskapotagarria"@eu .
 
 estur-vehicletype:Coupe a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Coupe"@en ;
-  skos:prefLabel "Coupé"@es .
+  skos:prefLabel "Coupé"@es ;
+  skos:prefLabel "Cupè"@ca ;
+  skos:prefLabel "Cupè"@ca-valencia ;
+  skos:prefLabel "Cupé"@gl ;
+  skos:prefLabel "Kupea"@eu .
 
 estur-vehicletype:Crossover a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Crossover"@en ;
-  skos:prefLabel "Crossover"@es .
+  skos:prefLabel "Crossover"@es ;
+  skos:prefLabel "Crossover"@ca ;
+  skos:prefLabel "Crossover"@ca-valencia ;
+  skos:prefLabel "Crossover"@gl ;
+  skos:prefLabel "Crossoverra"@eu .
 
 estur-vehicletype:ExtendedCabPickup a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Extended cab pickup"@en ;
-  skos:prefLabel "Recogida en taxi"@es .
+  skos:prefLabel "Recogida en taxi"@es ;
+  skos:prefLabel "Camioneta de cabina allargada"@ca ;
+  skos:prefLabel "Camioneta de cabina allargada"@ca-valencia ;
+  skos:prefLabel "Camioneta de cabina ampliada"@gl ;
+  skos:prefLabel "Kabina luzeko pickupa"@eu .
 
 estur-vehicletype:Monospace a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Monospace"@en ;
-  skos:prefLabel "Monovolumen"@es .
+  skos:prefLabel "Monovolumen"@es ;
+  skos:prefLabel "Monovolum"@ca ;
+  skos:prefLabel "Monovolum"@ca-valencia ;
+  skos:prefLabel "Monovolume"@gl ;
+  skos:prefLabel "Bolumen bakarreko ibilgailua"@eu .
 
 estur-vehicletype:Moped a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Moped"@en ;
-  skos:prefLabel "Patinete"@es .
+  skos:prefLabel "Patinete"@es ;
+  skos:prefLabel "Ciclomotor"@ca ;
+  skos:prefLabel "Ciclomotor"@ca-valencia ;
+  skos:prefLabel "Ciclomotor"@gl ;
+  skos:prefLabel "Ziklomotorra"@eu .
 
 estur-vehicletype:Motorcycle a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Motorcycle"@en ;
-  skos:prefLabel "Motocicleta"@es .
+  skos:prefLabel "Motocicleta"@es ;
+  skos:prefLabel "Motocicleta"@ca ;
+  skos:prefLabel "Motocicleta"@ca-valencia ;
+  skos:prefLabel "Motocicleta"@gl ;
+  skos:prefLabel "Motozikleta"@eu .
 
 estur-vehicletype:Motorhome a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Motorhome"@en ;
-  skos:prefLabel "Casa sobre ruedas"@es .
+  skos:prefLabel "Casa sobre ruedas"@es ;
+  skos:prefLabel "Autocaravana"@ca ;
+  skos:prefLabel "Autocaravana"@ca-valencia ;
+  skos:prefLabel "Autocaravana"@gl ;
+  skos:prefLabel "Autokarabana"@eu .
 
 estur-vehicletype:Pickup a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Pickup"@en ;
-  skos:prefLabel "Pickup"@es .
+  skos:prefLabel "Pickup"@es ;
+  skos:prefLabel "Camioneta"@ca ;
+  skos:prefLabel "Camioneta"@ca-valencia ;
+  skos:prefLabel "Camioneta"@gl ;
+  skos:prefLabel "Pickupa"@eu .
 
 estur-vehicletype:RegularCabPickup a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Regular cab pickup"@en ;
-  skos:prefLabel "Recogida en taxi normal"@es .
+  skos:prefLabel "Recogida en taxi normal"@es ;
+  skos:prefLabel "Camioneta de cabina simple"@ca ;
+  skos:prefLabel "Camioneta de cabina simple"@ca-valencia ;
+  skos:prefLabel "Camioneta de cabina simple"@gl ;
+  skos:prefLabel "Kabina bakuneko pickupa"@eu .
 
 estur-vehicletype:Roadster a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Roadster"@en ;
-  skos:prefLabel "Roadster"@es .
+  skos:prefLabel "Roadster"@es ;
+  skos:prefLabel "Roadster"@ca ;
+  skos:prefLabel "Roadster"@ca-valencia ;
+  skos:prefLabel "Roadster"@gl ;
+  skos:prefLabel "Roadsterra"@eu .
 
 estur-vehicletype:Scooter a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Scooter"@en ;
-  skos:prefLabel "Ciclomotor"@es .
+  skos:prefLabel "Ciclomotor"@es ;
+  skos:prefLabel "Escúter"@ca ;
+  skos:prefLabel "Escúter"@ca-valencia ;
+  skos:prefLabel "Escúter"@gl ;
+  skos:prefLabel "Eskuterra"@eu .
 
 estur-vehicletype:Sport a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Sport"@en ;
-  skos:prefLabel "Deportivo"@es .
+  skos:prefLabel "Deportivo"@es ;
+  skos:prefLabel "Esportiu"@ca ;
+  skos:prefLabel "Esportiu"@ca-valencia ;
+  skos:prefLabel "Deportivo"@gl ;
+  skos:prefLabel "Kirol-autoa"@eu .
 
 estur-vehicletype:StationWagon a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Station wagon"@en ;
-  skos:prefLabel "Station wagon"@es .
+  skos:prefLabel "Station wagon"@es ;
+  skos:prefLabel "Familiar"@ca ;
+  skos:prefLabel "Familiar"@ca-valencia ;
+  skos:prefLabel "Familiar"@gl ;
+  skos:prefLabel "Auto familiarra"@eu .
 
 estur-vehicletype:SUV a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "SUV"@en ;
-  skos:prefLabel "SUV"@es .
+  skos:prefLabel "SUV"@es ;
+  skos:prefLabel "SUV"@ca ;
+  skos:prefLabel "SUV"@ca-valencia ;
+  skos:prefLabel "SUV"@gl ;
+  skos:prefLabel "SUV"@eu .
 
 estur-vehicletype:Van a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Van"@en ;
-  skos:prefLabel "Furgoneta"@es .
+  skos:prefLabel "Furgoneta"@es ;
+  skos:prefLabel "Furgoneta"@ca ;
+  skos:prefLabel "Furgoneta"@ca-valencia ;
+  skos:prefLabel "Furgoneta"@gl ;
+  skos:prefLabel "Furgoneta"@eu .
 
 estur-vehicletype:Buggy a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Buggy"@en ;
-  skos:prefLabel "Buggy"@es .
+  skos:prefLabel "Buggy"@es ;
+  skos:prefLabel "Bugui"@ca ;
+  skos:prefLabel "Bugui"@ca-valencia ;
+  skos:prefLabel "Bugui"@gl ;
+  skos:prefLabel "Buggya"@eu .
 
 estur-vehicletype:Dinghy a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Dinghy"@en ;
-  skos:prefLabel "Bote auxiliar"@es .
+  skos:prefLabel "Bote auxiliar"@es ;
+  skos:prefLabel "Bot auxiliar"@ca ;
+  skos:prefLabel "Bot auxiliar"@ca-valencia ;
+  skos:prefLabel "Bote auxiliar"@gl ;
+  skos:prefLabel "Ontzi lagungarria"@eu .
 
 estur-vehicletype:FishingBoat a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Fishing boat"@en ;
-  skos:prefLabel "Barco de pesca recreativa"@es .
+  skos:prefLabel "Barco de pesca recreativa"@es ;
+  skos:prefLabel "Vaixell de pesca recreativa"@ca ;
+  skos:prefLabel "Vaixell de pesca recreativa"@ca-valencia ;
+  skos:prefLabel "Barco de pesca recreativa"@gl ;
+  skos:prefLabel "Aisialdiko arrantza-ontzia"@eu .
 
 estur-vehicletype:HorseTrailer a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Horse trailer"@en ;
-  skos:prefLabel "Remolque para caballos"@es .
+  skos:prefLabel "Remolque para caballos"@es ;
+  skos:prefLabel "Remolc per a cavalls"@ca ;
+  skos:prefLabel "Remolc per a cavalls"@ca-valencia ;
+  skos:prefLabel "Remolque para cabalos"@gl ;
+  skos:prefLabel "Zaldientzako atoia"@eu .
 
 estur-vehicletype:HorseVan a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Horse van"@en ;
-  skos:prefLabel "Furgoneta para caballos"@es .
+  skos:prefLabel "Furgoneta para caballos"@es ;
+  skos:prefLabel "Furgoneta per a cavalls"@ca ;
+  skos:prefLabel "Furgoneta per a cavalls"@ca-valencia ;
+  skos:prefLabel "Furgoneta para cabalos"@gl ;
+  skos:prefLabel "Zaldientzako furgoneta"@eu .
 
 estur-vehicletype:HorseTruck a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Horse truck"@en ;
-  skos:prefLabel "Camión para caballos"@es .
+  skos:prefLabel "Camión para caballos"@es ;
+  skos:prefLabel "Camió per a cavalls"@ca ;
+  skos:prefLabel "Camió per a cavalls"@ca-valencia ;
+  skos:prefLabel "Camión para cabalos"@gl ;
+  skos:prefLabel "Zaldientzako kamioia"@eu .
 
 estur-vehicletype:InflatableBoat a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Inflatable boat"@en ;
-  skos:prefLabel "Bote inflable"@es .
+  skos:prefLabel "Bote inflable"@es ;
+  skos:prefLabel "Bot inflable"@ca ;
+  skos:prefLabel "Bot inflable"@ca-valencia ;
+  skos:prefLabel "Bote inchable"@gl ;
+  skos:prefLabel "Ontzi puzgarria"@eu .
 
 estur-vehicletype:JetSki a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Jet ski"@en ;
-  skos:prefLabel "Moto acuática"@es .
+  skos:prefLabel "Moto acuática"@es ;
+  skos:prefLabel "Moto aquàtica"@ca ;
+  skos:prefLabel "Moto aquàtica"@ca-valencia ;
+  skos:prefLabel "Moto acuática"@gl ;
+  skos:prefLabel "Ur-motoa"@eu .
 
 estur-vehicletype:Kayak a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Kayak"@en ;
-  skos:prefLabel "Kayak"@es .
+  skos:prefLabel "Kayak"@es ;
+  skos:prefLabel "Caiac"@ca ;
+  skos:prefLabel "Caiac"@ca-valencia ;
+  skos:prefLabel "Kaiak"@gl ;
+  skos:prefLabel "Kayaka"@eu .
 
 estur-vehicletype:MotorBoat a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Motorboat"@en ;
-  skos:prefLabel "Barco de motor"@es .
+  skos:prefLabel "Barco de motor"@es ;
+  skos:prefLabel "Vaixell de motor"@ca ;
+  skos:prefLabel "Vaixell de motor"@ca-valencia ;
+  skos:prefLabel "Barco de motor"@gl ;
+  skos:prefLabel "Motor-ontzia"@eu .
 
 estur-vehicletype:Quad a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Quad"@en ;
-  skos:prefLabel "Quad"@es .
+  skos:prefLabel "Quad"@es ;
+  skos:prefLabel "Quad"@ca ;
+  skos:prefLabel "Quad"@ca-valencia ;
+  skos:prefLabel "Quad"@gl ;
+  skos:prefLabel "Quada"@eu .
 
 estur-vehicletype:Rowboat a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Rowboat"@en ;
-  skos:prefLabel "Barco de remos"@es .
+  skos:prefLabel "Barco de remos"@es ;
+  skos:prefLabel "Barca de rems"@ca ;
+  skos:prefLabel "Barca de rems"@ca-valencia ;
+  skos:prefLabel "Barca de remos"@gl ;
+  skos:prefLabel "Arraun-ontzia"@eu .
 
 estur-vehicletype:Sailboat a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Sailboat"@en ;
-  skos:prefLabel "Velero"@es .
+  skos:prefLabel "Velero"@es ;
+  skos:prefLabel "Veler"@ca ;
+  skos:prefLabel "Veler"@ca-valencia ;
+  skos:prefLabel "Veleiro"@gl ;
+  skos:prefLabel "Belaontzia"@eu .
 
 estur-vehicletype:Speedboat a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Speedboat"@en ;
-  skos:prefLabel "Lancha rápida"@es .
+  skos:prefLabel "Lancha rápida"@es ;
+  skos:prefLabel "Llanxa ràpida"@ca ;
+  skos:prefLabel "Llanxa ràpida"@ca-valencia ;
+  skos:prefLabel "Lancha rápida"@gl ;
+  skos:prefLabel "Txalupa azkarra"@eu .
 
 estur-vehicletype:SurreyBike a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Surrey bike"@en ;
-  skos:prefLabel "Bicicleta surrey"@es .
+  skos:prefLabel "Bicicleta surrey"@es ;
+  skos:prefLabel "Bicicleta de quatre rodes"@ca ;
+  skos:prefLabel "Bicicleta de quatre rodes"@ca-valencia ;
+  skos:prefLabel "Bicicleta de catro rodas"@gl ;
+  skos:prefLabel "Lau gurpileko bizikleta"@eu .
 
 estur-vehicletype:Yacht a skos:Concept;
   skos:inScheme estur-kos:VehicleType;
   skos:prefLabel "Yacht"@en ;
-  skos:prefLabel "Yate"@es .
+  skos:prefLabel "Yate"@es ;
+  skos:prefLabel "Iot"@ca ;
+  skos:prefLabel "Iot"@ca-valencia ;
+  skos:prefLabel "Iate"@gl ;
+  skos:prefLabel "Yatea"@eu .

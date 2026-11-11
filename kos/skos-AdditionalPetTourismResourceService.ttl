@@ -22,10 +22,22 @@ estur-kos:AdditionalPetTourismResourceService a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Additional pet tourism resource service"@en ;
     rdfs:label "Servicio adicional del recurso turístico con mascotas"@es ;
+    rdfs:label "Servei addicional del recurs turístic amb animals de companyia"@ca ;
+    rdfs:label "Servici addicional del recurs turístic amb animals de companyia"@ca-valencia ;
+    rdfs:label "Servizo adicional do recurso turístico con mascotas"@gl ;
+    rdfs:label "Maskotak onartzen dituen turismo-baliabidearen zerbitzu gehigarria"@eu ;
     dct:title "Concept scheme grouping complementary or additional services that a tourism resource may offer alongside its main service or activity in order to enhance or improve the experience of a tourist with pets."@en ;
-    dct:title "Esquema de conceptos agrupando servicios complementarios o adicionales que puede ofrecer un recurso turístico junto a su servicio o actividad principal para ampliar o mejorar la experiencia del turista con mascotas."@es .
+    dct:title "Esquema de conceptos agrupando servicios complementarios o adicionales que puede ofrecer un recurso turístico junto a su servicio o actividad principal para ampliar o mejorar la experiencia del turista con mascotas."@es ;
+    dct:title "Esquema de conceptes que agrupa serveis complementaris o addicionals que pot oferir un recurs turístic juntament amb el seu servei o activitat principal per ampliar o millorar l'experiència del turista amb animals de companyia."@ca ;
+    dct:title "Esquema de conceptes que agrupa servicis complementaris o addicionals que pot oferir un recurs turístic juntament amb el seu servici o activitat principal per ampliar o millorar l'experiència del turista amb animals de companyia."@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa servizos complementarios ou adicionais que pode ofrecer un recurso turístico xunto co seu servizo ou actividade principal para ampliar ou mellorar a experiencia do turista con mascotas."@gl ;
+    dct:title "Turismo-baliabide batek bere zerbitzu edo jarduera nagusiarekin batera eskain ditzakeen zerbitzu osagarriak edo gehigarriak biltzen dituen kontzeptu-eskema, maskotak dituzten turisten esperientzia zabaltzeko edo hobetzeko."@eu .
 
 #################################################################
 #
@@ -36,30 +48,54 @@ estur-kos:AdditionalPetTourismResourceService a skos:ConceptScheme ;
 estur-additionalpettourismresourceservice:PetRecreationArea a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTourismResourceService;
   skos:prefLabel "Pet recreation area"@en ;
-  skos:prefLabel "Zona de recreo para mascotas"@es .
+  skos:prefLabel "Zona de recreo para mascotas"@es ;
+  skos:prefLabel "Zona d'esbarjo per a animals de companyia"@ca ;
+  skos:prefLabel "Zona d'esbarjo per a animals de companyia"@ca-valencia ;
+  skos:prefLabel "Zona de recreo para mascotas"@gl ;
+  skos:prefLabel "Maskotentzako jolas-eremua"@eu .
 
 estur-additionalpettourismresourceservice:AgilitySpace a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTourismResourceService;
   skos:prefLabel "Agility space"@en ;
-  skos:prefLabel "Espacio agility"@es .
+  skos:prefLabel "Espacio agility"@es ;
+  skos:prefLabel "Espai d'agilitat canina"@ca ;
+  skos:prefLabel "Espai d'agilitat canina"@ca-valencia ;
+  skos:prefLabel "Espazo de axilidade canina"@gl ;
+  skos:prefLabel "Txakurren arintasunerako gunea"@eu .
 
 estur-additionalpettourismresourceservice:PetFriendlySpace a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTourismResourceService;
   skos:prefLabel "Pet friendly space"@en ;
-  skos:prefLabel "Espacio habilitado para mascotas"@es .
+  skos:prefLabel "Espacio habilitado para mascotas"@es ;
+  skos:prefLabel "Espai habilitat per a animals de companyia"@ca ;
+  skos:prefLabel "Espai habilitat per a animals de companyia"@ca-valencia ;
+  skos:prefLabel "Espazo habilitado para mascotas"@gl ;
+  skos:prefLabel "Maskotentzako egokitutako gunea"@eu .
 
 estur-additionalpettourismresourceservice:WasteBagDispenser a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTourismResourceService;
   skos:prefLabel "Waste bag dispenser"@en ;
-  skos:prefLabel "Dispensador de bolsas de desechos"@es .
+  skos:prefLabel "Dispensador de bolsas de desechos"@es ;
+  skos:prefLabel "Dispensador de bosses per a excrements"@ca ;
+  skos:prefLabel "Dispensador de bosses per a excrements"@ca-valencia ;
+  skos:prefLabel "Dispensador de bolsas para excrementos"@gl ;
+  skos:prefLabel "Gorotzetarako poltsen banagailua"@eu .
 
 estur-additionalpettourismresourceservice:PetWaterFountain a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTourismResourceService;
   skos:prefLabel "Pet water fountain"@en ;
-  skos:prefLabel "Fuente de agua para mascotas"@es .
+  skos:prefLabel "Fuente de agua para mascotas"@es ;
+  skos:prefLabel "Font d'aigua per a animals de companyia"@ca ;
+  skos:prefLabel "Font d'aigua per a animals de companyia"@ca-valencia ;
+  skos:prefLabel "Fonte de auga para mascotas"@gl ;
+  skos:prefLabel "Maskotentzako ur-iturria"@eu .
 
 estur-additionalpettourismresourceservice:PetWasteBin a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTourismResourceService;
   skos:prefLabel "Pet waste bin"@en ;
-  skos:prefLabel "Papelera para excrementos de mascotas"@es .
+  skos:prefLabel "Papelera para excrementos de mascotas"@es ;
+  skos:prefLabel "Paperera per a excrements d'animals de companyia"@ca ;
+  skos:prefLabel "Paperera per a excrements d'animals de companyia"@ca-valencia ;
+  skos:prefLabel "Papeleira para excrementos de mascotas"@gl ;
+  skos:prefLabel "Maskoten gorotzetarako zakarrontzia"@eu .
 

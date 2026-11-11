@@ -22,10 +22,22 @@ estur-kos:TechnicalDifficulty a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Technical difficulty"@en ;
     rdfs:label "Dificultad técnica"@es ;
+    rdfs:label "Dificultat tècnica"@ca ;
+    rdfs:label "Dificultat tècnica"@ca-valencia ;
+    rdfs:label "Dificultade técnica"@gl ;
+    rdfs:label "Zailtasun teknikoa"@eu ;
     dct:title "Concept scheme for representing the difficulty level of an adventure activity, considering technical complexity, physical demand, and perceived risk."@en ;
-    dct:title "Esquema de conceptos para la representación del nivel de dificultad de una actividad de turismo activo, considerando la complejidad técnica, la exigencia física y el riesgo percibido"@es .
+    dct:title "Esquema de conceptos para la representación del nivel de dificultad de una actividad de turismo activo, considerando la complejidad técnica, la exigencia física y el riesgo percibido"@es ;
+    dct:title "Esquema de conceptes per representar el nivell de dificultat d'una activitat de turisme actiu, tenint en compte la complexitat tècnica, l'exigència física i el risc percebut"@ca ;
+    dct:title "Esquema de conceptes per representar el nivell de dificultat d'una activitat de turisme actiu, tenint en compte la complexitat tècnica, l'exigència física i el risc percebut"@ca-valencia ;
+    dct:title "Esquema de conceptos para representar o nivel de dificultade dunha actividade de turismo activo, tendo en conta a complexidade técnica, a esixencia física e o risco percibido"@gl ;
+    dct:title "Turismo aktiboko jarduera baten zailtasun-maila adierazteko kontzeptu-eskema, konplexutasun teknikoa, eskakizun fisikoa eta hautemandako arriskua kontuan hartuta"@eu .
 
 #################################################################
 #
@@ -36,24 +48,44 @@ estur-kos:TechnicalDifficulty a skos:ConceptScheme ;
 estur-technicaldifficulty:Initiation a skos:Concept;
   skos:inScheme estur-kos:TechnicalDifficulty;
   skos:prefLabel "Initiation"@en ;
-  skos:prefLabel "Iniciación"@es .
+  skos:prefLabel "Iniciación"@es ;
+  skos:prefLabel "Iniciació"@ca ;
+  skos:prefLabel "Iniciació"@ca-valencia ;
+  skos:prefLabel "Iniciación"@gl ;
+  skos:prefLabel "Hastapena"@eu .
 
 estur-technicaldifficulty:Easy a skos:Concept;
   skos:inScheme estur-kos:TechnicalDifficulty;
   skos:prefLabel "Easy"@en ;
-  skos:prefLabel "Fácil"@es .
+  skos:prefLabel "Fácil"@es ;
+  skos:prefLabel "Fàcil"@ca ;
+  skos:prefLabel "Fàcil"@ca-valencia ;
+  skos:prefLabel "Fácil"@gl ;
+  skos:prefLabel "Erraza"@eu .
 
 estur-technicaldifficulty:Intermediate a skos:Concept;
   skos:inScheme estur-kos:TechnicalDifficulty;
   skos:prefLabel "Intermediate"@en ;
-  skos:prefLabel "Intermedio"@es .
+  skos:prefLabel "Intermedio"@es ;
+  skos:prefLabel "Intermedi"@ca ;
+  skos:prefLabel "Intermedi"@ca-valencia ;
+  skos:prefLabel "Intermedio"@gl ;
+  skos:prefLabel "Ertaina"@eu .
 
 estur-technicaldifficulty:Difficult a skos:Concept;
   skos:inScheme estur-kos:TechnicalDifficulty;
   skos:prefLabel "Difficult"@en ;
-  skos:prefLabel "Difícil"@es .
+  skos:prefLabel "Difícil"@es ;
+  skos:prefLabel "Difícil"@ca ;
+  skos:prefLabel "Difícil"@ca-valencia ;
+  skos:prefLabel "Difícil"@gl ;
+  skos:prefLabel "Zaila"@eu .
 
 estur-technicaldifficulty:Extreme a skos:Concept;
   skos:inScheme estur-kos:TechnicalDifficulty;
   skos:prefLabel "Extreme"@en ;
-  skos:prefLabel "Extremo"@es .
+  skos:prefLabel "Extremo"@es ;
+  skos:prefLabel "Extrem"@ca ;
+  skos:prefLabel "Extrem"@ca-valencia ;
+  skos:prefLabel "Extremo"@gl ;
+  skos:prefLabel "Muturrekoa"@eu .

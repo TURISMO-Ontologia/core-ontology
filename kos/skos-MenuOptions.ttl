@@ -22,10 +22,22 @@ estur-kos:MenuOptions a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Menu options"@en ;
     rdfs:label "Opciones de la carta"@es ;
+    rdfs:label "Opcions de la carta"@ca ;
+    rdfs:label "Opcions de la carta"@ca-valencia ;
+    rdfs:label "Opcións da carta"@gl ;
+    rdfs:label "Kartako aukerak"@eu ;
     dct:title "Concept scheme grouping menu options"@en ;
-    dct:title "Esquema de conceptos agrupando opciones de la carta"@es .
+    dct:title "Esquema de conceptos agrupando opciones de la carta"@es ;
+    dct:title "Esquema de conceptes que agrupa opcions de la carta"@ca ;
+    dct:title "Esquema de conceptes que agrupa opcions de la carta"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa opcións da carta"@gl ;
+    dct:title "Kartako aukerak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -37,54 +49,118 @@ estur-menuoptions:Breakfast a skos:Concept;
   skos:inScheme estur-kos:MenuOptions;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Breakfast"@en ;
-  skos:prefLabel "Desayuno"@es .
+  skos:prefLabel "Desayuno"@es ;
+  skos:prefLabel "Esmorzar"@ca ;
+  skos:prefLabel "Esmorzar"@ca-valencia ;
+  skos:prefLabel "Almorzo"@gl ;
+  skos:prefLabel "Gosaria"@eu .
 
 estur-menuoptions:GlutenFreeOptions a skos:Concept;
   skos:inScheme estur-kos:MenuOptions;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Gluten-free options"@en ;
-  skos:prefLabel "Opciones sin gluten"@es .
+  skos:prefLabel "Opciones sin gluten"@es ;
+  skos:prefLabel "Opcions sense gluten"@ca ;
+  skos:prefLabel "Opcions sense gluten"@ca-valencia ;
+  skos:prefLabel "Opcións sen glute"@gl ;
+  skos:prefLabel "Glutenik gabeko aukerak"@eu .
 
 estur-menuoptions:KidsMenu a skos:Concept;
   skos:inScheme estur-kos:MenuOptions;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Kids menu"@en ;
-  skos:prefLabel "Menú infantil"@es .
+  skos:prefLabel "Menú infantil"@es ;
+  skos:prefLabel "Menú infantil"@ca ;
+  skos:prefLabel "Menú infantil"@ca-valencia ;
+  skos:prefLabel "Menú infantil"@gl ;
+  skos:prefLabel "Haurrentzako menua"@eu .
 
 estur-menuoptions:LactoseFreeOptions a skos:Concept;
   skos:inScheme estur-kos:MenuOptions;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Lactose-free options"@en ;
-  skos:prefLabel "Opciones sin lactosa"@es .
+  skos:prefLabel "Opciones sin lactosa"@es ;
+  skos:prefLabel "Opcions sense lactosa"@ca ;
+  skos:prefLabel "Opcions sense lactosa"@ca-valencia ;
+  skos:prefLabel "Opcións sen lactosa"@gl ;
+  skos:prefLabel "Laktosarik gabeko aukerak"@eu .
 
 estur-menuoptions:NutsFreeOptions a skos:Concept;
   skos:inScheme estur-kos:MenuOptions;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Nuts-free options"@en ;
-  skos:prefLabel "Opciones sin frutos secos"@es .
+  skos:prefLabel "Opciones sin frutos secos"@es ;
+  skos:prefLabel "Opcions sense fruita seca"@ca ;
+  skos:prefLabel "Opcions sense fruita seca"@ca-valencia ;
+  skos:prefLabel "Opcións sen froitos secos"@gl ;
+  skos:prefLabel "Fruitu lehorrik gabeko aukerak"@eu .
 
 estur-menuoptions:VeganOptions a skos:Concept;
   skos:inScheme estur-kos:MenuOptions;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Vegan options"@en ;
-  skos:prefLabel "Opciones veganas"@es .
+  skos:prefLabel "Opciones veganas"@es ;
+  skos:prefLabel "Opcions veganes"@ca ;
+  skos:prefLabel "Opcions veganes"@ca-valencia ;
+  skos:prefLabel "Opcións veganas"@gl ;
+  skos:prefLabel "Aukera beganoak"@eu .
 
 estur-menuoptions:VegetarianOptions a skos:Concept;
   skos:inScheme estur-kos:MenuOptions;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Vegetarian options"@en ;
-  skos:prefLabel "Opciones vegetarianas"@es .
+  skos:prefLabel "Opciones vegetarianas"@es ;
+  skos:prefLabel "Opcions vegetarianes"@ca ;
+  skos:prefLabel "Opcions vegetarianes"@ca-valencia ;
+  skos:prefLabel "Opcións vexetarianas"@gl ;
+  skos:prefLabel "Aukera begetarianoak"@eu .
 
 estur-menuoptions:WineMenu a skos:Concept;
   skos:inScheme estur-kos:MenuOptions;
   skos:note "Value generated from the original SEGITTUR ontology"@en;
   skos:note "Valor generado a partir de la ontología de SEGITTUR original"@es;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca;
+  skos:note "Valor generat a partir de l'ontologia original de SEGITTUR"@ca-valencia;
+  skos:note "Valor xerado a partir da ontoloxía orixinal de SEGITTUR"@gl;
+  skos:note "SEGITTURen jatorrizko ontologiatik sortutako balioa"@eu;
   skos:prefLabel "Wine menu"@en ;
-  skos:prefLabel "Carta de vinos"@es .
+  skos:prefLabel "Carta de vinos"@es ;
+  skos:prefLabel "Carta de vins"@ca ;
+  skos:prefLabel "Carta de vins"@ca-valencia ;
+  skos:prefLabel "Carta de viños"@gl ;
+  skos:prefLabel "Ardo-karta"@eu .

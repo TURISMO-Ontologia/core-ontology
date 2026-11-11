@@ -22,10 +22,22 @@ estur-kos:AdditionalPetTransportService a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Additional pet transport service"@en ;
     rdfs:label "Servicio adicional de transporte con mascotas"@es ;
+    rdfs:label "Servei addicional de transport amb animals de companyia"@ca ;
+    rdfs:label "Servici addicional de transport amb animals de companyia"@ca-valencia ;
+    rdfs:label "Servizo adicional de transporte con mascotas"@gl ;
+    rdfs:label "Maskotak onartzen dituen garraioaren zerbitzu gehigarria"@eu ;
     dct:title "Concept scheme grouping complementary or additional services that a transport service may offer alongside its main service or activity in order to enhance or improve the experience of a tourist with pets."@en ;
-    dct:title "Esquema de conceptos agrupando servicios complementarios o adicionales que puede ofrecer un servicio de transporte junto a su servicio o actividad principal para ampliar o mejorar la experiencia del turista con mascotas."@es .
+    dct:title "Esquema de conceptos agrupando servicios complementarios o adicionales que puede ofrecer un servicio de transporte junto a su servicio o actividad principal para ampliar o mejorar la experiencia del turista con mascotas."@es ;
+    dct:title "Esquema de conceptes que agrupa serveis complementaris o addicionals que pot oferir un servei de transport juntament amb el seu servei o activitat principal per ampliar o millorar l'experiència del turista amb animals de companyia."@ca ;
+    dct:title "Esquema de conceptes que agrupa servicis complementaris o addicionals que pot oferir un servici de transport juntament amb el seu servici o activitat principal per ampliar o millorar l'experiència del turista amb animals de companyia."@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa servizos complementarios ou adicionais que pode ofrecer un servizo de transporte xunto co seu servizo ou actividade principal para ampliar ou mellorar a experiencia do turista con mascotas."@gl ;
+    dct:title "Garraio-zerbitzu batek bere zerbitzu edo jarduera nagusiarekin batera eskain ditzakeen zerbitzu osagarriak edo gehigarriak biltzen dituen kontzeptu-eskema, maskotak dituzten turisten esperientzia zabaltzeko edo hobetzeko."@eu .
 
 #################################################################
 #
@@ -36,54 +48,98 @@ estur-kos:AdditionalPetTransportService a skos:ConceptScheme ;
 estur-additionalpettransportservice:SeatTravelWithPet a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTransportService;
   skos:prefLabel "Seat travel with pet"@en ;
-  skos:prefLabel "Viaje en asiento con mascota"@es .
+  skos:prefLabel "Viaje en asiento con mascota"@es ;
+  skos:prefLabel "Viatge al seient amb un animal de companyia"@ca ;
+  skos:prefLabel "Viatge al seient amb un animal de companyia"@ca-valencia ;
+  skos:prefLabel "Viaxe no asento con mascota"@gl ;
+  skos:prefLabel "Maskotarekin eserlekuan bidaiatzea"@eu .
 
 estur-additionalpettransportservice:PetCheckinInHold a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTransportService;
   skos:prefLabel "Facturación de mascota en la bodega"@en ;
-  skos:prefLabel "Pet check-in in hold"@es .
+  skos:prefLabel "Pet check-in in hold"@es ;
+  skos:prefLabel "Facturació d'animals de companyia a la bodega"@ca ;
+  skos:prefLabel "Facturació d'animals de companyia a la bodega"@ca-valencia ;
+  skos:prefLabel "Facturación de mascotas na bodega"@gl ;
+  skos:prefLabel "Maskotak zamategian bidaiatzeko fakturazioa"@eu .
 
 estur-additionalpettransportservice:AirConditionedPetCabin a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTransportService;
   skos:prefLabel "Air-conditioned pet cabin"@en ;
-  skos:prefLabel "Habitáculo climatizado"@es .
+  skos:prefLabel "Habitáculo climatizado"@es ;
+  skos:prefLabel "Habitacle climatitzat"@ca ;
+  skos:prefLabel "Habitacle climatitzat"@ca-valencia ;
+  skos:prefLabel "Habitáculo climatizado"@gl ;
+  skos:prefLabel "Konpartimentu klimatizatua"@eu .
 
 estur-additionalpettransportservice:DrinkingBowl a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTransportService;
   skos:prefLabel "DrinkingBowl"@en ;
-  skos:prefLabel "Bebedero"@es .
+  skos:prefLabel "Bebedero"@es ;
+  skos:prefLabel "Abeurador"@ca ;
+  skos:prefLabel "Abeurador"@ca-valencia ;
+  skos:prefLabel "Bebedoiro"@gl ;
+  skos:prefLabel "Edateko ontzia"@eu .
 
 estur-additionalpettransportservice:FoodBowl a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTransportService;
   skos:prefLabel "Food bowl"@en ;
-  skos:prefLabel "Comedero"@es .
+  skos:prefLabel "Comedero"@es ;
+  skos:prefLabel "Menjadora"@ca ;
+  skos:prefLabel "Menjadora"@ca-valencia ;
+  skos:prefLabel "Comedeiro"@gl ;
+  skos:prefLabel "Jateko ontzia"@eu .
 
 estur-additionalpettransportservice:Soaker a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTransportService;
   skos:prefLabel "Soaker"@en ;
-  skos:prefLabel "Empapador"@es .
+  skos:prefLabel "Empapador"@es ;
+  skos:prefLabel "Empapador"@ca ;
+  skos:prefLabel "Empapador"@ca-valencia ;
+  skos:prefLabel "Empapador"@gl ;
+  skos:prefLabel "Maskotentzako azpiko xurgatzailea"@eu .
 
 estur-additionalpettransportservice:PetRecreationArea a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTransportService;
   skos:prefLabel "Pet recreation area"@en ;
-  skos:prefLabel "Zona de recreo para mascotas"@es .
+  skos:prefLabel "Zona de recreo para mascotas"@es ;
+  skos:prefLabel "Zona d'esbarjo per a animals de companyia"@ca ;
+  skos:prefLabel "Zona d'esbarjo per a animals de companyia"@ca-valencia ;
+  skos:prefLabel "Zona de recreo para mascotas"@gl ;
+  skos:prefLabel "Maskotentzako jolas-eremua"@eu .
 
 estur-additionalpettransportservice:PetTreats a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTransportService;
   skos:prefLabel "Pet treats"@en ;
-  skos:prefLabel "Golosinas para mascotas"@es .
+  skos:prefLabel "Golosinas para mascotas"@es ;
+  skos:prefLabel "Llaminadures per a animals de companyia"@ca ;
+  skos:prefLabel "Llaminadures per a animals de companyia"@ca-valencia ;
+  skos:prefLabel "Larpeiradas para mascotas"@gl ;
+  skos:prefLabel "Maskotentzako gozokiak"@eu .
 
 estur-additionalpettransportservice:VideoMonitoring a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTransportService;
   skos:prefLabel "Video monitoring"@en ;
-  skos:prefLabel "Vídeo de seguimiento"@es .
+  skos:prefLabel "Vídeo de seguimiento"@es ;
+  skos:prefLabel "Vídeo de seguiment"@ca ;
+  skos:prefLabel "Vídeo de seguiment"@ca-valencia ;
+  skos:prefLabel "Vídeo de seguimento"@gl ;
+  skos:prefLabel "Jarraipen-bideoa"@eu .
 
 estur-additionalpettransportservice:TravelContainer a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTransportService;
   skos:prefLabel "Travel container"@en ;
-  skos:prefLabel "Contenedor de viaje"@es .
+  skos:prefLabel "Contenedor de viaje"@es ;
+  skos:prefLabel "Contenidor de viatge"@ca ;
+  skos:prefLabel "Contenidor de viatge"@ca-valencia ;
+  skos:prefLabel "Contedor de viaxe"@gl ;
+  skos:prefLabel "Bidaia-edukiontzia"@eu .
 
 estur-additionalpettransportservice:OwnVehiclePetTravel a skos:Concept;
   skos:inScheme estur-kos:AdditionalPetTransportService;
   skos:prefLabel "Own vehicle pet travel"@en ;
-  skos:prefLabel "Viaje con mascota en vehículo propio"@es .
+  skos:prefLabel "Viaje con mascota en vehículo propio"@es ;
+  skos:prefLabel "Viatge amb un animal de companyia en vehicle propi"@ca ;
+  skos:prefLabel "Viatge amb un animal de companyia en vehicle propi"@ca-valencia ;
+  skos:prefLabel "Viaxe con mascota en vehículo propio"@gl ;
+  skos:prefLabel "Maskotarekin norberaren ibilgailuan bidaiatzea"@eu .

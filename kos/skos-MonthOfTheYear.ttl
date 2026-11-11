@@ -22,10 +22,22 @@ estur-kos:MonthOfTheYear a skos:ConceptScheme ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
+    rdfs:comment "Aquest esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca ;
+    rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
+    rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
+    rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
     rdfs:label "Month of the year"@en ;
     rdfs:label "Mes del año"@es ;
+    rdfs:label "Mes de l'any"@ca ;
+    rdfs:label "Mes de l'any"@ca-valencia ;
+    rdfs:label "Mes do ano"@gl ;
+    rdfs:label "Urteko hilabetea"@eu ;
     dct:title "Concept scheme grouping months of the year"@en ;
-    dct:title "Esquema de conceptos agrupando meses del año"@es .
+    dct:title "Esquema de conceptos agrupando meses del año"@es ;
+    dct:title "Esquema de conceptes que agrupa mesos de l'any"@ca ;
+    dct:title "Esquema de conceptes que agrupa mesos de l'any"@ca-valencia ;
+    dct:title "Esquema de conceptos que agrupa meses do ano"@gl ;
+    dct:title "Urteko hilabeteak biltzen dituen kontzeptu-eskema"@eu .
 
 #################################################################
 #
@@ -36,59 +48,107 @@ estur-kos:MonthOfTheYear a skos:ConceptScheme ;
 estur-monthoftheyear:January a skos:Concept;
   skos:inScheme estur-kos:MonthOfTheYear;
   skos:prefLabel "January"@en ;
-  skos:prefLabel "Enero"@es .
+  skos:prefLabel "Enero"@es ;
+  skos:prefLabel "Gener"@ca ;
+  skos:prefLabel "Gener"@ca-valencia ;
+  skos:prefLabel "Xaneiro"@gl ;
+  skos:prefLabel "Urtarrila"@eu .
 
 estur-monthoftheyear:February a skos:Concept;
   skos:inScheme estur-kos:MonthOfTheYear;
   skos:prefLabel "February"@en ;
-  skos:prefLabel "Febrero"@es .
+  skos:prefLabel "Febrero"@es ;
+  skos:prefLabel "Febrer"@ca ;
+  skos:prefLabel "Febrer"@ca-valencia ;
+  skos:prefLabel "Febreiro"@gl ;
+  skos:prefLabel "Otsaila"@eu .
 
 estur-monthoftheyear:March a skos:Concept;
   skos:inScheme estur-kos:MonthOfTheYear;
   skos:prefLabel "March"@en ;
-  skos:prefLabel "Marzo"@es .
+  skos:prefLabel "Marzo"@es ;
+  skos:prefLabel "Març"@ca ;
+  skos:prefLabel "Març"@ca-valencia ;
+  skos:prefLabel "Marzo"@gl ;
+  skos:prefLabel "Martxoa"@eu .
 
 estur-monthoftheyear:April a skos:Concept;
   skos:inScheme estur-kos:MonthOfTheYear;
   skos:prefLabel "April"@en ;
-  skos:prefLabel "Abril"@es .
+  skos:prefLabel "Abril"@es ;
+  skos:prefLabel "Abril"@ca ;
+  skos:prefLabel "Abril"@ca-valencia ;
+  skos:prefLabel "Abril"@gl ;
+  skos:prefLabel "Apirila"@eu .
 
 estur-monthoftheyear:May a skos:Concept;
   skos:inScheme estur-kos:MonthOfTheYear;
   skos:prefLabel "May"@en ;
-  skos:prefLabel "Mayo"@es .
+  skos:prefLabel "Mayo"@es ;
+  skos:prefLabel "Maig"@ca ;
+  skos:prefLabel "Maig"@ca-valencia ;
+  skos:prefLabel "Maio"@gl ;
+  skos:prefLabel "Maiatza"@eu .
 
 estur-monthoftheyear:June a skos:Concept;
   skos:inScheme estur-kos:MonthOfTheYear;
   skos:prefLabel "June"@en ;
-  skos:prefLabel "Junio"@es .
+  skos:prefLabel "Junio"@es ;
+  skos:prefLabel "Juny"@ca ;
+  skos:prefLabel "Juny"@ca-valencia ;
+  skos:prefLabel "Xuño"@gl ;
+  skos:prefLabel "Ekaina"@eu .
 
 estur-monthoftheyear:July a skos:Concept;
   skos:inScheme estur-kos:MonthOfTheYear;
   skos:prefLabel "July"@en ;
-  skos:prefLabel "Julio"@es .
+  skos:prefLabel "Julio"@es ;
+  skos:prefLabel "Juliol"@ca ;
+  skos:prefLabel "Juliol"@ca-valencia ;
+  skos:prefLabel "Xullo"@gl ;
+  skos:prefLabel "Uztaila"@eu .
 
 estur-monthoftheyear:August a skos:Concept;
   skos:inScheme estur-kos:MonthOfTheYear;
   skos:prefLabel "August"@en ;
-  skos:prefLabel "Agosto"@es .
+  skos:prefLabel "Agosto"@es ;
+  skos:prefLabel "Agost"@ca ;
+  skos:prefLabel "Agost"@ca-valencia ;
+  skos:prefLabel "Agosto"@gl ;
+  skos:prefLabel "Abuztua"@eu .
 
 estur-monthoftheyear:September a skos:Concept;
   skos:inScheme estur-kos:MonthOfTheYear;
   skos:prefLabel "September"@en ;
-  skos:prefLabel "Septiembre"@es .
+  skos:prefLabel "Septiembre"@es ;
+  skos:prefLabel "Setembre"@ca ;
+  skos:prefLabel "Setembre"@ca-valencia ;
+  skos:prefLabel "Setembro"@gl ;
+  skos:prefLabel "Iraila"@eu .
 
 estur-monthoftheyear:October a skos:Concept;
   skos:inScheme estur-kos:MonthOfTheYear;
   skos:prefLabel "October"@en ;
-  skos:prefLabel "Octubre"@es .
+  skos:prefLabel "Octubre"@es ;
+  skos:prefLabel "Octubre"@ca ;
+  skos:prefLabel "Octubre"@ca-valencia ;
+  skos:prefLabel "Outubro"@gl ;
+  skos:prefLabel "Urria"@eu .
 
 estur-monthoftheyear:November a skos:Concept;
   skos:inScheme estur-kos:MonthOfTheYear;
   skos:prefLabel "November"@en ;
-  skos:prefLabel "Noviembre"@es .
+  skos:prefLabel "Noviembre"@es ;
+  skos:prefLabel "Novembre"@ca ;
+  skos:prefLabel "Novembre"@ca-valencia ;
+  skos:prefLabel "Novembro"@gl ;
+  skos:prefLabel "Azaroa"@eu .
 
 estur-monthoftheyear:December a skos:Concept;
   skos:inScheme estur-kos:MonthOfTheYear;
   skos:prefLabel "December"@en ;
-  skos:prefLabel "Diciembre"@es .
+  skos:prefLabel "Diciembre"@es ;
+  skos:prefLabel "Desembre"@ca ;
+  skos:prefLabel "Desembre"@ca-valencia ;
+  skos:prefLabel "Decembro"@gl ;
+  skos:prefLabel "Abendua"@eu .
