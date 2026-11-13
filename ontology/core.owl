@@ -1296,7 +1296,7 @@ It is possible that this annotation property is taken out in the future from the
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/EventService"/>
+                        <owl:hasValue rdf:resource="https://ontologia.segittur.es/turismo/kos/AdditionalEventService"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -16249,6 +16249,27 @@ tourism organisations, tourism or related facilities, tourism resources and serv
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/kos/AdditionalEventService -->
+
+    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/AdditionalEventService">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdfs:comment xml:lang="en">Complementary or additional services that an event may offer alongside its main service or activity in order to enhance or improve the user experience.</rdfs:comment>
+        <rdfs:comment xml:lang="eu">Ekitaldi batek bere zerbitzu edo jarduera nagusiarekin batera eskain ditzakeen zerbitzu osagarri edo gehigarriak, erabiltzailearen esperientzia zabaltzeko edo hobetzeko.</rdfs:comment>
+        <rdfs:comment xml:lang="ca">Serveis complementaris o addicionals que pot oferir un esdeveniment juntament amb el seu servei o activitat principal per ampliar o millorar l&apos;experiència de l&apos;usuari.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Servicios complementarios o adicionales que puede ofrecer un evento junto a su servicio o actividad principal para ampliar o mejorar la experiencia del usuario.</rdfs:comment>
+        <rdfs:comment xml:lang="ca-valencia">Servicis complementaris o addicionals que pot oferir un esdeveniment juntament amb el seu servici o activitat principal per ampliar o millorar l&apos;experiència de l&apos;usuari.</rdfs:comment>
+        <rdfs:comment xml:lang="gl">Servizos complementarios ou adicionais que pode ofrecer un evento xunto co seu servizo ou actividade principal para ampliar ou mellorar a experiencia do usuario.</rdfs:comment>
+        <rdfs:label xml:lang="en">Additional event service</rdfs:label>
+        <rdfs:label xml:lang="eu">Ekitaldi zerbitzu gehigarria</rdfs:label>
+        <rdfs:label xml:lang="ca">Servei d&apos;esdeveniment</rdfs:label>
+        <rdfs:label xml:lang="es">Servicio adicional del evento</rdfs:label>
+        <rdfs:label xml:lang="gl">Servizo adicional de evento</rdfs:label>
+        <rdfs:label xml:lang="ca-valencia">Servici addicional d&apos;esdeveniment</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://ontologia.segittur.es/turismo/def/core/kos/skos-EventService.ttl"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/kos/AdditionalFoodEstablishmentService -->
 
     <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/AdditionalFoodEstablishmentService">
@@ -16854,27 +16875,6 @@ tourism organisations, tourism or related facilities, tourism resources and serv
         <rdfs:label xml:lang="ca">Tipus de destinació</rdfs:label>
         <rdfs:label xml:lang="ca-valencia">Tipus de destinació</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://ontologia.segittur.es/turismo/def/core/kos/skos-DestinationType.ttl"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ontologia.segittur.es/turismo/kos/EventService -->
-
-    <owl:NamedIndividual rdf:about="https://ontologia.segittur.es/turismo/kos/EventService">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-        <rdfs:comment xml:lang="en">Complementary or additional services that an event may offer alongside its main service or activity in order to enhance or improve the user experience.</rdfs:comment>
-        <rdfs:comment xml:lang="eu">Ekitaldi batek bere zerbitzu edo jarduera nagusiarekin batera eskain ditzakeen zerbitzu osagarri edo gehigarriak, erabiltzailearen esperientzia zabaltzeko edo hobetzeko.</rdfs:comment>
-        <rdfs:comment xml:lang="ca">Serveis complementaris o addicionals que pot oferir un esdeveniment juntament amb el seu servei o activitat principal per ampliar o millorar l&apos;experiència de l&apos;usuari.</rdfs:comment>
-        <rdfs:comment xml:lang="es">Servicios complementarios o adicionales que puede ofrecer un evento junto a su servicio o actividad principal para ampliar o mejorar la experiencia del usuario.</rdfs:comment>
-        <rdfs:comment xml:lang="ca-valencia">Servicis complementaris o addicionals que pot oferir un esdeveniment juntament amb el seu servici o activitat principal per ampliar o millorar l&apos;experiència de l&apos;usuari.</rdfs:comment>
-        <rdfs:comment xml:lang="gl">Servizos complementarios ou adicionais que pode ofrecer un evento xunto co seu servizo ou actividade principal para ampliar ou mellorar a experiencia do usuario.</rdfs:comment>
-        <rdfs:label xml:lang="eu">Ekitaldi-zerbitzua</rdfs:label>
-        <rdfs:label xml:lang="en">Event service</rdfs:label>
-        <rdfs:label xml:lang="ca">Servei d&apos;esdeveniment</rdfs:label>
-        <rdfs:label xml:lang="ca-valencia">Servici d&apos;esdeveniment</rdfs:label>
-        <rdfs:label xml:lang="es">Servicio de evento</rdfs:label>
-        <rdfs:label xml:lang="gl">Servizo de evento</rdfs:label>
-        <rdfs:seeAlso rdf:resource="https://ontologia.segittur.es/turismo/def/core/kos/skos-EventService.ttl"/>
     </owl:NamedIndividual>
     
 
