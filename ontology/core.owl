@@ -10323,6 +10323,27 @@ tourism organisations, tourism or related facilities, tourism resources and serv
     
 
 
+    <!-- https://ontologia.segittur.es/turismo/def/core#Hermitage -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Hermitage">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
+        <rdfs:comment xml:lang="en">A small, simple Christian place of worship, usually located in rural or sparsely populated areas, that does not hold daily services and is open only on special occasions.</rdfs:comment>
+        <rdfs:comment xml:lang="eu">Kristau tenplu txiki eta sinplea, normalean landa eremuetan edo biztanle gutxiko eremuetan kokatua, eguneroko gurtza iraunkorrik ez duena eta data berezietan bakarrik irekita dagoena.</rdfs:comment>
+        <rdfs:comment xml:lang="ca">Temple cristià petit i senzill, ubicat generalment en zones rurals o despoblades, que no té culte diari permanent i s&apos;obre només en dates assenyalades.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Templo cristiano pequeño y sencillo, ubicado generalmente en zonas rurales o despobladas, que carece de culto diario permanente y se abre solo en fechas señaladas.</rdfs:comment>
+        <rdfs:comment xml:lang="gl">Un templo cristián pequeno e sinxelo, situado xeralmente en zonas rurais ou escasamente poboadas, que carece de culto diario permanente e só abre en datas especiais.</rdfs:comment>
+        <rdfs:comment xml:lang="ca-valencia">Temple cristià petit i senzill, ubicat generalment en zones rurals o despoblades, que no té culte diari permanent i s&apos;obre només en dates assenyalades.</rdfs:comment>
+        <rdfs:label xml:lang="gl">Ermida</rdfs:label>
+        <rdfs:label xml:lang="ca">Ermita</rdfs:label>
+        <rdfs:label xml:lang="es">Ermita</rdfs:label>
+        <rdfs:label xml:lang="eu">Ermita</rdfs:label>
+        <rdfs:label xml:lang="en">Hermitage</rdfs:label>
+        <rdfs:label xml:lang="ca-valencia">Ermita</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
     <!-- https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource -->
 
     <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource">
@@ -11827,6 +11848,40 @@ tourism organisations, tourism or related facilities, tourism resources and serv
         <rdfs:label xml:lang="ca-valencia">Paqueteria i missatgeria</rdfs:label>
         <rdfs:label xml:lang="es">Paquetería y mensajería</rdfs:label>
         <rdfs:label xml:lang="en">Parcel and courier</rdfs:label>
+        <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
+    </owl:Class>
+    
+
+
+    <!-- https://ontologia.segittur.es/turismo/def/core#Park -->
+
+    <owl:Class rdf:about="https://ontologia.segittur.es/turismo/def/core#Park">
+        <rdfs:subClassOf rdf:resource="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ontologia.segittur.es/turismo/def/core#historicalOrCulturalResourceContains"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#HistoricalOrCulturalResource"/>
+                            <rdf:Description rdf:about="https://ontologia.segittur.es/turismo/def/core#TourismOrRelatedFacility"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">An area set aside for lawns, gardens and trees, featuring a variety of decorative features, for the enjoyment of its residents.</rdfs:comment>
+        <rdfs:comment xml:lang="eu">Belardi, lorategi eta zuhaitzetarako erreserbatutako eremua, hainbat apaingarri dituena, bizilagunen gozamenerako.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Espacio que se dedica a praderas, jardines y arbolado, con ornamentos diversos, para el esparcimiento de sus habitantes.</rdfs:comment>
+        <rdfs:comment xml:lang="ca">Una zona reservada per a gespa, jardins i arbres, amb diversos elements decoratius, per al gaudi dels seus residents.</rdfs:comment>
+        <rdfs:comment xml:lang="gl">Unha zona reservada para céspede, xardíns e árbores, que presenta unha variedade de elementos decorativos, para o desfrute dos seus residentes.</rdfs:comment>
+        <rdfs:comment xml:lang="ca-valencia">Una zona reservada per a gespa, jardins i arbres, amb diversos elements decoratius, per al gaudi dels seus residents.</rdfs:comment>
+        <rdfs:label xml:lang="ca">Parc</rdfs:label>
+        <rdfs:label xml:lang="en">Park</rdfs:label>
+        <rdfs:label xml:lang="eu">Parkea</rdfs:label>
+        <rdfs:label xml:lang="es">Parque</rdfs:label>
+        <rdfs:label xml:lang="gl">Parque</rdfs:label>
+        <rdfs:label xml:lang="ca-valencia">Parc</rdfs:label>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -13395,7 +13450,6 @@ tourism organisations, tourism or related facilities, tourism resources and serv
         <rdfs:label xml:lang="gl">Casa rural</rdfs:label>
         <rdfs:label xml:lang="eu">Landetxea</rdfs:label>
         <rdfs:label xml:lang="en">Rural house</rdfs:label>
-        <skos:altLabel xml:lang="es">Agroturismo</skos:altLabel>
         <estur-annot:visibleResource rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</estur-annot:visibleResource>
     </owl:Class>
     
@@ -16262,9 +16316,9 @@ tourism organisations, tourism or related facilities, tourism resources and serv
         <rdfs:label xml:lang="en">Additional event service</rdfs:label>
         <rdfs:label xml:lang="eu">Ekitaldi zerbitzu gehigarria</rdfs:label>
         <rdfs:label xml:lang="ca">Servei d&apos;esdeveniment</rdfs:label>
+        <rdfs:label xml:lang="ca-valencia">Servici addicional d&apos;esdeveniment</rdfs:label>
         <rdfs:label xml:lang="es">Servicio adicional del evento</rdfs:label>
         <rdfs:label xml:lang="gl">Servizo adicional de evento</rdfs:label>
-        <rdfs:label xml:lang="ca-valencia">Servici addicional d&apos;esdeveniment</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://ontologia.segittur.es/turismo/def/core/kos/skos-EventService.ttl"/>
     </owl:NamedIndividual>
     
