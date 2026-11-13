@@ -8,7 +8,7 @@
 @prefix estur-core: <https://ontologia.segittur.es/turismo/def/core#> .
 @prefix estur-kos: <https://ontologia.segittur.es/turismo/kos/> .
 
-@prefix estur-compulsorysanitaryproduct: <https://ontologia.segittur.es/turismo/kos/CompulsorySanitaryProduct/> .
+@prefix estur-compulsoryzoosanitaryproduct: <https://ontologia.segittur.es/turismo/kos/CompulsoryZoosanitaryProduct/> .
 
 #################################################################
 #
@@ -16,9 +16,9 @@
 #
 #################################################################
 
-estur-kos:CompulsorySanitaryProduct a skos:ConceptScheme ; 
+estur-kos:CompulsoryZoosanitaryProduct a skos:ConceptScheme ; 
     dct:issued "2026-03-06"^^xsd:date ;
-    dct:modified "2026-03-06"^^xsd:date ;
+    dct:modified "2026-11-13"^^xsd:date ;
     cc:license <https://creativecommons.org/licenses/by/4.0/> ;
     rdfs:comment "This concept scheme belongs to the set of controlled SKOS-based thesauri used by the SEGITTUR tourism ontology."@en ;
     rdfs:comment "Este esquema de conceptos pertenece al conjunto de tesauros SKOS usados por la ontología de turismo de SEGITTUR."@es ;
@@ -26,7 +26,7 @@ estur-kos:CompulsorySanitaryProduct a skos:ConceptScheme ;
     rdfs:comment "Este esquema de conceptes pertany al conjunt de tesaurus SKOS utilitzats per l'ontologia de turisme de SEGITTUR."@ca-valencia ;
     rdfs:comment "Este esquema de conceptos pertence ao conxunto de tesauros SKOS empregados pola ontoloxía de turismo de SEGITTUR."@gl ;
     rdfs:comment "Kontzeptu-eskema hau SEGITTURen turismo-ontologiak erabiltzen dituen SKOS tesauroen multzokoa da."@eu ;
-    rdfs:label "Compulsory sanitary product"@en ;
+    rdfs:label "Compulsory zoosanitary product"@en ;
     rdfs:label "Producto zoosanitario obligatorio"@es ;
     rdfs:label "Producte zoosanitari obligatori"@ca ;
     rdfs:label "Producte zoosanitari obligatori"@ca-valencia ;
@@ -45,8 +45,8 @@ estur-kos:CompulsorySanitaryProduct a skos:ConceptScheme ;
 #
 #################################################################
 
-estur-compulsorysanitaryproduct:RabiesVaccination a skos:Concept;
-  skos:inScheme estur-kos:CompulsorySanitaryProduct;
+estur-compulsoryzoosanitaryproduct:RabiesVaccination a skos:Concept;
+  skos:inScheme estur-kos:CompulsoryZooSanitaryProduct;
   skos:prefLabel "Rabies vaccination"@en ;
   skos:prefLabel "Vacunación antirrábica"@es ;
   skos:prefLabel "Vacunació antiràbica"@ca ;
@@ -54,8 +54,8 @@ estur-compulsorysanitaryproduct:RabiesVaccination a skos:Concept;
   skos:prefLabel "Vacinación antirrábica"@gl ;
   skos:prefLabel "Amorruaren aurkako txertaketa"@eu .
 
-estur-compulsorysanitaryproduct:LeptospirosisVaccination a skos:Concept;
-  skos:inScheme estur-kos:CompulsorySanitaryProduct;
+estur-compulsoryzoosanitaryproduct:LeptospirosisVaccination a skos:Concept;
+  skos:inScheme estur-kos:CompulsoryZooSanitaryProduct;
   skos:prefLabel "Leptospirosis vaccination"@en ;
   skos:prefLabel "Vacunación leptospirosis"@es ;
   skos:prefLabel "Vacunació contra la leptospirosi"@ca ;
@@ -63,8 +63,8 @@ estur-compulsorysanitaryproduct:LeptospirosisVaccination a skos:Concept;
   skos:prefLabel "Vacinación contra a leptospirose"@gl ;
   skos:prefLabel "Leptospirosiaren aurkako txertaketa"@eu .
 
-estur-compulsorysanitaryproduct:InternalParasiteTreatment a skos:Concept;
-  skos:inScheme estur-kos:CompulsorySanitaryProduct;
+estur-compulsoryzoosanitaryproduct:InternalParasiteTreatment a skos:Concept;
+  skos:inScheme estur-kos:CompulsoryZooSanitaryProduct;
   skos:prefLabel "Internal parasite treatment"@en ;
   skos:prefLabel "Antiparasitario interno"@es ;
   skos:prefLabel "Antiparasitari intern"@ca ;
@@ -72,8 +72,8 @@ estur-compulsorysanitaryproduct:InternalParasiteTreatment a skos:Concept;
   skos:prefLabel "Antiparasitario interno"@gl ;
   skos:prefLabel "Barne-parasitoen aurkako produktua"@eu .
 
-estur-compulsorysanitaryproduct:ExternalParasiteTreatment a skos:Concept;
-  skos:inScheme estur-kos:CompulsorySanitaryProduct;
+estur-compulsoryzoosanitaryproduct:ExternalParasiteTreatment a skos:Concept;
+  skos:inScheme estur-kos:CompulsoryZooSanitaryProduct;
   skos:prefLabel "External parasite treatment"@en ;
   skos:prefLabel "Antiparasitario externo"@es ;
   skos:prefLabel "Antiparasitari extern"@ca ;
