@@ -4,7 +4,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:dct="http://purl.org/dc/terms/"
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-     xmlns:loc="https://id.loc.gov/vocabulary/"
+     xmlns:loc="http://id.loc.gov/vocabulary/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -750,7 +750,7 @@ It is possible that this annotation property is taken out in the future from the
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://id.loc.gov/vocabulary/iso639-2"/>
+                        <owl:hasValue rdf:resource="http://id.loc.gov/vocabulary/iso639-2"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -16082,9 +16082,9 @@ tourism organisations, tourism or related facilities, tourism resources and serv
     
 
 
-    <!-- https://id.loc.gov/vocabulary/iso639-2 -->
+    <!-- http://id.loc.gov/vocabulary/iso639-2 -->
 
-    <owl:NamedIndividual rdf:about="https://id.loc.gov/vocabulary/iso639-2">
+    <owl:NamedIndividual rdf:about="http://id.loc.gov/vocabulary/iso639-2">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:comment xml:lang="eu">Eskainitako ekitaldia edo turismo-zerbitzua ahoz, idatziz edo modu interaktiboan aurkezteko, komunikatzeko edo erabiltzeko hizkuntza.</rdfs:comment>
         <rdfs:comment xml:lang="es">Idioma en el que el evento o servicio turístico ofrecido puede presentarse, comunicarse o utilizarse, ya sea de forma oral, escrita o interactiva.</rdfs:comment>
